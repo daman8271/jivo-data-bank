@@ -1,0 +1,23 @@
+# --- jivo-data-bank: keep the vault content + .obsidian config; drop scratch ---
+
+# Semantic cross-vault link cache (intermediate fan-out output, regenerated
+# weekly/on-demand; the discovered links are already baked into the notes).
+.links/
+
+# Process / lock / runtime scratch
+*.pid
+*.lock
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+
+# Python bytecode from bin/ generators
+__pycache__/
+*.pyc
+
+# Obsidian machine-specific / runtime state (the rest of .obsidian IS kept so the
+# vault opens with its plugins on a fresh clone)
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/plugins/*/*.lock
