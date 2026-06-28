@@ -104,6 +104,9 @@ rsync -a --delete \
     --exclude '.gitignore' \
     --exclude 'README.md' \
     --exclude 'RUNBOOK.md' \
+    --exclude 'ARCHITECTURE.md' \
+    --exclude 'VAULT-GUIDE.md' \
+    --exclude 'DATA-MODEL.md' \
     --exclude 'bin/' \
     --exclude '.daily_rebuild.lock' \
     --exclude 'daily_rebuild.log' \
