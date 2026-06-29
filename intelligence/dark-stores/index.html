@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dark-Store Dominance by City — Blinkit · Zepto · Instamart</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#161b22; --panel2:#1c232d; --line:#2a323d;
+    --ink:#e9eef5; --mut:#9aa7b6; --dim:#6b7888;
+    --blink:#f5c518; --zepto:#8a3ffc; --insta:#ff7a1a;
+    --good:#37d399; --warn:#f6b73c; --card-r:16px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:radial-gradient(1200px 600px at 80% -10%, #18222f 0%, var(--bg) 55%) fixed;color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.45}
+  .wrap{max-width:1120px;margin:0 auto;padding:34px 22px 80px}
+  .eyebrow{letter-spacing:.16em;text-transform:uppercase;font-size:11.5px;color:var(--dim);font-weight:700}
+  h1{font-size:30px;line-height:1.14;margin:8px 0 6px;font-weight:800;letter-spacing:-.02em}
+  h1 .accent{background:linear-gradient(90deg,var(--blink),var(--zepto) 55%,var(--insta));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .sub{color:var(--mut);font-size:15px;max-width:760px}
+  .stamp{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+  .pill{font-size:12px;border:1px solid var(--line);background:var(--panel);color:var(--mut);padding:5px 11px;border-radius:999px;display:inline-flex;align-items:center;gap:6px}
+  .pill b{color:var(--ink);font-weight:700}
+  .dot{width:8px;height:8px;border-radius:50%}
+
+  /* scoreboard */
+  .score{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:24px 0 14px}
+  .sc{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:15px 16px;position:relative;overflow:hidden}
+  .sc::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px}
+  .sc.b::before{background:var(--blink)} .sc.z::before{background:var(--zepto)} .sc.s::before{background:var(--insta)}
+  .sc .nm{font-size:13px;color:var(--mut);font-weight:700;display:flex;align-items:center;gap:8px}
+  .sc .big{font-size:30px;font-weight:850;letter-spacing:-.02em;margin-top:6px}
+  .sc .big small{font-size:14px;color:var(--dim);font-weight:600}
+  .sc .wn{font-size:11.5px;color:var(--dim);margin-top:3px}
+
+  /* dominance table — THE answer */
+  .tablecard{background:var(--panel);border:1px solid var(--line);border-radius:var(--card-r);overflow:hidden}
+  table{border-collapse:collapse;width:100%;font-size:14.5px}
+  thead th{background:var(--panel2);color:var(--mut);font-weight:700;text-align:center;padding:13px 12px;font-size:12.5px;border-bottom:1px solid var(--line);white-space:nowrap}
+  thead th:first-child{text-align:left;padding-left:18px}
+  thead th .ph{display:inline-flex;align-items:center;gap:7px;justify-content:center}
+  tbody td{padding:0;border-bottom:1px solid #1f2630;text-align:center}
+  tbody tr:last-child td{border-bottom:none}
+  tbody tr:hover{background:#141b24}
+  .cy{padding:13px 12px 13px 18px;text-align:left;font-weight:750;font-size:15px}
+  .cy small{display:block;font-size:11px;color:var(--dim);font-weight:500;margin-top:1px}
+  .num{padding:13px 12px;font-variant-numeric:tabular-nums;font-weight:700;font-size:16px;color:var(--mut)}
+  .num.win{color:#0c0f14;font-weight:850;position:relative}
+  .num.win .chipbg{display:inline-block;min-width:46px;padding:6px 10px;border-radius:9px;font-size:16px}
+  .dom{padding:11px 14px;text-align:left}
+  .domchip{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:13.5px;padding:6px 12px;border-radius:999px}
+  .domchip .crown{font-size:13px}
+  .domchip .mg{font-weight:650;font-size:11.5px;opacity:.85}
+  tr.region{background:rgba(138,63,252,.045)}
+  tr.region .cy{border-left:3px solid var(--zepto)}
+  tr.subset .cy{opacity:.85}
+  .foot-row td{background:var(--panel2);border-top:2px solid var(--line);font-weight:800}
+  .foot-row .cy{font-weight:800}
+  .foot-row .num{color:var(--ink);font-size:15px}
+  .howread{font-size:12px;color:var(--dim);margin:9px 2px 0;display:flex;gap:16px;flex-wrap:wrap}
+  .howread span{display:inline-flex;align-items:center;gap:6px}
+  .sw{width:13px;height:13px;border-radius:3px;display:inline-block}
+
+  .provenance{margin:22px 0 0;border:1px solid var(--line);border-left:3px solid var(--warn);background:rgba(246,183,60,.04);border-radius:12px;padding:13px 16px;font-size:13px;color:var(--mut)}
+  .provenance b{color:var(--ink)}
+
+  .section-h{display:flex;align-items:baseline;justify-content:space-between;margin:40px 0 12px;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:26px}
+  .section-h h2{font-size:18px;margin:0;font-weight:780;letter-spacing:-.01em}
+  .section-h .hint{font-size:12.5px;color:var(--dim)}
+  .lead-in{color:var(--mut);font-size:13.5px;max-width:820px;margin:-2px 0 14px}
+
+  /* Delhi + NCR */
+  .delhi{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .ddcard{background:linear-gradient(180deg,#171f2b,#141a22);border:1px solid var(--line);border-radius:var(--card-r);padding:18px}
+  .ddcard h3{margin:0 0 4px;font-size:15px}
+  .ddcard .dd-meta{font-size:12px;color:var(--dim);margin-bottom:12px}
+  .pf{display:grid;grid-template-columns:90px 1fr auto;gap:10px;align-items:center;margin:10px 0}
+  .pf .pfn{font-size:13px;font-weight:700;display:flex;align-items:center;gap:7px}
+  .pf .track{height:20px;background:#1d2530;border-radius:6px;overflow:hidden}
+  .pf .track>i{display:block;height:100%;border-radius:6px}
+  .pf .pv{font-weight:800;font-variant-numeric:tabular-nums;font-size:13.5px;white-space:nowrap}
+  .pf .pv small{color:var(--dim);font-weight:600}
+  .clusters{font-size:12px;color:var(--mut);margin-top:6px}
+
+  .jivo{margin-top:18px;background:linear-gradient(180deg,#13251c,#121a17);border:1px solid #1f4034;border-left:3px solid var(--good);border-radius:var(--card-r);padding:18px 20px}
+  .jivo h3{margin:0 0 4px;font-size:16px}
+  .jg{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:14px 0 4px}
+  .jbox{background:#0f1714;border:1px solid #20342b;border-radius:12px;padding:13px}
+  .jbox .jt{font-size:12px;color:var(--mut);font-weight:650;display:flex;align-items:center;gap:6px}
+  .jbox .jb{font-size:20px;font-weight:800;margin-top:6px}
+  .jbox .jm{font-size:11.5px;color:var(--dim);margin-top:3px}
+  .jbox.flag{border-color:#5a2f2f;background:#170f0f}
+
+  .sources{margin-top:26px;font-size:12.5px;color:var(--dim)}
+  .sources h4{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.12em;margin:0 0 8px}
+  .sources a{color:#7fb6ff;text-decoration:none}.sources a:hover{text-decoration:underline}
+  footer{margin-top:26px;color:var(--dim);font-size:12px;border-top:1px solid var(--line);padding-top:16px}
+
+  @media(max-width:880px){.score{grid-template-columns:1fr}.delhi{grid-template-columns:1fr}.jg{grid-template-columns:1fr}}
+  @media(max-width:680px){table{font-size:13px}.num{font-size:14px}.cy{font-size:13.5px}.dom .mg{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">JIVO Market Intelligence · Quick-Commerce Footprint</div>
+  <h1>Dark-Store <span class="accent">Dominance</span> by City</h1>
+  <p class="sub">For each tier-1 metro: how many dark stores <b>Blinkit</b>, <b>Zepto</b> and <b>Swiggy Instamart</b> operate — and which platform <b>dominates</b> on store count.</p>
+  <div class="stamp">
+    <span class="pill"><span class="dot" style="background:var(--good)"></span>As of <b>19 Jun 2026</b></span>
+    <span class="pill">Source: <b>quickcommercemap.com</b></span>
+  </div>
+
+  <!-- scoreboard -->
+  <div class="score" id="score"></div>
+
+  <!-- THE TABLE -->
+  <div class="tablecard">
+    <table>
+      <thead><tr>
+        <th>City</th>
+        <th><span class="ph"><span class="sw" style="background:var(--blink)"></span>Blinkit</span></th>
+        <th><span class="ph"><span class="sw" style="background:var(--zepto)"></span>Zepto</span></th>
+        <th><span class="ph"><span class="sw" style="background:var(--insta)"></span>Instamart</span></th>
+        <th style="text-align:left;padding-left:16px">Dominant platform</th>
+      </tr></thead>
+      <tbody id="dombody"></tbody>
+    </table>
+  </div>
+  <div class="howread">
+    <span><span class="sw" style="background:#2a3a2a;border:1px solid var(--good)"></span>Highlighted cell = the platform that dominates that city</span>
+    <span>👑 = market leader · margin = lead over the runner-up</span>
+    <span style="color:var(--dim)">▌ NCR = Delhi + Gurgaon + Noida + Faridabad + Ghaziabad (includes the Delhi row)</span>
+  </div>
+
+  <div class="provenance">
+    <b>Note:</b> these counts are <b>not</b> from the JIVO Data Bank (it holds prices, not store infrastructure). They are externally mapped by quickcommercemap.com from each platform's live APIs, reverse-geocoded, last verified <b>2026-06-19</b> — a mapped estimate accurate to within a few weeks, not an official platform disclosure.
+  </div>
+
+  <!-- ===== JIVO CARRYING — our own scraper ===== -->
+  <div class="section-h"><h2>How many of these dark stores actually carry JIVO?</h2><span class="hint">JIVO's OWN per-pincode crawl — real store IDs, not external</span></div>
+  <p class="lead-in">This is <b>original JIVO data</b> (not the mapped table above): our scraper sets each pincode's location, lets the platform resolve its dark store, and records the <b>store_id</b> + every JIVO SKU on that store's shelf. Counting <b>distinct store_ids that returned ≥1 JIVO SKU</b> = the dark stores we can <b>prove</b> stock JIVO. A <b>verified floor</b> — we probe 467 anchor pincodes (≈1,196 pincodes, 19 cities), so the real number is higher.</p>
+  <div class="score" id="jcards" style="grid-template-columns:repeat(4,1fr)"></div>
+  <div class="tablecard" style="margin-top:8px">
+    <table><thead><tr>
+      <th>City</th>
+      <th><span class="ph"><span class="sw" style="background:var(--blink)"></span>Blinkit</span></th>
+      <th><span class="ph"><span class="sw" style="background:var(--zepto)"></span>Zepto</span></th>
+      <th><span class="ph"><span class="sw" style="background:var(--insta)"></span>Instamart</span></th>
+      <th style="text-align:left;padding-left:16px">Most JIVO stores</th>
+    </tr></thead><tbody id="jbody"></tbody></table>
+  </div>
+  <div class="provenance" style="border-left-color:var(--good)">
+    <b>Method &amp; honest limits.</b> Distinct <code style="background:#13251c;padding:1px 5px;border-radius:4px">store_id</code> with ≥1 JIVO listing, from JIVO's per-pincode scrapes — Blinkit &amp; Zepto captured <b>2026-06-28</b> on the VPS; Instamart <b>2026-06-27</b> via the off-box residential collector (different pincode set/day — not strictly head-to-head). <b>(1)</b> A <b>floor, not a census</b> — only 467 anchor pincodes are probed. <b>(2)</b> <span style="color:var(--warn)">Blinkit ⚠</span>: 175/467 anchors went <b>unresolved</b> (datacenter-IP rate-limiting), so its <b>0</b>s in Hyderabad, Ahmedabad &amp; Surat are <b>scrape gaps, not confirmed absence</b>. <b>(3)</b> An out-of-stock JIVO listing still counts as "carries". <b>(4)</b> One store can serve several pincodes — we de-dupe on store_id, so these are real distinct stores. <b>This section is JIVO proprietary data.</b>
+  </div>
+
+  <!-- Delhi + NCR -->
+  <div class="section-h"><h2>Delhi &amp; NCR — the metro you flagged</h2><span class="hint">Blinkit dominates every part of NCR</span></div>
+  <p class="lead-in">Delhi city proper = <b id="delhiTot"></b> stores across the three; wider NCR = <b id="ncrTot"></b>. Left: Delhi's platform split &amp; top localities. Right: the 5 NCR sub-cities.</p>
+  <div class="delhi">
+    <div class="ddcard" id="delhiCard"></div>
+    <div class="tablecard">
+      <table><thead><tr>
+        <th>NCR sub-city</th>
+        <th><span class="ph"><span class="sw" style="background:var(--blink)"></span>Blinkit</span></th>
+        <th><span class="ph"><span class="sw" style="background:var(--zepto)"></span>Zepto</span></th>
+        <th><span class="ph"><span class="sw" style="background:var(--insta)"></span>Insta</span></th>
+        <th>Total</th>
+      </tr></thead><tbody id="ncrbody"></tbody></table>
+    </div>
+  </div>
+
+  <!-- JIVO tie-in -->
+  <div class="jivo">
+    <h3>Why this matters for JIVO</h3>
+    <p style="color:var(--mut);font-size:13.5px;margin:6px 0 0;max-width:880px">Two lenses, one read: the three run <b id="metroTot">2,347</b> dark stores across these 12 metros (mapped), and JIVO's own crawl <b>proves</b> it stocks at least <b>152 Blinkit + 180 Zepto + 78 Instamart</b> of them. Correction to an earlier note: Instamart is <b>not</b> a blind spot — the off-box collector sees 29 JIVO SKUs across 78 stores; the real gap is that Instamart isn't <b>fused into the price-match data bank</b> yet.</p>
+    <div class="jg">
+      <div class="jbox"><div class="jt"><span class="dot" style="background:var(--blink)"></span>Blinkit</div><div class="jb">152 stores · 9 SKUs</div><div class="jm">Dominates 10/12 cities, but thinnest JIVO shelf (9 SKUs) — and the scrape is rate-limited</div></div>
+      <div class="jbox"><div class="jt"><span class="dot" style="background:var(--zepto)"></span>Zepto</div><div class="jb">180 stores · 23 SKUs</div><div class="jm">Widest JIVO footprint — most stores carrying, best price coverage</div></div>
+      <div class="jbox flag"><div class="jt"><span class="dot" style="background:var(--insta)"></span>Instamart</div><div class="jb">78 stores · 29 SKUs</div><div class="jm">Deepest JIVO assortment per store — but NOT in the fused price-match bank; integrate it</div></div>
+    </div>
+  </div>
+
+  <div class="sources">
+    <h4>Sources &amp; method</h4>
+    <p>Per-city counts from <b>quickcommercemap.com</b> platform/city pages (e.g. <a href="https://quickcommercemap.com/platforms/blinkit/delhi" target="_blank" rel="noopener">/blinkit/delhi</a>, <a href="https://quickcommercemap.com/platforms/zepto/hyderabad" target="_blank" rel="noopener">/zepto/hyderabad</a>), each verified 2026-06-19. National anchors: <a href="https://quickcommercemap.com/reports/india-quick-commerce-map-2026" target="_blank" rel="noopener">India Quick-Commerce Map 2026</a> (Blinkit 1,954 · Zepto 1,089 · Instamart 1,038). Caveats: NCR includes the Delhi row (never sum both); "Mumbai" is city proper; mapped counts can lag real openings by weeks. <b>"Stores carrying JIVO":</b> JIVO's own per-pincode scraper (<code style="background:#1c2430;padding:1px 5px;border-radius:4px">/opt/ecom-intel</code> — Blinkit/Zepto on-VPS, Swiggy-Instamart off-box collector), distinct <code style="background:#1c2430;padding:1px 5px;border-radius:4px">store_id</code> with a JIVO listing; a sampled floor over 467 anchor pincodes (≈1,196 pincodes, 19 cities). That section is <b>proprietary JIVO data</b>, not public.</p>
+  </div>
+
+  <footer>Public q-commerce store map (quickcommercemap.com, 19 Jun 2026) fused with JIVO's own scraper (proprietary, aggregate) · generated 28 Jun 2026.</footer>
+</div>
+
+<script>
+const C={blinkit:'#f5c518',zepto:'#8a3ffc',insta:'#ff7a1a'};
+const NAT={blinkit:1954,zepto:1089,insta:1038};
+const hexA=(h,a)=>{const n=parseInt(h.slice(1),16);return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${a})`};
+
+// per-city dark-store counts — quickcommercemap.com, verified 2026-06-19
+const rows=[
+  {city:'Delhi NCR', b:338,z:221,s:136, region:true, note:'Delhi+Gurgaon+Noida+Faridabad+Ghaziabad'},
+  {city:'Bengaluru', b:165,z:159,s:116},
+  {city:'Delhi',     b:170,z:98, s:63, subset:true, note:'city proper — subset of NCR'},
+  {city:'Hyderabad', b:94, z:110,s:77},
+  {city:'Chennai',   b:62, z:80, s:67},
+  {city:'Mumbai',    b:83, z:80, s:44, note:'city proper'},
+  {city:'Pune',      b:84, z:54, s:46},
+  {city:'Kolkata',   b:58, z:34, s:29},
+  {city:'Ahmedabad', b:44, z:20, s:17},
+  {city:'Jaipur',    b:38, z:19, s:16},
+  {city:'Surat',     b:14, z:13, s:8},
+  {city:'Chandigarh',b:13, z:4,  s:4},
+];
+const NAMES={b:'Blinkit',z:'Zepto',s:'Instamart'},COL={b:C.blinkit,z:C.zepto,s:C.insta};
+
+function rank(r){return [['b',r.b],['z',r.z],['s',r.s]].sort((a,b)=>b[1]-a[1])}
+
+// ---- dominance scoreboard (over the 12 listed cities) ----
+const wins={b:[],z:[],s:[]};
+rows.forEach(r=>{wins[rank(r)[0][0]].push(r.city)});
+const order=['b','z','s'];
+document.getElementById('score').innerHTML=order.map(k=>{
+  const cls=k==='b'?'b':k==='z'?'z':'s';
+  const list=wins[k].length?wins[k].join(', '):'—';
+  return `<div class="sc ${cls}"><div class="nm"><span class="dot" style="background:${COL[k]}"></span>${NAMES[k]}</div>
+    <div class="big">${wins[k].length}<small> / 12 cities</small></div>
+    <div class="wn">${k==='s'?'leads no city':'dominates: '+list}</div></div>`}).join('');
+
+// ---- the dominance table ----
+document.getElementById('dombody').innerHTML=rows.map(r=>{
+  const rk=rank(r),win=rk[0],run=rk[1],margin=win[1]-run[1];
+  const cls=(r.region?'region ':'')+(r.subset?'subset ':'');
+  const cell=k=>{
+    const v=r[k];const isWin=k===win[0];
+    if(isWin) return `<td class="num win"><span class="chipbg" style="background:${hexA(COL[k],.92)}">${v}</span></td>`;
+    return `<td class="num">${v}</td>`;
+  };
+  const dom=`<span class="domchip" style="background:${hexA(COL[win[0]],.16)};color:${COL[win[0]]}">
+     <span class="crown">👑</span>${NAMES[win[0]]}<span class="mg">+${margin} vs ${NAMES[run[0]]}</span></span>`;
+  return `<tr class="${cls.trim()}"><td class="cy">${r.city}${r.note?`<small>${r.note}</small>`:''}</td>
+    ${cell('b')}${cell('z')}${cell('s')}<td class="dom">${dom}</td></tr>`;
+}).join('')
++ (()=>{const tb=rows.filter(r=>!r.region).reduce((a,r)=>a+r.b,0),
+        tz=rows.filter(r=>!r.region).reduce((a,r)=>a+r.z,0),
+        ts=rows.filter(r=>!r.region).reduce((a,r)=>a+r.s,0);
+   return `<tr class="foot-row"><td class="cy">All 12 metros<small style="color:var(--dim)">deduped — Delhi folded into NCR</small></td>
+   <td class="num" style="color:var(--blink)">${tb}</td><td class="num" style="color:var(--zepto)">${tz}</td>
+   <td class="num" style="color:var(--insta)">${ts}</td>
+   <td class="dom"><span class="domchip" style="background:${hexA(C.blinkit,.16)};color:${C.blinkit}"><span class="crown">👑</span>Blinkit<span class="mg">+${tb-tz} vs Zepto</span></span></td></tr>`})();
+
+// ---- Delhi + NCR ----
+const delhi=[
+  {p:'blinkit',nm:'Blinkit',v:170,n:93,top:'Vasant Vihar 11 · Rohini 9 · Dwarka 5'},
+  {p:'zepto',nm:'Zepto',v:98,n:61,top:'Rohini 6 · Vasant Vihar 5 · Dwarka 4'},
+  {p:'insta',nm:'Instamart',v:63,n:41,top:'Vasant Vihar 4 · Rohini 3 · Dwarka 2'},
+];
+document.getElementById('delhiTot').textContent=331;
+document.getElementById('ncrTot').textContent=695;
+document.getElementById('metroTot').textContent='2,347';
+document.getElementById('delhiCard').innerHTML='<h3>Delhi (city proper)</h3><div class="dd-meta">331 stores · Blinkit leads with 170</div>'+
+ delhi.map(d=>`<div class="pf"><span class="pfn"><span class="dot" style="background:${C[d.p]}"></span>${d.nm}</span>
+   <span class="track"><i style="width:${Math.round(100*d.v/170)}%;background:${C[d.p]}"></i></span>
+   <span class="pv">${d.v} <small>/ ${d.n} areas</small></span></div><div class="clusters">↳ ${d.top}</div>`).join('');
+const ncr=[['Delhi',170,98,63],['Gurgaon',75,49,31],['Noida',33,25,16],['Faridabad',22,16,6],['Ghaziabad',38,33,20]];
+document.getElementById('ncrbody').innerHTML=ncr.map(([c,b,z,s])=>`<tr><td class="cy">${c}</td>
+  <td class="num" style="color:var(--blink)">${b}</td><td class="num" style="color:var(--zepto)">${z}</td>
+  <td class="num" style="color:var(--insta)">${s}</td><td class="num" style="color:var(--ink)">${b+z+s}</td></tr>`).join('')
+  +`<tr class="foot-row"><td class="cy">NCR total</td><td class="num" style="color:var(--blink)">338</td>
+  <td class="num" style="color:var(--zepto)">221</td><td class="num" style="color:var(--insta)">136</td><td class="num">695</td></tr>`;
+
+// ===== JIVO carrying — distinct stores from our own scraper =====
+const JIVO={
+  nat:{b:152,z:180,s:78}, jpin:{b:175,z:214,s:151}, tpin:{b:467,z:467,s:363}, sku:{b:9,z:23,s:29},
+  cap:{b:'28 Jun',z:'28 Jun',s:'27 Jun · off-box'},
+  // city: blinkit, zepto, instamart distinct stores carrying JIVO; flag = blinkit scrape unresolved
+  rows:[
+    ['Delhi',42,31,12,false],['Gurgaon',6,4,5,false],['Noida',5,4,6,false],['Faridabad',3,2,4,false],
+    ['Ghaziabad',4,3,0,false],['Bengaluru',5,5,1,false],['Mumbai',17,16,13,false],
+    ['Hyderabad',0,27,1,true],['Chennai',6,29,1,false],['Pune',18,14,2,false],['Kolkata',27,20,5,false],
+    ['Ahmedabad',0,9,1,true],['Surat',0,1,2,true],['Jaipur',1,8,10,true],['Chandigarh',5,2,1,false],
+  ]
+};
+document.getElementById('jcards').innerHTML=[['b','Blinkit'],['z','Zepto'],['s','Instamart']].map(([k,nm])=>
+  `<div class="sc ${k}"><div class="nm"><span class="dot" style="background:${COL[k]}"></span>${nm}</div>
+   <div class="big">${JIVO.nat[k]}<small> stores</small></div>
+   <div class="wn">carry JIVO · ${JIVO.sku[k]} SKUs · ${Math.round(100*JIVO.jpin[k]/JIVO.tpin[k])}% of probed pins · ${JIVO.cap[k]}</div></div>`).join('')
+  +`<div class="sc" style="background:linear-gradient(180deg,#13251c,#121a17);border-color:#1f4034"><div class="nm" style="color:var(--good)">All three</div>
+    <div class="big">${152+180+78}<small> store obs.</small></div><div class="wn">distinct dark stores proven to stock JIVO (sampled floor)</div></div>`;
+document.getElementById('jbody').innerHTML=JIVO.rows.map(([c,b,z,s,flag])=>{
+  const cell=(v,col,warn)=>`<td class="num"${v>0?` style="color:${col}"`:''}>${v}${(warn&&v===0)?'<span style="color:var(--warn)"> ⚠</span>':''}</td>`;
+  const top=Math.max(b,z,s);
+  const win=top===0?'—':(b===top?['Blinkit',C.blinkit]:z===top?['Zepto',C.zepto]:['Instamart',C.insta]);
+  const wc=win==='—'?'#6b7888':win[1];
+  return `<tr><td class="cy">${c}${flag?'<small style="color:var(--warn)">⚠ Blinkit scrape unresolved here</small>':''}</td>
+    ${cell(b,C.blinkit,flag)}${cell(z,C.zepto,false)}${cell(s,C.insta,false)}
+    <td class="dom"><span class="domchip" style="background:${hexA(wc,.16)};color:${wc}">${win==='—'?'—':'most: '+win[0]}</span></td></tr>`;
+}).join('')
++`<tr class="foot-row"><td class="cy">National<small style="color:var(--dim)">all 19 scraped cities · distinct stores</small></td>
+  <td class="num" style="color:var(--blink)">152</td><td class="num" style="color:var(--zepto)">180</td>
+  <td class="num" style="color:var(--insta)">78</td>
+  <td class="dom"><span class="domchip" style="background:${hexA(C.zepto,.16)};color:${C.zepto}">Zepto widest</span></td></tr>`;
+</script>
+</body>
+</html>

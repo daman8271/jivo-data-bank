@@ -1,0 +1,21 @@
+{
+  "source": "quickcommercemap.com per-city pages",
+  "as_of": "2026-06-19",
+  "note": "Public mapped dark-store counts. NCR = Delhi+Gurgaon+Noida+Faridabad+Ghaziabad (includes the Delhi row).",
+  "national": { "blinkit": 1954, "zepto": 1089, "instamart": 1038 },
+  "cities": {
+    "Delhi NCR":  { "blinkit": 338, "zepto": 221, "instamart": 136, "dominant": "Blinkit" },
+    "Bengaluru":  { "blinkit": 165, "zepto": 159, "instamart": 116, "dominant": "Blinkit" },
+    "Delhi":      { "blinkit": 170, "zepto": 98,  "instamart": 63,  "dominant": "Blinkit" },
+    "Hyderabad":  { "blinkit": 94,  "zepto": 110, "instamart": 77,  "dominant": "Zepto" },
+    "Chennai":    { "blinkit": 62,  "zepto": 80,  "instamart": 67,  "dominant": "Zepto" },
+    "Mumbai":     { "blinkit": 83,  "zepto": 80,  "instamart": 44,  "dominant": "Blinkit" },
+    "Pune":       { "blinkit": 84,  "zepto": 54,  "instamart": 46,  "dominant": "Blinkit" },
+    "Kolkata":    { "blinkit": 58,  "zepto": 34,  "instamart": 29,  "dominant": "Blinkit" },
+    "Ahmedabad":  { "blinkit": 44,  "zepto": 20,  "instamart": 17,  "dominant": "Blinkit" },
+    "Jaipur":     { "blinkit": 38,  "zepto": 19,  "instamart": 16,  "dominant": "Blinkit" },
+    "Surat":      { "blinkit": 14,  "zepto": 13,  "instamart": 8,   "dominant": "Blinkit" },
+    "Chandigarh": { "blinkit": 13,  "zepto": 4,   "instamart": 4,   "dominant": "Blinkit" }
+  },
+  "dominance_scoreboard": { "Blinkit": 10, "Zepto": 2, "Instamart": 0 }
+}

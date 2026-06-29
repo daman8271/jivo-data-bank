@@ -1,0 +1,410 @@
+{
+"Blinkit": {
+"captured": "2026-06-28T05:55:38.322Z",
+"national_stores": 152,
+"national_jivo_pin": 175,
+"total_pin": 467,
+"percity": {
+"Bengaluru": {
+"probed": 13,
+"jivo_pin": 6,
+"stores": 5,
+"instock": 5
+},
+"Bhopal": {
+"probed": 1,
+"jivo_pin": 0,
+"stores": 0,
+"instock": 0
+},
+"Chandigarh": {
+"probed": 8,
+"jivo_pin": 5,
+"stores": 5,
+"instock": 5
+},
+"Delhi": {
+"probed": 53,
+"jivo_pin": 48,
+"stores": 42,
+"instock": 42
+},
+"Faridabad": {
+"probed": 6,
+"jivo_pin": 3,
+"stores": 3,
+"instock": 3
+},
+"Ghaziabad": {
+"probed": 9,
+"jivo_pin": 4,
+"stores": 4,
+"instock": 4
+},
+"Gurgaon": {
+"probed": 13,
+"jivo_pin": 9,
+"stores": 6,
+"instock": 6
+},
+"Indore": {
+"probed": 1,
+"jivo_pin": 0,
+"stores": 0,
+"instock": 0
+},
+"Jaipur": {
+"probed": 58,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 0
+},
+"Kolkata": {
+"probed": 39,
+"jivo_pin": 31,
+"stores": 27,
+"instock": 26
+},
+"Ludhiana": {
+"probed": 47,
+"jivo_pin": 9,
+"stores": 8,
+"instock": 8
+},
+"Mumbai": {
+"probed": 30,
+"jivo_pin": 23,
+"stores": 17,
+"instock": 16
+},
+"Mysuru": {
+"probed": 14,
+"jivo_pin": 5,
+"stores": 5,
+"instock": 5
+},
+"Noida": {
+"probed": 8,
+"jivo_pin": 5,
+"stores": 5,
+"instock": 5
+},
+"Pune": {
+"probed": 56,
+"jivo_pin": 20,
+"stores": 18,
+"instock": 17
+},
+"Surat": {
+"probed": 6,
+"jivo_pin": 0,
+"stores": 0,
+"instock": 0
+},
+"Ahmedabad": {
+"probed": 30,
+"jivo_pin": 0,
+"stores": 0,
+"instock": 0
+},
+"Chennai": {
+"probed": 38,
+"jivo_pin": 6,
+"stores": 6,
+"instock": 5
+},
+"Hyderabad": {
+"probed": 37,
+"jivo_pin": 0,
+"stores": 0,
+"instock": 0
+}
+}
+},
+"Zepto": {
+"captured": "2026-06-28T01:29:41.440Z",
+"national_stores": 180,
+"national_jivo_pin": 214,
+"total_pin": 467,
+"percity": {
+"Bengaluru": {
+"probed": 13,
+"jivo_pin": 6,
+"stores": 5,
+"instock": 5
+},
+"Bhopal": {
+"probed": 1,
+"jivo_pin": 0,
+"stores": 0,
+"instock": 0
+},
+"Chandigarh": {
+"probed": 8,
+"jivo_pin": 5,
+"stores": 2,
+"instock": 2
+},
+"Delhi": {
+"probed": 53,
+"jivo_pin": 35,
+"stores": 31,
+"instock": 31
+},
+"Faridabad": {
+"probed": 6,
+"jivo_pin": 2,
+"stores": 2,
+"instock": 2
+},
+"Ghaziabad": {
+"probed": 9,
+"jivo_pin": 3,
+"stores": 3,
+"instock": 3
+},
+"Gurgaon": {
+"probed": 13,
+"jivo_pin": 7,
+"stores": 4,
+"instock": 4
+},
+"Indore": {
+"probed": 1,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 1
+},
+"Jaipur": {
+"probed": 58,
+"jivo_pin": 11,
+"stores": 8,
+"instock": 7
+},
+"Kolkata": {
+"probed": 39,
+"jivo_pin": 25,
+"stores": 20,
+"instock": 9
+},
+"Ludhiana": {
+"probed": 47,
+"jivo_pin": 3,
+"stores": 2,
+"instock": 2
+},
+"Mumbai": {
+"probed": 30,
+"jivo_pin": 23,
+"stores": 16,
+"instock": 16
+},
+"Mysuru": {
+"probed": 14,
+"jivo_pin": 2,
+"stores": 2,
+"instock": 2
+},
+"Noida": {
+"probed": 8,
+"jivo_pin": 4,
+"stores": 4,
+"instock": 4
+},
+"Pune": {
+"probed": 56,
+"jivo_pin": 15,
+"stores": 14,
+"instock": 14
+},
+"Surat": {
+"probed": 6,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 1
+},
+"Ahmedabad": {
+"probed": 30,
+"jivo_pin": 10,
+"stores": 9,
+"instock": 9
+},
+"Chennai": {
+"probed": 38,
+"jivo_pin": 32,
+"stores": 29,
+"instock": 29
+},
+"Hyderabad": {
+"probed": 37,
+"jivo_pin": 29,
+"stores": 27,
+"instock": 27
+}
+}
+},
+"Instamart": {
+"captured": "2026-06-27T21:24:03Z",
+"national_stores": 78,
+"national_jivo_pin": 151,
+"total_pin": 363,
+"percity": {
+"Jaipur": {
+"probed": 58,
+"jivo_pin": 27,
+"stores": 10,
+"instock": 10
+},
+"Delhi": {
+"probed": 54,
+"jivo_pin": 22,
+"stores": 12,
+"instock": 12
+},
+"Pune": {
+"probed": 54,
+"jivo_pin": 2,
+"stores": 2,
+"instock": 2
+},
+"Ludhiana": {
+"probed": 47,
+"jivo_pin": 12,
+"stores": 3,
+"instock": 3
+},
+"Mumbai": {
+"probed": 33,
+"jivo_pin": 32,
+"stores": 13,
+"instock": 13
+},
+"Bengaluru": {
+"probed": 16,
+"jivo_pin": 4,
+"stores": 1,
+"instock": 1
+},
+"Gurgaon": {
+"probed": 15,
+"jivo_pin": 11,
+"stores": 5,
+"instock": 5
+},
+"Mysuru": {
+"probed": 15,
+"jivo_pin": 6,
+"stores": 6,
+"instock": 6
+},
+"Kolkata": {
+"probed": 12,
+"jivo_pin": 7,
+"stores": 5,
+"instock": 5
+},
+"Ghaziabad": {
+"probed": 10,
+"jivo_pin": 0,
+"stores": 0,
+"instock": 0
+},
+"Chandigarh": {
+"probed": 9,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 1
+},
+"Noida": {
+"probed": 9,
+"jivo_pin": 8,
+"stores": 6,
+"instock": 6
+},
+"Faridabad": {
+"probed": 7,
+"jivo_pin": 5,
+"stores": 4,
+"instock": 4
+},
+"Surat": {
+"probed": 7,
+"jivo_pin": 2,
+"stores": 2,
+"instock": 2
+},
+"Ahmedabad": {
+"probed": 2,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 1
+},
+"Bhopal": {
+"probed": 2,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 1
+},
+"Chennai": {
+"probed": 2,
+"jivo_pin": 2,
+"stores": 1,
+"instock": 1
+},
+"Hyderabad": {
+"probed": 2,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 1
+},
+"Indore": {
+"probed": 2,
+"jivo_pin": 2,
+"stores": 1,
+"instock": 1
+},
+"Coimbatore": {
+"probed": 1,
+"jivo_pin": 0,
+"stores": 0,
+"instock": 0
+},
+"Kanpur": {
+"probed": 1,
+"jivo_pin": 0,
+"stores": 0,
+"instock": 0
+},
+"Lucknow": {
+"probed": 1,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 1
+},
+"Nagpur": {
+"probed": 1,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 1
+},
+"Patna": {
+"probed": 1,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 1
+},
+"Vadodara": {
+"probed": 1,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 1
+},
+"Visakhapatnam": {
+"probed": 1,
+"jivo_pin": 1,
+"stores": 1,
+"instock": 1
+}
+}
+}
+}

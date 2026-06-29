@@ -107,6 +107,7 @@ rsync -a --delete \
     --exclude 'ARCHITECTURE.md' \
     --exclude 'VAULT-GUIDE.md' \
     --exclude 'DATA-MODEL.md' \
+    --exclude 'intelligence/' \
     --exclude 'bin/' \
     --exclude '.daily_rebuild.lock' \
     --exclude 'daily_rebuild.log' \
