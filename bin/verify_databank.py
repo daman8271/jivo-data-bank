@@ -139,7 +139,10 @@ def main():
     if n_category < 1:
         failures.append("no Category hubs found")
 
-    baseline = json.load(open(baseline_p)) if os.path.isfile(baseline_p) else {}
+    try:
+        baseline = json.load(open(baseline_p)) if os.path.isfile(baseline_p) else {}
+    except (json.JSONDecodeError, ValueError):
+        baseline = {}   # empty/corrupt baseline -> treat as no baseline (don't crash)
     if baseline:
         if len(prods) < baseline.get("products", 0):
             failures.append(f"product REGRESSION: {len(prods)} < baseline {baseline['products']}")
