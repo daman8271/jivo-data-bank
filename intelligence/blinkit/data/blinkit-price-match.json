@@ -1,0 +1,1249 @@
+{
+  "source": "jivo-data-bank vault (read-only, generated nodes)",
+  "as_of": "2026-06-28",
+  "platform": "blinkit",
+  "blinkit_price_match": [
+    {
+      "product": "CANOLA 1L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000032"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "259",
+      "live": "239",
+      "diff": "-7.72",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 5L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000004",
+        "FG0000118"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "1249",
+      "live": "1193",
+      "diff": "-4.48",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000005"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "599",
+      "live": "499",
+      "diff": "-16.69",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 2L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000064"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "1189",
+      "live": "1139",
+      "diff": "-4.21",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000028"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "429",
+      "live": "379",
+      "diff": "-11.66",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 5L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000008"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "2119",
+      "live": "1917",
+      "diff": "-9.53",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 1L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000030"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "209",
+      "live": "171",
+      "diff": "-18.18",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 5L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000011"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "999",
+      "live": "868",
+      "diff": "-13.11",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "SUNFLOWER 1L",
+      "category": "SUNFLOWER",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000081"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "219",
+      "live": "195",
+      "diff": "-10.96",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    }
+  ],
+  "cross_platform": [
+    {
+      "product": "CANOLA 1L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000032"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon",
+      "ref": "259",
+      "live": "246",
+      "diff": "-5.02",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 1L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000032"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-fresh",
+      "ref": "259",
+      "live": "239",
+      "diff": "-7.72",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 1L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000032"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-now",
+      "ref": "259",
+      "live": "239",
+      "diff": "-7.72",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 1L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000032"
+      ],
+      "bridge": "core (priced)",
+      "platform": "bigbasket",
+      "ref": "259",
+      "live": "329.44",
+      "diff": "27.2",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 1L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000032"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "259",
+      "live": "239",
+      "diff": "-7.72",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 1L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000032"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart",
+      "ref": "259",
+      "live": "332",
+      "diff": "28.19",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 1L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000032"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart-minutes",
+      "ref": "259",
+      "live": "239",
+      "diff": "-7.72",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-27"
+    },
+    {
+      "product": "CANOLA 5L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000004",
+        "FG0000118"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon",
+      "ref": "1249",
+      "live": "1249",
+      "diff": "0",
+      "violation": "🟦 MATCH",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 5L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000004",
+        "FG0000118"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-fresh",
+      "ref": "1249",
+      "live": "1249",
+      "diff": "0",
+      "violation": "🟦 MATCH",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 5L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000004",
+        "FG0000118"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-now",
+      "ref": "1249",
+      "live": "1249",
+      "diff": "0",
+      "violation": "🟦 MATCH",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 5L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000004",
+        "FG0000118"
+      ],
+      "bridge": "core (priced)",
+      "platform": "bigbasket",
+      "ref": "1249",
+      "live": "1366",
+      "diff": "9.37",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 5L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000004",
+        "FG0000118"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "1249",
+      "live": "1193",
+      "diff": "-4.48",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 5L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000004",
+        "FG0000118"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart",
+      "ref": "1249",
+      "live": "1353",
+      "diff": "8.33",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "CANOLA 5L",
+      "category": "CANOLA",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000004",
+        "FG0000118"
+      ],
+      "bridge": "core (priced)",
+      "platform": "zepto",
+      "ref": "1249",
+      "live": "1617",
+      "diff": "29.46",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000005"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon",
+      "ref": "599",
+      "live": "499",
+      "diff": "-16.69",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000005"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-fresh",
+      "ref": "599",
+      "live": "499",
+      "diff": "-16.69",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000005"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-now",
+      "ref": "599",
+      "live": "499",
+      "diff": "-16.69",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000005"
+      ],
+      "bridge": "core (priced)",
+      "platform": "bigbasket",
+      "ref": "599",
+      "live": "1284",
+      "diff": "114.36",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000005"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "599",
+      "live": "499",
+      "diff": "-16.69",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000005"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart",
+      "ref": "599",
+      "live": "—",
+      "diff": "—",
+      "violation": "⚪ OOS",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000005"
+      ],
+      "bridge": "core (priced)",
+      "platform": "zepto",
+      "ref": "599",
+      "live": "499",
+      "diff": "-16.69",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 2L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000064"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon",
+      "ref": "1189",
+      "live": "1169",
+      "diff": "-1.68",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 2L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000064"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-fresh",
+      "ref": "1189",
+      "live": "1150",
+      "diff": "-3.28",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 2L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000064"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-now",
+      "ref": "1189",
+      "live": "1139",
+      "diff": "-4.21",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 2L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000064"
+      ],
+      "bridge": "core (priced)",
+      "platform": "bigbasket",
+      "ref": "1189",
+      "live": "1343",
+      "diff": "12.95",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 2L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000064"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "1189",
+      "live": "1139",
+      "diff": "-4.21",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 2L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000064"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart",
+      "ref": "1189",
+      "live": "1055",
+      "diff": "-11.27",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "EXTRA LIGHT 2L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000064"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart-minutes",
+      "ref": "1189",
+      "live": "1903",
+      "diff": "60.05",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-27"
+    },
+    {
+      "product": "EXTRA LIGHT 2L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000064"
+      ],
+      "bridge": "core (priced)",
+      "platform": "zepto",
+      "ref": "1189",
+      "live": "1180",
+      "diff": "-0.76",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000028"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon",
+      "ref": "429",
+      "live": "379",
+      "diff": "-11.66",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000028"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-fresh",
+      "ref": "429",
+      "live": "379",
+      "diff": "-11.66",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000028"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-now",
+      "ref": "429",
+      "live": "379",
+      "diff": "-11.66",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000028"
+      ],
+      "bridge": "core (priced)",
+      "platform": "bigbasket",
+      "ref": "429",
+      "live": "548.25",
+      "diff": "27.8",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000028"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "429",
+      "live": "379",
+      "diff": "-11.66",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000028"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart",
+      "ref": "429",
+      "live": "576",
+      "diff": "34.27",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000028"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart-minutes",
+      "ref": "429",
+      "live": "379",
+      "diff": "-11.66",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-27"
+    },
+    {
+      "product": "JIVO POMACE 1L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000028"
+      ],
+      "bridge": "core (priced)",
+      "platform": "zepto",
+      "ref": "429",
+      "live": "379",
+      "diff": "-11.66",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 5L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000008"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon",
+      "ref": "2119",
+      "live": "2114",
+      "diff": "-0.24",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 5L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000008"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-fresh",
+      "ref": "2119",
+      "live": "2119",
+      "diff": "0",
+      "violation": "🟦 MATCH",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 5L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000008"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-now",
+      "ref": "2119",
+      "live": "2119",
+      "diff": "0",
+      "violation": "🟦 MATCH",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 5L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000008"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "2119",
+      "live": "1917",
+      "diff": "-9.53",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 5L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000008"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart",
+      "ref": "2119",
+      "live": "1554",
+      "diff": "-26.66",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "JIVO POMACE 5L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000008"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart-minutes",
+      "ref": "2119",
+      "live": "2145",
+      "diff": "1.23",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-27"
+    },
+    {
+      "product": "JIVO POMACE 5L",
+      "category": "OLIVE",
+      "tier": "PREMIUM",
+      "sap": [
+        "FG0000008"
+      ],
+      "bridge": "core (priced)",
+      "platform": "zepto",
+      "ref": "2119",
+      "live": "2700",
+      "diff": "27.42",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 1L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000030"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon",
+      "ref": "209",
+      "live": "181",
+      "diff": "-13.4",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 1L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000030"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-fresh",
+      "ref": "209",
+      "live": "159",
+      "diff": "-23.92",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 1L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000030"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-now",
+      "ref": "209",
+      "live": "159",
+      "diff": "-23.92",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 1L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000030"
+      ],
+      "bridge": "core (priced)",
+      "platform": "bigbasket",
+      "ref": "209",
+      "live": "202.09",
+      "diff": "-3.31",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 1L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000030"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "209",
+      "live": "171",
+      "diff": "-18.18",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 1L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000030"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart",
+      "ref": "209",
+      "live": "—",
+      "diff": "—",
+      "violation": "⚪ OOS",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 1L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000030"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart-minutes",
+      "ref": "209",
+      "live": "181",
+      "diff": "-13.4",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-27"
+    },
+    {
+      "product": "MUSTARD 1L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000030"
+      ],
+      "bridge": "core (priced)",
+      "platform": "zepto",
+      "ref": "209",
+      "live": "181",
+      "diff": "-13.4",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 5L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000011"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon",
+      "ref": "999",
+      "live": "999",
+      "diff": "0",
+      "violation": "🟦 MATCH",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 5L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000011"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-fresh",
+      "ref": "999",
+      "live": "999",
+      "diff": "0",
+      "violation": "🟦 MATCH",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 5L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000011"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-now",
+      "ref": "999",
+      "live": "999",
+      "diff": "0",
+      "violation": "🟦 MATCH",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 5L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000011"
+      ],
+      "bridge": "core (priced)",
+      "platform": "bigbasket",
+      "ref": "999",
+      "live": "998.75",
+      "diff": "-0.03",
+      "violation": "🟦 MATCH",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 5L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000011"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "999",
+      "live": "868",
+      "diff": "-13.11",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 5L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000011"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart",
+      "ref": "999",
+      "live": "—",
+      "diff": "—",
+      "violation": "⚪ OOS",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "MUSTARD 5L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000011"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart-minutes",
+      "ref": "999",
+      "live": "1000",
+      "diff": "0.1",
+      "violation": "🟦 MATCH",
+      "regime": "SVD",
+      "latest": "2026-06-27"
+    },
+    {
+      "product": "MUSTARD 5L",
+      "category": "MUSTARD",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000011"
+      ],
+      "bridge": "core (priced)",
+      "platform": "zepto",
+      "ref": "999",
+      "live": "1037",
+      "diff": "3.8",
+      "violation": "🔴 ABOVE",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "SUNFLOWER 1L",
+      "category": "SUNFLOWER",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000081"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon",
+      "ref": "219",
+      "live": "175",
+      "diff": "-20.09",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "SUNFLOWER 1L",
+      "category": "SUNFLOWER",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000081"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-fresh",
+      "ref": "219",
+      "live": "175",
+      "diff": "-20.09",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "SUNFLOWER 1L",
+      "category": "SUNFLOWER",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000081"
+      ],
+      "bridge": "core (priced)",
+      "platform": "amazon-now",
+      "ref": "219",
+      "live": "175",
+      "diff": "-20.09",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "SUNFLOWER 1L",
+      "category": "SUNFLOWER",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000081"
+      ],
+      "bridge": "core (priced)",
+      "platform": "bigbasket",
+      "ref": "219",
+      "live": "175",
+      "diff": "-20.09",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "SUNFLOWER 1L",
+      "category": "SUNFLOWER",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000081"
+      ],
+      "bridge": "core (priced)",
+      "platform": "blinkit",
+      "ref": "219",
+      "live": "195",
+      "diff": "-10.96",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "SUNFLOWER 1L",
+      "category": "SUNFLOWER",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000081"
+      ],
+      "bridge": "core (priced)",
+      "platform": "flipkart",
+      "ref": "219",
+      "live": "—",
+      "diff": "—",
+      "violation": "⚪ OOS",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    },
+    {
+      "product": "SUNFLOWER 1L",
+      "category": "SUNFLOWER",
+      "tier": "COMMODITY",
+      "sap": [
+        "FG0000081"
+      ],
+      "bridge": "core (priced)",
+      "platform": "zepto",
+      "ref": "219",
+      "live": "192",
+      "diff": "-12.33",
+      "violation": "🟢 BELOW",
+      "regime": "SVD",
+      "latest": "2026-06-28"
+    }
+  ],
+  "volume_lens_2026": {
+    "secondary_2026": 394762,
+    "primary_2026": 466081,
+    "by_tier": [
+      {
+        "tier": "Premium",
+        "secondary": 236755,
+        "primary": 297793
+      },
+      {
+        "tier": "Commodity",
+        "secondary": 158007,
+        "primary": 168288
+      }
+    ]
+  }
+}
