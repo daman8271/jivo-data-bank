@@ -182,7 +182,7 @@ def main():
         os.makedirs(os.path.dirname(baseline_p), exist_ok=True)
         with open(baseline_p, "w") as f:
             json.dump({"products": len(prods), "hubs": len(hubs),
-                       "source_notes": jn + en}, f, indent=2)
+                       "source_notes": src_total}, f, indent=2)
             f.write("\n")
         print(f"[baseline] updated -> {baseline_p}", file=sys.stderr)
 
