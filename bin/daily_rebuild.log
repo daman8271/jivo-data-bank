@@ -65,3 +65,72 @@ SUMMARY_JSON {"products": 153, "hubs": 30, "categories": 17, "links_injected": 5
   },
   "failures": []
 }
+[2026-06-28T00:30:50Z] step 8: committed refresh 2026-06-28 (153 products / 30 hubs)
+[2026-06-28T00:30:50Z] === daily_rebuild done (committed) ===
+[2026-06-29T00:30:01Z] === daily_rebuild start (REPO=/root/jivo-data-bank COMBINED=/opt/ecom-intel/combined-vault SEMANTIC=auto) ===
+[2026-06-29T00:30:01Z] step 1: clean mirror (rm jivo/ ecom/ under COMBINED)
+[2026-06-29T00:30:02Z] step 2: combined_migrate.py (lossless copy + sha256 proof)
+[jivo] copytree /root/jivo-intel/vault -> /opt/ecom-intel/combined-vault/jivo
+[jivo] scanning source ...
+[jivo] scanning dest ...
+[jivo] count 34750==34750:True bytes 389024266==389024266:True agg:True fp:True -> OK
+[ecom] copytree /opt/ecom-intel/vault -> /opt/ecom-intel/combined-vault/ecom
+[ecom] scanning source ...
+[ecom] scanning dest ...
+[ecom] count 2268==2268:True bytes 173722490==173722490:True agg:True fp:True -> OK
+MANIFEST: /opt/ecom-intel/combined-vault/.manifest.json
+{
+  "jivo_notes": 34750,
+  "ecom_notes": 2268,
+  "combined_notes": 37018,
+  "total_bytes": 562746756,
+  "lossless_ok": true
+}
+[2026-06-29T00:30:14Z] step 3: combined_inject_links.py (re-apply cached semantic links)
+{
+  "links_added": 3678,
+  "notes_touched": 298,
+  "broken_skipped": 573,
+  "from_missing": 17
+}
+[2026-06-29T00:30:16Z] step 4: combined_backbone.py (backbone + deterministic ## Related + manifest)
+[build] products=153 hubs=30 categories=17 price_lens_coverage=121 unfused=0 twin_groups=16 twin_members_merged=17 ecom_only_nodes=11 tiers=P64/C29/O60
+[inject] scanned=5000 touched=4990 links=24706
+[inject] scanned=10000 touched=9990 links=49490
+[inject] scanned=30000 touched=14176 links=55001
+[inject] scanned=35000 touched=14815 links=55931
+[inject] DONE scanned=37005 notes_touched=16745 links_injected=59510
+[manifest] zero_loss_ok=True dest_bytes=564725392 appended=1978636
+SUMMARY_JSON {"products": 153, "hubs": 30, "categories": 17, "links_injected": 59510, "notes_touched": 16745, "price_lens_coverage": 121, "unfused": [], "twin_groups": 16, "twin_members_merged": 17, "twin_merges": [{"primary": "A2 GHEE 500G", "merged": ["A2 GHEE 500ML"]}, {"primary": "BASIL SEEDS 200 GM", "merged": ["BASIL SEEDS 200G"]}, {"primary": "BASIL SEEDS 800 GM", "merged": ["BASIL SEEDS 800G"]}, {"primary": "CANOLA 1+1L", "merged": ["Canola 1+1L", "CANOLA 1L + 1L"]}, {"primary": "CHIA SEEDS 200GM", "merged": ["CHIA SEEDS 200G"]}, {"primary": "CHIASEEDS 800G", "merged": ["CHIA SEEDS 800G"]}, {"primary": "EXTRA VIRGIN 1+1L", "merged": ["EXTRA VIRGIN 1L + 1L"]}, {"primary": "FLAX SEEDS 400 GM", "merged": ["FLAX SEEDS 400G"]}, {"primary": "JIVO POMACE 1+1L", "merged": ["JIVO POMACE 1L + 1L"]}, {"primary": "MUSTARD 1+1L", "merged": ["MUSTARD 1L + 1L"]}, {"primary": "PUMPKIN SEEDS 800 GM", "merged": ["PUMPKIN SEEDS 800G"]}, {"primary": "ROSEMARY LEAVES 150G", "merged": ["ROSEMARY LEAVES 150 GMS"]}, {"primary": "SUNFLOWER SEEDS 200 GM", "merged": ["SUNFLOWER SEEDS 200G"]}, {"primary": "SANO POMACE 1+1+1L", "merged": ["SANO POMACE 1L+1L+1L"]}, {"primary": "SANO POMACE 1+1L", "merged": ["SANO POMACE 1L+1L"]}, {"primary": "WG APPLE JUICE 200ML", "merged": ["WG APPLE JUICE 200 ML"]}], "ecom_only_nodes": ["CINNAMON BARK 100G", "EXTRA VIRGIN 3L", "JIVO PUNJABI SHIKANJI 160 MLS", "JIVO WATER 1L", "JIVO WATER 500 MLS", "SOYABEAN 1L + 1L", "SPRING WATER 750ML", "SUNFLOWER 1L + 1L", "RICE BRAN 1L + 1L", "SO OLIVE 1L + 1L", "YELLOW MUSTARD 1L + 1L"], "tier_counts": {"PREMIUM": 64, "OTHER": 60, "COMMODITY": 29}, "manifest_zero_loss_ok": true}
+[2026-06-29T00:30:51Z] step 5: verify_databank.py on the fresh build (gate before repo sync)
+{
+  "PASS": true,
+  "info": {
+    "source_notes": 37018,
+    "products": 153,
+    "hubs": 30,
+    "platform_hubs": 10,
+    "tier_hubs": 3,
+    "category_hubs": 17,
+    "generated_links_checked": 3868,
+    "broken_links": 0
+  },
+  "failures": []
+}
+[2026-06-29T00:30:51Z] step 6: rsync verified build -> repo
+[2026-06-29T00:30:54Z] step 7: verify_databank.py on the synced repo (+ update baseline)
+[baseline] updated -> /root/jivo-data-bank/bin/.baseline.json
+{
+  "PASS": true,
+  "info": {
+    "source_notes": 37018,
+    "products": 153,
+    "hubs": 30,
+    "platform_hubs": 10,
+    "tier_hubs": 3,
+    "category_hubs": 17,
+    "generated_links_checked": 3868,
+    "broken_links": 0
+  },
+  "failures": []
+}
