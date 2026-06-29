@@ -132,5 +132,6 @@ This is **vault #3 of 3** in the JIVO data bank programme — the **fusion** of 
 
 1. **ECOM-Intel** — the competitor-price scraper (`/opt/ecom-intel`, repo `daman8271/ecom-intel`) → `ecom/`.
 2. **JIVO-Intel** — the app's internal data (`/root/jivo-intel`, repo `daman8271/jivo-intel`) → `jivo/`.
-3. **JIVO Data Bank** — *this* repo: the two, bridged per product. **`bin/` + the price-match sheet
-   are the join.**
+3. **JIVO-Factory** — the ji.jivo.in factory app, Jivamart (`/root/jivo-factory-intel`, CLI `jivo-factory-pp-cli`) → `factory/`.
+4. **JIVO Data Bank** — *this* repo: the three, joined per product. **`bin/` + the price-match sheet
+   (price↔volume) + the SAP item code FG#### (factory↔product) are the joins.**

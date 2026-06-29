@@ -107,12 +107,15 @@ def main():
             failures.append(f"[{vname}] {len(loss['missing_in_dest'])} missing-in-dest")
         if loss.get("extra_in_dest"):
             failures.append(f"[{vname}] {len(loss['extra_in_dest'])} extra-in-dest")
-    jn = summary.get("jivo_source_notes", 0)
-    en = summary.get("ecom_source_notes", 0)
+    # Sum across ALL pillars (jivo + ecom + factory + any future) so the
+    # combined dest count is checked against the true source total.
+    src_total = sum(v.get("source", {}).get("count", 0)
+                    for v in manifest.get("vaults", {}).values())
     dn = summary.get("combined_dest_notes", 0)
-    if dn != jn + en:
-        failures.append(f"combined_dest_notes {dn} != jivo {jn} + ecom {en}")
-    info["source_notes"] = jn + en
+    if src_total and dn != src_total:
+        failures.append(f"combined_dest_notes {dn} != sum of vault source counts {src_total}")
+    info["source_notes"] = src_total
+    info["pillars"] = summary.get("pillars", sorted(manifest.get("vaults", {}).keys()))
 
     # ---------------- GATE 2: structure / regression ----------------
     home_p = os.path.join(vault, "Home.md")
@@ -140,8 +143,8 @@ def main():
     if baseline:
         if len(prods) < baseline.get("products", 0):
             failures.append(f"product REGRESSION: {len(prods)} < baseline {baseline['products']}")
-        if (jn + en) < baseline.get("source_notes", 0):
-            failures.append(f"source-note REGRESSION: {jn+en} < baseline {baseline['source_notes']}")
+        if src_total < baseline.get("source_notes", 0):
+            failures.append(f"source-note REGRESSION: {src_total} < baseline {baseline['source_notes']}")
         if len(hubs) < baseline.get("hubs", 0):
             failures.append(f"hub REGRESSION: {len(hubs)} < baseline {baseline['hubs']}")
 

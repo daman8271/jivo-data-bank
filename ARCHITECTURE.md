@@ -17,7 +17,7 @@ and **[`RUNBOOK.md`](RUNBOOK.md)** for the operational commands.
 
 ---
 
-## Two source trees + one generated fusion
+## Three source trees + one generated fusion
 
 | Tree | What it is | Origin | Edit? |
 |---|---|---|---|
@@ -46,6 +46,8 @@ Orchestrated by `bin/daily_rebuild.sh` (single-flight `flock`), a deterministic 
  4. combined_backbone.py       regenerate products/ (153) + hubs/ (30) + Home.md + the deterministic
         │                        "## Related" link layer + .manifest.json (the zero-loss proof)
         ▼
+ 4b.factory_pillar.py          copy factory/ verbatim + merge sha256 proof + factory->product SAP lens
+        │
  5. verify_databank.py  FAIL-CLOSED GATE — must pass ALL of:
         │                 · zero-loss (no altered/truncated/missing/extra files)
         │                 · structure (10 Platform + 3 Tier hubs, ≥1 Category hub, Home.md present)
