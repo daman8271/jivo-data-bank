@@ -43,17 +43,17 @@ Up: [[Home]]
 | Bridge class | core (priced) |
 
 ## Competitor-price lens
-*Per platform — JIVO ref/floor vs latest live competitor price (pricematch, latest = 2026-06-28).*
+*Per platform — JIVO ref/floor vs latest live competitor price (pricematch, latest = 2026-06-29).*
 
 | Platform | Ref/Floor ₹ | Live ₹ | Diff % | Violation | Regime | Latest |
 |---|---|---|---|---|---|---|
-| [[Platform - amazon\|amazon]] | 1249 | 1249 | 0 | 🟦 MATCH | SVD | 2026-06-28 |
-| [[Platform - amazon\|amazon-fresh]] | 1249 | 1249 | 0 | 🟦 MATCH | SVD | 2026-06-28 |
-| [[Platform - amazon\|amazon-now]] | 1249 | 1249 | 0 | 🟦 MATCH | SVD | 2026-06-28 |
-| [[Platform - bigbasket\|bigbasket]] | 1249 | 1366 | 9.37 | 🔴 ABOVE | SVD | 2026-06-28 |
-| [[Platform - blinkit\|blinkit]] | 1249 | 1193 | -4.48 | 🟢 BELOW | SVD | 2026-06-28 |
-| [[Platform - flipkart\|flipkart]] | 1249 | 1353 | 8.33 | 🔴 ABOVE | SVD | 2026-06-28 |
-| [[Platform - zepto\|zepto]] | 1249 | 1617 | 29.46 | 🔴 ABOVE | SVD | 2026-06-28 |
+| [[Platform - amazon\|amazon]] | 1299 | 1249 | -3.85 | 🟢 BELOW | BAU | 2026-06-29 |
+| [[Platform - amazon\|amazon-fresh]] | 1299 | 1249 | -3.85 | 🟢 BELOW | BAU | 2026-06-29 |
+| [[Platform - amazon\|amazon-now]] | 1299 | 1193 | -8.16 | 🟢 BELOW | BAU | 2026-06-29 |
+| [[Platform - bigbasket\|bigbasket]] | 1299 | 1366 | 5.16 | 🔴 ABOVE | BAU | 2026-06-29 |
+| [[Platform - blinkit\|blinkit]] | 1299 | 1193 | -8.16 | 🟢 BELOW | BAU | 2026-06-29 |
+| [[Platform - flipkart\|flipkart]] | 1299 | 1353 | 4.16 | 🔴 ABOVE | BAU | 2026-06-29 |
+| [[Platform - zepto\|zepto]] | 1299 | 1617 | 24.48 | 🔴 ABOVE | BAU | 2026-06-29 |
 
 ## JIVO lens
 *TIER-LEVEL (Premium) 2026 sell-through from target-history — shared across all Premium products, NOT product-specific (JIVO rows key on platform item_id, no canonical join).*
@@ -78,3 +78,16 @@ Cross-vault fusion by name / SKU match:
 - **Category:** [[Category - CANOLA]]
 - **TIER:** [[Tier - Premium]]
 - **Platforms:** [[Platform - amazon]] · [[Platform - flipkart]] · [[Platform - zepto]] · [[Platform - blinkit]] · [[Platform - bigbasket]]
+
+## Factory lens (Jivamart manufacturing / supply)
+> Where this product's SAP item code(s) appear in the JIVO_MART factory (`ji.jivo.in`) — gate, traceability, QC, dispatch. Source: `factory/`.
+
+**`FG0000004`** — referenced by factory records:
+- **1 oitm:** [[oitm-FG0000004]]
+- **582 boxes:** [[box-112501]] · [[box-112502]] · [[box-112503]] … +579 more (tag `bridge/FG0000004`)
+- **13 pallets:** [[pal-1023]] · [[pal-2315]] · [[pal-2359]] … +10 more (tag `bridge/FG0000004`)
+- **4 boxes:** [[barcode__dispatch__reports__boxes-151980]] · [[barcode__dispatch__reports__boxes-151981]] · [[barcode__dispatch__reports__boxes-40772]] … +1 more (tag `bridge/FG0000004`)
+
+**`FG0000118`** — referenced by factory records:
+- **1 oitm:** [[oitm-FG0000118]]
+

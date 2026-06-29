@@ -223,3 +223,9 @@ JIVO SKUs the bridge could **not** map to an ecom listing (9 total) — no produ
 
 ## Vault notes
 - [[SESSION-MEMORY]] — JIVO vault session / handoff memory
+
+## Factory pillar — Jivamart (JIVO_MART)
+The 4th data pillar: a lossless capture of the `ji.jivo.in` factory app for **Jivamart** — gate, vehicles, quality control, GRPO, barcode traceability, dispatch, and SAP item master (47,550 notes). Bridged to products above by SAP item code (FG####) — see each product's **Factory lens**.
+
+- [[factory/_HOME|Factory — Home (Jivamart)]]
+

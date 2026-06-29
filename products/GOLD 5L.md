@@ -37,15 +37,15 @@ Up: [[Home]]
 | Bridge class | core (priced) |
 
 ## Competitor-price lens
-*Per platform — JIVO ref/floor vs latest live competitor price (pricematch, latest = 2026-06-28).*
+*Per platform — JIVO ref/floor vs latest live competitor price (pricematch, latest = 2026-06-29).*
 
 | Platform | Ref/Floor ₹ | Live ₹ | Diff % | Violation | Regime | Latest |
 |---|---|---|---|---|---|---|
-| [[Platform - amazon\|amazon]] | 939 | 939 | 0 | 🟦 MATCH | SVD | 2026-06-28 |
-| [[Platform - amazon\|amazon-fresh]] | 939 | 939 | 0 | 🟦 MATCH | SVD | 2026-06-28 |
-| [[Platform - amazon\|amazon-now]] | 939 | 939 | 0 | 🟦 MATCH | SVD | 2026-06-28 |
-| [[Platform - flipkart\|flipkart]] | 939 | — | — | ⚪ OOS | SVD | 2026-06-28 |
-| [[Platform - zepto\|zepto]] | 939 | — | — | ⚪ OOS | SVD | 2026-06-28 |
+| [[Platform - amazon\|amazon]] | 989 | 939 | -5.06 | 🟢 BELOW | BAU | 2026-06-29 |
+| [[Platform - amazon\|amazon-fresh]] | 989 | 939 | -5.06 | 🟢 BELOW | BAU | 2026-06-29 |
+| [[Platform - amazon\|amazon-now]] | 989 | 939 | -5.06 | 🟢 BELOW | BAU | 2026-06-29 |
+| [[Platform - flipkart\|flipkart]] | 989 | — | — | ⚪ OOS | BAU | 2026-06-29 |
+| [[Platform - zepto\|zepto]] | 989 | — | — | ⚪ OOS | BAU | 2026-06-29 |
 
 ## JIVO lens
 *TIER-LEVEL (Commodity) 2026 sell-through from target-history — shared across all Commodity products, NOT product-specific (JIVO rows key on platform item_id, no canonical join).*
@@ -69,3 +69,12 @@ Cross-vault fusion by name / SKU match:
 - **Category:** [[Category - BLENDED]]
 - **TIER:** [[Tier - Commodity]]
 - **Platforms:** [[Platform - amazon]] · [[Platform - flipkart]] · [[Platform - zepto]]
+
+## Factory lens (Jivamart manufacturing / supply)
+> Where this product's SAP item code(s) appear in the JIVO_MART factory (`ji.jivo.in`) — gate, traceability, QC, dispatch. Source: `factory/`.
+
+**`FG0000128`** — referenced by factory records:
+- **1 oitm:** [[oitm-FG0000128]]
+- **138 boxes:** [[box-38065]] · [[box-38072]] · [[box-38073]] … +135 more (tag `bridge/FG0000128`)
+- **2 pallets:** [[pal-835]] · [[pal-846]]
+
