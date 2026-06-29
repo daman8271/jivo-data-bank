@@ -8,12 +8,13 @@ and **[`RUNBOOK.md`](RUNBOOK.md)** for the operational commands.
 
 ## The core idea
 
-> Two independent systems describe the same products but **share no common key** — the JIVO app
-> keys by SAP code (`sku-FG0000032`), the price scraper keys by name-slug
-> (`canola-…-1l`). This repo is the **fusion layer** that bridges them. It does so **without
-> touching the source data**: both vaults are copied in **verbatim**, and a connection layer is
-> **appended** on top. Nothing is summarised, rewritten, or dropped — so the bank is lossless by
-> construction and every claim is traceable back to a source note.
+> **Three** independent systems describe JIVO's products but **share no common key** — the JIVO
+> e-com app keys by SAP code (`sku-FG0000032`), the price scraper keys by name-slug
+> (`canola-…-1l`), and the **factory app** keys by SAP item code (`FG0000032`). This repo is the
+> **fusion layer** that bridges them. It does so **without touching the source data**: all three
+> vaults are copied in **verbatim**, and a connection layer is **appended** on top. Nothing is
+> summarised, rewritten, or dropped — so the bank is lossless by construction and every claim is
+> traceable back to a source note.
 
 ---
 
@@ -22,11 +23,14 @@ and **[`RUNBOOK.md`](RUNBOOK.md)** for the operational commands.
 | Tree | What it is | Origin | Edit? |
 |---|---|---|---|
 | **`jivo/`** | The JIVO app vault — 34,750 notes (~1.31M rows): SKUs, POs, dashboards, taxonomy, vendors, months | verbatim copy of `/root/jivo-intel/vault` | **never** (source) |
-| **`ecom/`** | The competitor-price vault — 2,141 notes: per-SKU price-match history, platforms, daily/weekly/monthly runs | verbatim copy of `/opt/ecom-intel/vault` | **never** (source) |
-| **`products/` · `hubs/` · `Home.md`** | The fusion layer — 153 product nodes + 30 hubs + the map of content | **generated** by `bin/combined_backbone.py` | **never** (regenerated every refresh) |
+| **`ecom/`** | The competitor-price vault — 2,293 notes: per-SKU price-match history, platforms, daily/weekly/monthly runs | verbatim copy of `/opt/ecom-intel/vault` | **never** (source) |
+| **`factory/`** | The JIVO factory (Jivamart / `JIVO_MART`) vault — 47,549 notes: gate, vehicles, drivers, QC, GRPO, barcode traceability (boxes/pallets/scans), dispatch, SAP item master — one note per record, FK-linked | verbatim copy of `/root/jivo-factory-intel/vault` (refreshed daily, see [`RUNBOOK.md`](RUNBOOK.md)) | **never** (source) |
+| **`products/` · `hubs/` · `Home.md`** | The fusion layer — 151 product nodes (each with a **Factory lens**) + 30 hubs + the map of content | **generated** by `bin/combined_backbone.py` + `bin/factory_pillar.py` + `bin/combined_identity.py` | **never** (regenerated every refresh) |
 
-`jivo/` and `ecom/` are the **source of truth**; the fusion layer is a pure function of them. The
-fusion is rebuildable; the sources are not — they come from upstream extracts.
+`jivo/`, `ecom/`, and `factory/` are the **source of truth**; the fusion layer is a pure function of
+them. The fusion is rebuildable; the sources are not — they come from upstream extracts. **The
+factory pillar bridges to product nodes by SAP item code (`FG####`)** — a third lens (manufacturing /
+supply) beside the competitor-price (`ecom/`) and JIVO-volume (`jivo/`) lenses.
 
 ---
 
@@ -35,7 +39,7 @@ fusion is rebuildable; the sources are not — they come from upstream extracts.
 Orchestrated by `bin/daily_rebuild.sh` (single-flight `flock`), a deterministic **full REPLACE**:
 
 ```
- 1. CLEAN MIRROR        delete copied jivo/ + ecom/ so upstream deletions propagate (replace, not merge)
+ 1. CLEAN MIRROR        delete copied jivo/ + ecom/ + factory/ so upstream deletions propagate (replace, not merge)
         │
  2. combined_migrate.py copy both source vaults in VERBATIM; sha256 per-file + aggregate proof
         │                 → jivo/  ecom/   (dest bytes EXCEED source by the appended layer — by design)
@@ -46,8 +50,12 @@ Orchestrated by `bin/daily_rebuild.sh` (single-flight `flock`), a deterministic 
  4. combined_backbone.py       regenerate products/ (153) + hubs/ (30) + Home.md + the deterministic
         │                        "## Related" link layer + .manifest.json (the zero-loss proof)
         ▼
- 4b.factory_pillar.py          copy factory/ verbatim + merge sha256 proof + factory->product SAP lens
-        │
+ 4b.factory_pillar.py          copy factory/ verbatim (sha256 proof merged into the manifest) + append a
+        │                        "## Factory lens" to every product whose FG#### SAP code appears in factory data
+        ▼
+ 4c.combined_identity.py       mint/stamp OUR stable internal product IDs (JID) + the JID↔SAP↔canonical
+        │                        crosswalk (identity/REGISTRY.md) + the duplicate-identity conflict scan
+        ▼
  5. verify_databank.py  FAIL-CLOSED GATE — must pass ALL of:
         │                 · zero-loss (no altered/truncated/missing/extra files)
         │                 · structure (10 Platform + 3 Tier hubs, ≥1 Category hub, Home.md present)
@@ -93,8 +101,9 @@ original bytes are an **exact byte-prefix** of its copy here (`n_altered = n_tru
 missing, nothing extra), verified per file via sha256. The verifier (`bin/verify_databank.py`) gates
 on this every build and exits nonzero on any violation.
 
-Current proof (2026-06-27 snapshot): JIVO 34,750 notes + ecom 2,141 = **36,891 dest notes**,
-`zero_loss_ok: true`.
+Current proof: JIVO 34,750 + ecom 2,293 + factory 47,549 = **84,593 dest notes** across **3 pillars**,
+`zero_loss_ok: true`. (The factory copy is an EXACT byte match — no appended layer — since the
+factory→product bridge lives on the generated product nodes, not the factory source notes.)
 
 ---
 
@@ -114,13 +123,19 @@ jivo-data-bank/
 │
 ├── jivo/                    SOURCE — verbatim JIVO app vault (34,750 notes)        [never edit]
 │   └── skus/ platforms/ taxonomy/ vendors/ pos/ locations/ months/ dashboards/ data/ + SESSION-MEMORY.md
-├── ecom/                    SOURCE — verbatim ecom price vault (2,141 notes)       [never edit]
+├── ecom/                    SOURCE — verbatim ecom price vault (2,293 notes)       [never edit]
 │   └── skus/ platforms/ pricematch/ locations/ daily/ weekly/ monthly/ analysis/ runs/ + VAULT-SPEC.md
+├── factory/                 SOURCE — verbatim factory (Jivamart) vault (47,549 notes, refreshed daily)  [never edit]
+│   └── vehicle-management__*/ gate-core__*/ barcode__*/ quality-control__*/ grpo__*/ … + _HOME.md _bridge.json
+│
+├── identity/                JID identity layer — REGISTRY.md + registry.json (stable internal product IDs)  [generated]
 │
 ├── bin/                     the toolchain (build into /opt/ecom-intel/combined-vault, then rsync here)
 │   ├── combined_migrate.py     lossless copy + sha256 proof
 │   ├── combined_inject_links.py semantic link injection from .links/
 │   ├── combined_backbone.py    products/ + hubs/ + Home.md + .manifest.json
+│   ├── factory_pillar.py       copy factory/ + merge zero-loss proof + factory→product SAP lens
+│   ├── combined_identity.py    mint stable internal product IDs (JID) + identity/REGISTRY.md
 │   ├── verify_databank.py      fail-closed gates (zero-loss · structure · baseline · links)
 │   ├── daily_rebuild.sh        the orchestrator (steps 1–8 above)
 │   ├── weekly_semantic.sh      the expensive weekly link-cache regeneration

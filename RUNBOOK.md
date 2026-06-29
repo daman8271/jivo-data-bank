@@ -49,6 +49,7 @@ A run log is appended to `bin/daily_rebuild.log` (git-ignored).
 | Source | Cadence | How |
 |---|---|---|
 | **Ecom price vault** (`/opt/ecom-intel/vault`) | **Daily, automatic** | existing ecom-intel scrape crons |
+| **Factory vault** (`/root/jivo-factory-intel/vault`) | **Daily, automatic** | `factory_refresh.sh` @ 05:30 IST (rotating-auth → capture → render); self-sustaining auth, see `/root/jivo-factory-intel/REFRESH-RUNBOOK.md` |
 | **JIVO app vault** (`/root/jivo-intel/vault`) | **Periodic, owner-driven** | needs a re-auth + re-pull (see below) |
 | **Semantic link fan-out** (`.links/domain-*.json`) | **Weekly / on-demand** | expensive agent pass (see below) |
 
@@ -76,19 +77,23 @@ content has drifted enough to warrant new semantic links, then run the daily reb
 
 ---
 
-## Scheduling (cron-ready, NOT installed)
+## Scheduling (INSTALLED)
 
-The script is single-flight locked and idempotent. Suggested schedule — run **after**
-the ecom scrape crons land the day's data (those land ~10:00/15:00 IST). NOT installed
-by this repo; add it yourself when ready:
+The daily pipeline is installed in crontab (IST), single-flight locked and idempotent:
 
 ```cron
-# JIVO Data Bank — daily deterministic rebuild + fail-closed commit (after ecom crons)
-30 16 * * *  /root/jivo-data-bank/bin/daily_rebuild.sh >> /root/jivo-data-bank/bin/daily_rebuild.log 2>&1
+# 05:30 — refresh the factory (Jivamart) source vault (rotating-auth → capture → render, full REPLACE)
+30 5 * * *  /root/jivo-factory-intel/bin/factory_refresh.sh >> /root/jivo-factory-intel/daily.log 2>&1
+# 06:00 — JIVO Data Bank: rebuild (jivo+ecom+factory) → fail-closed verify → commit → push → Telegram
+0  6 * * *  /root/jivo-data-bank/bin/run_daily.sh >> /var/log/jivo-data-bank/cron.log 2>&1
 ```
 
+`run_daily.sh` wraps `daily_rebuild.sh` (the fail-closed accuracy gate) + `push_both.sh` (auto-pushes
+the verified commit — cron-push is owner-sanctioned) + `notify.sh` (Telegram heartbeat/alert). The
+05:30 factory refresh runs **first** so the 06:00 rebuild fuses fresh factory data.
+
 Environment overrides (all optional): `JDB_REPO`, `JDB_COMBINED`, `JDB_GEN_DIR`,
-`JDB_JIVO_SRC`, `JDB_ECOM_SRC`, `JDB_SEMANTIC` (`auto`|`yes`|`no`), `JDB_PYTHON`.
+`JDB_JIVO_SRC`, `JDB_ECOM_SRC`, `JDB_FACTORY_SRC`, `JDB_SEMANTIC` (`auto`|`yes`|`no`), `JDB_PYTHON`.
 
 > Note: `combined_migrate.py` / `combined_backbone.py` build into the hard-coded path
 > `/opt/ecom-intel/combined-vault`, so `JDB_COMBINED` must match it unless those

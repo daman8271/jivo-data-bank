@@ -32,16 +32,18 @@ The deep, adversarially-verified business + data model lives in the **jivo-intel
 
 ---
 
-## 2. Why a bridge is needed (the two systems)
+## 2. Why a bridge is needed (the three systems)
 
-| | JIVO app (`jivo/`) | Ecom price scraper (`ecom/`) |
-|---|---|---|
-| **Knows** | volume, inventory, POs, targets, margins | the live shelf price per platform/pincode |
-| **Keys products by** | SAP code — `sku-FG0000032` | name-slug — `canola-…-1l` (the `canonical_sku`) |
-| **Grain** | tier × platform × month (sell-through) | product × platform × day (price) |
+| | JIVO e-com app (`jivo/`) | Ecom price scraper (`ecom/`) | Factory app (`factory/`) |
+|---|---|---|---|
+| **Knows** | volume, inventory, POs, targets, margins | the live shelf price per platform/pincode | physical movement: gate, QC, goods-receipt, barcode traceability, dispatch, on-hand stock |
+| **Keys products by** | SAP code — `sku-FG0000032` | name-slug — `canola-…-1l` (`canonical_sku`) | SAP item code — `FG0000032` (`item_code`) |
+| **Grain** | tier × platform × month | product × platform × day | per physical record (box, dispatch, inspection, gate entry) |
 
-They share **no ASIN, no SKU, nothing**. Neither system can answer "is my best-selling product
-priced competitively?" alone. This vault joins them.
+They share **no ASIN, no common SKU id** at the surface — but the JIVO app and the factory app both
+key on the **SAP code (`FG####`)**, so that is the natural join between them (the ecom scraper joins
+via the price-match sheet, §3). Neither system alone can answer "is my best-selling, competitively-
+priced product actually flowing through the plant?" This vault joins all three.
 
 ---
 
@@ -103,6 +105,38 @@ JioMart, …, several empty or stale).
 
 ---
 
+## 5b. The factory lens (manufacturing / supply)
+
+The third lens, from the **ji.jivo.in factory app** for **Jivamart (`JIVO_MART`)** — captured **daily**
+and copied verbatim into `factory/` (47,549 notes, one per physical record). Jivamart is JIVO's
+**retail / dispatch arm**: it does **not** manufacture — it receives finished, barcoded cartons from
+Jivo Oil via an intercompany transfer rail, holds them across ~31 warehouses, and runs scan-to-ship
+dispatch. So the factory data is **rich** in fleet, gate, barcode traceability, dispatch, and on-hand
+inventory, and **largely empty** in production/maintenance (those modules are built but unused on the
+retail arm — they live on Jivo Oil).
+
+**The bridge:** the factory keys every item on the **SAP item code (`FG####`)** — the *same* code space
+as the product nodes' `sap_codes`. `factory_pillar.py` appends a **`## Factory lens`** to each product
+whose `FG####` appears in factory data (**71 products** today), linking to the factory records
+(`[[oitm-FG…]]`, `[[box-…]]`, dispatches, …) and tagging the product `bridge/FG####`. The factory
+entity domains (each a folder of FK-linked notes):
+
+| Domain | What | scale |
+|---|---|---|
+| Barcode / traceability | boxes, pallets, scan history, dispatch sessions, intercompany transfers | ~43k records |
+| Vehicle / driver | vehicles, transporters, drivers (masters) | ~700 |
+| Gate | sales-dispatch gate-out, visitor/person entries, raw-material gate-in | ~600 |
+| Dispatch | dispatch plans, docking, bilty / transporter invoices | ~700 |
+| QC / GRPO | arrival-slip inspections, material & service goods-receipts | ~30 |
+| WMS / warehouse | on-hand stock, sales-order backlog, transfers, batch expiry | dashboards |
+| SAP item master (`oitm`) | the `FG####` item dictionary — the bridge keys | 200 |
+
+The full per-page app model (what every page does + the data behind it) lives in
+`/root/jivo-factory-intel/app-model/` (13 sections, 174 pages). The CLI that captures it is
+`jivo-factory-pp-cli` (`/root/printing-press/library/jivo-factory`).
+
+---
+
 ## 6. Gaps & caveats (read before drawing conclusions)
 
 - **JIVO volume is tier-level, not per-product** (§5) — the single most important caveat.
@@ -113,6 +147,12 @@ JioMart, …, several empty or stale).
 - **Top of the value chain absent:** only Primary → Secondary tier sell-through feeds the JIVO lens;
   Wellness → JM Primary is described in the app model but not present as data here.
 - **9 unmatched SKUs** (§3) — surfaced, not dropped.
+- **Factory = Jivamart only, and only the retail arm.** The `factory/` pillar is `JIVO_MART`-scoped
+  (Jivo Oil & Beverages are out of scope). Production / maintenance / WMS-execution are empty for
+  Jivamart **by design** — it's the dispatch arm, not a manufacturer. A few SAP-report endpoints hard-
+  cap (e.g. `dispatch/reports/boxes` at 1000) but their underlying data is captured in full elsewhere.
+- **Factory bridge depth:** only **71 of 151** products carry a Factory lens (those whose `FG####`
+  shows up in Jivamart's box/dispatch data); the rest don't move through the Jivamart plant.
 - **Join landmines** (carried from the source data model): never join on EAN (sci-notation text);
   `amazon_inventory.brand` is dirty (derive brand from the master); `fc_code` ≠ inventory `location`;
   raw PO `status` is dirty — use normalised statuses. Full list in the jivo-intel `datamap`.

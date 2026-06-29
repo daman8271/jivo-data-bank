@@ -8,9 +8,10 @@ This is the manual for actually reading the vault to gather data and make sense 
 
 ## The design in one sentence
 
-> **Each bridged product is one note (`products/<PRODUCT>.md`) carrying both lenses side by side —
-> the per-product competitor price and the (tier-level) JIVO volume — and every related entity is a
-> `[[wikilink]]`, so you navigate by following links the way you'd browse a graph.**
+> **Each bridged product is one note (`products/<PRODUCT>.md`) carrying three lenses side by side —
+> the per-product competitor price, the (tier-level) JIVO volume, and the factory (Jivamart
+> manufacturing / supply) presence — and every related entity is a `[[wikilink]]`, so you navigate by
+> following links the way you'd browse a graph.**
 
 **Open `Home.md` first** (in Obsidian: *Open folder as vault* → this folder). It is the map of
 content: every **tier**, **platform**, and **category** hub, all **153 products**, and the honest
@@ -60,9 +61,15 @@ source note — follow the connection for the time series.
 **2026 sell-through in litres** (Secondary and Primary) for the product's *whole tier*, from
 target-history.
 
+**`## Factory lens`** — **the Jivamart manufacturing/supply view (present on the 71 products whose SAP
+`FG####` appears in factory data).** Lists where the product's SAP item code shows up in the
+`ji.jivo.in` factory — the `[[oitm-FG…]]` item-master note, its `[[box-…]]` barcode cartons, sales
+dispatches, etc. — and tags the product `bridge/FG####`. Follow the links into `factory/` for the raw
+records. Absent on products that don't move through the Jivamart plant.
+
 **`## Connections`** — wikilinks back to the underlying JIVO source note(s) in `jivo/`, the ecom
-source note(s) in `ecom/`, and the category / tier / platform hubs. This is your path from the fused
-summary down to the raw, lossless data.
+source note(s) in `ecom/`, the factory record(s) in `factory/`, and the category / tier / platform
+hubs. This is your path from the fused summary down to the raw, lossless data.
 
 ---
 
@@ -103,6 +110,8 @@ litres table. Use hubs to move from "one product" to "all products like it".
 | The full price time-series for a product | product → Connections → `ecom/pricematch/pm-<NAME>` (the CSV history) |
 | Everything in a tier / category / on a platform | the matching **hub** (`Tier - …` / `Category - …` / `Platform - …`) |
 | A product's raw JIVO app data (POs, inventory, dashboards) | product → Connections → its `jivo/skus/sku-<SAP>` hub, then follow its links |
+| A product's factory presence (boxes, dispatch, item master) | product → **Factory lens** → `[[oitm-FG…]]` / `[[box-…]]`, or search the tag `bridge/FG####` |
+| Everything in the factory (gate, vehicles, QC, barcode, dispatch) | open `factory/_HOME.md` — the per-domain MOC hubs over all 47,549 factory notes |
 | What's *not* covered | `Home.md` → **Gaps / Unmatched** (9 SKUs) + the price-coverage gaps in [DATA-MODEL](DATA-MODEL.md) |
 
 ---
@@ -125,5 +134,5 @@ litres table. Use hubs to move from "one product" to "all products like it".
 - **Per-product vs per-tier** — see the caveat above. It's the single easiest mistake to make here.
 - **Partial price coverage** — 121/153 products and only 5/10 platforms are priced; a blank price
   row means "not yet matched/scraped", not "free". Details in [DATA-MODEL](DATA-MODEL.md).
-- **Don't hand-edit** `products/`, `hubs/`, `Home.md`, `jivo/`, `ecom/` — they're regenerated every
-  refresh. Fix the builders in `bin/` instead.
+- **Don't hand-edit** `products/`, `hubs/`, `Home.md`, `identity/`, `jivo/`, `ecom/`, `factory/` —
+  they're regenerated every refresh. Fix the builders in `bin/` instead.
