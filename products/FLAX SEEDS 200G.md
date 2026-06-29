@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0057
 product: "FLAX SEEDS 200G"
 sap_codes:
   - FG0000179
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0057` |
 | Product | FLAX SEEDS 200G |
 | JIVO SKU / SAP code | `FG0000179` |
 | canonical_sku(s) | `jivo-flax-seeds-raw-alsi-seeds-for-eating-high-in-protein-iron-dietary-fibre-rich-in-essential-nutrients-ideal-for-adding-to-smoothies-salads-yogurt-baking-healthy-snack-option-200g-200ml`, `edsh4zgfwpsuy7rh` |

@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0079
 product: "ROSE FLAVOR 200ML"
 sap_codes:
   - FG0000234
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0079` |
 | Product | ROSE FLAVOR 200ML |
 | JIVO SKU / SAP code | `FG0000234` |
 | canonical_sku(s) | `jivo-healthy-wheatgrass-juice-with-rose-flavor-body-detox-immunity-booster-natural-ingredients-200ml-200ml`, `rose-healthy-wheatgrass-juice-200ml` |

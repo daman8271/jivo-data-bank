@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0109
 product: "PUMPKIN SEEDS 400G"
 sap_codes:
   - FG0000306
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0109` |
 | Product | PUMPKIN SEEDS 400G |
 | JIVO SKU / SAP code | `FG0000306` |
 | canonical_sku(s) | `jivo-raw-pumpkin-seeds-healthy-snack-for-breakfast-high-in-fiber-antioxidants-ideal-for-diets-weight-management-nutritious-superfood-for-daily-wellness-hygienically-packed-400g-400ml`, `edsh5avgyvmtpzec` |

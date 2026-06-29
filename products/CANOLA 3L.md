@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0116
 product: "CANOLA 3L"
 sap_codes:
   - FG0000317
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0116` |
 | Product | CANOLA 3L |
 | JIVO SKU / SAP code | `FG0000317` |
 | canonical_sku(s) | `jivo-canola-cold-pressed-edible-oil-3-litres-cooking-oil-for-daily-use-ideal-for-roasting-frying-baking-all-types-of-cuisines-cold-pressed-oil-for-cooking-3l`, `edoghersuqwaau5s` |

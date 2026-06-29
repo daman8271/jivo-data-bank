@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0145
 product: "JIVO WATER 500 MLS"
 category: "DRINKS"
 tier: OTHER
@@ -19,6 +20,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0145` |
 | Product | JIVO WATER 500 MLS |
 | JIVO SKU / SAP code | — |
 | canonical_sku(s) | `jivo-natural-mineral-water-himalayan-origin-nonro-unprocessed-noncarbonated-additivefree-packaged-water-for-clean-hydration-500-ml-bottle-500ml` |

@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0033
 product: "SANO CANOLA 1L"
 sap_codes:
   - FG0000134
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0033` |
 | Product | SANO CANOLA 1L |
 | JIVO SKU / SAP code | `FG0000134` |
 | canonical_sku(s) | `sano-canola-oil-cooking-oil-for-daily-use-recommended-for-all-types-of-cuisines-ideal-for-conscious-cooking-1-liter-1l`, `edogvh5wwcxqnjhf` |

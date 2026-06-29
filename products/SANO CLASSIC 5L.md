@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0046
 product: "SANO CLASSIC 5L"
 sap_codes:
   - FG0000152
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0046` |
 | Product | SANO CLASSIC 5L |
 | JIVO SKU / SAP code | `FG0000152` |
 | canonical_sku(s) | `sano-classic-olive-oil-5-litre-ideal-for-all-indian-and-western-cuisines-perfect-for-cooking-frying-roasting-grilling-and-baking-versatile-and-healthy-cooking-oil-5l`, `edohagdyvqwt6gng` |

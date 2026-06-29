@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0096
 product: "SODA 750ML"
 sap_codes:
   - FG0000282
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0096` |
 | Product | SODA 750ML |
 | JIVO SKU / SAP code | `FG0000282` |
 | canonical_sku(s) | `jivo-extra-fizzy-soda-750-ml-soda-750ml` |

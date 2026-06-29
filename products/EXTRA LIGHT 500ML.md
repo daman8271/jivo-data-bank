@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0014
 product: "EXTRA LIGHT 500ML"
 sap_codes:
   - FG0000039
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0014` |
 | Product | EXTRA LIGHT 500ML |
 | JIVO SKU / SAP code | `FG0000039` |
 | canonical_sku(s) | `jivo-extra-light-olive-oil-500ml-imported-from-spain-everyday-use-for-cooking-dressings-salad-soups-dips-and-marinades-light-flavorful-high-mufa-rich-in-antioxidants-500ml` |

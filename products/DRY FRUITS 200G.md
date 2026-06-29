@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0099
 product: "DRY FRUITS 200G"
 sap_codes:
   - FG0000291
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0099` |
 | Product | DRY FRUITS 200G |
 | JIVO SKU / SAP code | `FG0000291` |
 | canonical_sku(s) | `jivo-dry-fruits-gift-box-200g-sbs-healthy-gift-hamper-for-every-occasion-diwali-gift-pack-for-family-friends-corporate-and-office-gifts-festive-celebration-combo-pack-200ml` |

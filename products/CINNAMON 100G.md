@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0066
 product: "CINNAMON 100G"
 sap_codes:
   - FG0000198
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0066` |
 | Product | CINNAMON 100G |
 | JIVO SKU / SAP code | `FG0000198` |
 | canonical_sku(s) | `scmh4h8snyfgcykm`, `jivo-organic-cinnamon-sticks-bark-finest-dalchini-sticks-whole-spices-sourced-from-premium-origins-no-artificial-colors-or-preservatives-pack-for-cooking-seasoning-100g-100ml` |

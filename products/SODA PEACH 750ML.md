@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0091
 product: "SODA PEACH 750ML"
 sap_codes:
   - FG0000270
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0091` |
 | Product | SODA PEACH 750ML |
 | JIVO SKU / SAP code | `FG0000270` |
 | canonical_sku(s) | `fizzy-water-flavoured-with-peach-750ml`, `jivo-diet-fizzy-peach-natural-spring-water-peach-750ml-750ml` |

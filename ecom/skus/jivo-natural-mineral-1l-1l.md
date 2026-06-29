@@ -120,4 +120,4 @@ run_id,date_ist,platform,city,pincode,price,mrp,discount_pct,in_stock
 
 ## Related
 <!-- combined-backbone -->
-[[JIVO WATER 1L]] · [[Platform - amazon]]
+[[WATER 1L]] · [[Platform - amazon]]

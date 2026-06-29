@@ -12,7 +12,7 @@ tags:
 
 Up: [[Home]]
 
-**148 matched products listed here.**
+**146 matched products listed here.**
 
 ## 2026 aggregate (target-history)
 - Secondary (L): **1,326,086**  ·  Primary (L): **1,326,086**
@@ -59,7 +59,6 @@ Up: [[Home]]
 - [[CUMIN SEEDS 100G]] — ref ₹75 / live ₹— (⚪ OOS)
 - [[DESI GHEE 1KG]]
 - [[DESI GHEE 500GM]]
-- [[DESI GHEE 500KG]]
 - [[DRY FRUITS 200G]]
 - [[ENERGY DRINK 200ML]]
 - [[EXTRA LIGHT 1+1+1L]]
@@ -95,7 +94,6 @@ Up: [[Home]]
 - [[JIVO POMACE 2L]] — ref ₹869 / live ₹849 (🟢 BELOW)
 - [[JIVO POMACE 5L]] — ref ₹2169 / live ₹2114 (🟢 BELOW)
 - [[JIVO PUNJABI SHIKANJI 160 MLS]] — ref ₹219 / live ₹— (⚪ OOS)
-- [[JIVO WATER 1L]] — ref ₹20 / live ₹— (⚪ OOS)
 - [[JIVO WATER 250ML]] — ref ₹119 / live ₹— (⚪ OOS)
 - [[JIVO WATER 500 MLS]] — ref ₹12 / live ₹— (⚪ OOS)
 - [[JUMP ENERGY DRINK 200ML]]

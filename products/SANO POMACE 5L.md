@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0045
 product: "SANO POMACE 5L"
 sap_codes:
   - FG0000151
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0045` |
 | Product | SANO POMACE 5L |
 | JIVO SKU / SAP code | `FG0000151` |
 | canonical_sku(s) | `sano-pomace-olive-oil-5l-ideal-for-frying-roasting-sauting-rich-neutral-flavour-high-smoke-point-versatile-edible-cooking-oil-for-indian-cuisine-5l`, `edogrsy3tnxgejpj` |

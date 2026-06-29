@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0035
 product: "SANO MUSTARD 1L"
 sap_codes:
   - FG0000136
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0035` |
 | Product | SANO MUSTARD 1L |
 | JIVO SKU / SAP code | `FG0000136` |
 | canonical_sku(s) | `sano-pure-fresh-kachi-ghani-mustard-oil-1-litre-pet-bottle-high-pungency-rich-in-omega3-100-natural-authentic-indian-cooking-oil-boosts-heart-health-1l` |

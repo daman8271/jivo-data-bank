@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0080
 product: "WG MANGO JUICE 200ML"
 sap_codes:
   - FG0000236
@@ -24,6 +25,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0080` |
 | Product | WG MANGO JUICE 200ML |
 | JIVO SKU / SAP code | `FG0000236`, `FG0000262` |
 | canonical_sku(s) | `mango-healthy-wheatgrass-juice-200ml`, `jivo-healthy-wheatgrass-juice-with-mango-flavor-body-detox-immunity-booster-natural-ingredients-200ml-200ml` |

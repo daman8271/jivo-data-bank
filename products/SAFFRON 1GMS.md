@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0125
 product: "SAFFRON 1GMS"
 sap_codes:
   - FG0000367
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0125` |
 | Product | SAFFRON 1GMS |
 | JIVO SKU / SAP code | `FG0000367` |
 | canonical_sku(s) | `jivo-pure-kashmiri-saffron-a-grade-kesar-rich-in-antioxidants-boosts-immunity-skin-glow-overall-wellness-1ml`, `scmhg4hdys45ycaz` |

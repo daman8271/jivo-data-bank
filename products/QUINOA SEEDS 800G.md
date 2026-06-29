@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0129
 product: "QUINOA SEEDS 800G"
 sap_codes:
   - FG0000374
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0129` |
 | Product | QUINOA SEEDS 800G |
 | JIVO SKU / SAP code | `FG0000374` |
 | canonical_sku(s) | `jivo-premium-quinoa-gluten-free-glutenfree-saponin-free-high-protein-fiber-healthy-breakfast-diet-food-for-weight-management-100-wholegrain-cereal-quinoa-jar-800g-800ml` |

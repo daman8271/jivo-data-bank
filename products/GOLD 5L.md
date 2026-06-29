@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0031
 product: "GOLD 5L"
 sap_codes:
   - FG0000128
@@ -25,6 +26,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0031` |
 | Product | GOLD 5L |
 | JIVO SKU / SAP code | `FG0000128` |
 | canonical_sku(s) | `jivo-gold-refined-oil-perfect-blend-of-rice-bran-sunflower-oil-cooking-oil-rich-in-antioxidants-vitamins-pro-lifestyle-5l-family-pack-5l`, `edogrf8rmwnygjpe`, `jivo-gold-refined-oil-perfect-blend-of-rice-bran-sunflower-oil-5l`, `jivo-gold-refined-oil-blend-of-rice-bran-oil-and-sunflower-oil-5l` |

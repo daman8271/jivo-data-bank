@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0004
 product: "EXTRA LIGHT 5L"
 sap_codes:
   - FG0000009
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0004` |
 | Product | EXTRA LIGHT 5L |
 | JIVO SKU / SAP code | `FG0000009` |
 | canonical_sku(s) | `jivo-extra-light-olive-oil-5-litre-tin-imported-from-spain-recommendable-daily-cooking-for-roasting-frying-baking-all-type-of-cuisines-low-saturated-fat-low-saturated-fat-5l`, `edofzfufcqdjhtqf` |

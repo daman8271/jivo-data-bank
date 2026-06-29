@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0018
 product: "EXTRA LIGHT 2L"
 sap_codes:
   - FG0000064
@@ -29,6 +30,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0018` |
 | Product | EXTRA LIGHT 2L |
 | JIVO SKU / SAP code | `FG0000064` |
 | canonical_sku(s) | `jivo-extra-light-olive-oil-2-litre-imported-from-spain-everyday-cooking-dressings-salads-soups-dips-marinades-low-in-saturated-fat-olive-oil-in-convenient-pet-bottle-for-easy-pouring-2l`, `edoft6pr7qmyhgjh`, `jivo-extra-light-olive-oil-2-litre-2l`, `jivo-extra-light-olive-oil-can-2l`, `jivo-extra-light-olive-oil-2l`, `extra-light-olive-oil-antioxidants-rich-light-cooking-medium-for-frying-grilling-2l` |

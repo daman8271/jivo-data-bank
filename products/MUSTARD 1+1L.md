@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0013
 product: "MUSTARD 1+1L"
 sap_codes:
   - FG0000038
@@ -24,6 +25,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0013` |
 | Product | MUSTARD 1+1L |
 | JIVO SKU / SAP code | `FG0000038`, `FG0000275` |
 | canonical_sku(s) | `edoge62hwa7ufxhw`, `jivo-cold-pressed-kachi-ghani-chemical-free-mustard-daily-cooking-oil-1-litre-recommendable-for-roasting-frying-baking-all-type-of-cuisines-2l`, `edohysj8bzygcsbu`, `qwrgemqzxaywvm4m`, `jivo-kachi-ghani-chemical-free-mustard-daily-cooking-oil-1-litre-each-recommendable-for-roasting-frying-baking-all-type-of-cuisines-healthy-cooking-oil-for-daily-use-1l` |

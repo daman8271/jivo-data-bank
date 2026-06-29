@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0063
 product: "BLACK CARDAMOM 100G"
 sap_codes:
   - FG0000195
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0063` |
 | Product | BLACK CARDAMOM 100G |
 | JIVO SKU / SAP code | `FG0000195` |
 | canonical_sku(s) | `jivo-black-cardamom-badi-elaichi-sabut-moti-kali-elaichi-whole-organic-black-cardamom-perfect-for-cooking-baking-seasoning-adds-flavor-to-dishes-no-artificial-colours-or-preservatives-100g-100ml`, `scmh4h8hzj8ahq9g` |

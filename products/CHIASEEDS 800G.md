@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0056
 product: "CHIASEEDS 800G"
 sap_codes:
   - FG0000167
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0056` |
 | Product | CHIASEEDS 800G |
 | JIVO SKU / SAP code | `FG0000167` |
 | canonical_sku(s) | `edsh3fjv4pejdfan`, `jivo-premium-raw-chia-seeds-i-eating-seeds-for-weight-loss-management-rich-in-calcium-protein-fiber-omega-3-non-gmo-and-fibre-reusable-antioxidant-healthy-breakfast-snack-800g-800ml` |

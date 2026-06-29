@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0070
 product: "SANO HONEY 500G"
 sap_codes:
   - FG0000217
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0070` |
 | Product | SANO HONEY 500G |
 | JIVO SKU / SAP code | `FG0000217` |
 | canonical_sku(s) | `hnygqtnabyzxtf6e`, `sano-pure-honey-500g-100-natural-organic-unadulterated-no-sugar-adulteration-rich-in-antioxidants-healthy-sweetener-for-tea-desserts-syed-500g-500ml`, `hnyhyrsyjpmyegux` |

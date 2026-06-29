@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0110
 product: "CLOVE 100G"
 sap_codes:
   - FG0000308
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0110` |
 | Product | CLOVE 100G |
 | JIVO SKU / SAP code | `FG0000308` |
 | canonical_sku(s) | `jivo-whole-clove-100-gm-no-artificial-colours-or-preservatives-100ml`, `scmhckzekpqwve5v` |

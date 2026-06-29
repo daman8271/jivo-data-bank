@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0017
 product: "SUNFLOWER 5L"
 sap_codes:
   - FG0000053
@@ -28,6 +29,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0017` |
 | Product | SUNFLOWER 5L |
 | JIVO SKU / SAP code | `FG0000053`, `FG0000059` |
 | canonical_sku(s) | `jivo-cold-pressed-unrefined-sunflower-oil-5-litres-chemicalfree-oil-for-cooking-ideal-for-roasting-frying-baking-and-all-types-of-cuisines-5l`, `edogdvfwgprvttms`, `jivo-cold-pressed-unrefined-sunflower-oil-5-litres-5l`, `jivo-sunflower-cold-pressed-oil-healthy-cooking-oil-5l`, `sunflower-oil-cold-pressed-fortified-with-vitamins-a-d-chemical-free-5l` |

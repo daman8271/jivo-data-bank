@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0144
 product: "JIVO PUNJABI SHIKANJI 160 MLS"
 category: "DRINKS"
 tier: OTHER
@@ -19,6 +20,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0144` |
 | Product | JIVO PUNJABI SHIKANJI 160 MLS |
 | JIVO SKU / SAP code | — |
 | canonical_sku(s) | `jivo-punjabi-shikanji-wheatgrass-juice-nimbu-shikanji-masala-drink-natural-summer-refreshment-160ml-160ml` |

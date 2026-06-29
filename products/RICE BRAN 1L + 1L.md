@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0146
 product: "RICE BRAN 1L + 1L"
 category: "RICE BRAN"
 tier: COMMODITY
@@ -19,6 +20,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0146` |
 | Product | RICE BRAN 1L + 1L |
 | JIVO SKU / SAP code | — |
 | canonical_sku(s) | `edohbh2fp9es6gga` |

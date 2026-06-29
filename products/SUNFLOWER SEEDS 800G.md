@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0106
 product: "SUNFLOWER SEEDS 800G"
 sap_codes:
   - FG0000301
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0106` |
 | Product | SUNFLOWER SEEDS 800G |
 | JIVO SKU / SAP code | `FG0000301` |
 | canonical_sku(s) | `jivo-sunflower-seeds-raw-natural-sunflower-seeds-for-healthy-snacking-high-in-protein-fiber-antioxidants-ideal-for-weight-management-diets-clean-eating-glutenfree-nongmo-800g-800ml`, `edsh63q3yyywhmuh` |

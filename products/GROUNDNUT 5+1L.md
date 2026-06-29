@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0135
 product: "GROUNDNUT 5+1L"
 sap_codes:
   - FG0000399
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0135` |
 | Product | GROUNDNUT 5+1L |
 | JIVO SKU / SAP code | `FG0000399` |
 | canonical_sku(s) | `edogw6r828yya8xa`, `jivo-groundnut-oil-5-1-litre-cold-pressed-groundnut-oil-cold-pressed-oil-peanut-oil-ground-nut-oil-natural-cooking-oil-chemical-free-pack-6l`, `jivo-cold-pressed-groundnut-peanut-oil-51-litre-6l` |

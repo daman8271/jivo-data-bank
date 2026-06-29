@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0147
 product: "SO OLIVE 1L + 1L"
 category: "OLIVE"
 tier: PREMIUM
@@ -19,6 +20,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0147` |
 | Product | SO OLIVE 1L + 1L |
 | JIVO SKU / SAP code | — |
 | canonical_sku(s) | `edohbh2urwdmhpxc` |

@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0053
 product: "EXTRA VIRGIN 200ML"
 sap_codes:
   - FG0000164
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0053` |
 | Product | EXTRA VIRGIN 200ML |
 | JIVO SKU / SAP code | `FG0000164` |
 | canonical_sku(s) | `jivo-extra-virgin-olive-oil-200-ml-pet-bottle-imported-from-spain-contains-vitamin-e-low-in-saturated-fat-natural-cooking-oil-ideal-use-for-dressings-salad-and-soups-dips-marinades-200ml`, `edohgpf2zq9rqpb3` |

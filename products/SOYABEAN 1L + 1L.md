@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0148
 product: "SOYABEAN 1L + 1L"
 category: "SOYABEAN"
 tier: COMMODITY
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0148` |
 | Product | SOYABEAN 1L + 1L |
 | JIVO SKU / SAP code | — |
 | canonical_sku(s) | `jivo-soyabean-cooking-oil-1-litre-bottles-pack-of-2-litres-ideal-for-roasting-frying-and-baking-healthy-cooking-oil-for-daily-use-pack-of-2-1l`, `edoggpfz2fcj6uws` |

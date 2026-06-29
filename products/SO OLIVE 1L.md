@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0074
 product: "SO OLIVE 1L"
 sap_codes:
   - FG0000228
@@ -25,6 +26,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0074` |
 | Product | SO OLIVE 1L |
 | JIVO SKU / SAP code | `FG0000228` |
 | canonical_sku(s) | `jivo-so-olive-oil-1-litre-blend-of-rice-bran-olive-oil-nutritious-cooking-oil-for-a-healthy-lifestyle-ideal-for-daily-use-edible-oil-1l`, `edoh5he7fczjwtaw`, `jivo-soolive-oil-1l-1l`, `jivo-soolive-blend-of-rice-bran-and-olive-oil-1l` |

@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0134
 product: "POMACE 3L"
 sap_codes:
   - FG0000392
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0134` |
 | Product | POMACE 3L |
 | JIVO SKU / SAP code | `FG0000392` |
 | canonical_sku(s) | `jivo-everyday-cooking-pomace-olive-oil-3-litre-imported-from-spain-rich-in-mufa-low-in-saturated-fat-ideal-for-frying-roasting-baking-cooking-oil-for-daily-use-3l`, `edogfyrutbcs6yhw` |

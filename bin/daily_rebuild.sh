@@ -52,14 +52,15 @@ log "=== daily_rebuild start (REPO=$REPO COMBINED=$COMBINED SEMANTIC=$RUN_SEMANT
 # ---- 0. preflight: every prerequisite must exist ----------------------------
 for p in "$JIVO_SRC" "$ECOM_SRC" "$FACTORY_SRC" \
          "$GEN_DIR/combined_migrate.py" "$GEN_DIR/combined_backbone.py" \
-         "$GEN_DIR/factory_pillar.py" \
+         "$GEN_DIR/factory_pillar.py" "$GEN_DIR/combined_identity.py" \
          "$REPO/bin/verify_databank.py" "$REPO/.git"; do
     [ -e "$p" ] || { alert "missing prerequisite: $p"; exit 2; }
 done
 
 # Keep the repo's generator snapshots in lock-step with what actually built it.
 cp -f "$GEN_DIR"/combined_migrate.py "$GEN_DIR"/combined_backbone.py \
-      "$GEN_DIR"/combined_inject_links.py "$GEN_DIR"/factory_pillar.py "$REPO/bin/" 2>/dev/null || true
+      "$GEN_DIR"/combined_inject_links.py "$GEN_DIR"/factory_pillar.py \
+      "$GEN_DIR"/combined_identity.py "$GEN_DIR"/name_overrides.json "$REPO/bin/" 2>/dev/null || true
 
 # ---- 1. deterministic clean mirror ------------------------------------------
 # Wipe the copied source subtrees so DELETIONS in the source propagate (true
@@ -95,6 +96,14 @@ log "step 4: combined_backbone.py (backbone + deterministic ## Related + manifes
 log "step 4b: factory_pillar.py (4th pillar: factory/ + factory->product SAP bridge)"
 "$PY" "$GEN_DIR/factory_pillar.py" >>"$LOG" 2>&1 \
     || { alert "factory_pillar.py FAILED (4th pillar)"; exit 5; }
+
+# ---- 4c. identity layer: mint/stamp OUR stable internal product IDs (JIDs) ------
+# Append-only opaque serial per product (jid_registry.json survives the REPLACE),
+# the JID<->SAP<->canonical crosswalk (identity/REGISTRY.md), and the duplicate-
+# identity conflict scan. Runs AFTER the factory lens so JIDs sit atop every page.
+log "step 4c: combined_identity.py (stable internal product IDs + identity/REGISTRY.md)"
+"$PY" "$GEN_DIR/combined_identity.py" >>"$LOG" 2>&1 \
+    || { alert "combined_identity.py FAILED (JID identity layer)"; exit 5; }
 
 # ---- 5. VERIFY the freshly-built vault BEFORE touching the repo --------------
 # Fail-closed: if zero-loss, structure, regression, or link integrity fails, we

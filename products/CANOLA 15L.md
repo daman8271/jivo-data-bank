@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0006
 product: "CANOLA 15L"
 sap_codes:
   - FG0000015
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0006` |
 | Product | CANOLA 15L |
 | JIVO SKU / SAP code | `FG0000015` |
 | canonical_sku(s) | `jivo-canola-cold-press-oilcooking-oil-15-ltr-cooking-oil-for-daily-use-recommended-by-indian-medical-association-15l`, `jivo-refine-canola-oil-tin-15l` |

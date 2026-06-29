@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0120
 product: "YELLOW MUSTARD 1L"
 sap_codes:
   - FG0000328
@@ -24,6 +25,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0120` |
 | Product | YELLOW MUSTARD 1L |
 | JIVO SKU / SAP code | `FG0000328`, `FG0000329` |
 | canonical_sku(s) | `jivo-first-pressed-yellow-mustard-oil-1-litre-pili-sarson-oil-for-cooking-chemicalfree-ideal-for-roasting-frying-baking-omega3-pufa-tocopherols-added-vitamins-a-d-for-diverse-cuisines-1l`, `edohdgdyauqswvqv`, `jivo-first-pressed-yellow-mustard-oil-1-litre-1l` |

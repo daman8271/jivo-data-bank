@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0151
 product: "YELLOW MUSTARD 1L + 1L"
 category: "MUSTARD"
 tier: PREMIUM
@@ -19,6 +20,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0151` |
 | Product | YELLOW MUSTARD 1L + 1L |
 | JIVO SKU / SAP code | — |
 | canonical_sku(s) | `edohnfqudf32jhzr` |

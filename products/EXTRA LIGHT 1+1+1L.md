@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0112
 product: "EXTRA LIGHT 1+1+1L"
 sap_codes:
   - FG0000310
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0112` |
 | Product | EXTRA LIGHT 1+1+1L |
 | JIVO SKU / SAP code | `FG0000310` |
 | canonical_sku(s) | `edoge5wygyxcrrmf`, `jivo-extra-light-olive-oil-3-litre-imported-from-spain-recommended-for-daily-cooking-roasting-frying-baking-all-types-of-cuisines-low-in-3l`, `qwrgempjjgdryacc`, `edohyrpctwgrkwku` |

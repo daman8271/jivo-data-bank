@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0038
 product: "SANO SUNFLOWER 5L"
 sap_codes:
   - FG0000139
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0038` |
 | Product | SANO SUNFLOWER 5L |
 | JIVO SKU / SAP code | `FG0000139` |
 | canonical_sku(s) | `sano-sunflower-oil-5-ltr-pet-bottle-pure-nutrient-rich-cooking-oil-with-high-smoke-point-ideal-for-frying-sauting-and-baking-all-type-of-cuisines-5l` |

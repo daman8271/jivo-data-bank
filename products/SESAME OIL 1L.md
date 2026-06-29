@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0130
 product: "SESAME OIL 1L"
 sap_codes:
   - FG0000376
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0130` |
 | Product | SESAME OIL 1L |
 | JIVO SKU / SAP code | `FG0000376` |
 | canonical_sku(s) | `jivo-first-pressed-sesame-oil-1l-bottle-gingelly-oil-contains-mufa-and-omega6-pufa-natural-antioxidants-ideal-for-cooking-1l`, `edohdgcrehez8kpz` |

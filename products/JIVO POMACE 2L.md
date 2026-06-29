@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0029
 product: "JIVO POMACE 2L"
 sap_codes:
   - FG0000114
@@ -27,6 +28,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0029` |
 | Product | JIVO POMACE 2L |
 | JIVO SKU / SAP code | `FG0000114` |
 | canonical_sku(s) | `jivo-everyday-cooking-pomace-olive-oil-2-litre-imported-from-spain-rich-in-mufa-low-in-saturated-fat-ideal-for-frying-roasting-baking-cooking-oil-for-daily-use-2l`, `edogyzhgusaddg9b`, `jivo-daily-pomace-olive-oil-2l`, `pomace-olive-oil-2l` |

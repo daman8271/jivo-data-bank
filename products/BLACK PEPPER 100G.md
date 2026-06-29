@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0064
 product: "BLACK PEPPER 100G"
 sap_codes:
   - FG0000196
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0064` |
 | Product | BLACK PEPPER 100G |
 | JIVO SKU / SAP code | `FG0000196` |
 | canonical_sku(s) | `jivo-black-pepper-whole-natural-peppercorns-premium-kali-mirch-perfect-for-cooking-baking-seasoning-no-artificial-colors-preservatives-or-taste-enhancers-pepper-100g-100ml`, `scmh2hmc2u7pqmnv` |

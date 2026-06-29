@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0030
 product: "COCONUT 1L"
 sap_codes:
   - FG0000116
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0030` |
 | Product | COCONUT 1L |
 | JIVO SKU / SAP code | `FG0000116` |
 | canonical_sku(s) | `jivo-pure-extra-virgin-coconut-oil-1-litre-nourishing-oil-bottle-for-skin-hair-growth-baby-massage-good-for-salad-dressing-zero-cholesterol-and-trans-fat-keto-diet-cooking-1l`, `edogpm99cpxseuyn`, `jivo-pure-extra-virgin-coconut-oil-1-litre-1l` |

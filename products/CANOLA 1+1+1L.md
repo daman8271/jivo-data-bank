@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0016
 product: "CANOLA 1+1+1L"
 sap_codes:
   - FG0000043
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0016` |
 | Product | CANOLA 1+1+1L |
 | JIVO SKU / SAP code | `FG0000043` |
 | canonical_sku(s) | `edoghersuqwaau5s`, `jivo-canola-cold-press-edible-oil-ideal-for-roasting-frying-baking-all-type-of-cuisines-everyday-cooking-oil-for-daily-use-pack-of-3-1-litre-e-3l`, `jivo-canola-oil1-litre-cold-press-canola-cold-press-edible-oil-pack-of-2-1-litre-each-1l`, `qwrgg9shsxhqyqdk`, `jivo-canola-cold-press-edible-oil-ideal-for-roasting-frying-baking-all-type-of-cuisines-everyday-cooking-oil-for-daily-use-pack-of-3-1-litre-e-1l`, `jivo-canola-oil1-litre-cold-press-canola-cold-press-edible-oil-pack-of-2-1-litre-each-3l` |

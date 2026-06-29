@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0067
 product: "CUMIN SEEDS 100G"
 sap_codes:
   - FG0000199
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0067` |
 | Product | CUMIN SEEDS 100G |
 | JIVO SKU / SAP code | `FG0000199` |
 | canonical_sku(s) | `jivo-cumin-seeds-fresh-aromatic-natural-spice-for-cooking-no-added-colours-or-preservatives-perfect-for-baking-seasoning-and-flavoring-glutenfree-whole-jeera-seeds-100g-100ml`, `scmh3fhauzysnuab` |

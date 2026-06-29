@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0008
 product: "CANOLA 1L POUCH"
 sap_codes:
   - FG0000021
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0008` |
 | Product | CANOLA 1L POUCH |
 | JIVO SKU / SAP code | `FG0000021` |
 | canonical_sku(s) | `jivo-canola-oil1-litre-refined-pouch-cooking-oil-for-daily-use-recommended-by-indian-medical-association-1l`, `canola-omega3-rich-cooking-oil-1-l-1l` |

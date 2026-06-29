@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0126
 product: "ROSEMARY LEAVES 150G"
 sap_codes:
   - FG0000371
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0126` |
 | Product | ROSEMARY LEAVES 150G |
 | JIVO SKU / SAP code | `FG0000371` |
 | canonical_sku(s) | `jivo-rosemary-leaves-whole-natural-no-preservatives-or-additives-ideal-for-hair-growth-herbal-tea-seasoning-and-cooking-salvia-rosmarinus-150ml` |

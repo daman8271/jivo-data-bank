@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0027
 product: "SOYABEAN 1L POUCH"
 sap_codes:
   - FG0000109
@@ -24,6 +25,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0027` |
 | Product | SOYABEAN 1L POUCH |
 | JIVO SKU / SAP code | `FG0000109`, `FG0000194` |
 | canonical_sku(s) | `jivo-soyabean-oil-pouch-1-litre-edible-cooking-oil-for-daily-use-ideal-for-roasting-frying-and-baking-high-in-omega3-and-low-in-saturated-fat-1l`, `jivo-soybean-oil-soyabean-oil-pouch-1l` |

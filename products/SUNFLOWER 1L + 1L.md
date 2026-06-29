@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0150
 product: "SUNFLOWER 1L + 1L"
 category: "SUNFLOWER"
 tier: COMMODITY
@@ -19,6 +20,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0150` |
 | Product | SUNFLOWER 1L + 1L |
 | JIVO SKU / SAP code | — |
 | canonical_sku(s) | `jivo-cold-pressed-chemical-free-sunflower-oil-1-litre-ideal-for-roasting-frying-baking-all-types-of-cuisines-healthy-cooking-oil-for-daily-use-pack-of-2-litres-2l` |

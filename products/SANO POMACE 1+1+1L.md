@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0122
 product: "SANO POMACE 1+1+1L"
 sap_codes:
   - FG0000340
@@ -22,6 +23,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0122` |
 | Product | SANO POMACE 1+1+1L |
 | JIVO SKU / SAP code | `FG0000340`, `FG0000327` |
 | canonical_sku(s) | `edogtkkpp3twkysp` |

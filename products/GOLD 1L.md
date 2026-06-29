@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0043
 product: "GOLD 1L"
 sap_codes:
   - FG0000149
@@ -25,6 +26,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0043` |
 | Product | GOLD 1L |
 | JIVO SKU / SAP code | `FG0000149` |
 | canonical_sku(s) | `jivo-gold-premium-refined-cooking-oil-perfect-blend-of-rice-bran-sunflower-oil-natural-antioxidants-1-litre-pack-1l`, `edogxyeferfxp3zy`, `jivo-gold-refined-oil-blend-of-rice-bran-oil-and-sunflower-oil-1l` |

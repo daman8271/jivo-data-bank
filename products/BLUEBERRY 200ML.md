@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0078
 product: "BLUEBERRY 200ML"
 sap_codes:
   - FG0000232
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0078` |
 | Product | BLUEBERRY 200ML |
 | JIVO SKU / SAP code | `FG0000232` |
 | canonical_sku(s) | `blueberry-healthy-wheatgrass-juice-200ml`, `jivo-healthy-wheatgrass-juice-with-blue-berry-flavor-body-detox-immunity-booster-natural-ingredients-200ml-200ml` |

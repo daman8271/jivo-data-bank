@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0065
 product: "GREEN CARDAMOM 100G"
 sap_codes:
   - FG0000197
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0065` |
 | Product | GREEN CARDAMOM 100G |
 | JIVO SKU / SAP code | `FG0000197` |
 | canonical_sku(s) | `jivo-green-cardamom-8mm-elaichi-whole-natural-spices-no-artificial-colors-or-preservatives-distinctive-flavor-aroma-premium-idukki-cardamom-for-cooking-baking-tea-100g-100ml`, `scmh4h8nch2pkywv` |

@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0113
 product: "JIVO POMACE 1+1+1L"
 sap_codes:
   - FG0000311
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0113` |
 | Product | JIVO POMACE 1+1+1L |
 | JIVO SKU / SAP code | `FG0000311` |
 | canonical_sku(s) | `edogfyrutbcs6yhw`, `jivo-pomace-edible-olive-oil-cooking-daily-use-rich-in-mufa-low-in-saturated-fat-recommendable-for-roasting-frying-baking-all-type-of-cuisines-pet-bottles-3l`, `qwrgemrynag8t2fv` |

@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0021
 product: "EXTRA VIRGIN 1+1L"
 sap_codes:
   - FG0000075
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0021` |
 | Product | EXTRA VIRGIN 1+1L |
 | JIVO SKU / SAP code | `FG0000075` |
 | canonical_sku(s) | `edog2nmphjzh6gjc`, `jivo-extra-virgin-olive-oil-1-litre-contains-vitamin-e-low-in-saturated-fat-natural-cooking-oil-for-dressings-salad-and-soups-dips-marinades-pack-of-2-2l`, `qwrgemns9zpzgwjh` |

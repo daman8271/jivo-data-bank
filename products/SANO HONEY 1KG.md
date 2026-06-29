@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0069
 product: "SANO HONEY 1KG"
 sap_codes:
   - FG0000216
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0069` |
 | Product | SANO HONEY 1KG |
 | JIVO SKU / SAP code | `FG0000216` |
 | canonical_sku(s) | `hnygqtuw5db6rxqd`, `sano-pure-honey-1-kg-100-natural-organic-unadulterated-no-sugar-adulteration-rich-in-antioxidants-healthy-sweetener-for-tea-desserts-syed-1-kg-na`, `hnyhyrsbgkzhhfdz` |

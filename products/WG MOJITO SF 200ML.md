@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0084
 product: "WG MOJITO SF 200ML"
 sap_codes:
   - FG0000250
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0084` |
 | Product | WG MOJITO SF 200ML |
 | JIVO SKU / SAP code | `FG0000250` |
 | canonical_sku(s) | `mojito-healthy-wheatgrass-juice-sugar-free-200ml`, `jivo-healthy-wheatgrass-body-detoxifying-immunity-booster-juice-sugar-free-200ml-200ml` |

@@ -228,4 +228,4 @@ date,platform,status,regime,ref,live,live_min,live_max,diff,diff_pct,stores_belo
 
 ## Related
 <!-- combined-backbone -->
-[[JIVO WATER 1L]] · [[Platform - amazon]] · [[Platform - bigbasket]] · [[Platform - blinkit]] · [[Platform - flipkart]] · [[Platform - zepto]]
+[[WATER 1L]] · [[Platform - amazon]] · [[Platform - bigbasket]] · [[Platform - blinkit]] · [[Platform - flipkart]] · [[Platform - zepto]]

@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0003
 product: "JIVO POMACE 5L"
 sap_codes:
   - FG0000008
@@ -27,6 +28,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0003` |
 | Product | JIVO POMACE 5L |
 | JIVO SKU / SAP code | `FG0000008` |
 | canonical_sku(s) | `jivo-pomace-olive-oil-5-litre-tin-for-everyday-cooking-imported-from-spain-recommended-for-roasting-frying-and-baking-all-types-of-cuisines-rich-in-mufa-low-in-saturated-fat-5l`, `edoge5xhfzn2hz9d`, `jivo-pomace-olive-oil-5-litre-tin-for-everyday-cooking-5l`, `jivo-pomace-olive-oil-tin-5l`, `jivo-pomace-olive-oil-5l` |

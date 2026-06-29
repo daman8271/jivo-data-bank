@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0051
 product: "SANO CLASSIC 1L"
 sap_codes:
   - FG0000162
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0051` |
 | Product | SANO CLASSIC 1L |
 | JIVO SKU / SAP code | `FG0000162` |
 | canonical_sku(s) | `sano-extra-light-olive-oil-1-litre-product-of-spain-ideal-for-all-indian-and-western-cuisines-perfect-for-cooking-frying-roasting-grilling-and-baking-versatile-and-smart-cooking-oil-1l`, `edogvef33gyxkhew` |

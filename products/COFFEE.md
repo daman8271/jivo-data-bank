@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0092
 product: "COFFEE"
 sap_codes:
   - FG0000271
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0092` |
 | Product | COFFEE |
 | JIVO SKU / SAP code | `FG0000271` |
 | canonical_sku(s) | `jivo-koffie-instant-smooth-premium-coffee-100-gm-soluble-instant-coffee-powder-easy-to-prepare-with-rich-aroma-and-taste-coffee-for-daily-use-100ml`, `cfegmj5gje7hd3dq` |

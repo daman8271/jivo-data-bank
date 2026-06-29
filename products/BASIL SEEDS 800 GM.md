@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0102
 product: "BASIL SEEDS 800 GM"
 sap_codes:
   - FG0000297
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0102` |
 | Product | BASIL SEEDS 800 GM |
 | JIVO SKU / SAP code | `FG0000297` |
 | canonical_sku(s) | `edsh4yk7vc4zcnpu`, `jivo-raw-basil-seeds-for-weight-loss-sabja-seeds-tukmaria-seeds-high-in-fiber-omega3-nutrients-ideal-for-smoothies-drinks-and-baking-100-natural-vegan-glutenfree-800g-800ml` |

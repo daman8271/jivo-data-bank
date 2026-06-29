@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0143
 product: "EXTRA VIRGIN 3L"
 category: "OLIVE"
 tier: PREMIUM
@@ -19,6 +20,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0143` |
 | Product | EXTRA VIRGIN 3L |
 | JIVO SKU / SAP code | — |
 | canonical_sku(s) | `jivo-extra-virgin-olive-oil-3-litre-imported-from-spain-contains-vitamin-e-low-in-saturated-fat-natural-and-cold-pressed-cooking-oil-ideal-for-dressings-salad-and-soups-dips-marinades-3l` |

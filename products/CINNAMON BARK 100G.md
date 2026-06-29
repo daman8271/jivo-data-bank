@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0142
 product: "CINNAMON BARK 100G"
 category: "SPICES"
 tier: OTHER
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0142` |
 | Product | CINNAMON BARK 100G |
 | JIVO SKU / SAP code | — |
 | canonical_sku(s) | `jivo-organic-cinnamon-sticks-bark-finest-dalchini-sticks-whole-spices-sourced-from-premium-origins-no-artificial-colors-or-preservatives-pack-for-cooking-seasoning-100g-100ml`, `scmh4h8snyfgcykm` |

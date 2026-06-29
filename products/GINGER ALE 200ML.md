@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0081
 product: "GINGER ALE 200ML"
 sap_codes:
   - FG0000238
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0081` |
 | Product | GINGER ALE 200ML |
 | JIVO SKU / SAP code | `FG0000238` |
 | canonical_sku(s) | `jivo-healthy-wheatgrass-body-detoxifying-immunity-booster-juice-sugar-free-200-ml-200ml` |

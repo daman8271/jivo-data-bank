@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0024
 product: "A2 GHEE 1L"
 sap_codes:
   - FG0000083
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0024` |
 | Product | A2 GHEE 1L |
 | JIVO SKU / SAP code | `FG0000083` |
 | canonical_sku(s) | `jivo-a2-cow-ghee-1-litre-traditional-bilona-method-prepared-from-a2-cow-milk-rich-aroma-and-distinct-flavour-for-diverse-culinary-applications-suitable-for-cooking-frying-baking-indian-recipes-1l`, `ghegeujjnscchwq9` |

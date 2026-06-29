@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0119
 product: "ENERGY DRINK 200ML"
 sap_codes:
   - FG0000325
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0119` |
 | Product | ENERGY DRINK 200ML |
 | JIVO SKU / SAP code | `FG0000325` |
 | canonical_sku(s) | `jivo-jump-energy-drink-zero-sugar-200ml-200ml` |

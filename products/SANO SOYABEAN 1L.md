@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0039
 product: "SANO SOYABEAN 1L"
 sap_codes:
   - FG0000140
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0039` |
 | Product | SANO SOYABEAN 1L |
 | JIVO SKU / SAP code | `FG0000140` |
 | canonical_sku(s) | `sano-soyabean-oil-1-ltr-pet-bottle-pure-natural-nutrientrich-cooking-oil-ideal-for-healthy-delights-in-cooking-frying-and-baking-perfect-for-indian-and-international-cuisines-1l` |

@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0041
 product: "GROUNDNUT 1L"
 sap_codes:
   - FG0000142
@@ -25,6 +26,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0041` |
 | Product | GROUNDNUT 1L |
 | JIVO SKU / SAP code | `FG0000142` |
 | canonical_sku(s) | `jivo-groundnut-oil-1-litre-cold-pressed-unrefined-peanut-oil-for-cooking-vitamin-a-d-fortified-chemicalfree-ground-nut-oil-1l-1l`, `edogwf6ugcwrregz`, `jivo-cold-pressed-groundnut-oil-1-litre-1l`, `jivo-groundnut-cold-pressed-oil-healthy-cooking-oil-1l` |

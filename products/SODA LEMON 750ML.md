@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0077
 product: "SODA LEMON 750ML"
 sap_codes:
   - FG0000231
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0077` |
 | Product | SODA LEMON 750ML |
 | JIVO SKU / SAP code | `FG0000231` |
 | canonical_sku(s) | `jivo-fizzy-soda-flavoured-with-lemon-750ml-carbonated-water-zero-sugar-zero-calories-i-pack-of-1-750ml`, `fizzy-water-flavoured-with-lemon-750ml` |

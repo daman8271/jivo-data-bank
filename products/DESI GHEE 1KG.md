@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0071
 product: "DESI GHEE 1KG"
 sap_codes:
   - FG0000223
@@ -24,6 +25,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0071` |
 | Product | DESI GHEE 1KG |
 | JIVO SKU / SAP code | `FG0000223`, `SL0000089` |
 | canonical_sku(s) | `ghegwgqh84yszn6f`, `jivo-desi-ghee-1-litre-traditional-preparation-from-desi-cow-milk-suitable-for-cooking-frying-baking-authentic-aroma-and-flavor-ideal-for-indian-and-continental-recipes-1l`, `gheh6b93zb66sekq`, `iomh8ygzuhv8dfbw` |

@@ -1,8 +1,10 @@
 ---
 type: product
+jid: JID-0123
 product: "DESI GHEE 500GM"
 sap_codes:
   - FG0000352
+  - SL0000090
 category: "GHEE"
 tier: PREMIUM
 platforms:
@@ -23,8 +25,9 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0123` |
 | Product | DESI GHEE 500GM |
-| JIVO SKU / SAP code | `FG0000352` |
+| JIVO SKU / SAP code | `FG0000352`, `SL0000090` |
 | canonical_sku(s) | `ghegwgyyfw9edubs`, `jivo-desi-ghee-500-ml-500ml`, `jivo-desi-ghee-500-ml-traditional-preparation-from-desi-cow-milk-suitable-for-cooking-frying-baking-authentic-aroma-and-flavor-ideal-for-indian-and-continental-recipes-500ml` |
 | Category | [[Category - GHEE\|GHEE]] |
 | TIER | [[Tier - Premium\|Premium]] *(name-token derived)* |
@@ -58,7 +61,7 @@ Up: [[Home]]
 
 ## Connections
 Cross-vault fusion by name / SKU match:
-- **JIVO source notes:** [[sku-FG0000352]]
+- **JIVO source notes:** [[sku-FG0000352]] · [[sku-SL0000090]]
 - **Ecom source notes:** [[ghegwgyyfw9edubs]] · [[jivo-desi-ghee-500-ml-500ml]] · [[jivo-desi-ghee-500-ml-traditional-preparation-from-desi-cow-milk-suitable-for-cooking-frying-baking-authentic-aroma-and-flavor-ideal-for-indian-and-continental-recipes-500ml]]
 - **Category:** [[Category - GHEE]]
 - **TIER:** [[Tier - Premium]]

@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0083
 product: "JEERA JUICE"
 sap_codes:
   - FG0000245
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0083` |
 | Product | JEERA JUICE |
 | JIVO SKU / SAP code | `FG0000245` |
 | canonical_sku(s) | `jivo-wheatgrass-punjabi-jeera-juice-160ml-tangy-cumin-flavored-refreshment-blended-with-fresh-wheatgrass-extract-convenient-pet-bottles-suitable-for-daily-hydration-refreshing-160ml` |

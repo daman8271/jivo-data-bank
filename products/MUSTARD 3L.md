@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0019
 product: "MUSTARD 3L"
 sap_codes:
   - FG0000067
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0019` |
 | Product | MUSTARD 3L |
 | JIVO SKU / SAP code | `FG0000067` |
 | canonical_sku(s) | `jivo-premium-cold-pressed-kachi-ghani-mustard-oil-3-litre-contains-omega3-and-vitamin-e-ideal-for-cooking-frying-pickling-daily-use-3l`, `edogkc6kwybcnngh` |

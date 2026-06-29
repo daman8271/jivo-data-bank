@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0090
 product: "JIVO WATER 250ML"
 sap_codes:
   - FG0000268
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0090` |
 | Product | JIVO WATER 250ML |
 | JIVO SKU / SAP code | `FG0000268` |
 | canonical_sku(s) | `jivo-mineral-water-250ml-250ml` |

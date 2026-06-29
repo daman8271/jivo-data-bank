@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0131
 product: "RICE BRAN 4L"
 sap_codes:
   - FG0000383
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0131` |
 | Product | RICE BRAN 4L |
 | JIVO SKU / SAP code | `FG0000383` |
 | canonical_sku(s) | `jivo-rice-bran-oil-4-litre-premium-cooking-oil-rich-in-antioxidants-ideal-for-deep-frying-sauteing-baking-chemicalfree-4l` |

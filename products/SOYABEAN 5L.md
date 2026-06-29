@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0061
 product: "SOYABEAN 5L"
 sap_codes:
   - FG0000192
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0061` |
 | Product | SOYABEAN 5L |
 | JIVO SKU / SAP code | `FG0000192` |
 | canonical_sku(s) | `jivo-cooking-edible-soyabean-oil-5-litre-high-in-omega6-pufa-contains-tocopherols-natural-antioxidant-suitable-for-daily-cooking-5l`, `edoggf7edc9pffhh` |

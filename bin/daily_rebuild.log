@@ -209,3 +209,5 @@ FACTORY_PILLAR_JSON {"prefix_ok": true, "factory_notes": 47550, "bridged_product
   },
   "failures": []
 }
+[2026-06-29T20:35:16Z] step 8: committed refresh 2026-06-29 (153 products / 30 hubs)
+[2026-06-29T20:35:16Z] === daily_rebuild done (committed) ===

@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0149
 product: "SPRING WATER 750ML"
 category: "DRINKS"
 tier: OTHER
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0149` |
 | Product | SPRING WATER 750ML |
 | JIVO SKU / SAP code | — |
 | canonical_sku(s) | `jivo-diet-fizzy-peach-natural-spring-water-peach-750ml-750ml`, `fizzy-water-flavoured-with-peach-750ml` |

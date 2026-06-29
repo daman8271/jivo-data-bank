@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0097
 product: "BLACK OLIVE 470G"
 sap_codes:
   - FG0000288
@@ -21,6 +22,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0097` |
 | Product | BLACK OLIVE 470G |
 | JIVO SKU / SAP code | `FG0000288` |
 | canonical_sku(s) | `jivo-black-sliced-olives-470g-finest-olives-from-egypt-evenly-cut-black-olive-slices-suitable-for-pizza-pasta-salads-wraps-ready-to-eat-snack-smart-choice-470ml` |

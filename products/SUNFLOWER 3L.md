@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0115
 product: "SUNFLOWER 3L"
 sap_codes:
   - FG0000316
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0115` |
 | Product | SUNFLOWER 3L |
 | JIVO SKU / SAP code | `FG0000316` |
 | canonical_sku(s) | `jivo-cold-pressed-chemicalfree-sunflower-oil-3-litres-chemicalfree-oil-for-cooking-ideal-for-roasting-frying-baking-and-all-types-of-cuisines-sunflower-oil-3l`, `edoghzsebqyya6zw` |

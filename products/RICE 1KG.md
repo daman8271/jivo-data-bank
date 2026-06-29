@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0068
 product: "RICE 1KG"
 sap_codes:
   - FG0000201
@@ -23,6 +24,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0068` |
 | Product | RICE 1KG |
 | JIVO SKU / SAP code | `FG0000201` |
 | canonical_sku(s) | `jivo-long-grain-basmati-rice-1kg-ideal-for-pulao-biryani-and-fried-rice-trusted-for-daily-use-jivo-basmati-rice-1-kg-per-packet-na`, `ricge89buedda5u7` |

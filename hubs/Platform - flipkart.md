@@ -12,7 +12,7 @@ tags:
 
 Up: [[Home]]
 
-**106 matched products listed here.**
+**104 matched products listed here.**
 
 ## 2026 aggregate (target-history)
 - Secondary (L): **222,174**  ·  Primary (L): **222,174**
@@ -52,7 +52,6 @@ Up: [[Home]]
 - [[CUMIN SEEDS 100G]] — ref ₹75 / live ₹— (⚪ OOS)
 - [[DESI GHEE 1KG]]
 - [[DESI GHEE 500GM]]
-- [[DESI GHEE 500KG]]
 - [[EXTRA LIGHT 1+1+1L]]
 - [[EXTRA LIGHT 1+1L]] — ref ₹1229 / live ₹— (⚪ OOS)
 - [[EXTRA LIGHT 1L]] — ref ₹619 / live ₹— (⚪ OOS)
@@ -81,7 +80,6 @@ Up: [[Home]]
 - [[JIVO POMACE 1L]] — ref ₹439 / live ₹576 (🔴 ABOVE)
 - [[JIVO POMACE 2L]] — ref ₹869 / live ₹865 (🟢 BELOW)
 - [[JIVO POMACE 5L]] — ref ₹2169 / live ₹— (⚪ OOS)
-- [[JIVO WATER 1L]] — ref ₹18 / live ₹24 (🔴 ABOVE)
 - [[MUSTARD 1+1L]] — ref ₹429 / live ₹412 (🟢 BELOW)
 - [[MUSTARD 1L]] — ref ₹219 / live ₹— (⚪ OOS)
 - [[MUSTARD 3L]] — ref ₹629 / live ₹— (⚪ OOS)
@@ -122,7 +120,7 @@ Up: [[Home]]
 - [[SUNFLOWER SEEDS 200 GM]] — ref ₹139 / live ₹— (⚪ OOS)
 - [[SUNFLOWER SEEDS 400G]] — ref ₹259 / live ₹— (⚪ OOS)
 - [[SUNFLOWER SEEDS 800G]] — ref ₹389 / live ₹— (⚪ OOS)
-- [[WATER 1L]] — ref ₹20 / live ₹24 (🔴 ABOVE)
+- [[WATER 1L]] — ref ₹18 / live ₹24 (🔴 ABOVE)
 - [[WG APPLE JUICE 200ML]]
 - [[WG BLUEBERRY 200ML]]
 - [[WG BLUEBERRY JUICE 200ML]]

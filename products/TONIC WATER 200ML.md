@@ -1,5 +1,6 @@
 ---
 type: product
+jid: JID-0085
 product: "TONIC WATER 200ML"
 sap_codes:
   - FG0000252
@@ -24,6 +25,7 @@ Up: [[Home]]
 ## Identity
 | Field | Value |
 |---|---|
+| Internal ID (JID) | `JID-0085` |
 | Product | TONIC WATER 200ML |
 | JIVO SKU / SAP code | `FG0000252`, `FG0000264` |
 | canonical_sku(s) | `indian-tonic-water-200ml`, `jivo-indian-citric-tonic-water-premium-gt-mixer-low-calorie-flavoured-drink-100-natural-ingredients-200ml` |
