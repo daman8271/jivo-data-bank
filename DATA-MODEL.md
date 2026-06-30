@@ -108,7 +108,7 @@ JioMart, …, several empty or stale).
 ## 5b. The factory lens (manufacturing / supply)
 
 The third lens, from the **ji.jivo.in factory app** for **Jivo Mart (`JIVO_MART`)** — captured **daily**
-and copied verbatim into `factory/` (47,549 notes, one per physical record). Jivo Mart is JIVO's
+and copied verbatim into `factory/` (49,462 notes, one per physical record). Jivo Mart is JIVO's
 **retail / dispatch arm**: it does **not** manufacture — it receives finished, barcoded cartons from
 Jivo Oil via an intercompany transfer rail, holds them across ~31 warehouses, and runs scan-to-ship
 dispatch. So the factory data is **rich** in fleet, gate, barcode traceability, dispatch, and on-hand
@@ -117,7 +117,7 @@ retail arm — they live on Jivo Oil).
 
 **The bridge:** the factory keys every item on the **SAP item code (`FG####`)** — the *same* code space
 as the product nodes' `sap_codes`. `factory_pillar.py` appends a **`## Factory lens`** to each product
-whose `FG####` appears in factory data (**71 products** today), linking to the factory records
+whose `FG####` appears in factory data (**136 products** today), linking to the factory records
 (`[[oitm-FG…]]`, `[[box-…]]`, dispatches, …) and tagging the product `bridge/FG####`. The factory
 entity domains (each a folder of FK-linked notes):
 
@@ -129,7 +129,7 @@ entity domains (each a folder of FK-linked notes):
 | Dispatch | dispatch plans, docking, bilty / transporter invoices | ~700 |
 | QC / GRPO | arrival-slip inspections, material & service goods-receipts | ~30 |
 | WMS / warehouse | on-hand stock, sales-order backlog, transfers, batch expiry | dashboards |
-| SAP item master (`oitm`) | the `FG####` item dictionary — the bridge keys | 200 |
+| SAP item master (`oitm`) | the `FG####` item dictionary — the bridge keys | 420 |
 
 The full per-page app model (what every page does + the data behind it) lives in
 `/root/jivo-factory-intel/app-model/` (13 sections, 174 pages). The CLI that captures it is
@@ -151,7 +151,7 @@ The full per-page app model (what every page does + the data behind it) lives in
   (Jivo Oil & Beverages are out of scope). Production / maintenance / WMS-execution are empty for
   Jivo Mart **by design** — it's the dispatch arm, not a manufacturer. A few SAP-report endpoints hard-
   cap (e.g. `dispatch/reports/boxes` at 1000) but their underlying data is captured in full elsewhere.
-- **Factory bridge depth:** only **71 of 151** products carry a Factory lens (those whose `FG####`
+- **Factory bridge depth:** only **136 of 151** products carry a Factory lens (those whose `FG####`
   shows up in Jivo Mart's box/dispatch data); the rest don't move through the Jivo Mart plant.
 - **Join landmines** (carried from the source data model): never join on EAN (sci-notation text);
   `amazon_inventory.brand` is dirty (derive brand from the master); `fc_code` ≠ inventory `location`;

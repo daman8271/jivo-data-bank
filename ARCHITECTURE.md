@@ -22,9 +22,9 @@ and **[`RUNBOOK.md`](RUNBOOK.md)** for the operational commands.
 
 | Tree | What it is | Origin | Edit? |
 |---|---|---|---|
-| **`jivo/`** | The JIVO app vault — 34,750 notes (~1.31M rows): SKUs, POs, dashboards, taxonomy, vendors, months | verbatim copy of `/root/jivo-intel/vault` | **never** (source) |
-| **`ecom/`** | The competitor-price vault — 2,293 notes: per-SKU price-match history, platforms, daily/weekly/monthly runs | verbatim copy of `/opt/ecom-intel/vault` | **never** (source) |
-| **`factory/`** | The JIVO factory (Jivo Mart / `JIVO_MART`) vault — 47,549 notes: gate, vehicles, drivers, QC, GRPO, barcode traceability (boxes/pallets/scans), dispatch, SAP item master — one note per record, FK-linked | verbatim copy of `/root/jivo-factory-intel/vault` (refreshed daily, see [`RUNBOOK.md`](RUNBOOK.md)) | **never** (source) |
+| **`jivo/`** | The JIVO app vault — 34,955 notes (~1.31M rows): SKUs, POs, dashboards, taxonomy, vendors, months | verbatim copy of `/root/jivo-intel/vault` | **never** (source) |
+| **`ecom/`** | The competitor-price vault — 2,878 notes: per-SKU price-match history, platforms, daily/weekly/monthly runs | verbatim copy of `/opt/ecom-intel/vault` | **never** (source) |
+| **`factory/`** | The JIVO factory (Jivo Mart / `JIVO_MART`) vault — 49,462 notes: gate, vehicles, drivers, QC, GRPO, barcode traceability (boxes/pallets/scans), dispatch, SAP item master — one note per record, FK-linked | verbatim copy of `/root/jivo-factory-intel/vault` (refreshed daily, see [`RUNBOOK.md`](RUNBOOK.md)) | **never** (source) |
 | **`products/` · `hubs/` · `Home.md`** | The fusion layer — 151 product nodes (each with a **Factory lens**) + 30 hubs + the map of content | **generated** by `bin/combined_backbone.py` + `bin/factory_pillar.py` + `bin/combined_identity.py` | **never** (regenerated every refresh) |
 
 `jivo/`, `ecom/`, and `factory/` are the **source of truth**; the fusion layer is a pure function of
@@ -101,7 +101,7 @@ original bytes are an **exact byte-prefix** of its copy here (`n_altered = n_tru
 missing, nothing extra), verified per file via sha256. The verifier (`bin/verify_databank.py`) gates
 on this every build and exits nonzero on any violation.
 
-Current proof: JIVO 34,750 + ecom 2,293 + factory 47,549 = **84,593 dest notes** across **3 pillars**,
+Current proof: JIVO 34,955 + ecom 2,878 + factory 49,462 = **87,295 dest notes** across **3 pillars**,
 `zero_loss_ok: true`. (The factory copy is an EXACT byte match — no appended layer — since the
 factory→product bridge lives on the generated product nodes, not the factory source notes.)
 
@@ -121,11 +121,11 @@ jivo-data-bank/
 │   ├── Tier - *.md            3  (Premium · Commodity · Other)
 │   └── Category - *.md        17 (CANOLA, OLIVE, MUSTARD, SEEDS, DRINKS, GHEE, …)
 │
-├── jivo/                    SOURCE — verbatim JIVO app vault (34,750 notes)        [never edit]
+├── jivo/                    SOURCE — verbatim JIVO app vault (34,955 notes)        [never edit]
 │   └── skus/ platforms/ taxonomy/ vendors/ pos/ locations/ months/ dashboards/ data/ + SESSION-MEMORY.md
-├── ecom/                    SOURCE — verbatim ecom price vault (2,293 notes)       [never edit]
+├── ecom/                    SOURCE — verbatim ecom price vault (2,878 notes)       [never edit]
 │   └── skus/ platforms/ pricematch/ locations/ daily/ weekly/ monthly/ analysis/ runs/ + VAULT-SPEC.md
-├── factory/                 SOURCE — verbatim factory (Jivo Mart) vault (47,549 notes, refreshed daily)  [never edit]
+├── factory/                 SOURCE — verbatim factory (Jivo Mart) vault (49,462 notes, refreshed daily)  [never edit]
 │   └── vehicle-management__*/ gate-core__*/ barcode__*/ quality-control__*/ grpo__*/ … + _HOME.md _bridge.json
 │
 ├── identity/                JID identity layer — REGISTRY.md + registry.json (stable internal product IDs)  [generated]

@@ -35,7 +35,7 @@ how it's laid out, how to read it, and what it means. Then you can navigate and 
 
 ```
 JIVO e-com app (ecom.jivo.in)     Ecom price scraper           Factory app (ji.jivo.in / Jivo Mart)
-lossless → jivo/ (34,750)         daily crawl → ecom/ (2,293)   daily refresh → factory/ (47,549)
+lossless → jivo/ (34,955)         daily crawl → ecom/ (2,878)   daily refresh → factory/ (49,462)
   │ SAP code (sku-FG0000032)        │ name-slug (canola-…-1l)     │ SAP item code (FG0000032)
   └───────────────────┬─────────────┴────────────────┬───────────┘
                       ▼                                ▼
@@ -60,13 +60,13 @@ hand-edit it.**
 |---|---|
 | Fused product nodes | **151** (each: identity · price lens · JIVO lens · **factory lens**) |
 | Hubs | **30** — 10 platform · 3 tier · 17 category |
-| Lossless source notes carried verbatim | **84,593** across **3 pillars** (JIVO 34,750 · ecom 2,293 · **factory 47,549**) |
+| Lossless source notes carried verbatim | **87,295** across **3 pillars** (JIVO 34,955 · ecom 2,878 · **factory 49,462**) |
 | Wikilinks across the vault | **~486,000+** |
 | Rows behind it | **~1.31M** JIVO app + **~48k** factory records (gate/QC/barcode/dispatch) |
 | Notes on disk | **~760 MB** |
 | Zero-loss proof | **`zero_loss_ok: true`** — see [`.manifest.json`](.manifest.json) |
 | SKU bridge (ecom) | **170 / 178** JIVO SKUs matched (9 honestly surfaced as gaps) |
-| Factory bridge (SAP `FG####`) | **71** product nodes gain a Factory lens; 200 SAP items in `factory/` |
+| Factory bridge (SAP `FG####`) | **136** product nodes gain a Factory lens; 420 SAP items in `factory/` |
 
 > **A snapshot, not a live mirror.** Every figure here is "as of `<the commit's date>`". The build
 > is a deterministic full REPLACE committed once per refresh, so **git history is a time machine** —
@@ -87,9 +87,9 @@ jivo-data-bank/
 ├── products/            151 fused product nodes (one per bridged product)   [generated]
 ├── hubs/                30 hubs (Platform-* · Tier-* · Category-*)           [generated]
 ├── identity/            JID identity layer — REGISTRY.md + registry.json (stable internal IDs)  [generated]
-├── jivo/                verbatim copy of the JIVO app vault (34,750 notes)   [source]
-├── ecom/                verbatim copy of the ecom price-intel vault (2,293)  [source]
-├── factory/             verbatim copy of the factory (Jivo Mart) vault (47,549, daily)  [source]
+├── jivo/                verbatim copy of the JIVO app vault (34,955 notes)   [source]
+├── ecom/                verbatim copy of the ecom price-intel vault (2,878)  [source]
+├── factory/             verbatim copy of the factory (Jivo Mart) vault (49,462, daily)  [source]
 ├── bin/                 build + verify toolchain (migrate · backbone · factory_pillar · identity · verify · rebuild)
 ├── .manifest.json       zero-loss proof (counts · bytes · sha256 · prefix-preservation)
 └── .links/              cached agent-discovered cross-vault links (domain-*.json)

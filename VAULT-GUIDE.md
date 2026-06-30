@@ -61,7 +61,7 @@ source note — follow the connection for the time series.
 **2026 sell-through in litres** (Secondary and Primary) for the product's *whole tier*, from
 target-history.
 
-**`## Factory lens`** — **the Jivo Mart manufacturing/supply view (present on the 71 products whose SAP
+**`## Factory lens`** — **the Jivo Mart manufacturing/supply view (present on the 136 products whose SAP
 `FG####` appears in factory data).** Lists where the product's SAP item code shows up in the
 `ji.jivo.in` factory — the `[[oitm-FG…]]` item-master note, its `[[box-…]]` barcode cartons, sales
 dispatches, etc. — and tags the product `bridge/FG####`. Follow the links into `factory/` for the raw
@@ -111,7 +111,7 @@ litres table. Use hubs to move from "one product" to "all products like it".
 | Everything in a tier / category / on a platform | the matching **hub** (`Tier - …` / `Category - …` / `Platform - …`) |
 | A product's raw JIVO app data (POs, inventory, dashboards) | product → Connections → its `jivo/skus/sku-<SAP>` hub, then follow its links |
 | A product's factory presence (boxes, dispatch, item master) | product → **Factory lens** → `[[oitm-FG…]]` / `[[box-…]]`, or search the tag `bridge/FG####` |
-| Everything in the factory (gate, vehicles, QC, barcode, dispatch) | open `factory/_HOME.md` — the per-domain MOC hubs over all 47,549 factory notes |
+| Everything in the factory (gate, vehicles, QC, barcode, dispatch) | open `factory/_HOME.md` — the per-domain MOC hubs over all 49,462 factory notes |
 | What's *not* covered | `Home.md` → **Gaps / Unmatched** (9 SKUs) + the price-coverage gaps in [DATA-MODEL](DATA-MODEL.md) |
 
 ---
