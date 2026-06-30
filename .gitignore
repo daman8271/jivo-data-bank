@@ -21,3 +21,10 @@ __pycache__/
 **/.obsidian/workspace.json
 **/.obsidian/workspace-mobile.json
 **/.obsidian/plugins/*/*.lock
+
+# hygiene hardening (2026-07-01): logs are runtime artifacts, never commit
+*.log
+logs/
+.env
+secrets/
+node_modules/
