@@ -12,7 +12,7 @@ tags:
 ---
 # CARTON 5 LTR + 1 LTR 1 PCS
 
-> Arrival Slips from `/quality-control/arrival-slips/` (Jivamart / JIVO_MART).
+> Arrival Slips from `/quality-control/arrival-slips/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 524

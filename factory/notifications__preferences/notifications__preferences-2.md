@@ -12,7 +12,7 @@ tags:
 ---
 # Gate Entry Status Changed
 
-> Preferences from `/notifications/preferences/` (Jivamart / JIVO_MART).
+> Preferences from `/notifications/preferences/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 2

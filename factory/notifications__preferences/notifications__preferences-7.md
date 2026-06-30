@@ -12,7 +12,7 @@ tags:
 ---
 # QC Inspection Submitted
 
-> Preferences from `/notifications/preferences/` (Jivamart / JIVO_MART).
+> Preferences from `/notifications/preferences/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 7

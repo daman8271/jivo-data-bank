@@ -12,7 +12,7 @@ tags:
 ---
 # History 3515
 
-> History from `/barcode/scan/history/` (Jivamart / JIVO_MART).
+> History from `/barcode/scan/history/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 3515

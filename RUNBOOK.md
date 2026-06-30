@@ -82,7 +82,7 @@ content has drifted enough to warrant new semantic links, then run the daily reb
 The daily pipeline is installed in crontab (IST), single-flight locked and idempotent:
 
 ```cron
-# 05:30 — refresh the factory (Jivamart) source vault (rotating-auth → capture → render, full REPLACE)
+# 05:30 — refresh the factory (Jivo Mart) source vault (rotating-auth → capture → render, full REPLACE)
 30 5 * * *  /root/jivo-factory-intel/bin/factory_refresh.sh >> /root/jivo-factory-intel/daily.log 2>&1
 # 06:00 — JIVO Data Bank: rebuild (jivo+ecom+factory) → fail-closed verify → commit → push → Telegram
 0  6 * * *  /root/jivo-data-bank/bin/run_daily.sh >> /var/log/jivo-data-bank/cron.log 2>&1

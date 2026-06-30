@@ -12,7 +12,7 @@ tags:
 ---
 # BOX-20260603-XX-2459
 
-> Rejected Scans from `/barcode/dispatch/reports/rejected-scans/` (Jivamart / JIVO_MART).
+> Rejected Scans from `/barcode/dispatch/reports/rejected-scans/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **scan_id:** 655

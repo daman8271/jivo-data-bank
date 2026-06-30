@@ -13,7 +13,7 @@ tags:
 ---
 # Boxes 92665
 
-> Boxes from `/barcode/dispatch/reports/boxes/` (Jivamart / JIVO_MART).
+> Boxes from `/barcode/dispatch/reports/boxes/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **box_id:** 92665

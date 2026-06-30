@@ -12,7 +12,7 @@ tags:
 ---
 # UNMEET SINGH (ADMIN) IMPREST JWPL2296
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** ORGV000211

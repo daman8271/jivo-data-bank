@@ -12,7 +12,7 @@ tags:
 ---
 # DL01MB2623
 
-> Partial Scan Requests from `/docking-admin/partial-scan-requests/` (Jivamart / JIVO_MART).
+> Partial Scan Requests from `/docking-admin/partial-scan-requests/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 36

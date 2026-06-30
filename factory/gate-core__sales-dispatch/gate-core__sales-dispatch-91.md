@@ -12,7 +12,7 @@ tags:
 ---
 # RJ11GD2865
 
-> Sales Dispatch from `/gate-core/sales-dispatch/` (Jivamart / JIVO_MART).
+> Sales Dispatch from `/gate-core/sales-dispatch/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 91
@@ -131,6 +131,7 @@ tags:
 - **updated_at:** 2026-06-21T14:43:20.048898+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-262]]
 - transporter -> [[trn-77]]
 - vehicle -> [[veh-296]]

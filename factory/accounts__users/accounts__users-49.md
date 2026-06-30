@@ -12,7 +12,7 @@ tags:
 ---
 # Rishabb@1234
 
-> Users from `/accounts/users/` (Jivamart / JIVO_MART).
+> Users from `/accounts/users/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 49

@@ -12,7 +12,7 @@ tags:
 ---
 # Documents STOCK_TRANSFER
 
-> Documents from `/gate-core/sales-dispatch/documents/` (Jivamart / JIVO_MART).
+> Documents from `/gate-core/sales-dispatch/documents/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **document_type:** STOCK_TRANSFER

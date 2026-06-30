@@ -12,7 +12,7 @@ tags:
 ---
 # GATI EXPRESS & SUPPLY CHAIN PRIVATE LIMITED AADCG2096A
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** VENDA000333

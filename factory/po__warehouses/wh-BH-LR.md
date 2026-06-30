@@ -12,7 +12,7 @@ tags:
 ---
 # Luhari Jhajjar Finished
 
-> Warehouse from `/po/warehouses/` (Jivamart / JIVO_MART).
+> Warehouse from `/po/warehouses/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **warehouse_code:** BH-LR

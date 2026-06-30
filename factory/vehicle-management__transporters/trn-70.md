@@ -12,7 +12,7 @@ tags:
 ---
 # Vansh deep road line
 
-> Transporter from `/vehicle-management/transporters/` (Jivamart / JIVO_MART).
+> Transporter from `/vehicle-management/transporters/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 70

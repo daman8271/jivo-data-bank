@@ -29,8 +29,11 @@ Up: [[Home]]
 | JIVO SKU / SAP code | `FG0000138` |
 | canonical_sku(s) | `sano-sunflower-oil-1-litre-pet-bottle-pure-nutrientrich-sunflower-cooking-oil-with-high-smoke-point-ideal-for-frying-sauting-and-baking-1l`, `edogqwu2jyazcgzm` |
 | Category | [[Category - SUNFLOWER\|SUNFLOWER]] |
+| Sub-category | SUNFLOWER |
+| Brand | SANO |
 | TIER | [[Tier - Commodity\|Commodity]] *(name-token derived)* |
 | Pack(s) | 1L |
+| Per-unit | 1.0 L |
 | Bridge class | core (priced) |
 
 ## Competitor-price lens
@@ -64,7 +67,7 @@ Cross-vault fusion by name / SKU match:
 - **TIER:** [[Tier - Commodity]]
 - **Platforms:** [[Platform - amazon]] · [[Platform - flipkart]]
 
-## Factory lens (Jivamart manufacturing / supply)
+## Factory lens (Jivo Mart manufacturing / supply)
 > Where this product's SAP item code(s) appear in the JIVO_MART factory (`ji.jivo.in`) — gate, traceability, QC, dispatch. Source: `factory/`.
 
 **`FG0000138`** — referenced by factory records:

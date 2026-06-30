@@ -35,7 +35,7 @@ Up: [[Home]]
 | canonical_sku(s) | `jivo-cold-pressed-unrefined-sunflower-oil-5-litres-chemicalfree-oil-for-cooking-ideal-for-roasting-frying-baking-and-all-types-of-cuisines-5l`, `edogdvfwgprvttms`, `jivo-cold-pressed-unrefined-sunflower-oil-5-litres-5l`, `jivo-sunflower-cold-pressed-oil-healthy-cooking-oil-5l`, `sunflower-oil-cold-pressed-fortified-with-vitamins-a-d-chemical-free-5l` |
 | Category | [[Category - SUNFLOWER\|SUNFLOWER]] |
 | Sub-category | SUNFLOWER |
-| Brand | JIVO |
+| Brand | SANO |
 | TIER | [[Tier - Commodity\|Commodity]] *(name-token derived)* |
 | Pack(s) | 5L |
 | Per-unit | 5.0 L |
@@ -76,7 +76,7 @@ Cross-vault fusion by name / SKU match:
 - **TIER:** [[Tier - Commodity]]
 - **Platforms:** [[Platform - amazon]] · [[Platform - flipkart]] · [[Platform - zepto]] · [[Platform - bigbasket]]
 
-## Factory lens (Jivamart manufacturing / supply)
+## Factory lens (Jivo Mart manufacturing / supply)
 > Where this product's SAP item code(s) appear in the JIVO_MART factory (`ji.jivo.in`) — gate, traceability, QC, dispatch. Source: `factory/`.
 
 **`FG0000053`** — referenced by factory records:

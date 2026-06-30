@@ -12,7 +12,7 @@ tags:
 ---
 # DL01LAC8007
 
-> Sales Dispatch from `/gate-core/sales-dispatch/` (Jivamart / JIVO_MART).
+> Sales Dispatch from `/gate-core/sales-dispatch/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 62
@@ -131,6 +131,7 @@ tags:
 - **updated_at:** 2026-06-19T18:28:15.415518+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-230]]
 - transporter -> [[trn-64]]
 - vehicle -> [[veh-205]]

@@ -12,7 +12,7 @@ tags:
 ---
 # DL01LAD1397
 
-> Pending from `/grpo/service/pending/` (Jivamart / JIVO_MART).
+> Pending from `/grpo/service/pending/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **dispatch_plan_id:** 622

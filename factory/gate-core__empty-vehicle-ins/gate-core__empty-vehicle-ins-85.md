@@ -12,7 +12,7 @@ tags:
 ---
 # RJ11GD2865
 
-> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivamart / JIVO_MART).
+> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 85
@@ -63,5 +63,6 @@ Weight: 23,586.497 kg
 - **updated_at:** 2026-06-21T13:35:16.155525+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-262]]
 - vehicle -> [[veh-296]]

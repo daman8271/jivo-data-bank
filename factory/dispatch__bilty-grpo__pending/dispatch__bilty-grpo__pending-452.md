@@ -12,7 +12,7 @@ tags:
 ---
 # HR69F9627
 
-> Pending from `/dispatch/bilty-grpo/pending/` (Jivamart / JIVO_MART).
+> Pending from `/dispatch/bilty-grpo/pending/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **dispatch_plan_id:** 452

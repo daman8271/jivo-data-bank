@@ -24,7 +24,7 @@ and **[`RUNBOOK.md`](RUNBOOK.md)** for the operational commands.
 |---|---|---|---|
 | **`jivo/`** | The JIVO app vault — 34,750 notes (~1.31M rows): SKUs, POs, dashboards, taxonomy, vendors, months | verbatim copy of `/root/jivo-intel/vault` | **never** (source) |
 | **`ecom/`** | The competitor-price vault — 2,293 notes: per-SKU price-match history, platforms, daily/weekly/monthly runs | verbatim copy of `/opt/ecom-intel/vault` | **never** (source) |
-| **`factory/`** | The JIVO factory (Jivamart / `JIVO_MART`) vault — 47,549 notes: gate, vehicles, drivers, QC, GRPO, barcode traceability (boxes/pallets/scans), dispatch, SAP item master — one note per record, FK-linked | verbatim copy of `/root/jivo-factory-intel/vault` (refreshed daily, see [`RUNBOOK.md`](RUNBOOK.md)) | **never** (source) |
+| **`factory/`** | The JIVO factory (Jivo Mart / `JIVO_MART`) vault — 47,549 notes: gate, vehicles, drivers, QC, GRPO, barcode traceability (boxes/pallets/scans), dispatch, SAP item master — one note per record, FK-linked | verbatim copy of `/root/jivo-factory-intel/vault` (refreshed daily, see [`RUNBOOK.md`](RUNBOOK.md)) | **never** (source) |
 | **`products/` · `hubs/` · `Home.md`** | The fusion layer — 151 product nodes (each with a **Factory lens**) + 30 hubs + the map of content | **generated** by `bin/combined_backbone.py` + `bin/factory_pillar.py` + `bin/combined_identity.py` | **never** (regenerated every refresh) |
 
 `jivo/`, `ecom/`, and `factory/` are the **source of truth**; the fusion layer is a pure function of
@@ -125,7 +125,7 @@ jivo-data-bank/
 │   └── skus/ platforms/ taxonomy/ vendors/ pos/ locations/ months/ dashboards/ data/ + SESSION-MEMORY.md
 ├── ecom/                    SOURCE — verbatim ecom price vault (2,293 notes)       [never edit]
 │   └── skus/ platforms/ pricematch/ locations/ daily/ weekly/ monthly/ analysis/ runs/ + VAULT-SPEC.md
-├── factory/                 SOURCE — verbatim factory (Jivamart) vault (47,549 notes, refreshed daily)  [never edit]
+├── factory/                 SOURCE — verbatim factory (Jivo Mart) vault (47,549 notes, refreshed daily)  [never edit]
 │   └── vehicle-management__*/ gate-core__*/ barcode__*/ quality-control__*/ grpo__*/ … + _HOME.md _bridge.json
 │
 ├── identity/                JID identity layer — REGISTRY.md + registry.json (stable internal product IDs)  [generated]

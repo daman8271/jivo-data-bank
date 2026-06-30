@@ -12,7 +12,7 @@ tags:
 ---
 # Sap Transfers 3079
 
-> Sap Transfers from `/gate-core/bst-outs/sap-transfers/` (Jivamart / JIVO_MART).
+> Sap Transfers from `/gate-core/bst-outs/sap-transfers/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **doc_entry:** 3079

@@ -13,7 +13,7 @@ tags:
 ---
 # RICE BRAN OIL 1 LTR 16 PCS
 
-> Loose from `/barcode/loose/` (Jivamart / JIVO_MART).
+> Loose from `/barcode/loose/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 551
@@ -37,3 +37,6 @@ tags:
 - **created_by_name:** Parminder
 - **created_at:** 2026-06-25T10:15:43.993865+05:30
 - **updated_at:** 2026-06-25T10:16:08.941871+05:30
+
+## Related
+- item -> [[oitm-FG0000227]]

@@ -211,3 +211,122 @@ FACTORY_PILLAR_JSON {"prefix_ok": true, "factory_notes": 47550, "bridged_product
 }
 [2026-06-29T20:35:16Z] step 8: committed refresh 2026-06-29 (153 products / 30 hubs)
 [2026-06-29T20:35:16Z] === daily_rebuild done (committed) ===
+[2026-06-29T23:24:16Z] === daily_rebuild start (REPO=/root/jivo-data-bank COMBINED=/opt/ecom-intel/combined-vault SEMANTIC=auto) ===
+[2026-06-29T23:24:16Z] step 1: clean mirror (rm jivo/ ecom/ under COMBINED)
+[2026-06-29T23:24:18Z] step 2: combined_migrate.py (lossless copy + sha256 proof)
+[jivo] copytree /root/jivo-intel/vault -> /opt/ecom-intel/combined-vault/jivo
+[jivo] scanning source ...
+[jivo] scanning dest ...
+[jivo] count 34955==34955:True bytes 375843966==375843966:True agg:True fp:True -> OK
+[ecom] copytree /opt/ecom-intel/vault -> /opt/ecom-intel/combined-vault/ecom
+[ecom] scanning source ...
+[ecom] scanning dest ...
+[ecom] count 2293==2293:True bytes 178052723==178052723:True agg:True fp:True -> OK
+MANIFEST: /opt/ecom-intel/combined-vault/.manifest.json
+{
+  "jivo_notes": 34955,
+  "ecom_notes": 2293,
+  "combined_notes": 37248,
+  "total_bytes": 553896689,
+  "lossless_ok": true
+}
+[2026-06-29T23:24:25Z] step 3: combined_inject_links.py (re-apply cached semantic links)
+{
+  "links_added": 3584,
+  "notes_touched": 296,
+  "broken_skipped": 626,
+  "from_missing": 19
+}
+[2026-06-29T23:24:27Z] step 4: combined_backbone.py (backbone + deterministic ## Related + manifest)
+[override] applied 2 rename(s): DESI GHEE 500KG -> DESI GHEE 500ML; JIVO WATER 1L -> WATER 1L
+[build] products=151 hubs=30 categories=17 price_lens_coverage=120 unfused=0 twin_groups=17 twin_members_merged=18 ecom_only_nodes=10 tiers=P63/C29/O59
+[inject] scanned=5000 touched=4990 links=24688
+[inject] scanned=10000 touched=9990 links=49452
+[inject] scanned=35000 touched=14660 links=55982
+[inject] DONE scanned=37235 notes_touched=16816 links_injected=59871
+[manifest] zero_loss_ok=True dest_bytes=555885845 appended=1989156
+SUMMARY_JSON {"products": 151, "hubs": 30, "categories": 17, "links_injected": 59871, "notes_touched": 16816, "price_lens_coverage": 120, "unfused": [], "twin_groups": 17, "twin_members_merged": 18, "twin_merges": [{"primary": "A2 GHEE 500G", "merged": ["A2 GHEE 500ML"]}, {"primary": "BASIL SEEDS 200 GM", "merged": ["BASIL SEEDS 200G"]}, {"primary": "BASIL SEEDS 800 GM", "merged": ["BASIL SEEDS 800G"]}, {"primary": "CANOLA 1+1L", "merged": ["Canola 1+1L", "CANOLA 1L + 1L"]}, {"primary": "CHIA SEEDS 200GM", "merged": ["CHIA SEEDS 200G"]}, {"primary": "CHIASEEDS 800G", "merged": ["CHIA SEEDS 800G"]}, {"primary": "EXTRA VIRGIN 1+1L", "merged": ["EXTRA VIRGIN 1L + 1L"]}, {"primary": "FLAX SEEDS 400 GM", "merged": ["FLAX SEEDS 400G"]}, {"primary": "JIVO POMACE 1+1L", "merged": ["JIVO POMACE 1L + 1L"]}, {"primary": "MUSTARD 1+1L", "merged": ["MUSTARD 1L + 1L"]}, {"primary": "PUMPKIN SEEDS 800 GM", "merged": ["PUMPKIN SEEDS 800G"]}, {"primary": "ROSEMARY LEAVES 150G", "merged": ["ROSEMARY LEAVES 150 GMS"]}, {"primary": "SUNFLOWER SEEDS 200 GM", "merged": ["SUNFLOWER SEEDS 200G"]}, {"primary": "DESI GHEE 500GM", "merged": ["DESI GHEE 500ML"]}, {"primary": "SANO POMACE 1+1+1L", "merged": ["SANO POMACE 1L+1L+1L"]}, {"primary": "SANO POMACE 1+1L", "merged": ["SANO POMACE 1L+1L"]}, {"primary": "WG APPLE JUICE 200ML", "merged": ["WG APPLE JUICE 200 ML"]}], "ecom_only_nodes": ["CINNAMON BARK 100G", "EXTRA VIRGIN 3L", "JIVO PUNJABI SHIKANJI 160 MLS", "JIVO WATER 500 MLS", "SOYABEAN 1L + 1L", "SPRING WATER 750ML", "SUNFLOWER 1L + 1L", "RICE BRAN 1L + 1L", "SO OLIVE 1L + 1L", "YELLOW MUSTARD 1L + 1L"], "tier_counts": {"PREMIUM": 63, "OTHER": 59, "COMMODITY": 29}, "manifest_zero_loss_ok": true}
+[2026-06-30T00:30:01Z] === daily_rebuild start (REPO=/root/jivo-data-bank COMBINED=/opt/ecom-intel/combined-vault SEMANTIC=auto) ===
+[2026-06-30T00:30:01Z] step 1: clean mirror (rm jivo/ ecom/ under COMBINED)
+[2026-06-30T00:30:02Z] step 2: combined_migrate.py (lossless copy + sha256 proof)
+[jivo] copytree /root/jivo-intel/vault -> /opt/ecom-intel/combined-vault/jivo
+[jivo] scanning source ...
+[jivo] scanning dest ...
+[jivo] count 34956==34956:True bytes 375733661==375733661:True agg:True fp:True -> OK
+[ecom] copytree /opt/ecom-intel/vault -> /opt/ecom-intel/combined-vault/ecom
+[ecom] scanning source ...
+[ecom] scanning dest ...
+[ecom] count 2293==2293:True bytes 178052723==178052723:True agg:True fp:True -> OK
+MANIFEST: /opt/ecom-intel/combined-vault/.manifest.json
+{
+  "jivo_notes": 34956,
+  "ecom_notes": 2293,
+  "combined_notes": 37249,
+  "total_bytes": 553786384,
+  "lossless_ok": true
+}
+[2026-06-30T00:30:11Z] step 3: combined_inject_links.py (re-apply cached semantic links)
+{
+  "links_added": 3584,
+  "notes_touched": 296,
+  "broken_skipped": 626,
+  "from_missing": 19
+}
+[2026-06-30T00:30:13Z] step 4: combined_backbone.py (backbone + deterministic ## Related + manifest)
+[override] applied 2 rename(s): DESI GHEE 500KG -> DESI GHEE 500ML; JIVO WATER 1L -> WATER 1L
+[build] products=151 hubs=30 categories=17 price_lens_coverage=120 unfused=0 twin_groups=17 twin_members_merged=18 ecom_only_nodes=10 tiers=P63/C29/O59
+[inject] scanned=5000 touched=4990 links=24688
+[inject] scanned=10000 touched=9990 links=49452
+[inject] scanned=35000 touched=14660 links=55982
+[inject] DONE scanned=37236 notes_touched=16817 links_injected=59872
+[manifest] zero_loss_ok=True dest_bytes=555775595 appended=1989211
+SUMMARY_JSON {"products": 151, "hubs": 30, "categories": 17, "links_injected": 59872, "notes_touched": 16817, "price_lens_coverage": 120, "unfused": [], "twin_groups": 17, "twin_members_merged": 18, "twin_merges": [{"primary": "A2 GHEE 500G", "merged": ["A2 GHEE 500ML"]}, {"primary": "BASIL SEEDS 200 GM", "merged": ["BASIL SEEDS 200G"]}, {"primary": "BASIL SEEDS 800 GM", "merged": ["BASIL SEEDS 800G"]}, {"primary": "CANOLA 1+1L", "merged": ["Canola 1+1L", "CANOLA 1L + 1L"]}, {"primary": "CHIA SEEDS 200GM", "merged": ["CHIA SEEDS 200G"]}, {"primary": "CHIASEEDS 800G", "merged": ["CHIA SEEDS 800G"]}, {"primary": "EXTRA VIRGIN 1+1L", "merged": ["EXTRA VIRGIN 1L + 1L"]}, {"primary": "FLAX SEEDS 400 GM", "merged": ["FLAX SEEDS 400G"]}, {"primary": "JIVO POMACE 1+1L", "merged": ["JIVO POMACE 1L + 1L"]}, {"primary": "MUSTARD 1+1L", "merged": ["MUSTARD 1L + 1L"]}, {"primary": "PUMPKIN SEEDS 800 GM", "merged": ["PUMPKIN SEEDS 800G"]}, {"primary": "ROSEMARY LEAVES 150G", "merged": ["ROSEMARY LEAVES 150 GMS"]}, {"primary": "SUNFLOWER SEEDS 200 GM", "merged": ["SUNFLOWER SEEDS 200G"]}, {"primary": "DESI GHEE 500GM", "merged": ["DESI GHEE 500ML"]}, {"primary": "SANO POMACE 1+1+1L", "merged": ["SANO POMACE 1L+1L+1L"]}, {"primary": "SANO POMACE 1+1L", "merged": ["SANO POMACE 1L+1L"]}, {"primary": "WG APPLE JUICE 200ML", "merged": ["WG APPLE JUICE 200 ML"]}], "ecom_only_nodes": ["CINNAMON BARK 100G", "EXTRA VIRGIN 3L", "JIVO PUNJABI SHIKANJI 160 MLS", "JIVO WATER 500 MLS", "SOYABEAN 1L + 1L", "SPRING WATER 750ML", "SUNFLOWER 1L + 1L", "RICE BRAN 1L + 1L", "SO OLIVE 1L + 1L", "YELLOW MUSTARD 1L + 1L"], "tier_counts": {"PREMIUM": 63, "OTHER": 59, "COMMODITY": 29}, "manifest_zero_loss_ok": true}
+[2026-06-30T00:30:46Z] step 4b: factory_pillar.py (4th pillar: factory/ + factory->product SAP bridge)
+[factory] copytree /root/jivo-factory-intel/vault -> /opt/ecom-intel/combined-vault/factory
+[factory] prefix_ok=True notes=49462 bridged_products=136 bridge_links=377 combined_dest_notes=86711 zero_loss_ok=True
+FACTORY_PILLAR_JSON {"prefix_ok": true, "factory_notes": 49462, "bridged_products": 136, "bridge_links": 377, "zero_loss_ok": true}
+[2026-06-30T00:30:54Z] step 4c: combined_identity.py (stable internal product IDs + identity/REGISTRY.md)
+[identity] products=151 active_jids=151 retired=0 next_serial=152 conflicts=14
+IDENTITY_JSON {"products": 151, "active_jids": 151, "conflicts": 14, "next_serial": 152}
+[2026-06-30T00:30:54Z] step 5: verify_databank.py on the fresh build (gate before repo sync)
+{
+  "PASS": true,
+  "info": {
+    "source_notes": 86711,
+    "pillars": [
+      "ecom",
+      "factory",
+      "jivo"
+    ],
+    "products": 151,
+    "hubs": 30,
+    "platform_hubs": 10,
+    "tier_hubs": 3,
+    "category_hubs": 17,
+    "generated_links_checked": 4201,
+    "broken_links": 0
+  },
+  "failures": []
+}
+[2026-06-30T00:30:54Z] step 6: rsync verified build -> repo
+[2026-06-30T00:31:07Z] step 7: verify_databank.py on the synced repo (+ update baseline)
+[baseline] updated -> /root/jivo-data-bank/bin/.baseline.json
+{
+  "PASS": true,
+  "info": {
+    "source_notes": 86711,
+    "pillars": [
+      "ecom",
+      "factory",
+      "jivo"
+    ],
+    "products": 151,
+    "hubs": 30,
+    "platform_hubs": 10,
+    "tier_hubs": 3,
+    "category_hubs": 17,
+    "generated_links_checked": 4201,
+    "broken_links": 0
+  },
+  "failures": []
+}

@@ -12,7 +12,7 @@ tags:
 ---
 # DL1MA6685
 
-> Vehicle from `/vehicle-management/vehicles/` (Jivamart / JIVO_MART).
+> Vehicle from `/vehicle-management/vehicles/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 66

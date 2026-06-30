@@ -12,7 +12,7 @@ tags:
 ---
 # CARTON 1 LTR OLIVE 3 PCS
 
-> Arrival Slips from `/quality-control/arrival-slips/` (Jivamart / JIVO_MART).
+> Arrival Slips from `/quality-control/arrival-slips/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 525

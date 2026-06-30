@@ -1464,6 +1464,7 @@
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-151918",
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-151919",
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-56118",
+    "barcode__items__oitm/oitm-FG0000227",
     "barcode__loose/barcode__loose-550",
     "barcode__loose/barcode__loose-551",
     "barcode__loose/barcode__loose-727",
@@ -1710,10 +1711,12 @@
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-149663",
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-149664",
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-149665",
+    "barcode__items__oitm/oitm-FG0000424",
     "barcode__pallets/pal-2668",
     "barcode__pallets/pal-2689",
     "barcode__pallets/pal-3112",
-    "barcode__pallets/pal-3122"
+    "barcode__pallets/pal-3122",
+    "quality-control__sap-items/quality-control__sap-items-FG0000424"
   ],
   "FG0000030": [
     "barcode__boxes/box-100226",
@@ -13105,7 +13108,8 @@
     "barcode__pallets/pal-680",
     "barcode__pallets/pal-697",
     "barcode__pallets/pal-703",
-    "barcode__pallets/pal-714"
+    "barcode__pallets/pal-714",
+    "quality-control__sap-items/quality-control__sap-items-FG0000142"
   ],
   "FG0000143": [
     "barcode__boxes/box-127802",
@@ -15015,7 +15019,8 @@
     "barcode__pallets/pal-1980",
     "barcode__pallets/pal-1981",
     "barcode__pallets/pal-2655",
-    "barcode__pallets/pal-2915"
+    "barcode__pallets/pal-2915",
+    "quality-control__sap-items/quality-control__sap-items-FG0000143"
   ],
   "FG0000011": [
     "barcode__boxes/box-111240",
@@ -18306,8 +18311,8 @@
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-97935",
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-97937",
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-97938",
-    "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-98144",
-    "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-98161",
+    "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-98134",
+    "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-98136",
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-98168",
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-98169",
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-98415",
@@ -18558,6 +18563,7 @@
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-135380",
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-135382",
     "barcode__dispatch__reports__boxes/barcode__dispatch__reports__boxes-135383",
+    "barcode__items__oitm/oitm-FG0000328",
     "barcode__pallets/pal-2825",
     "barcode__pallets/pal-2826",
     "barcode__pallets/pal-2827",
@@ -25941,10 +25947,12 @@
     "barcode__boxes/box-90416",
     "barcode__boxes/box-90417",
     "barcode__boxes/box-90418",
+    "barcode__items__oitm/oitm-FG0000393",
     "barcode__pallets/pal-1754",
     "barcode__pallets/pal-1887",
     "barcode__pallets/pal-1888",
-    "barcode__pallets/pal-1889"
+    "barcode__pallets/pal-1889",
+    "quality-control__sap-items/quality-control__sap-items-FG0000393"
   ],
   "FG0000015": [
     "barcode__boxes/box-88255",
@@ -27117,7 +27125,9 @@
     "barcode__boxes/box-79083",
     "barcode__boxes/box-79084",
     "barcode__boxes/box-79085",
-    "barcode__boxes/box-79086"
+    "barcode__boxes/box-79086",
+    "barcode__items__oitm/oitm-FG0000420",
+    "quality-control__sap-items/quality-control__sap-items-FG0000420"
   ],
   "FG0000005": [
     "barcode__boxes/box-17767",
@@ -28019,6 +28029,7 @@
     "barcode__boxes/box-64498",
     "barcode__boxes/box-64499",
     "barcode__boxes/box-64500",
+    "barcode__items__oitm/oitm-FG0000230",
     "barcode__pallets/pal-1262",
     "barcode__pallets/pal-1263",
     "barcode__pallets/pal-1269",
@@ -28724,7 +28735,9 @@
     "barcode__boxes/box-14436",
     "barcode__boxes/box-14437",
     "barcode__boxes/box-14438",
-    "barcode__pallets/pal-308"
+    "barcode__items__oitm/oitm-FG0000423",
+    "barcode__pallets/pal-308",
+    "quality-control__sap-items/quality-control__sap-items-FG0000423"
   ],
   "FG0000402": [
     "barcode__boxes/box-13218",
@@ -28768,7 +28781,9 @@
     "barcode__boxes/box-13285",
     "barcode__boxes/box-13286",
     "barcode__boxes/box-13287",
-    "barcode__boxes/box-13288"
+    "barcode__boxes/box-13288",
+    "barcode__items__oitm/oitm-FG0000402",
+    "quality-control__sap-items/quality-control__sap-items-FG0000402"
   ],
   "FG0000422": [
     "barcode__boxes/box-6265",
@@ -28841,7 +28856,9 @@
     "barcode__boxes/box-8106",
     "barcode__boxes/box-8115",
     "barcode__boxes/box-8159",
-    "barcode__pallets/pal-131"
+    "barcode__items__oitm/oitm-FG0000422",
+    "barcode__pallets/pal-131",
+    "quality-control__sap-items/quality-control__sap-items-FG0000422"
   ],
   "FG0000033": [
     "barcode__boxes/box-3603",
@@ -29026,7 +29043,8 @@
     "barcode__items__oitm/oitm-FG0000059"
   ],
   "FG0000060": [
-    "barcode__items__oitm/oitm-FG0000060"
+    "barcode__items__oitm/oitm-FG0000060",
+    "quality-control__sap-items/quality-control__sap-items-FG0000060"
   ],
   "FG0000061": [
     "barcode__items__oitm/oitm-FG0000061"
@@ -29140,88 +29158,112 @@
     "barcode__items__oitm/oitm-FG0000101"
   ],
   "FG0000102": [
-    "barcode__items__oitm/oitm-FG0000102"
+    "barcode__items__oitm/oitm-FG0000102",
+    "quality-control__sap-items/quality-control__sap-items-FG0000102"
   ],
   "FG0000104": [
-    "barcode__items__oitm/oitm-FG0000104"
+    "barcode__items__oitm/oitm-FG0000104",
+    "quality-control__sap-items/quality-control__sap-items-FG0000104"
   ],
   "FG0000105": [
-    "barcode__items__oitm/oitm-FG0000105"
+    "barcode__items__oitm/oitm-FG0000105",
+    "quality-control__sap-items/quality-control__sap-items-FG0000105"
   ],
   "FG0000107": [
-    "barcode__items__oitm/oitm-FG0000107"
+    "barcode__items__oitm/oitm-FG0000107",
+    "quality-control__sap-items/quality-control__sap-items-FG0000107"
   ],
   "FG0000108": [
-    "barcode__items__oitm/oitm-FG0000108"
+    "barcode__items__oitm/oitm-FG0000108",
+    "quality-control__sap-items/quality-control__sap-items-FG0000108"
   ],
   "FG0000109": [
-    "barcode__items__oitm/oitm-FG0000109"
+    "barcode__items__oitm/oitm-FG0000109",
+    "quality-control__sap-items/quality-control__sap-items-FG0000109"
   ],
   "FG0000110": [
     "barcode__items__oitm/oitm-FG0000110"
   ],
   "FG0000111": [
-    "barcode__items__oitm/oitm-FG0000111"
+    "barcode__items__oitm/oitm-FG0000111",
+    "quality-control__sap-items/quality-control__sap-items-FG0000111"
   ],
   "FG0000112": [
     "barcode__items__oitm/oitm-FG0000112"
   ],
   "FG0000113": [
-    "barcode__items__oitm/oitm-FG0000113"
+    "barcode__items__oitm/oitm-FG0000113",
+    "quality-control__sap-items/quality-control__sap-items-FG0000113"
   ],
   "FG0000114": [
     "barcode__items__oitm/oitm-FG0000114"
   ],
   "FG0000115": [
-    "barcode__items__oitm/oitm-FG0000115"
+    "barcode__items__oitm/oitm-FG0000115",
+    "quality-control__sap-items/quality-control__sap-items-FG0000115"
   ],
   "FG0000116": [
-    "barcode__items__oitm/oitm-FG0000116"
+    "barcode__items__oitm/oitm-FG0000116",
+    "quality-control__sap-items/quality-control__sap-items-FG0000116"
   ],
   "FG0000118": [
-    "barcode__items__oitm/oitm-FG0000118"
+    "barcode__items__oitm/oitm-FG0000118",
+    "quality-control__sap-items/quality-control__sap-items-FG0000118"
   ],
   "FG0000119": [
-    "barcode__items__oitm/oitm-FG0000119"
+    "barcode__items__oitm/oitm-FG0000119",
+    "quality-control__sap-items/quality-control__sap-items-FG0000119"
   ],
   "FG0000120": [
-    "barcode__items__oitm/oitm-FG0000120"
+    "barcode__items__oitm/oitm-FG0000120",
+    "quality-control__sap-items/quality-control__sap-items-FG0000120"
   ],
   "FG0000121": [
-    "barcode__items__oitm/oitm-FG0000121"
+    "barcode__items__oitm/oitm-FG0000121",
+    "quality-control__sap-items/quality-control__sap-items-FG0000121"
   ],
   "FG0000122": [
-    "barcode__items__oitm/oitm-FG0000122"
+    "barcode__items__oitm/oitm-FG0000122",
+    "quality-control__sap-items/quality-control__sap-items-FG0000122"
   ],
   "FG0000123": [
-    "barcode__items__oitm/oitm-FG0000123"
+    "barcode__items__oitm/oitm-FG0000123",
+    "quality-control__sap-items/quality-control__sap-items-FG0000123"
   ],
   "FG0000124": [
-    "barcode__items__oitm/oitm-FG0000124"
+    "barcode__items__oitm/oitm-FG0000124",
+    "quality-control__sap-items/quality-control__sap-items-FG0000124"
   ],
   "FG0000125": [
-    "barcode__items__oitm/oitm-FG0000125"
+    "barcode__items__oitm/oitm-FG0000125",
+    "quality-control__sap-items/quality-control__sap-items-FG0000125"
   ],
   "FG0000126": [
-    "barcode__items__oitm/oitm-FG0000126"
+    "barcode__items__oitm/oitm-FG0000126",
+    "quality-control__sap-items/quality-control__sap-items-FG0000126"
   ],
   "FG0000127": [
-    "barcode__items__oitm/oitm-FG0000127"
+    "barcode__items__oitm/oitm-FG0000127",
+    "quality-control__sap-items/quality-control__sap-items-FG0000127"
   ],
   "FG0000129": [
-    "barcode__items__oitm/oitm-FG0000129"
+    "barcode__items__oitm/oitm-FG0000129",
+    "quality-control__sap-items/quality-control__sap-items-FG0000129"
   ],
   "FG0000130": [
-    "barcode__items__oitm/oitm-FG0000130"
+    "barcode__items__oitm/oitm-FG0000130",
+    "quality-control__sap-items/quality-control__sap-items-FG0000130"
   ],
   "FG0000131": [
-    "barcode__items__oitm/oitm-FG0000131"
+    "barcode__items__oitm/oitm-FG0000131",
+    "quality-control__sap-items/quality-control__sap-items-FG0000131"
   ],
   "FG0000132": [
     "barcode__items__oitm/oitm-FG0000132"
   ],
   "FG0000133": [
-    "barcode__items__oitm/oitm-FG0000133"
+    "barcode__items__oitm/oitm-FG0000133",
+    "quality-control__sap-items/quality-control__sap-items-FG0000133"
   ],
   "FG0000134": [
     "barcode__items__oitm/oitm-FG0000134"
@@ -29248,13 +29290,16 @@
     "barcode__items__oitm/oitm-FG0000141"
   ],
   "FG0000144": [
-    "barcode__items__oitm/oitm-FG0000144"
+    "barcode__items__oitm/oitm-FG0000144",
+    "quality-control__sap-items/quality-control__sap-items-FG0000144"
   ],
   "FG0000145": [
-    "barcode__items__oitm/oitm-FG0000145"
+    "barcode__items__oitm/oitm-FG0000145",
+    "quality-control__sap-items/quality-control__sap-items-FG0000145"
   ],
   "FG0000146": [
-    "barcode__items__oitm/oitm-FG0000146"
+    "barcode__items__oitm/oitm-FG0000146",
+    "quality-control__sap-items/quality-control__sap-items-FG0000146"
   ],
   "FG0000147": [
     "barcode__items__oitm/oitm-FG0000147"
@@ -29269,28 +29314,34 @@
     "barcode__items__oitm/oitm-FG0000152"
   ],
   "FG0000153": [
-    "barcode__items__oitm/oitm-FG0000153"
+    "barcode__items__oitm/oitm-FG0000153",
+    "quality-control__sap-items/quality-control__sap-items-FG0000153"
   ],
   "FG0000154": [
     "barcode__items__oitm/oitm-FG0000154"
   ],
   "FG0000155": [
-    "barcode__items__oitm/oitm-FG0000155"
+    "barcode__items__oitm/oitm-FG0000155",
+    "quality-control__sap-items/quality-control__sap-items-FG0000155"
   ],
   "FG0000156": [
-    "barcode__items__oitm/oitm-FG0000156"
+    "barcode__items__oitm/oitm-FG0000156",
+    "quality-control__sap-items/quality-control__sap-items-FG0000156"
   ],
   "FG0000157": [
-    "barcode__items__oitm/oitm-FG0000157"
+    "barcode__items__oitm/oitm-FG0000157",
+    "quality-control__sap-items/quality-control__sap-items-FG0000157"
   ],
   "FG0000158": [
     "barcode__items__oitm/oitm-FG0000158"
   ],
   "FG0000159": [
-    "barcode__items__oitm/oitm-FG0000159"
+    "barcode__items__oitm/oitm-FG0000159",
+    "quality-control__sap-items/quality-control__sap-items-FG0000159"
   ],
   "FG0000160": [
-    "barcode__items__oitm/oitm-FG0000160"
+    "barcode__items__oitm/oitm-FG0000160",
+    "quality-control__sap-items/quality-control__sap-items-FG0000160"
   ],
   "FG0000161": [
     "barcode__items__oitm/oitm-FG0000161"
@@ -29299,19 +29350,23 @@
     "barcode__items__oitm/oitm-FG0000162"
   ],
   "FG0000163": [
-    "barcode__items__oitm/oitm-FG0000163"
+    "barcode__items__oitm/oitm-FG0000163",
+    "quality-control__sap-items/quality-control__sap-items-FG0000163"
   ],
   "FG0000164": [
     "barcode__items__oitm/oitm-FG0000164"
   ],
   "FG0000165": [
-    "barcode__items__oitm/oitm-FG0000165"
+    "barcode__items__oitm/oitm-FG0000165",
+    "quality-control__sap-items/quality-control__sap-items-FG0000165"
   ],
   "FG0000166": [
-    "barcode__items__oitm/oitm-FG0000166"
+    "barcode__items__oitm/oitm-FG0000166",
+    "quality-control__sap-items/quality-control__sap-items-FG0000166"
   ],
   "FG0000167": [
-    "barcode__items__oitm/oitm-FG0000167"
+    "barcode__items__oitm/oitm-FG0000167",
+    "quality-control__sap-items/quality-control__sap-items-FG0000167"
   ],
   "FG0000168": [
     "barcode__items__oitm/oitm-FG0000168"
@@ -29323,22 +29378,27 @@
     "barcode__items__oitm/oitm-FG0000170"
   ],
   "FG0000171": [
-    "barcode__items__oitm/oitm-FG0000171"
+    "barcode__items__oitm/oitm-FG0000171",
+    "quality-control__sap-items/quality-control__sap-items-FG0000171"
   ],
   "FG0000172": [
     "barcode__items__oitm/oitm-FG0000172"
   ],
   "FG0000173": [
-    "barcode__items__oitm/oitm-FG0000173"
+    "barcode__items__oitm/oitm-FG0000173",
+    "quality-control__sap-items/quality-control__sap-items-FG0000173"
   ],
   "FG0000174": [
-    "barcode__items__oitm/oitm-FG0000174"
+    "barcode__items__oitm/oitm-FG0000174",
+    "quality-control__sap-items/quality-control__sap-items-FG0000174"
   ],
   "FG0000175": [
-    "barcode__items__oitm/oitm-FG0000175"
+    "barcode__items__oitm/oitm-FG0000175",
+    "quality-control__sap-items/quality-control__sap-items-FG0000175"
   ],
   "FG0000176": [
-    "barcode__items__oitm/oitm-FG0000176"
+    "barcode__items__oitm/oitm-FG0000176",
+    "quality-control__sap-items/quality-control__sap-items-FG0000176"
   ],
   "FG0000177": [
     "barcode__items__oitm/oitm-FG0000177"
@@ -29350,7 +29410,8 @@
     "barcode__items__oitm/oitm-FG0000179"
   ],
   "FG0000180": [
-    "barcode__items__oitm/oitm-FG0000180"
+    "barcode__items__oitm/oitm-FG0000180",
+    "quality-control__sap-items/quality-control__sap-items-FG0000180"
   ],
   "FG0000181": [
     "barcode__items__oitm/oitm-FG0000181"
@@ -29359,16 +29420,20 @@
     "barcode__items__oitm/oitm-FG0000182"
   ],
   "FG0000183": [
-    "barcode__items__oitm/oitm-FG0000183"
+    "barcode__items__oitm/oitm-FG0000183",
+    "quality-control__sap-items/quality-control__sap-items-FG0000183"
   ],
   "FG0000184": [
-    "barcode__items__oitm/oitm-FG0000184"
+    "barcode__items__oitm/oitm-FG0000184",
+    "quality-control__sap-items/quality-control__sap-items-FG0000184"
   ],
   "FG0000185": [
-    "barcode__items__oitm/oitm-FG0000185"
+    "barcode__items__oitm/oitm-FG0000185",
+    "quality-control__sap-items/quality-control__sap-items-FG0000185"
   ],
   "FG0000186": [
-    "barcode__items__oitm/oitm-FG0000186"
+    "barcode__items__oitm/oitm-FG0000186",
+    "quality-control__sap-items/quality-control__sap-items-FG0000186"
   ],
   "FG0000187": [
     "barcode__items__oitm/oitm-FG0000187"
@@ -29404,12 +29469,768 @@
     "barcode__items__oitm/oitm-FG0000199"
   ],
   "FG0000200": [
-    "barcode__items__oitm/oitm-FG0000200"
+    "barcode__items__oitm/oitm-FG0000200",
+    "quality-control__sap-items/quality-control__sap-items-FG0000200"
   ],
   "FG0000201": [
     "barcode__items__oitm/oitm-FG0000201"
   ],
   "FG0000202": [
     "barcode__items__oitm/oitm-FG0000202"
+  ],
+  "FG0000203": [
+    "barcode__items__oitm/oitm-FG0000203"
+  ],
+  "FG0000204": [
+    "barcode__items__oitm/oitm-FG0000204"
+  ],
+  "FG0000205": [
+    "barcode__items__oitm/oitm-FG0000205",
+    "quality-control__sap-items/quality-control__sap-items-FG0000205"
+  ],
+  "FG0000206": [
+    "barcode__items__oitm/oitm-FG0000206",
+    "quality-control__sap-items/quality-control__sap-items-FG0000206"
+  ],
+  "FG0000207": [
+    "barcode__items__oitm/oitm-FG0000207"
+  ],
+  "FG0000208": [
+    "barcode__items__oitm/oitm-FG0000208",
+    "quality-control__sap-items/quality-control__sap-items-FG0000208"
+  ],
+  "FG0000209": [
+    "barcode__items__oitm/oitm-FG0000209",
+    "quality-control__sap-items/quality-control__sap-items-FG0000209"
+  ],
+  "FG0000210": [
+    "barcode__items__oitm/oitm-FG0000210",
+    "quality-control__sap-items/quality-control__sap-items-FG0000210"
+  ],
+  "FG0000211": [
+    "barcode__items__oitm/oitm-FG0000211"
+  ],
+  "FG0000212": [
+    "barcode__items__oitm/oitm-FG0000212"
+  ],
+  "FG0000213": [
+    "barcode__items__oitm/oitm-FG0000213"
+  ],
+  "FG0000214": [
+    "barcode__items__oitm/oitm-FG0000214"
+  ],
+  "FG0000215": [
+    "barcode__items__oitm/oitm-FG0000215",
+    "quality-control__sap-items/quality-control__sap-items-FG0000215"
+  ],
+  "FG0000216": [
+    "barcode__items__oitm/oitm-FG0000216"
+  ],
+  "FG0000217": [
+    "barcode__items__oitm/oitm-FG0000217"
+  ],
+  "FG0000218": [
+    "barcode__items__oitm/oitm-FG0000218",
+    "quality-control__sap-items/quality-control__sap-items-FG0000218"
+  ],
+  "FG0000219": [
+    "barcode__items__oitm/oitm-FG0000219",
+    "quality-control__sap-items/quality-control__sap-items-FG0000219"
+  ],
+  "FG0000220": [
+    "barcode__items__oitm/oitm-FG0000220"
+  ],
+  "FG0000221": [
+    "barcode__items__oitm/oitm-FG0000221"
+  ],
+  "FG0000222": [
+    "barcode__items__oitm/oitm-FG0000222"
+  ],
+  "FG0000223": [
+    "barcode__items__oitm/oitm-FG0000223",
+    "quality-control__sap-items/quality-control__sap-items-FG0000223"
+  ],
+  "FG0000224": [
+    "barcode__items__oitm/oitm-FG0000224"
+  ],
+  "FG0000225": [
+    "barcode__items__oitm/oitm-FG0000225",
+    "quality-control__sap-items/quality-control__sap-items-FG0000225"
+  ],
+  "FG0000226": [
+    "barcode__items__oitm/oitm-FG0000226"
+  ],
+  "FG0000228": [
+    "barcode__items__oitm/oitm-FG0000228"
+  ],
+  "FG0000229": [
+    "barcode__items__oitm/oitm-FG0000229"
+  ],
+  "FG0000231": [
+    "barcode__items__oitm/oitm-FG0000231"
+  ],
+  "FG0000232": [
+    "barcode__items__oitm/oitm-FG0000232",
+    "quality-control__sap-items/quality-control__sap-items-FG0000232"
+  ],
+  "FG0000233": [
+    "barcode__items__oitm/oitm-FG0000233",
+    "quality-control__sap-items/quality-control__sap-items-FG0000233"
+  ],
+  "FG0000234": [
+    "barcode__items__oitm/oitm-FG0000234",
+    "quality-control__sap-items/quality-control__sap-items-FG0000234"
+  ],
+  "FG0000235": [
+    "barcode__items__oitm/oitm-FG0000235",
+    "quality-control__sap-items/quality-control__sap-items-FG0000235"
+  ],
+  "FG0000236": [
+    "barcode__items__oitm/oitm-FG0000236",
+    "quality-control__sap-items/quality-control__sap-items-FG0000236"
+  ],
+  "FG0000237": [
+    "barcode__items__oitm/oitm-FG0000237",
+    "quality-control__sap-items/quality-control__sap-items-FG0000237"
+  ],
+  "FG0000238": [
+    "barcode__items__oitm/oitm-FG0000238",
+    "quality-control__sap-items/quality-control__sap-items-FG0000238"
+  ],
+  "FG0000239": [
+    "barcode__items__oitm/oitm-FG0000239",
+    "quality-control__sap-items/quality-control__sap-items-FG0000239"
+  ],
+  "FG0000240": [
+    "barcode__items__oitm/oitm-FG0000240",
+    "quality-control__sap-items/quality-control__sap-items-FG0000240"
+  ],
+  "FG0000241": [
+    "barcode__items__oitm/oitm-FG0000241"
+  ],
+  "FG0000242": [
+    "barcode__items__oitm/oitm-FG0000242",
+    "quality-control__sap-items/quality-control__sap-items-FG0000242"
+  ],
+  "FG0000243": [
+    "barcode__items__oitm/oitm-FG0000243",
+    "quality-control__sap-items/quality-control__sap-items-FG0000243"
+  ],
+  "FG0000244": [
+    "barcode__items__oitm/oitm-FG0000244",
+    "quality-control__sap-items/quality-control__sap-items-FG0000244"
+  ],
+  "FG0000245": [
+    "barcode__items__oitm/oitm-FG0000245"
+  ],
+  "FG0000246": [
+    "barcode__items__oitm/oitm-FG0000246"
+  ],
+  "FG0000247": [
+    "barcode__items__oitm/oitm-FG0000247"
+  ],
+  "FG0000248": [
+    "barcode__items__oitm/oitm-FG0000248"
+  ],
+  "FG0000249": [
+    "barcode__items__oitm/oitm-FG0000249"
+  ],
+  "FG0000250": [
+    "barcode__items__oitm/oitm-FG0000250",
+    "quality-control__sap-items/quality-control__sap-items-FG0000250"
+  ],
+  "FG0000251": [
+    "barcode__items__oitm/oitm-FG0000251",
+    "quality-control__sap-items/quality-control__sap-items-FG0000251"
+  ],
+  "FG0000252": [
+    "barcode__items__oitm/oitm-FG0000252",
+    "quality-control__sap-items/quality-control__sap-items-FG0000252"
+  ],
+  "FG0000253": [
+    "barcode__items__oitm/oitm-FG0000253"
+  ],
+  "FG0000254": [
+    "barcode__items__oitm/oitm-FG0000254"
+  ],
+  "FG0000255": [
+    "barcode__items__oitm/oitm-FG0000255",
+    "quality-control__sap-items/quality-control__sap-items-FG0000255"
+  ],
+  "FG0000256": [
+    "barcode__items__oitm/oitm-FG0000256",
+    "quality-control__sap-items/quality-control__sap-items-FG0000256"
+  ],
+  "FG0000257": [
+    "barcode__items__oitm/oitm-FG0000257",
+    "quality-control__sap-items/quality-control__sap-items-FG0000257"
+  ],
+  "FG0000258": [
+    "barcode__items__oitm/oitm-FG0000258",
+    "quality-control__sap-items/quality-control__sap-items-FG0000258"
+  ],
+  "FG0000260": [
+    "barcode__items__oitm/oitm-FG0000260",
+    "quality-control__sap-items/quality-control__sap-items-FG0000260"
+  ],
+  "FG0000261": [
+    "barcode__items__oitm/oitm-FG0000261",
+    "quality-control__sap-items/quality-control__sap-items-FG0000261"
+  ],
+  "FG0000262": [
+    "barcode__items__oitm/oitm-FG0000262",
+    "quality-control__sap-items/quality-control__sap-items-FG0000262"
+  ],
+  "FG0000263": [
+    "barcode__items__oitm/oitm-FG0000263",
+    "quality-control__sap-items/quality-control__sap-items-FG0000263"
+  ],
+  "FG0000264": [
+    "barcode__items__oitm/oitm-FG0000264",
+    "quality-control__sap-items/quality-control__sap-items-FG0000264"
+  ],
+  "FG0000265": [
+    "barcode__items__oitm/oitm-FG0000265",
+    "quality-control__sap-items/quality-control__sap-items-FG0000265"
+  ],
+  "FG0000266": [
+    "barcode__items__oitm/oitm-FG0000266"
+  ],
+  "FG0000267": [
+    "barcode__items__oitm/oitm-FG0000267"
+  ],
+  "FG0000268": [
+    "barcode__items__oitm/oitm-FG0000268"
+  ],
+  "FG0000269": [
+    "barcode__items__oitm/oitm-FG0000269"
+  ],
+  "FG0000270": [
+    "barcode__items__oitm/oitm-FG0000270"
+  ],
+  "FG0000271": [
+    "barcode__items__oitm/oitm-FG0000271",
+    "quality-control__sap-items/quality-control__sap-items-FG0000271"
+  ],
+  "FG0000272": [
+    "barcode__items__oitm/oitm-FG0000272"
+  ],
+  "FG0000273": [
+    "barcode__items__oitm/oitm-FG0000273",
+    "quality-control__sap-items/quality-control__sap-items-FG0000273"
+  ],
+  "FG0000274": [
+    "barcode__items__oitm/oitm-FG0000274",
+    "quality-control__sap-items/quality-control__sap-items-FG0000274"
+  ],
+  "FG0000275": [
+    "barcode__items__oitm/oitm-FG0000275"
+  ],
+  "FG0000276": [
+    "barcode__items__oitm/oitm-FG0000276",
+    "quality-control__sap-items/quality-control__sap-items-FG0000276"
+  ],
+  "FG0000277": [
+    "barcode__items__oitm/oitm-FG0000277"
+  ],
+  "FG0000278": [
+    "barcode__items__oitm/oitm-FG0000278"
+  ],
+  "FG0000279": [
+    "barcode__items__oitm/oitm-FG0000279"
+  ],
+  "FG0000280": [
+    "barcode__items__oitm/oitm-FG0000280"
+  ],
+  "FG0000281": [
+    "barcode__items__oitm/oitm-FG0000281"
+  ],
+  "FG0000282": [
+    "barcode__items__oitm/oitm-FG0000282"
+  ],
+  "FG0000283": [
+    "barcode__items__oitm/oitm-FG0000283"
+  ],
+  "FG0000284": [
+    "barcode__items__oitm/oitm-FG0000284",
+    "quality-control__sap-items/quality-control__sap-items-FG0000284"
+  ],
+  "FG0000285": [
+    "barcode__items__oitm/oitm-FG0000285",
+    "quality-control__sap-items/quality-control__sap-items-FG0000285"
+  ],
+  "FG0000286": [
+    "barcode__items__oitm/oitm-FG0000286",
+    "quality-control__sap-items/quality-control__sap-items-FG0000286"
+  ],
+  "FG0000287": [
+    "barcode__items__oitm/oitm-FG0000287"
+  ],
+  "FG0000288": [
+    "barcode__items__oitm/oitm-FG0000288"
+  ],
+  "FG0000289": [
+    "barcode__items__oitm/oitm-FG0000289"
+  ],
+  "FG0000290": [
+    "barcode__items__oitm/oitm-FG0000290",
+    "quality-control__sap-items/quality-control__sap-items-FG0000290"
+  ],
+  "FG0000291": [
+    "barcode__items__oitm/oitm-FG0000291"
+  ],
+  "FG0000292": [
+    "barcode__items__oitm/oitm-FG0000292",
+    "quality-control__sap-items/quality-control__sap-items-FG0000292"
+  ],
+  "FG0000293": [
+    "barcode__items__oitm/oitm-FG0000293"
+  ],
+  "FG0000294": [
+    "barcode__items__oitm/oitm-FG0000294",
+    "quality-control__sap-items/quality-control__sap-items-FG0000294"
+  ],
+  "FG0000295": [
+    "barcode__items__oitm/oitm-FG0000295",
+    "quality-control__sap-items/quality-control__sap-items-FG0000295"
+  ],
+  "FG0000296": [
+    "barcode__items__oitm/oitm-FG0000296",
+    "quality-control__sap-items/quality-control__sap-items-FG0000296"
+  ],
+  "FG0000297": [
+    "barcode__items__oitm/oitm-FG0000297",
+    "quality-control__sap-items/quality-control__sap-items-FG0000297"
+  ],
+  "FG0000298": [
+    "barcode__items__oitm/oitm-FG0000298",
+    "quality-control__sap-items/quality-control__sap-items-FG0000298"
+  ],
+  "FG0000299": [
+    "barcode__items__oitm/oitm-FG0000299"
+  ],
+  "FG0000300": [
+    "barcode__items__oitm/oitm-FG0000300"
+  ],
+  "FG0000301": [
+    "barcode__items__oitm/oitm-FG0000301"
+  ],
+  "FG0000302": [
+    "barcode__items__oitm/oitm-FG0000302"
+  ],
+  "FG0000303": [
+    "barcode__items__oitm/oitm-FG0000303"
+  ],
+  "FG0000304": [
+    "barcode__items__oitm/oitm-FG0000304",
+    "quality-control__sap-items/quality-control__sap-items-FG0000304"
+  ],
+  "FG0000305": [
+    "barcode__items__oitm/oitm-FG0000305",
+    "quality-control__sap-items/quality-control__sap-items-FG0000305"
+  ],
+  "FG0000306": [
+    "barcode__items__oitm/oitm-FG0000306"
+  ],
+  "FG0000307": [
+    "barcode__items__oitm/oitm-FG0000307",
+    "quality-control__sap-items/quality-control__sap-items-FG0000307"
+  ],
+  "FG0000308": [
+    "barcode__items__oitm/oitm-FG0000308"
+  ],
+  "FG0000309": [
+    "barcode__items__oitm/oitm-FG0000309",
+    "quality-control__sap-items/quality-control__sap-items-FG0000309"
+  ],
+  "FG0000310": [
+    "barcode__items__oitm/oitm-FG0000310",
+    "quality-control__sap-items/quality-control__sap-items-FG0000310"
+  ],
+  "FG0000311": [
+    "barcode__items__oitm/oitm-FG0000311"
+  ],
+  "FG0000312": [
+    "barcode__items__oitm/oitm-FG0000312"
+  ],
+  "FG0000313": [
+    "barcode__items__oitm/oitm-FG0000313",
+    "quality-control__sap-items/quality-control__sap-items-FG0000313"
+  ],
+  "FG0000314": [
+    "barcode__items__oitm/oitm-FG0000314"
+  ],
+  "FG0000315": [
+    "barcode__items__oitm/oitm-FG0000315",
+    "quality-control__sap-items/quality-control__sap-items-FG0000315"
+  ],
+  "FG0000316": [
+    "barcode__items__oitm/oitm-FG0000316"
+  ],
+  "FG0000317": [
+    "barcode__items__oitm/oitm-FG0000317",
+    "quality-control__sap-items/quality-control__sap-items-FG0000317"
+  ],
+  "FG0000318": [
+    "barcode__items__oitm/oitm-FG0000318",
+    "quality-control__sap-items/quality-control__sap-items-FG0000318"
+  ],
+  "FG0000319": [
+    "barcode__items__oitm/oitm-FG0000319",
+    "quality-control__sap-items/quality-control__sap-items-FG0000319"
+  ],
+  "FG0000320": [
+    "barcode__items__oitm/oitm-FG0000320"
+  ],
+  "FG0000321": [
+    "barcode__items__oitm/oitm-FG0000321",
+    "quality-control__sap-items/quality-control__sap-items-FG0000321"
+  ],
+  "FG0000322": [
+    "barcode__items__oitm/oitm-FG0000322"
+  ],
+  "FG0000323": [
+    "barcode__items__oitm/oitm-FG0000323"
+  ],
+  "FG0000325": [
+    "barcode__items__oitm/oitm-FG0000325",
+    "quality-control__sap-items/quality-control__sap-items-FG0000325"
+  ],
+  "FG0000326": [
+    "barcode__items__oitm/oitm-FG0000326"
+  ],
+  "FG0000327": [
+    "barcode__items__oitm/oitm-FG0000327"
+  ],
+  "FG0000329": [
+    "barcode__items__oitm/oitm-FG0000329"
+  ],
+  "FG0000330": [
+    "barcode__items__oitm/oitm-FG0000330"
+  ],
+  "FG0000331": [
+    "barcode__items__oitm/oitm-FG0000331"
+  ],
+  "FG0000332": [
+    "barcode__items__oitm/oitm-FG0000332"
+  ],
+  "FG0000333": [
+    "barcode__items__oitm/oitm-FG0000333"
+  ],
+  "FG0000334": [
+    "barcode__items__oitm/oitm-FG0000334"
+  ],
+  "FG0000335": [
+    "barcode__items__oitm/oitm-FG0000335"
+  ],
+  "FG0000336": [
+    "barcode__items__oitm/oitm-FG0000336",
+    "quality-control__sap-items/quality-control__sap-items-FG0000336"
+  ],
+  "FG0000337": [
+    "barcode__items__oitm/oitm-FG0000337"
+  ],
+  "FG0000338": [
+    "barcode__items__oitm/oitm-FG0000338"
+  ],
+  "FG0000339": [
+    "barcode__items__oitm/oitm-FG0000339"
+  ],
+  "FG0000340": [
+    "barcode__items__oitm/oitm-FG0000340"
+  ],
+  "FG0000341": [
+    "barcode__items__oitm/oitm-FG0000341",
+    "quality-control__sap-items/quality-control__sap-items-FG0000341"
+  ],
+  "FG0000342": [
+    "barcode__items__oitm/oitm-FG0000342"
+  ],
+  "FG0000343": [
+    "barcode__items__oitm/oitm-FG0000343"
+  ],
+  "FG0000344": [
+    "barcode__items__oitm/oitm-FG0000344"
+  ],
+  "FG0000345": [
+    "barcode__items__oitm/oitm-FG0000345"
+  ],
+  "FG0000346": [
+    "barcode__items__oitm/oitm-FG0000346"
+  ],
+  "FG0000347": [
+    "barcode__items__oitm/oitm-FG0000347",
+    "quality-control__sap-items/quality-control__sap-items-FG0000347"
+  ],
+  "FG0000348": [
+    "barcode__items__oitm/oitm-FG0000348",
+    "quality-control__sap-items/quality-control__sap-items-FG0000348"
+  ],
+  "FG0000349": [
+    "barcode__items__oitm/oitm-FG0000349",
+    "quality-control__sap-items/quality-control__sap-items-FG0000349"
+  ],
+  "FG0000350": [
+    "barcode__items__oitm/oitm-FG0000350",
+    "quality-control__sap-items/quality-control__sap-items-FG0000350"
+  ],
+  "FG0000351": [
+    "barcode__items__oitm/oitm-FG0000351",
+    "quality-control__sap-items/quality-control__sap-items-FG0000351"
+  ],
+  "FG0000352": [
+    "barcode__items__oitm/oitm-FG0000352",
+    "quality-control__sap-items/quality-control__sap-items-FG0000352"
+  ],
+  "FG0000353": [
+    "barcode__items__oitm/oitm-FG0000353",
+    "quality-control__sap-items/quality-control__sap-items-FG0000353"
+  ],
+  "FG0000354": [
+    "barcode__items__oitm/oitm-FG0000354",
+    "quality-control__sap-items/quality-control__sap-items-FG0000354"
+  ],
+  "FG0000355": [
+    "barcode__items__oitm/oitm-FG0000355",
+    "quality-control__sap-items/quality-control__sap-items-FG0000355"
+  ],
+  "FG0000356": [
+    "barcode__items__oitm/oitm-FG0000356",
+    "quality-control__sap-items/quality-control__sap-items-FG0000356"
+  ],
+  "FG0000357": [
+    "barcode__items__oitm/oitm-FG0000357",
+    "quality-control__sap-items/quality-control__sap-items-FG0000357"
+  ],
+  "FG0000358": [
+    "barcode__items__oitm/oitm-FG0000358",
+    "quality-control__sap-items/quality-control__sap-items-FG0000358"
+  ],
+  "FG0000359": [
+    "barcode__items__oitm/oitm-FG0000359",
+    "quality-control__sap-items/quality-control__sap-items-FG0000359"
+  ],
+  "FG0000360": [
+    "barcode__items__oitm/oitm-FG0000360",
+    "quality-control__sap-items/quality-control__sap-items-FG0000360"
+  ],
+  "FG0000361": [
+    "barcode__items__oitm/oitm-FG0000361",
+    "quality-control__sap-items/quality-control__sap-items-FG0000361"
+  ],
+  "FG0000362": [
+    "barcode__items__oitm/oitm-FG0000362",
+    "quality-control__sap-items/quality-control__sap-items-FG0000362"
+  ],
+  "FG0000363": [
+    "barcode__items__oitm/oitm-FG0000363",
+    "quality-control__sap-items/quality-control__sap-items-FG0000363"
+  ],
+  "FG0000364": [
+    "barcode__items__oitm/oitm-FG0000364"
+  ],
+  "FG0000365": [
+    "barcode__items__oitm/oitm-FG0000365",
+    "quality-control__sap-items/quality-control__sap-items-FG0000365"
+  ],
+  "FG0000366": [
+    "barcode__items__oitm/oitm-FG0000366",
+    "quality-control__sap-items/quality-control__sap-items-FG0000366"
+  ],
+  "FG0000367": [
+    "barcode__items__oitm/oitm-FG0000367"
+  ],
+  "FG0000369": [
+    "barcode__items__oitm/oitm-FG0000369",
+    "quality-control__sap-items/quality-control__sap-items-FG0000369"
+  ],
+  "FG0000370": [
+    "barcode__items__oitm/oitm-FG0000370",
+    "quality-control__sap-items/quality-control__sap-items-FG0000370"
+  ],
+  "FG0000371": [
+    "barcode__items__oitm/oitm-FG0000371"
+  ],
+  "FG0000372": [
+    "barcode__items__oitm/oitm-FG0000372"
+  ],
+  "FG0000373": [
+    "barcode__items__oitm/oitm-FG0000373"
+  ],
+  "FG0000374": [
+    "barcode__items__oitm/oitm-FG0000374"
+  ],
+  "FG0000375": [
+    "barcode__items__oitm/oitm-FG0000375",
+    "quality-control__sap-items/quality-control__sap-items-FG0000375"
+  ],
+  "FG0000376": [
+    "barcode__items__oitm/oitm-FG0000376"
+  ],
+  "FG0000377": [
+    "barcode__items__oitm/oitm-FG0000377"
+  ],
+  "FG0000378": [
+    "barcode__items__oitm/oitm-FG0000378",
+    "quality-control__sap-items/quality-control__sap-items-FG0000378"
+  ],
+  "FG0000379": [
+    "barcode__items__oitm/oitm-FG0000379"
+  ],
+  "FG0000380": [
+    "barcode__items__oitm/oitm-FG0000380",
+    "quality-control__sap-items/quality-control__sap-items-FG0000380"
+  ],
+  "FG0000381": [
+    "barcode__items__oitm/oitm-FG0000381",
+    "quality-control__sap-items/quality-control__sap-items-FG0000381"
+  ],
+  "FG0000382": [
+    "barcode__items__oitm/oitm-FG0000382"
+  ],
+  "FG0000383": [
+    "barcode__items__oitm/oitm-FG0000383"
+  ],
+  "FG0000384": [
+    "barcode__items__oitm/oitm-FG0000384"
+  ],
+  "FG0000385": [
+    "barcode__items__oitm/oitm-FG0000385"
+  ],
+  "FG0000386": [
+    "barcode__items__oitm/oitm-FG0000386",
+    "quality-control__sap-items/quality-control__sap-items-FG0000386"
+  ],
+  "FG0000387": [
+    "barcode__items__oitm/oitm-FG0000387",
+    "quality-control__sap-items/quality-control__sap-items-FG0000387"
+  ],
+  "FG0000388": [
+    "barcode__items__oitm/oitm-FG0000388",
+    "quality-control__sap-items/quality-control__sap-items-FG0000388"
+  ],
+  "FG0000389": [
+    "barcode__items__oitm/oitm-FG0000389",
+    "quality-control__sap-items/quality-control__sap-items-FG0000389"
+  ],
+  "FG0000390": [
+    "barcode__items__oitm/oitm-FG0000390",
+    "quality-control__sap-items/quality-control__sap-items-FG0000390"
+  ],
+  "FG0000391": [
+    "barcode__items__oitm/oitm-FG0000391",
+    "quality-control__sap-items/quality-control__sap-items-FG0000391"
+  ],
+  "FG0000392": [
+    "barcode__items__oitm/oitm-FG0000392"
+  ],
+  "FG0000394": [
+    "barcode__items__oitm/oitm-FG0000394",
+    "quality-control__sap-items/quality-control__sap-items-FG0000394"
+  ],
+  "FG0000395": [
+    "barcode__items__oitm/oitm-FG0000395"
+  ],
+  "FG0000396": [
+    "barcode__items__oitm/oitm-FG0000396",
+    "quality-control__sap-items/quality-control__sap-items-FG0000396"
+  ],
+  "FG0000397": [
+    "barcode__items__oitm/oitm-FG0000397",
+    "quality-control__sap-items/quality-control__sap-items-FG0000397"
+  ],
+  "FG0000398": [
+    "barcode__items__oitm/oitm-FG0000398"
+  ],
+  "FG0000399": [
+    "barcode__items__oitm/oitm-FG0000399",
+    "quality-control__sap-items/quality-control__sap-items-FG0000399"
+  ],
+  "FG0000400": [
+    "barcode__items__oitm/oitm-FG0000400",
+    "quality-control__sap-items/quality-control__sap-items-FG0000400"
+  ],
+  "FG0000401": [
+    "barcode__items__oitm/oitm-FG0000401",
+    "quality-control__sap-items/quality-control__sap-items-FG0000401"
+  ],
+  "FG0000403": [
+    "barcode__items__oitm/oitm-FG0000403",
+    "quality-control__sap-items/quality-control__sap-items-FG0000403"
+  ],
+  "FG0000404": [
+    "barcode__items__oitm/oitm-FG0000404",
+    "quality-control__sap-items/quality-control__sap-items-FG0000404"
+  ],
+  "FG0000405": [
+    "barcode__items__oitm/oitm-FG0000405",
+    "quality-control__sap-items/quality-control__sap-items-FG0000405"
+  ],
+  "FG0000406": [
+    "barcode__items__oitm/oitm-FG0000406",
+    "quality-control__sap-items/quality-control__sap-items-FG0000406"
+  ],
+  "FG0000407": [
+    "barcode__items__oitm/oitm-FG0000407",
+    "quality-control__sap-items/quality-control__sap-items-FG0000407"
+  ],
+  "FG0000408": [
+    "barcode__items__oitm/oitm-FG0000408",
+    "quality-control__sap-items/quality-control__sap-items-FG0000408"
+  ],
+  "FG0000409": [
+    "barcode__items__oitm/oitm-FG0000409",
+    "quality-control__sap-items/quality-control__sap-items-FG0000409"
+  ],
+  "FG0000410": [
+    "barcode__items__oitm/oitm-FG0000410",
+    "quality-control__sap-items/quality-control__sap-items-FG0000410"
+  ],
+  "FG0000411": [
+    "barcode__items__oitm/oitm-FG0000411",
+    "quality-control__sap-items/quality-control__sap-items-FG0000411"
+  ],
+  "FG0000412": [
+    "barcode__items__oitm/oitm-FG0000412",
+    "quality-control__sap-items/quality-control__sap-items-FG0000412"
+  ],
+  "FG0000413": [
+    "barcode__items__oitm/oitm-FG0000413",
+    "quality-control__sap-items/quality-control__sap-items-FG0000413"
+  ],
+  "FG0000414": [
+    "barcode__items__oitm/oitm-FG0000414",
+    "quality-control__sap-items/quality-control__sap-items-FG0000414"
+  ],
+  "FG0000415": [
+    "barcode__items__oitm/oitm-FG0000415",
+    "quality-control__sap-items/quality-control__sap-items-FG0000415"
+  ],
+  "FG0000416": [
+    "barcode__items__oitm/oitm-FG0000416",
+    "quality-control__sap-items/quality-control__sap-items-FG0000416"
+  ],
+  "FG0000417": [
+    "barcode__items__oitm/oitm-FG0000417",
+    "quality-control__sap-items/quality-control__sap-items-FG0000417"
+  ],
+  "FG0000418": [
+    "barcode__items__oitm/oitm-FG0000418",
+    "quality-control__sap-items/quality-control__sap-items-FG0000418"
+  ],
+  "FG0000419": [
+    "barcode__items__oitm/oitm-FG0000419",
+    "quality-control__sap-items/quality-control__sap-items-FG0000419"
+  ],
+  "FG0000421": [
+    "barcode__items__oitm/oitm-FG0000421",
+    "quality-control__sap-items/quality-control__sap-items-FG0000421"
+  ],
+  "FG0000425": [
+    "barcode__items__oitm/oitm-FG0000425",
+    "quality-control__sap-items/quality-control__sap-items-FG0000425"
+  ],
+  "FG0000103": [
+    "quality-control__sap-items/quality-control__sap-items-FG0000103"
   ]
 }

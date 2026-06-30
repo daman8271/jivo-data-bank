@@ -12,7 +12,7 @@ tags:
 ---
 # MANPREET SINGH DRIVER IMPREST JWPL2021
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** ORGV000186

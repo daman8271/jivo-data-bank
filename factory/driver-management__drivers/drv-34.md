@@ -12,7 +12,7 @@ tags:
 ---
 # RAVINER 9812416001
 
-> Driver from `/driver-management/drivers/` (Jivamart / JIVO_MART).
+> Driver from `/driver-management/drivers/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 34

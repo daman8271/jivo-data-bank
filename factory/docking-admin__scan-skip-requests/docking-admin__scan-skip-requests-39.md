@@ -12,7 +12,7 @@ tags:
 ---
 # DL01MA6176
 
-> Scan Skip Requests from `/docking-admin/scan-skip-requests/` (Jivamart / JIVO_MART).
+> Scan Skip Requests from `/docking-admin/scan-skip-requests/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 39

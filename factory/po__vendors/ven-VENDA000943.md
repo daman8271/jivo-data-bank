@@ -12,7 +12,7 @@ tags:
 ---
 # COMNET EXHIBITIONS PRIVATE LIMITED (AAACC0685N)
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** VENDA000943

@@ -12,7 +12,7 @@ tags:
 ---
 # DL01MA6176
 
-> Empty Vehicle Outs from `/gate-core/empty-vehicle-outs/` (Jivamart / JIVO_MART).
+> Empty Vehicle Outs from `/gate-core/empty-vehicle-outs/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 4
@@ -39,5 +39,6 @@ tags:
 - **updated_at:** 2026-06-21T19:25:54.648292+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-113]]
 - vehicle -> [[veh-202]]

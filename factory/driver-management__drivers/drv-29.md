@@ -12,7 +12,7 @@ tags:
 ---
 # NITIN
 
-> Driver from `/driver-management/drivers/` (Jivamart / JIVO_MART).
+> Driver from `/driver-management/drivers/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 29

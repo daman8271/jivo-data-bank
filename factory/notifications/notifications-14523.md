@@ -12,7 +12,7 @@ tags:
 ---
 # Person Gate Exit
 
-> Notifications from `/notifications/` (Jivamart / JIVO_MART).
+> Notifications from `/notifications/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 14523

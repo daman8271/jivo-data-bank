@@ -12,7 +12,7 @@ tags:
 ---
 # DL01MA1972
 
-> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivamart / JIVO_MART).
+> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 80
@@ -63,5 +63,6 @@ Weight: 1,929.7 kg
 - **updated_at:** 2026-06-20T15:18:01.364855+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-84]]
 - vehicle -> [[veh-295]]

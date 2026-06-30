@@ -12,7 +12,7 @@ tags:
 ---
 # THERMOCOL SET 5 LTR HDPE FULL
 
-> Inspections from `/quality-control/inspections/` (Jivamart / JIVO_MART).
+> Inspections from `/quality-control/inspections/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **arrival_slip_id:** 529

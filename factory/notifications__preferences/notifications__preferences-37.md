@@ -12,7 +12,7 @@ tags:
 ---
 # Docking Scan Skip Requested
 
-> Preferences from `/notifications/preferences/` (Jivamart / JIVO_MART).
+> Preferences from `/notifications/preferences/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 37

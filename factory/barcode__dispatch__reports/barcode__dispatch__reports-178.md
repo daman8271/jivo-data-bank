@@ -12,7 +12,7 @@ tags:
 ---
 # Reports 178
 
-> Reports from `/barcode/dispatch/reports/` (Jivamart / JIVO_MART).
+> Reports from `/barcode/dispatch/reports/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **session_id:** 178

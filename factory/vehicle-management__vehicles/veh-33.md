@@ -12,7 +12,7 @@ tags:
 ---
 # RJ02GC0796
 
-> Vehicle from `/vehicle-management/vehicles/` (Jivamart / JIVO_MART).
+> Vehicle from `/vehicle-management/vehicles/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 33

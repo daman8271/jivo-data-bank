@@ -107,8 +107,8 @@ JioMart, …, several empty or stale).
 
 ## 5b. The factory lens (manufacturing / supply)
 
-The third lens, from the **ji.jivo.in factory app** for **Jivamart (`JIVO_MART`)** — captured **daily**
-and copied verbatim into `factory/` (47,549 notes, one per physical record). Jivamart is JIVO's
+The third lens, from the **ji.jivo.in factory app** for **Jivo Mart (`JIVO_MART`)** — captured **daily**
+and copied verbatim into `factory/` (47,549 notes, one per physical record). Jivo Mart is JIVO's
 **retail / dispatch arm**: it does **not** manufacture — it receives finished, barcoded cartons from
 Jivo Oil via an intercompany transfer rail, holds them across ~31 warehouses, and runs scan-to-ship
 dispatch. So the factory data is **rich** in fleet, gate, barcode traceability, dispatch, and on-hand
@@ -147,12 +147,12 @@ The full per-page app model (what every page does + the data behind it) lives in
 - **Top of the value chain absent:** only Primary → Secondary tier sell-through feeds the JIVO lens;
   Wellness → JM Primary is described in the app model but not present as data here.
 - **9 unmatched SKUs** (§3) — surfaced, not dropped.
-- **Factory = Jivamart only, and only the retail arm.** The `factory/` pillar is `JIVO_MART`-scoped
+- **Factory = Jivo Mart only, and only the retail arm.** The `factory/` pillar is `JIVO_MART`-scoped
   (Jivo Oil & Beverages are out of scope). Production / maintenance / WMS-execution are empty for
-  Jivamart **by design** — it's the dispatch arm, not a manufacturer. A few SAP-report endpoints hard-
+  Jivo Mart **by design** — it's the dispatch arm, not a manufacturer. A few SAP-report endpoints hard-
   cap (e.g. `dispatch/reports/boxes` at 1000) but their underlying data is captured in full elsewhere.
 - **Factory bridge depth:** only **71 of 151** products carry a Factory lens (those whose `FG####`
-  shows up in Jivamart's box/dispatch data); the rest don't move through the Jivamart plant.
+  shows up in Jivo Mart's box/dispatch data); the rest don't move through the Jivo Mart plant.
 - **Join landmines** (carried from the source data model): never join on EAN (sci-notation text);
   `amazon_inventory.brand` is dirty (derive brand from the master); `fc_code` ≠ inventory `location`;
   raw PO `status` is dirty — use normalised statuses. Full list in the jivo-intel `datamap`.

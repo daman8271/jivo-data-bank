@@ -12,7 +12,7 @@ tags:
 ---
 # HR56B7505
 
-> Vehicle from `/vehicle-management/vehicles/` (Jivamart / JIVO_MART).
+> Vehicle from `/vehicle-management/vehicles/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 40

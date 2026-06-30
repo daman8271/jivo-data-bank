@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-factory_pillar.py — add the JIVO factory (Jivamart) vault as the 4th pillar of
+factory_pillar.py — add the JIVO factory (Jivo Mart) vault as the 4th pillar of
 the JIVO Data Bank. Runs AFTER combined_backbone.py, BEFORE verify_databank.py.
 
 Additive + low-risk (does NOT touch jivo/ ecom/ products/ generation logic):
@@ -138,7 +138,7 @@ def build_bridge():
         fgs = [c for c in re.findall(r"FG\d+", fm) if c in per_fg]
         if not fgs:
             continue
-        lines = ["", "## Factory lens (Jivamart manufacturing / supply)",
+        lines = ["", "## Factory lens (Jivo Mart manufacturing / supply)",
                  "> Where this product's SAP item code(s) appear in the JIVO_MART factory "
                  "(`ji.jivo.in`) — gate, traceability, QC, dispatch. Source: `factory/`.", ""]
         for fg in sorted(set(fgs)):
@@ -165,12 +165,12 @@ def patch_home(summary):
     if "## Factory pillar" in txt:
         return
     fn = summary.get("factory_source_notes", 0)
-    block = ["", "## Factory pillar — Jivamart (JIVO_MART)",
+    block = ["", "## Factory pillar — Jivo Mart (JIVO_MART)",
              f"The 4th data pillar: a lossless capture of the `ji.jivo.in` factory app for "
-             f"**Jivamart** — gate, vehicles, quality control, GRPO, barcode traceability, "
+             f"**Jivo Mart** — gate, vehicles, quality control, GRPO, barcode traceability, "
              f"dispatch, and SAP item master ({fn:,} notes). Bridged to products above by SAP "
              f"item code (FG####) — see each product's **Factory lens**.",
-             "", "- [[factory/_HOME|Factory — Home (Jivamart)]]", ""]
+             "", "- [[factory/_HOME|Factory — Home (Jivo Mart)]]", ""]
     with open(HOME, "a", encoding="utf-8") as f:
         f.write("\n".join(block) + "\n")
 

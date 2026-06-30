@@ -12,7 +12,7 @@ tags:
 ---
 # GAURAV SHARMA IMPREST JWPL1180
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** ORGV000136

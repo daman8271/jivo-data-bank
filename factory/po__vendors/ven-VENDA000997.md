@@ -12,7 +12,7 @@ tags:
 ---
 # PRINCE KUMAR ASM MT MH IMPREST JWPL0187
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** VENDA000997

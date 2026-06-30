@@ -12,7 +12,7 @@ tags:
 ---
 # NL02Q3677
 
-> Vehicle from `/vehicle-management/vehicles/` (Jivamart / JIVO_MART).
+> Vehicle from `/vehicle-management/vehicles/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 71

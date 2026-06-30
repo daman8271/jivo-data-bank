@@ -12,7 +12,7 @@ tags:
 ---
 # HR69F7125
 
-> Sales Dispatch from `/gate-core/sales-dispatch/` (Jivamart / JIVO_MART).
+> Sales Dispatch from `/gate-core/sales-dispatch/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 16
@@ -131,6 +131,7 @@ tags:
 - **updated_at:** 2026-06-16T20:09:22.418334+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-227]]
 - transporter -> [[trn-22]]
 - vehicle -> [[veh-266]]

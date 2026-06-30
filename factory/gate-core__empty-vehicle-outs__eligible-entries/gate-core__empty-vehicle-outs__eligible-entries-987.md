@@ -12,7 +12,7 @@ tags:
 ---
 # HR67C4904
 
-> Eligible Entries from `/gate-core/empty-vehicle-outs/eligible-entries/` (Jivamart / JIVO_MART).
+> Eligible Entries from `/gate-core/empty-vehicle-outs/eligible-entries/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 987

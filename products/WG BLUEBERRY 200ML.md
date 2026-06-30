@@ -58,3 +58,11 @@ Cross-vault fusion by name / SKU match:
 - **Category:** [[Category - DRINKS]]
 - **TIER:** [[Tier - Other]]
 - **Platforms:** [[Platform - bigbasket]] · [[Platform - flipkart]] · [[Platform - amazon]]
+
+## Factory lens (Jivo Mart manufacturing / supply)
+> Where this product's SAP item code(s) appear in the JIVO_MART factory (`ji.jivo.in`) — gate, traceability, QC, dispatch. Source: `factory/`.
+
+**`FG0000363`** — referenced by factory records:
+- **1 oitm:** [[oitm-FG0000363]]
+- **1 sap items:** [[quality-control__sap-items-FG0000363]]
+

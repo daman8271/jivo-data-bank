@@ -12,7 +12,7 @@ tags:
 ---
 # TARANDEEP SINGH STORE KEEPER F 3 IMPREST JWPL0346
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** ORGV000056

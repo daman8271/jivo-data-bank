@@ -12,7 +12,7 @@ tags:
 ---
 # SANGRUR GOODS CARRIER
 
-> Transporter from `/vehicle-management/transporters/` (Jivamart / JIVO_MART).
+> Transporter from `/vehicle-management/transporters/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 6

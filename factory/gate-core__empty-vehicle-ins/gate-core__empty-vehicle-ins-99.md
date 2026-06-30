@@ -12,7 +12,7 @@ tags:
 ---
 # HR67C6723
 
-> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivamart / JIVO_MART).
+> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 99
@@ -64,5 +64,6 @@ tags:
 - **updated_at:** 2026-06-22T16:18:39.973385+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-264]]
 - vehicle -> [[veh-301]]

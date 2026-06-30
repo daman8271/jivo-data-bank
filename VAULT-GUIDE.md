@@ -9,7 +9,7 @@ This is the manual for actually reading the vault to gather data and make sense 
 ## The design in one sentence
 
 > **Each bridged product is one note (`products/<PRODUCT>.md`) carrying three lenses side by side —
-> the per-product competitor price, the (tier-level) JIVO volume, and the factory (Jivamart
+> the per-product competitor price, the (tier-level) JIVO volume, and the factory (Jivo Mart
 > manufacturing / supply) presence — and every related entity is a `[[wikilink]]`, so you navigate by
 > following links the way you'd browse a graph.**
 
@@ -61,11 +61,11 @@ source note — follow the connection for the time series.
 **2026 sell-through in litres** (Secondary and Primary) for the product's *whole tier*, from
 target-history.
 
-**`## Factory lens`** — **the Jivamart manufacturing/supply view (present on the 71 products whose SAP
+**`## Factory lens`** — **the Jivo Mart manufacturing/supply view (present on the 71 products whose SAP
 `FG####` appears in factory data).** Lists where the product's SAP item code shows up in the
 `ji.jivo.in` factory — the `[[oitm-FG…]]` item-master note, its `[[box-…]]` barcode cartons, sales
 dispatches, etc. — and tags the product `bridge/FG####`. Follow the links into `factory/` for the raw
-records. Absent on products that don't move through the Jivamart plant.
+records. Absent on products that don't move through the Jivo Mart plant.
 
 **`## Connections`** — wikilinks back to the underlying JIVO source note(s) in `jivo/`, the ecom
 source note(s) in `ecom/`, the factory record(s) in `factory/`, and the category / tier / platform

@@ -12,7 +12,7 @@ tags:
 ---
 # HR69F9627
 
-> Gate Arrival from `/gate-core/arrivals/` (Jivamart / JIVO_MART).
+> Gate Arrival from `/gate-core/arrivals/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 30

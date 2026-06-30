@@ -13,7 +13,7 @@ tags:
 ---
 # POMACE OLIVE 5 LTR TIN 4 PCS
 
-> Loose from `/barcode/loose/` (Jivamart / JIVO_MART).
+> Loose from `/barcode/loose/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 549

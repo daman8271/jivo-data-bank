@@ -63,3 +63,10 @@ Cross-vault fusion by name / SKU match:
 - **Category:** [[Category - SLICED OLIVE]]
 - **TIER:** [[Tier - Premium]]
 - **Platforms:** [[Platform - amazon]]
+
+## Factory lens (Jivo Mart manufacturing / supply)
+> Where this product's SAP item code(s) appear in the JIVO_MART factory (`ji.jivo.in`) — gate, traceability, QC, dispatch. Source: `factory/`.
+
+**`FG0000288`** — referenced by factory records:
+- **1 oitm:** [[oitm-FG0000288]]
+

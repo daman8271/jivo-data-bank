@@ -12,7 +12,7 @@ tags:
 ---
 # DL01MB2623
 
-> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivamart / JIVO_MART).
+> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 196
@@ -64,5 +64,6 @@ tags:
 - **updated_at:** 2026-06-27T14:50:07.339113+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-229]]
 - vehicle -> [[veh-198]]

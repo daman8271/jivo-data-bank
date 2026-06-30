@@ -72,10 +72,11 @@ Cross-vault fusion by name / SKU match:
 - **TIER:** [[Tier - Commodity]]
 - **Platforms:** [[Platform - amazon]] · [[Platform - flipkart]] · [[Platform - zepto]]
 
-## Factory lens (Jivamart manufacturing / supply)
+## Factory lens (Jivo Mart manufacturing / supply)
 > Where this product's SAP item code(s) appear in the JIVO_MART factory (`ji.jivo.in`) — gate, traceability, QC, dispatch. Source: `factory/`.
 
 **`FG0000227`** — referenced by factory records:
+- **1 oitm:** [[oitm-FG0000227]]
 - **859 boxes:** [[box-129258]] · [[box-129259]] · [[box-151918]] … +856 more (tag `bridge/FG0000227`)
 - **19 pallets:** [[pal-1094]] · [[pal-1095]] · [[pal-1109]] … +16 more (tag `bridge/FG0000227`)
 - **3 boxes:** [[barcode__dispatch__reports__boxes-151918]] · [[barcode__dispatch__reports__boxes-151919]] · [[barcode__dispatch__reports__boxes-56118]]

@@ -12,7 +12,7 @@ tags:
 ---
 # Categories 2
 
-> Categories from `/daily-needs-gatein/gate-entries/daily-need/categories/` (Jivamart / JIVO_MART).
+> Categories from `/daily-needs-gatein/gate-entries/daily-need/categories/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 2

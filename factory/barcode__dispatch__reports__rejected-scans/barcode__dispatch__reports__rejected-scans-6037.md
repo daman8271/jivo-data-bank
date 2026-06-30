@@ -12,7 +12,7 @@ tags:
 ---
 # PLT-20260605-XX-012
 
-> Rejected Scans from `/barcode/dispatch/reports/rejected-scans/` (Jivamart / JIVO_MART).
+> Rejected Scans from `/barcode/dispatch/reports/rejected-scans/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **scan_id:** 6037

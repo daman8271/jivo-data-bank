@@ -29,11 +29,8 @@ Up: [[Home]]
 | JIVO SKU / SAP code | `FG0000155` |
 | canonical_sku(s) | `jivo-extra-virgin-olive-oil-2-litre-imported-from-spain-contains-vitamin-e-low-in-saturated-fat-natural-and-cold-pressed-cooking-oil-ideal-for-dressings-salad-and-soups-dips-marinades-2l`, `edog2nmphjzh6gjc` |
 | Category | [[Category - OLIVE\|OLIVE]] |
-| Sub-category | EXTRA VIRGIN |
-| Brand | JIVO |
 | TIER | [[Tier - Premium\|Premium]] *(name-token derived)* |
 | Pack(s) | 2L |
-| Per-unit | 2.0 L |
 | Bridge class | core (priced) |
 
 ## Competitor-price lens
@@ -68,9 +65,10 @@ Cross-vault fusion by name / SKU match:
 - **TIER:** [[Tier - Premium]]
 - **Platforms:** [[Platform - amazon]] · [[Platform - flipkart]]
 
-## Factory lens (Jivamart manufacturing / supply)
+## Factory lens (Jivo Mart manufacturing / supply)
 > Where this product's SAP item code(s) appear in the JIVO_MART factory (`ji.jivo.in`) — gate, traceability, QC, dispatch. Source: `factory/`.
 
 **`FG0000155`** — referenced by factory records:
 - **1 oitm:** [[oitm-FG0000155]]
+- **1 sap items:** [[quality-control__sap-items-FG0000155]]
 

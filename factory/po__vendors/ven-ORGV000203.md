@@ -12,7 +12,7 @@ tags:
 ---
 # ROSHAN LAL IMPREST JWPL1825
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** ORGV000203

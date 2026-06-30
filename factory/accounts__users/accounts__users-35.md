@@ -12,7 +12,7 @@ tags:
 ---
 # Pouch Machine Production
 
-> Users from `/accounts/users/` (Jivamart / JIVO_MART).
+> Users from `/accounts/users/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 35

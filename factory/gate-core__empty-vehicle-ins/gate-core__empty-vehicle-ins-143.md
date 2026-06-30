@@ -12,7 +12,7 @@ tags:
 ---
 # HR69F9627
 
-> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivamart / JIVO_MART).
+> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 143
@@ -65,5 +65,6 @@ Weight: 15898.180 kg
 - **updated_at:** 2026-06-24T14:47:17.295859+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-227]]
 - vehicle -> [[veh-308]]

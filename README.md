@@ -7,7 +7,7 @@
 A single Obsidian "data bank" where **each product is one node carrying three lenses**: what JIVO's
 own systems know about it (volume, tier, value chain), what the live shelf charges for it on every
 platform (the competitor price the shopper actually sees), **and how it moves through the factory**
-(gate, QC, goods-receipt, barcode traceability, dispatch — the Jivamart manufacturing/supply lens).
+(gate, QC, goods-receipt, barcode traceability, dispatch — the Jivo Mart manufacturing/supply lens).
 Three systems that share no common id, joined into one connected graph. **The connections are the
 deliverable — not the raw rows.**
 
@@ -34,7 +34,7 @@ how it's laid out, how to read it, and what it means. Then you can navigate and 
 ## What this is, in one picture
 
 ```
-JIVO e-com app (ecom.jivo.in)     Ecom price scraper           Factory app (ji.jivo.in / Jivamart)
+JIVO e-com app (ecom.jivo.in)     Ecom price scraper           Factory app (ji.jivo.in / Jivo Mart)
 lossless → jivo/ (34,750)         daily crawl → ecom/ (2,293)   daily refresh → factory/ (47,549)
   │ SAP code (sku-FG0000032)        │ name-slug (canola-…-1l)     │ SAP item code (FG0000032)
   └───────────────────┬─────────────┴────────────────┬───────────┘
@@ -89,7 +89,7 @@ jivo-data-bank/
 ├── identity/            JID identity layer — REGISTRY.md + registry.json (stable internal IDs)  [generated]
 ├── jivo/                verbatim copy of the JIVO app vault (34,750 notes)   [source]
 ├── ecom/                verbatim copy of the ecom price-intel vault (2,293)  [source]
-├── factory/             verbatim copy of the factory (Jivamart) vault (47,549, daily)  [source]
+├── factory/             verbatim copy of the factory (Jivo Mart) vault (47,549, daily)  [source]
 ├── bin/                 build + verify toolchain (migrate · backbone · factory_pillar · identity · verify · rebuild)
 ├── .manifest.json       zero-loss proof (counts · bytes · sha256 · prefix-preservation)
 └── .links/              cached agent-discovered cross-vault links (domain-*.json)
@@ -139,6 +139,6 @@ This is the **fusion** repo of the JIVO data bank programme — it joins **three
 
 1. **ECOM-Intel** — the competitor-price scraper (`/opt/ecom-intel`, repo `daman8271/ecom-intel`) → `ecom/`.
 2. **JIVO-Intel** — the app's internal data (`/root/jivo-intel`, repo `daman8271/jivo-intel`) → `jivo/`.
-3. **JIVO-Factory** — the ji.jivo.in factory app, Jivamart (`/root/jivo-factory-intel`, CLI `jivo-factory-pp-cli`) → `factory/`.
+3. **JIVO-Factory** — the ji.jivo.in factory app, Jivo Mart (`/root/jivo-factory-intel`, CLI `jivo-factory-pp-cli`) → `factory/`.
 4. **JIVO Data Bank** — *this* repo: the three, joined per product. **`bin/` + the price-match sheet
    (price↔volume) + the SAP item code FG#### (factory↔product) are the joins.**

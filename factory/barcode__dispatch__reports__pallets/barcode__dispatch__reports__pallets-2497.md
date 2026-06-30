@@ -12,7 +12,7 @@ tags:
 ---
 # Pallets 2497
 
-> Pallets from `/barcode/dispatch/reports/pallets/` (Jivamart / JIVO_MART).
+> Pallets from `/barcode/dispatch/reports/pallets/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **pallet_id:** 2497

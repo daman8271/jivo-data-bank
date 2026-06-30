@@ -12,7 +12,7 @@ tags:
 ---
 # Completed 112
 
-> Completed from `/barcode/dispatch/sessions/completed/` (Jivamart / JIVO_MART).
+> Completed from `/barcode/dispatch/sessions/completed/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 112

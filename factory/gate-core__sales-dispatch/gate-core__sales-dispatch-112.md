@@ -12,7 +12,7 @@ tags:
 ---
 # HR67C1036
 
-> Sales Dispatch from `/gate-core/sales-dispatch/` (Jivamart / JIVO_MART).
+> Sales Dispatch from `/gate-core/sales-dispatch/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 112
@@ -132,6 +132,7 @@ tags:
 
 ## Related
 - arrival -> [[arr-12]]
+- company -> [[comp-2]]
 - driver -> [[drv-247]]
 - transporter -> [[trn-64]]
 - vehicle -> [[veh-283]]

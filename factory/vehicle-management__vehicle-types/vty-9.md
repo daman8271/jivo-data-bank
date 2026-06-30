@@ -12,7 +12,7 @@ tags:
 ---
 # By Hand
 
-> Vehicle Type from `/vehicle-management/vehicle-types/` (Jivamart / JIVO_MART).
+> Vehicle Type from `/vehicle-management/vehicle-types/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 9

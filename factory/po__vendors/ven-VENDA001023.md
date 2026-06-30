@@ -12,7 +12,7 @@ tags:
 ---
 # JIVO MART PVT LTD - PB
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** VENDA001023

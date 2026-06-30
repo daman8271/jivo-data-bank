@@ -12,7 +12,7 @@ tags:
 ---
 # HR55AU2812
 
-> Eligible Entries from `/gate-core/empty-vehicle-outs/eligible-entries/` (Jivamart / JIVO_MART).
+> Eligible Entries from `/gate-core/empty-vehicle-outs/eligible-entries/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 1251

@@ -13,7 +13,7 @@ tags:
 ---
 # Boxes 149644
 
-> Boxes from `/barcode/dispatch/reports/boxes/` (Jivamart / JIVO_MART).
+> Boxes from `/barcode/dispatch/reports/boxes/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **box_id:** 149644
@@ -30,3 +30,4 @@ tags:
 
 ## Related
 - box_id -> [[box-149644]]
+- item -> [[oitm-FG0000424]]

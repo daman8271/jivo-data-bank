@@ -12,7 +12,7 @@ tags:
 ---
 # RANJEETA KAUR SAGGU IMPREST JWPL2415
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** ORGV000201

@@ -12,7 +12,7 @@ tags:
 ---
 # NLOIAC6821
 
-> Sales Dispatch from `/gate-core/sales-dispatch/` (Jivamart / JIVO_MART).
+> Sales Dispatch from `/gate-core/sales-dispatch/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 86
@@ -131,6 +131,7 @@ tags:
 - **updated_at:** 2026-06-20T20:15:20.942740+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-259]]
 - transporter -> [[trn-77]]
 - vehicle -> [[veh-294]]

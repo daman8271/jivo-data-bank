@@ -12,7 +12,7 @@ tags:
 ---
 # Active 168
 
-> Active from `/barcode/dispatch/sessions/active/` (Jivamart / JIVO_MART).
+> Active from `/barcode/dispatch/sessions/active/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 168

@@ -12,7 +12,7 @@ tags:
 ---
 # ARVINDER SINGH IMPREST JWPL0115 FACTORY IMPREST 5 LAKH
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** ORGV000217

@@ -12,7 +12,7 @@ tags:
 ---
 # GE-2026-0118
 
-> All Entries from `/grpo/all-entries/` (Jivamart / JIVO_MART).
+> All Entries from `/grpo/all-entries/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vehicle_entry_id:** 442

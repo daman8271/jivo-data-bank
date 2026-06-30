@@ -29,8 +29,11 @@ Up: [[Home]]
 | JIVO SKU / SAP code | `FG0000317` |
 | canonical_sku(s) | `jivo-canola-cold-pressed-edible-oil-3-litres-cooking-oil-for-daily-use-ideal-for-roasting-frying-baking-all-types-of-cuisines-cold-pressed-oil-for-cooking-3l`, `edoghersuqwaau5s` |
 | Category | [[Category - CANOLA\|CANOLA]] |
+| Sub-category | CANOLA |
+| Brand | JIVO |
 | TIER | [[Tier - Premium\|Premium]] *(name-token derived)* |
 | Pack(s) | 3L |
+| Per-unit | 3.0 L |
 | Bridge class | core (priced) |
 
 ## Competitor-price lens
@@ -64,3 +67,11 @@ Cross-vault fusion by name / SKU match:
 - **Category:** [[Category - CANOLA]]
 - **TIER:** [[Tier - Premium]]
 - **Platforms:** [[Platform - amazon]] · [[Platform - flipkart]]
+
+## Factory lens (Jivo Mart manufacturing / supply)
+> Where this product's SAP item code(s) appear in the JIVO_MART factory (`ji.jivo.in`) — gate, traceability, QC, dispatch. Source: `factory/`.
+
+**`FG0000317`** — referenced by factory records:
+- **1 oitm:** [[oitm-FG0000317]]
+- **1 sap items:** [[quality-control__sap-items-FG0000317]]
+

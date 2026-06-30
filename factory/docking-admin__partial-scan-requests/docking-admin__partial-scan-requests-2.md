@@ -12,7 +12,7 @@ tags:
 ---
 # RJ11GB7865
 
-> Partial Scan Requests from `/docking-admin/partial-scan-requests/` (Jivamart / JIVO_MART).
+> Partial Scan Requests from `/docking-admin/partial-scan-requests/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 2

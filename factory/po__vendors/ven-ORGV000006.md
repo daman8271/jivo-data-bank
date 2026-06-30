@@ -12,7 +12,7 @@ tags:
 ---
 # RANJEET SINGH DRIVER 2000 IMPREST JWPL0034
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** ORGV000006

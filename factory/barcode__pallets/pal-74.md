@@ -13,7 +13,7 @@ tags:
 ---
 # COLD PRESS 1 LTR + 1 LTR COMBO 10 SET
 
-> Pallet from `/barcode/pallets/` (Jivamart / JIVO_MART).
+> Pallet from `/barcode/pallets/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 74

@@ -12,7 +12,7 @@ tags:
 ---
 # Reasons REPAIR_MOVEMENT
 
-> Reasons from `/gate-core/empty-vehicle-ins/reasons/` (Jivamart / JIVO_MART).
+> Reasons from `/gate-core/empty-vehicle-ins/reasons/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **value:** REPAIR_MOVEMENT

@@ -12,7 +12,7 @@ tags:
 ---
 # NLOIAC6821
 
-> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivamart / JIVO_MART).
+> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 79
@@ -62,5 +62,6 @@ Weight: 13,175.647 kg
 - **updated_at:** 2026-06-20T14:53:27.749204+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-259]]
 - vehicle -> [[veh-294]]

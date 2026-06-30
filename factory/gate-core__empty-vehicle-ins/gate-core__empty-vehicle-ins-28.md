@@ -12,7 +12,7 @@ tags:
 ---
 # HR63G3533
 
-> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivamart / JIVO_MART).
+> Empty Vehicle Ins from `/gate-core/empty-vehicle-ins/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 28
@@ -63,5 +63,6 @@ Weight: 15,386.129 kg
 - **updated_at:** 2026-06-17T14:33:58.629932+05:30
 
 ## Related
+- company -> [[comp-2]]
 - driver -> [[drv-232]]
 - vehicle -> [[veh-268]]

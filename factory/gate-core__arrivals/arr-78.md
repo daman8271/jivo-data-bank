@@ -12,7 +12,7 @@ tags:
 ---
 # DL01GE5049
 
-> Gate Arrival from `/gate-core/arrivals/` (Jivamart / JIVO_MART).
+> Gate Arrival from `/gate-core/arrivals/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **id:** 78

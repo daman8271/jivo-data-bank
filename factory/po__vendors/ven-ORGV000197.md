@@ -12,7 +12,7 @@ tags:
 ---
 # KAMALDEEP-ASM-DL - IMPREST(15000) JWPL0092
 
-> Vendor from `/po/vendors/` (Jivamart / JIVO_MART).
+> Vendor from `/po/vendors/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **vendor_code:** ORGV000197
