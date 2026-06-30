@@ -330,3 +330,5 @@ IDENTITY_JSON {"products": 151, "active_jids": 151, "conflicts": 14, "next_seria
   },
   "failures": []
 }
+[2026-06-30T00:31:27Z] step 8: committed refresh 2026-06-30 (151 products / 30 hubs)
+[2026-06-30T00:31:27Z] === daily_rebuild done (committed) ===
