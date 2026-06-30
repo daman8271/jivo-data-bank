@@ -1,0 +1,271 @@
+---
+type: app-dashboard
+endpoint_key: soh-doh__blinkit
+source: app-dashboard
+month: ""
+platform: blinkit
+tags:
+  - type/app-dashboard
+  - source/app-dashboard
+  - platform/blinkit
+---
+
+# App dashboard — `soh-doh__blinkit`
+
+Up: [[dashboards-index]] · [[pf-blinkit]]
+
+> **source: app-dashboard `soh-doh__blinkit`** — the app's OWN computed aggregate, captured verbatim (NOT a summary we invented; NOT raw rows).
+
+```json
+{
+ "available_dates": [
+  {
+   "date": "2026-06-29",
+   "rows": 267
+  },
+  {
+   "date": "2026-06-27",
+   "rows": 268
+  },
+  {
+   "date": "2026-06-26",
+   "rows": 262
+  },
+  {
+   "date": "2026-06-25",
+   "rows": 261
+  },
+  {
+   "date": "2026-06-24",
+   "rows": 263
+  },
+  {
+   "date": "2026-06-23",
+   "rows": 262
+  },
+  {
+   "date": "2026-06-22",
+   "rows": 258
+  },
+  {
+   "date": "2026-06-20",
+   "rows": 258
+  },
+  {
+   "date": "2026-06-19",
+   "rows": 258
+  },
+  {
+   "date": "2026-06-18",
+   "rows": 270
+  },
+  {
+   "date": "2026-06-16",
+   "rows": 273
+  },
+  {
+   "date": "2026-06-15",
+   "rows": 268
+  },
+  {
+   "date": "2026-06-13",
+   "rows": 268
+  },
+  {
+   "date": "2026-06-12",
+   "rows": 268
+  },
+  {
+   "date": "2026-06-11",
+   "rows": 269
+  },
+  {
+   "date": "2026-06-10",
+   "rows": 268
+  },
+  {
+   "date": "2026-06-09",
+   "rows": 267
+  },
+  {
+   "date": "2026-06-06",
+   "rows": 267
+  },
+  {
+   "date": "2026-06-05",
+   "rows": 272
+  },
+  {
+   "date": "2026-06-04",
+   "rows": 270
+  },
+  {
+   "date": "2026-06-03",
+   "rows": 269
+  },
+  {
+   "date": "2026-06-02",
+   "rows": 271
+  },
+  {
+   "date": "2026-06-01",
+   "rows": 271
+  },
+  {
+   "date": "2026-05-30",
+   "rows": 270
+  },
+  {
+   "date": "2026-05-29",
+   "rows": 270
+  },
+  {
+   "date": "2026-05-28",
+   "rows": 270
+  },
+  {
+   "date": "2026-05-27",
+   "rows": 262
+  },
+  {
+   "date": "2026-05-26",
+   "rows": 262
+  },
+  {
+   "date": "2026-05-25",
+   "rows": 262
+  },
+  {
+   "date": "2026-05-23",
+   "rows": 259
+  }
+ ],
+ "dashboard_title": "Blinkit SOH/DOH Dashboard",
+ "defaulted_to_latest": true,
+ "effective_date": "2026-06-29",
+ "elapsed_day": 28,
+ "format": "BLINKIT",
+ "max_sales_date": "2026-06-28",
+ "month_start": "2026-06-01",
+ "platform": "blinkit",
+ "requested_date": "2026-06-29",
+ "rows": [
+  {
+   "doh": 28.109458428680398,
+   "drr_ltr": 374.57142857142856,
+   "drr_units": 374.57142857142856,
+   "inventory_item": "CANOLA 1L",
+   "item": "CANOLA 1L",
+   "ltr_sold": 10488.0,
+   "quantity": 10488.0,
+   "soh_ltr": 10529.0,
+   "soh_units": 10529.0
+  },
+  {
+   "doh": 59.0462962962963,
+   "drr_ltr": 231.42857142857142,
+   "drr_units": 46.285714285714285,
+   "inventory_item": "CANOLA 5L",
+   "item": "CANOLA 5L",
+   "ltr_sold": 6480.0,
+   "quantity": 1296.0,
+   "soh_ltr": 13665.0,
+   "soh_units": 2733.0
+  },
+  {
+   "doh": 26.307008884501478,
+   "drr_ltr": 144.71428571428572,
+   "drr_units": 144.71428571428572,
+   "inventory_item": "EXTRA LIGHT 1L",
+   "item": "EXTRA LIGHT 1L",
+   "ltr_sold": 4052.0,
+   "quantity": 4052.0,
+   "soh_ltr": 3807.0,
+   "soh_units": 3807.0
+  },
+  {
+   "doh": 47.03578154425612,
+   "drr_ltr": 151.71428571428572,
+   "drr_units": 75.85714285714286,
+   "inventory_item": "EXTRA LIGHT 2L",
+   "item": "EXTRA LIGHT 2L",
+   "ltr_sold": 4248.0,
+   "quantity": 2124.0,
+   "soh_ltr": 7136.0,
+   "soh_units": 3568.0
+  },
+  {
+   "doh": 18.459469745020932,
+   "drr_ltr": 563.0714285714286,
+   "drr_units": 563.0714285714286,
+   "inventory_item": "JIVO POMACE 1L",
+   "item": "JIVO POMACE 1L",
+   "ltr_sold": 15766.0,
+   "quantity": 15766.0,
+   "soh_ltr": 10394.0,
+   "soh_units": 10394.0
+  },
+  {
+   "doh": 121.49287749287748,
+   "drr_ltr": 125.35714285714286,
+   "drr_units": 25.071428571428573,
+   "inventory_item": "JIVO POMACE 5L",
+   "item": "JIVO POMACE 5L",
+   "ltr_sold": 3510.0,
+   "quantity": 702.0,
+   "soh_ltr": 15230.0,
+   "soh_units": 3046.0
+  },
+  {
+   "doh": 12.375668256032364,
+   "drr_ltr": 741.5357142857143,
+   "drr_units": 741.5357142857143,
+   "inventory_item": "MUSTARD 1L",
+   "item": "MUSTARD 1L",
+   "ltr_sold": 20763.0,
+   "quantity": 20763.0,
+   "soh_ltr": 9177.0,
+   "soh_units": 9177.0
+  },
+  {
+   "doh": 17.34375,
+   "drr_ltr": 320.0,
+   "drr_units": 64.0,
+   "inventory_item": "MUSTARD 5L",
+   "item": "MUSTARD 5L",
+   "ltr_sold": 8960.0,
+   "quantity": 1792.0,
+   "soh_ltr": 5550.0,
+   "soh_units": 1110.0
+  },
+  {
+   "doh": 12.164296998420221,
+   "drr_ltr": 158.25,
+   "drr_units": 158.25,
+   "inventory_item": "SUNFLOWER 1L",
+   "item": "SUNFLOWER 1L",
+   "ltr_sold": 4431.0,
+   "quantity": 4431.0,
+   "soh_ltr": 1925.0,
+   "soh_units": 1925.0
+  }
+ ],
+ "sales_max_date": "2026-06-28",
+ "source": {
+  "inventory": "all_platform_inventory",
+  "sales": "SecMaster"
+ },
+ "total": {
+  "doh": 21.10417820041033,
+  "drr_ltr": 2810.6428571428573,
+  "drr_units": 2193.3571428571427,
+  "ltr_sold": 78698.0,
+  "quantity": 61414.0,
+  "soh_ltr": 77413.0,
+  "soh_units": 46289.0
+ }
+}
+```
+
+---
+*Auto-generated by `bin/vault_build.py` from `store/versioned/*` — deterministic rebuild.*

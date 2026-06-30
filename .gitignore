@@ -28,3 +28,7 @@ logs/
 .env
 secrets/
 node_modules/
+
+# jivo-today: build_today.sh staging dirs (today/ itself IS committed)
+today.tmp/
+today.prev/
