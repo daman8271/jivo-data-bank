@@ -49,8 +49,7 @@ BANKSIG=$(python3 "$BIN/coverage_dedup.py" sig "$NEWEST" 2>/dev/null || echo non
 
 if [ "$SIG" = "$BANKSIG" ]; then
   log "IN-SYNC sig=$SIG date=$MAXDATE plat=$NPLAT cells=$NCELLS (data present, no push)"
-  tg "✅ Coverage in-sync — ${MAXDATE}, ${NPLAT}-platform, ${NCELLS} cells. ecom-intel == data bank. No change."
-  exit 0
+  exit 0   # quiet on the common no-change case; the Claude monitor sends the heartbeat
 fi
 
 # 3) missing/changed -> snapshot in, commit, push
@@ -62,7 +61,7 @@ git pull --rebase --autostash origin main >>"$LOG" 2>&1 || log "warn: pull --reb
 cp "$TMP" "$DEST"
 git add -- "intelligence/coverage/$(basename "$DEST")" >>"$LOG" 2>&1
 if git diff --cached --quiet; then
-  log "no net change after staging; in-sync"; tg "✅ Coverage already current — ${MAXDATE}, ${NPLAT}-platform."; exit 0
+  log "no net change after staging; in-sync"; exit 0
 fi
 git commit -m "coverage: sync ecom-intel ledger -> data bank (${MAXDATE}, ${NPLAT}-platform, ${NCELLS} cells)" >>"$LOG" 2>&1
 if git push origin main >>"$LOG" 2>&1; then

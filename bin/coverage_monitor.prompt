@@ -1,0 +1,15 @@
+You are the autonomous 12-hourly MONITOR for the JIVO e-com coverage pipeline on this VPS. A coverage sync just ran (coverage_sync.sh: ecom-intel ledger -> jivo-data-bank). Do a BOUNDED health check (max ~8 tool calls), take NO mutating actions (no git commit/push, no file edits, no deploys), then send EXACTLY ONE Telegram message and stop.
+
+Checks:
+1. Sync log: `tail -5 /var/log/jivo-data-bank/coverage_sync.log`
+2. Source == data bank: with python3+csv, compare the latest `date_ist` in `/opt/ecom-intel/data/coverage/ledger.csv` (the source) against the newest `/root/jivo-data-bank/intelligence/coverage/coverage-ledger-*.csv` (the data bank). Report the date and whether they MATCH.
+3. Live app freshness: `curl -s https://ecom-availability-app.vercel.app/data.js | head -c 400` and read `latestObservationDate`. If it is OLDER than the data bank's newest coverage date, the deployed app is STALE and needs a regen+redeploy (flag it, do NOT do it).
+
+Then send ONE Telegram. Build it from the env file:
+`source /root/.config/tg/env && curl -s "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" --data-urlencode "chat_id=$TELEGRAM_CHAT_ID" --data-urlencode "text=<MSG>"`
+The <MSG> must:
+- start with "🤖 Coverage monitor:"
+- say whether ecom-intel and the data bank are IN SYNC (and the coverage date), or that new data was pushed,
+- say whether the live app is CURRENT or STALE (and if stale, that it needs a redeploy),
+- be 2-3 short lines, plain text.
+Send only ONE message. Do not modify, commit, or push anything. Then end.
