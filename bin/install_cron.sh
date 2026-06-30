@@ -5,17 +5,20 @@
 # Installs TWO crontab lines (into the invoking user's crontab — root on this
 # VPS) inside a single managed, marker-delimited block:
 #
-#   * DAILY  ~06:00 IST  ->  bin/run_daily.sh
-#       rebuild -> verify (fail-closed) -> push -> notify. 06:00 is BEFORE the
-#       ecom scrape crons fire (06:30/11:30 IST), so it fuses a COMPLETE, stable
-#       PRIOR-day dataset with zero contention against an in-flight scrape.
+#   * DAILY  ~13:30 IST  ->  bin/run_daily.sh
+#       rebuild -> verify (fail-closed) -> push -> notify. 13:30 is AFTER the ecom
+#       price vault finishes its midday rebuild (~12:00 IST, ecom-intel's
+#       deadline_sweep) AND after the jivo (05:00) + factory (05:30) source
+#       feeders, so the fusion reads a COMPLETE *same-day* dataset across all four
+#       pillars. (It previously ran at 06:00 — BEFORE the ecom vault rebuilt — which
+#       left the ecom pillar perpetually ONE DAY stale; corrected 2026-06-30.)
 #
-#   * WEEKLY Sun ~04:00 IST  ->  bin/weekly_semantic.sh
+#   * WEEKLY Sun ~15:00 IST  ->  bin/weekly_semantic.sh
 #       regenerates the expensive .links/ semantic cross-vault cache (agent
-#       fan-out). Scheduled 2h BEFORE the Sunday daily so the fresh cache is on
-#       disk for that morning's rebuild to cheaply re-apply. (weekly_semantic.sh
-#       is a sibling component — a WARNING, not an error, is emitted if it is
-#       absent at install time; the cron line is harmless until it exists.)
+#       fan-out). Scheduled AFTER the Sunday daily so it operates on same-day fresh
+#       data. (weekly_semantic.sh is a sibling component — a WARNING, not an error,
+#       is emitted if it is absent at install time; the cron line is harmless until
+#       it exists.)
 #
 # WHY cron-driven push is legitimate: the data-exfiltration classifier only
 # blocks Claude's *interactive* push. A cron job pushing to the owner's OWN
@@ -57,8 +60,8 @@ CRONTAB_BIN="${CRONTAB:-crontab}"
 
 # Schedules (cron field order: min hour dom mon dow). System TZ is IST and the
 # managed block also pins CRON_TZ, so these are IST.
-DAILY_CRON="${JDB_DAILY_CRON:-0 6 * * *}"     # ~06:00 IST daily
-WEEKLY_CRON="${JDB_WEEKLY_CRON:-0 4 * * 0}"   # ~04:00 IST Sunday (dow 0)
+DAILY_CRON="${JDB_DAILY_CRON:-30 13 * * *}"   # ~13:30 IST daily (AFTER ecom vault lands ~12:00)
+WEEKLY_CRON="${JDB_WEEKLY_CRON:-0 15 * * 0}"  # ~15:00 IST Sunday (dow 0), after the daily
 
 RUN_DAILY="$BIN/run_daily.sh"
 WEEKLY_SEM="$BIN/weekly_semantic.sh"
