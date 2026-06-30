@@ -151,6 +151,20 @@ else
     notify warn "⚠️ JIVO Data Bank refreshed & committed locally — $NOW — but PUSH FAILED (rc=$pushrc). Will retry next run. Log: $LOG"
 fi
 
+# ---- stage 4 (additive 2026-07-01): refresh the public Pincode Availability app ----
+# Event-driven: the data bank is now freshly fused, so rebuild + redeploy the JIVO
+# Pincode Availability Explorer (jivo-pincode-app.vercel.app) FROM it — "updated every
+# day after the runs finish". Fully fenced & best-effort (timeout + ||) so it can NEVER
+# affect this pipeline's outcome. The script is itself fail-closed: if today's data looks
+# stale/collapsed it skips the deploy and the last good site stays live.
+PINCODE_APP=/root/jivo-pincode-app/build_and_deploy.sh
+if [ -x "$PINCODE_APP" ]; then
+    PHASE="pincode-app"
+    log "stage 4 pincode-app: rebuild+deploy (event-driven off the fusion)"
+    ( timeout 360 "$PINCODE_APP" ) >>"$LOG" 2>&1 \
+        || log "stage 4 pincode-app returned non-zero (non-fatal — data-bank unaffected)"
+fi
+
 log "=== run_daily done (rebuild=ok push=$pushrc) ==="
 # Push failures do not fail the cron job: the verified data is committed and safe
 # locally and is re-pushed on the next run. Data-integrity failures (stage 1)
