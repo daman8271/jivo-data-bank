@@ -30,8 +30,9 @@
 # so a bad cache can never poison the next daily run.
 #
 # DOES NOT PUSH. Pushing the verified commit is the daily pipeline's / owner's
-# job (run_daily.sh stage 2). install_cron.sh schedules this ~2h before the
-# Sunday daily, so the fresh cache is on disk for that morning's push.
+# job (run_daily.sh stage 2). install_cron.sh schedules this at 15:00 IST Sunday,
+# AFTER that day's daily rebuild, so the fresh cache is on disk and the day's data
+# is complete.
 #
 # IDEMPOTENT (single-flight lock; re-runnable) and REVERSIBLE (timestamped cache
 # snapshots are retained under the log dir; --uninstall is N/A — this script

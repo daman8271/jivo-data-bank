@@ -79,18 +79,28 @@ content has drifted enough to warrant new semantic links, then run the daily reb
 
 ## Scheduling (INSTALLED)
 
-The daily pipeline is installed in crontab (IST), single-flight locked and idempotent:
+The daily rebuild is now **event-driven**, not a fixed clock. The upstream ecom price
+sweep runs once a day and lands at **12:00 IST**; its `deadline_sweep.sh` tail then fires
+the **competitor crawler** (~12:02) which folds into the vault and calls `run_daily.sh`
+directly — so **the data bank lands ~12:20 IST** with no fixed wait. There is no fixed
+06:00 (or later 13:30) daily fusion cron anymore: that line was removed in favour of the
+event-driven chain (goal #35, 2026-07-01).
+
+The source feeder and the weekly semantic pass are still fixed crontab lines (IST,
+single-flight locked and idempotent):
 
 ```cron
 # 05:30 — refresh the factory (Jivo Mart) source vault (rotating-auth → capture → render, full REPLACE)
 30 5 * * *  /root/jivo-factory-intel/bin/factory_refresh.sh >> /root/jivo-factory-intel/daily.log 2>&1
-# 06:00 — JIVO Data Bank: rebuild (jivo+ecom+factory) → fail-closed verify → commit → push → Telegram
-0  6 * * *  /root/jivo-data-bank/bin/run_daily.sh >> /var/log/jivo-data-bank/cron.log 2>&1
+# Sun 15:00 — regenerate the expensive semantic cross-vault link cache (AFTER that day's daily rebuild)
+0 15 * * 0  /root/jivo-data-bank/bin/weekly_semantic.sh >> /var/log/jivo-data-bank/cron.log 2>&1
 ```
 
 `run_daily.sh` wraps `daily_rebuild.sh` (the fail-closed accuracy gate) + `push_both.sh` (auto-pushes
-the verified commit — cron-push is owner-sanctioned) + `notify.sh` (Telegram heartbeat/alert). The
-05:30 factory refresh runs **first** so the 06:00 rebuild fuses fresh factory data.
+the verified commit — cron-push is owner-sanctioned) + `notify.sh` (Telegram heartbeat/alert), then
+rebuilds the pincode app. The 05:30 factory refresh still runs daily to feed the factory pillar; because
+the fusion now fires at ~12:20 (after the ecom noon sweep) it reads a COMPLETE same-day dataset across
+all four pillars.
 
 Environment overrides (all optional): `JDB_REPO`, `JDB_COMBINED`, `JDB_GEN_DIR`,
 `JDB_JIVO_SRC`, `JDB_ECOM_SRC`, `JDB_FACTORY_SRC`, `JDB_SEMANTIC` (`auto`|`yes`|`no`), `JDB_PYTHON`.

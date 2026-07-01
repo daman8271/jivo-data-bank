@@ -5,13 +5,13 @@
 # Installs TWO crontab lines (into the invoking user's crontab — root on this
 # VPS) inside a single managed, marker-delimited block:
 #
-#   * DAILY  ~13:30 IST  ->  bin/run_daily.sh
-#       rebuild -> verify (fail-closed) -> push -> notify. 13:30 is AFTER the ecom
-#       price vault finishes its midday rebuild (~12:00 IST, ecom-intel's
-#       deadline_sweep) AND after the jivo (05:00) + factory (05:30) source
-#       feeders, so the fusion reads a COMPLETE *same-day* dataset across all four
-#       pillars. (It previously ran at 06:00 — BEFORE the ecom vault rebuilt — which
-#       left the ecom pillar perpetually ONE DAY stale; corrected 2026-06-30.)
+#   * DAILY is EVENT-DRIVEN (no fixed cron by default): the ecom price sweep lands
+#       ~12:00 IST and its deadline_sweep tail fires the competitor crawler ->
+#       run_daily.sh (rebuild -> verify fail-closed -> push -> notify), so the fusion
+#       lands ~12:20 IST reading a COMPLETE *same-day* dataset across all four pillars
+#       (jivo 05:00 + factory 05:30 feeders land first). No fixed daily line is
+#       written unless JDB_DAILY_CRON is set. (Previously a fixed 06:00, then 13:30;
+#       removed for the event-driven chain — goal #35, 2026-07-01.)
 #
 #   * WEEKLY Sun ~15:00 IST  ->  bin/weekly_semantic.sh
 #       regenerates the expensive .links/ semantic cross-vault cache (agent
@@ -60,8 +60,13 @@ CRONTAB_BIN="${CRONTAB:-crontab}"
 
 # Schedules (cron field order: min hour dom mon dow). System TZ is IST and the
 # managed block also pins CRON_TZ, so these are IST.
-DAILY_CRON="${JDB_DAILY_CRON:-30 13 * * *}"   # ~13:30 IST daily (AFTER ecom vault lands ~12:00)
-WEEKLY_CRON="${JDB_WEEKLY_CRON:-0 15 * * 0}"  # ~15:00 IST Sunday (dow 0), after the daily
+# DAILY is now EVENT-DRIVEN (goal #35, 2026-07-01): the ecom noon sweep
+# (deadline_sweep.sh) fires the competitor scrape which folds into the vault and
+# then calls run_daily.sh directly — so the data bank lands ~12:20 with no fixed
+# wait. The fixed 13:30 cron line is therefore DISABLED by default (empty). To
+# re-enable a fixed/fallback daily run, set JDB_DAILY_CRON (e.g. "30 13 * * *").
+DAILY_CRON="${JDB_DAILY_CRON:-}"              # empty = no fixed daily line (event-driven)
+WEEKLY_CRON="${JDB_WEEKLY_CRON:-0 15 * * 0}"  # ~15:00 IST Sunday (dow 0)
 
 RUN_DAILY="$BIN/run_daily.sh"
 WEEKLY_SEM="$BIN/weekly_semantic.sh"
@@ -118,7 +123,14 @@ $BEGIN_MARK
 # Remove with: $0 --uninstall
 CRON_TZ=$CRON_TZ_VAL
 PATH=$CRON_PATH
-$DAILY_CRON $RUN_DAILY >> $LOGDIR/cron.log 2>&1
+EOF
+    # Daily line only when JDB_DAILY_CRON is set (now event-driven by default).
+    if [ -n "$DAILY_CRON" ]; then
+        echo "$DAILY_CRON $RUN_DAILY >> $LOGDIR/cron.log 2>&1"
+    else
+        echo "# (daily run is event-driven via ecom-intel deadline_sweep.sh -> competitor -> run_daily.sh; set JDB_DAILY_CRON to re-add a fixed line)"
+    fi
+    cat <<EOF
 $WEEKLY_CRON $WEEKLY_SEM >> $LOGDIR/cron.log 2>&1
 $END_MARK
 EOF
@@ -193,7 +205,11 @@ case "$MODE" in
     load_crontab "$new_crontab"
     if [ "$DRYRUN" -eq 0 ]; then
         info "installed/refreshed the managed cron block:"
-        info "  daily  ($DAILY_CRON)  -> $RUN_DAILY"
+        if [ -n "$DAILY_CRON" ]; then
+            info "  daily  ($DAILY_CRON)  -> $RUN_DAILY"
+        else
+            info "  daily  (event-driven via ecom noon sweep -> competitor -> run_daily.sh; no fixed line)"
+        fi
         info "  weekly ($WEEKLY_CRON) -> $WEEKLY_SEM"
         info "  TZ=$CRON_TZ_VAL  log=$LOGDIR/cron.log"
     fi
