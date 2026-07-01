@@ -1,0 +1,32 @@
+---
+type: factory-barcode__dispatch__reports__boxes
+id: 11156
+title: "Boxes 11156"
+entity: Boxes
+source_endpoint: /barcode/dispatch/reports/boxes/
+company: JIVO_MART
+tags:
+  - type/factory-barcode__dispatch__reports__boxes
+  - source/factory
+  - company/JIVO_MART
+  - bridge/FG0000030
+---
+# Boxes 11156
+
+> Boxes from `/barcode/dispatch/reports/boxes/` (Jivo Mart / JIVO_MART).
+
+## Fields
+- **box_id:** 11156
+- **box_barcode:** BOX-20260602-XX-1233
+- **material_code:** FG0000030
+- **quantity:** 20.00
+- **uom:** PCS
+- **pallet_barcode:** PLT-20260602-XX-027
+- **box_status:** ACTIVE
+- **dispatch_session_id:** None
+- **bill_number:** 
+- **dispatched_time:** None
+- **removed_from_pallet:** False
+
+## Related
+- item -> [[oitm-FG0000030]]
