@@ -115,6 +115,9 @@ log "step 5: verify_databank.py on the fresh build (gate before repo sync)"
 
 # ---- 6. sync the verified build into the repo (protect repo-only files) ------
 log "step 6: rsync verified build -> repo"
+# jivo-today: today/ (+ today.tmp/, today.prev/) live at the repo ROOT and are NOT
+# part of $COMBINED, so the --delete below would wipe them. Protect them here.
+# build_today.sh owns today/; the staging dirs are gitignored.
 rsync -a --delete \
     --exclude '.git/' \
     --exclude '.gitignore' \
@@ -127,6 +130,9 @@ rsync -a --delete \
     --exclude 'bin/' \
     --exclude '.daily_rebuild.lock' \
     --exclude 'daily_rebuild.log' \
+    --exclude 'today/' \
+    --exclude 'today.tmp/' \
+    --exclude 'today.prev/' \
     "$COMBINED"/ "$REPO"/ >>"$LOG" 2>&1 \
     || { alert "rsync into repo FAILED"; exit 7; }
 

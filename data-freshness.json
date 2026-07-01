@@ -1,0 +1,250 @@
+{
+  "generated_at": "2026-06-30T22:16:55.321817+00:00",
+  "reference_date": "2026-07-01",
+  "config": {
+    "green_max_age_days": 2,
+    "amber_max_age_days": 6,
+    "row_drop_amber_pct": 40,
+    "sku_drop_amber_pct": 30,
+    "trailing_window": 8,
+    "baseline_lag_note_days": 2,
+    "frozen_cluster_min": 10,
+    "first_party_stale_days": 7
+  },
+  "overall": "AMBER",
+  "gate_fail": false,
+  "actionable_red_platforms": [],
+  "platforms": [
+    {
+      "platform": "amazon",
+      "color": "GREEN",
+      "latest_data_date": "2026-06-30",
+      "age_days": 1,
+      "rows_latest": 304,
+      "unique_skus_latest": 304,
+      "rows_trailing_median": 314.0,
+      "skus_trailing_median": 304.0,
+      "baseline_last_date": "2026-06-30",
+      "known_dead": false,
+      "notes": [],
+      "reasons": [
+        "up to date"
+      ]
+    },
+    {
+      "platform": "amazon-fresh",
+      "color": "GREEN",
+      "latest_data_date": "2026-06-30",
+      "age_days": 1,
+      "rows_latest": 3275,
+      "unique_skus_latest": 38,
+      "rows_trailing_median": 2195.5,
+      "skus_trailing_median": 33.0,
+      "baseline_last_date": "2026-06-30",
+      "known_dead": false,
+      "notes": [],
+      "reasons": [
+        "up to date"
+      ]
+    },
+    {
+      "platform": "amazon-now",
+      "color": "GREEN",
+      "latest_data_date": "2026-06-30",
+      "age_days": 1,
+      "rows_latest": 1257,
+      "unique_skus_latest": 26,
+      "rows_trailing_median": 1161.0,
+      "skus_trailing_median": 23.5,
+      "baseline_last_date": "2026-06-30",
+      "known_dead": false,
+      "notes": [],
+      "reasons": [
+        "up to date"
+      ]
+    },
+    {
+      "platform": "blinkit",
+      "color": "GREEN",
+      "latest_data_date": "2026-06-30",
+      "age_days": 1,
+      "rows_latest": 1848,
+      "unique_skus_latest": 9,
+      "rows_trailing_median": 715.0,
+      "skus_trailing_median": 9.0,
+      "baseline_last_date": "2026-06-30",
+      "known_dead": false,
+      "notes": [],
+      "reasons": [
+        "up to date"
+      ]
+    },
+    {
+      "platform": "zepto",
+      "color": "GREEN",
+      "latest_data_date": "2026-06-30",
+      "age_days": 1,
+      "rows_latest": 14835,
+      "unique_skus_latest": 23,
+      "rows_trailing_median": 1188.5,
+      "skus_trailing_median": 23.0,
+      "baseline_last_date": "2026-06-27",
+      "known_dead": false,
+      "notes": [
+        "baseline last seeded 2026-06-27 but raw history current to 2026-06-30 \u2014 runs landing but review/baseline not seeding (likely SUSPECT/BROKEN verdicts)."
+      ],
+      "reasons": [
+        "up to date"
+      ]
+    },
+    {
+      "platform": "flipkart",
+      "color": "GREEN",
+      "latest_data_date": "2026-06-30",
+      "age_days": 1,
+      "rows_latest": 269,
+      "unique_skus_latest": 269,
+      "rows_trailing_median": 269.0,
+      "skus_trailing_median": 269.0,
+      "baseline_last_date": "2026-06-30",
+      "known_dead": false,
+      "notes": [],
+      "reasons": [
+        "up to date"
+      ]
+    },
+    {
+      "platform": "flipkart-minutes",
+      "color": "GREEN",
+      "latest_data_date": "2026-06-30",
+      "age_days": 1,
+      "rows_latest": 396,
+      "unique_skus_latest": 12,
+      "rows_trailing_median": 281.5,
+      "skus_trailing_median": 10.0,
+      "baseline_last_date": "2026-06-30",
+      "known_dead": false,
+      "notes": [],
+      "reasons": [
+        "up to date"
+      ]
+    },
+    {
+      "platform": "bigbasket",
+      "color": "GREEN",
+      "latest_data_date": "2026-06-30",
+      "age_days": 1,
+      "rows_latest": 23,
+      "unique_skus_latest": 23,
+      "rows_trailing_median": 23.0,
+      "skus_trailing_median": 23.0,
+      "baseline_last_date": "2026-06-30",
+      "known_dead": false,
+      "notes": [],
+      "reasons": [
+        "up to date"
+      ]
+    },
+    {
+      "platform": "instamart",
+      "color": "RED",
+      "latest_data_date": null,
+      "age_days": null,
+      "rows_latest": 0,
+      "unique_skus_latest": null,
+      "rows_trailing_median": null,
+      "skus_trailing_median": null,
+      "baseline_last_date": null,
+      "known_dead": true,
+      "notes": [
+        "KNOWN-DEAD: swiggy-instamart \u2014 known-dead / off-box (not scraped on this box) (does not gate)"
+      ],
+      "reasons": [
+        "no data files (no baseline samples, no history.csv)"
+      ]
+    }
+  ],
+  "vault_clusters": [
+    {
+      "date": "2026-06-04",
+      "count": 188,
+      "platform_breakdown": [
+        [
+          "amazon",
+          165
+        ],
+        [
+          "amazon-now",
+          60
+        ],
+        [
+          "amazon-fresh",
+          13
+        ],
+        [
+          "bigbasket",
+          7
+        ],
+        [
+          "flipkart-minutes",
+          1
+        ],
+        [
+          "zepto",
+          1
+        ]
+      ],
+      "classification": "KNOWN",
+      "label": "KNOWN/EXPECTED (delisted-from-Now correction)",
+      "reason": "On 2026-06-04 amazon-now was deliberately corrected (wrong-surface fix), which legitimately orphaned ~63 long-tail Amazon SKUs. The resulting ~190 vault notes frozen at last_seen 2026-06-04 are CORRECT data, NOT a breakage. Do not graph these as live."
+    },
+    {
+      "date": "2026-06-01",
+      "count": 31,
+      "platform_breakdown": [
+        [
+          "amazon-fresh",
+          31
+        ],
+        [
+          "amazon",
+          12
+        ]
+      ],
+      "classification": "INVESTIGATE",
+      "label": "INVESTIGATE \u2014 unexplained frozen cluster",
+      "reason": "31 SKUs last_seen on 2026-06-01 and never since. Verify whether the source surface genuinely delisted these (real) or the scraper silently stopped covering them (breakage). Do NOT graph these as live until confirmed."
+    },
+    {
+      "date": "2026-05-21",
+      "count": 68,
+      "platform_breakdown": [
+        [
+          "amazon",
+          68
+        ]
+      ],
+      "classification": "INVESTIGATE",
+      "label": "INVESTIGATE \u2014 unexplained frozen cluster",
+      "reason": "68 SKUs last_seen on 2026-05-21 and never since. Verify whether the source surface genuinely delisted these (real) or the scraper silently stopped covering them (breakage). Do NOT graph these as live until confirmed."
+    }
+  ],
+  "vault_summary": {
+    "total_notes": 997,
+    "freshest_last_seen": "2026-06-30",
+    "live_count": 677,
+    "frozen_cluster_count": 3
+  },
+  "first_party": {
+    "tables": [
+      {
+        "table": "amazon_price_data",
+        "latest_data_date": "2026-05-14",
+        "date_column": "upload_date",
+        "age_days": 48,
+        "files": 94,
+        "status": "STALE"
+      }
+    ]
+  }
+}
