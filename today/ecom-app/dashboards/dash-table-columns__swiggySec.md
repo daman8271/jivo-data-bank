@@ -51,12 +51,12 @@ Up: [[dashboards-index]] · [[pf-swiggy]]
   "L1_CATEGORY": "edible oils and ghee",
   "L2_CATEGORY": "olive oil",
   "L3_CATEGORY": "extra virgin olive oil",
-  "ORDERED_DATE": "2025-12-10",
+  "ORDERED_DATE": "2026-03-17",
   "PRODUCT_NAME": "jivo extra virgin olive oil",
-  "STORE_ID": "1237261",
+  "STORE_ID": "1404796",
   "UNITS_SOLD": 1,
   "VARIANT": "1 ltr",
-  "id": 89225
+  "id": 974974
  }
 }
 ```
