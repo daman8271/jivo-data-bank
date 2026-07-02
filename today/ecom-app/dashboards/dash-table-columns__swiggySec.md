@@ -39,24 +39,24 @@ Up: [[dashboards-index]] · [[pf-swiggy]]
   "GMV"
  ],
  "sample": {
-  "AREA_NAME": "cv raman nagar",
-  "BASE_MRP": 375.0,
+  "AREA_NAME": "tarabai park",
+  "BASE_MRP": 225.0,
   "BRAND": "jivo",
-  "CITY": "Bangalore",
+  "CITY": "Kolhapur",
   "COMBO": "No",
   "COMBO_ITEM_CODE": null,
   "COMBO_UNITS_SOLD": null,
-  "GMV": 750.0,
-  "ITEM_CODE": "15685",
+  "GMV": 450.0,
+  "ITEM_CODE": "429981",
   "L1_CATEGORY": "edible oils and ghee",
   "L2_CATEGORY": "edible oils",
-  "L3_CATEGORY": "canola cold pressed oil",
-  "ORDERED_DATE": "2025-09-12",
-  "PRODUCT_NAME": "jivo canola cold press edible oil",
-  "STORE_ID": "1393563",
+  "L3_CATEGORY": "sunflower oil",
+  "ORDERED_DATE": "2025-12-03",
+  "PRODUCT_NAME": "jivo gold refined oil - blend of rice bran oil & sunflower oil",
+  "STORE_ID": "1403724",
   "UNITS_SOLD": 2,
   "VARIANT": "1 ltr",
-  "id": 277616
+  "id": 73102
  }
 }
 ```
