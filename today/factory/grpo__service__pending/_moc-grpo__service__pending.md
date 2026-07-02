@@ -1,17 +1,15 @@
 ---
 type: moc
-title: Pending (8)
+title: Pending (6)
 tags:
   - moc
   - source/factory
 ---
 
-# Pending — 8 records
+# Pending — 6 records
 
 From `/grpo/service/pending/`. Up: [[_HOME]]
 
-- [[grpo__service__pending-759]] — HR67E7648
-- [[grpo__service__pending-729]] — HR67E7648
 - [[grpo__service__pending-619]] — DL01LAD1397
 - [[grpo__service__pending-620]] — DL01LAD1397
 - [[grpo__service__pending-623]] — DL01LAD1397

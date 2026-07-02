@@ -24,7 +24,7 @@ tags:
 - **document_type:** INVOICE
 - **dispatch_status:** DISPATCHED
 - **scanned_boxes:** 720
-- **expected_boxes:** 0
+- **expected_boxes:** 789
 - **reason:** 90% scanned new barcode &10% old barcode scanned
 - **status:** APPROVED
 - **requested_by:** 25

@@ -24,7 +24,7 @@ tags:
 - **document_type:** INVOICE
 - **dispatch_status:** DISPATCHED
 - **scanned_boxes:** 154
-- **expected_boxes:** 0
+- **expected_boxes:** 357
 - **reason:** half box scanned old &new
 - **status:** APPROVED
 - **requested_by:** 25

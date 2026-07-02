@@ -24,18 +24,21 @@ tags:
   ```json
   {"id": 2, "name": "Front gate", "location": null, "is_active": true}
   ```
-- **gate_out:** None
+- **gate_out:**
+  ```json
+  {"id": 2, "name": "Front gate", "location": null, "is_active": true}
+  ```
 - **name_snapshot:** Vijay kumar 8474930537
 - **photo_snapshot:** None
 - **entry_time:** 2026-06-30T12:00:21.454885+05:30
 - **actual_entry_time:** 2026-06-30T11:58:00+05:30
-- **exit_time:** None
+- **exit_time:** 2026-07-01T09:08:54.625003+05:30
 - **purpose:** Meeting Atul sir 
 - **vehicle_no:** None
 - **remarks:** None
-- **status:** IN
+- **status:** OUT
 - **created_at:** 2026-06-30T12:00:21.454948+05:30
-- **updated_at:** 2026-06-30T12:00:21.454957+05:30
+- **updated_at:** 2026-07-01T09:08:54.627231+05:30
 - **visitor:** 156
 - **labour:** None
 - **approved_by:** None
@@ -43,5 +46,6 @@ tags:
 
 ## Related
 - gate_in -> [[pgate-2]]
+- gate_out -> [[pgate-2]]
 - person_type -> [[ptype-1]]
 - visitor -> [[vis-156]]

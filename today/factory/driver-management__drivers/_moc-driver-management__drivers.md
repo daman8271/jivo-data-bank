@@ -1,15 +1,26 @@
 ---
 type: moc
-title: Driver (303)
+title: Driver (314)
 tags:
   - moc
   - source/factory
 ---
 
-# Driver — 303 records
+# Driver — 314 records
 
 From `/driver-management/drivers/`. Up: [[_HOME]]
 
+- [[drv-324]] — Kuljeet singh 6280363803
+- [[drv-323]] — Sukhbir 9991345786
+- [[drv-322]] — Lokinder 9599851718
+- [[drv-321]] — Naresh 8816962547
+- [[drv-320]] — Gurpreet Singh
+- [[drv-319]] — Ashif 9050650423
+- [[drv-318]] — Ram raj 9680872970
+- [[drv-317]] — Raju sharma 9450825414
+- [[drv-316]] — Meru 9352750866
+- [[drv-315]] — Gopal lal 9602120085
+- [[drv-314]] — Rajesh 8168922148
 - [[drv-313]] — Angadh 9821270187
 - [[drv-312]] — Sarwan 8368689192
 - [[drv-311]] — Jhadu singh 9310956521

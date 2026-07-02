@@ -1,12 +1,12 @@
 ---
 type: moc
-title: Users (63)
+title: Users (64)
 tags:
   - moc
   - source/factory
 ---
 
-# Users — 63 records
+# Users — 64 records
 
 From `/accounts/users/`. Up: [[_HOME]]
 
@@ -64,7 +64,6 @@ From `/accounts/users/`. Up: [[_HOME]]
 - [[accounts__users-50]] — Visitor
 - [[accounts__users-51]] — Shivam
 - [[accounts__users-61]] — Honey Gupta
-- [[accounts__users-52]] — Charanjeet Singh
 - [[accounts__users-53]] — Varinder Singh
 - [[accounts__users-54]] — surjeet singh
 - [[accounts__users-56]] — Maintenance Head
@@ -73,3 +72,5 @@ From `/accounts/users/`. Up: [[_HOME]]
 - [[accounts__users-55]] — Yashin
 - [[accounts__users-62]] — Bunty
 - [[accounts__users-63]] — Arvinder Singh
+- [[accounts__users-52]] — Charanjeet Singh
+- [[accounts__users-70]] — Ekam Singh

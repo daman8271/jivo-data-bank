@@ -16,18 +16,18 @@ tags:
 
 ## Fields
 - **document_type:** INVOICE
-- **doc_entry:** 35669
-- **doc_num:** 706260933
+- **doc_entry:** 35740
+- **doc_num:** 706260953
 - **doc_date:** 2026-06-30
-- **doc_total:** 349027.00
+- **doc_total:** 118701.00
 - **branch_id:** 1
 - **branch_name:** DELHI
 - **card_code:** CUSTA000048
 - **card_name:** R K WORLDINFOCOM PVT LTD
-- **ship_to_code:** RK WORLDINFOCOM PVT LTD HARYANA
-- **ship_to_address:** LLP VILLAGE- FARRUKHNAGAR TEHSIL-FARRUKH ESR SOHNA LOGISTICS PARK VILLAGE RAHAKA  BLOCK J2,FARUKHNAGAR LOGISTICS PARKS EMPORIUM INDUSTRIAL PARK INDIA PVT LTDGURUGRAM-122506IN
-- **place_of_supply:** HR
-- **bp_gstin:** 06AAECR0564M1Z7
+- **ship_to_code:** R K WORLDINFOCOM PVT LTD PUNE
+- **ship_to_address:** GATE NO. 185,186,188,189,190,197,198,200,201,202,  NDR BIGBOX PRIVATE LIMITED MAWAL SUDHAVADIPUNE-412109IN
+- **place_of_supply:** MH
+- **bp_gstin:** 27AAECR0564M1Z3
 - **eway_bill:** 
 - **vehicle_no:** 
 - **transporter_name:** 
@@ -36,18 +36,18 @@ tags:
 - **from_warehouse:** 
 - **to_warehouse:** 
 - **warehouses:** DL-FG
-- **item_summary:** FG0000142 - COLD PRESS GROUNDNUT OIL 1 LTR 16 PCS, FG0000005 - EXTRA LIGHT OLIVE 1 LTR 16 PCS, FG0000042 - EXTRA VIRGIN OLIVE 1 LTR 16 PCS, FG0000028 - POMACE OLIVE 1 LTR 16 PCS, FG0000008 - POMACE OLIVE 5 LTR TIN 4 PCS, FG0000004 - COLD PRESS 5 LTR 4 PCS
-- **base_refs:** 1706264766
-- **total_quantity:** 456.000
-- **total_litres:** 1320.000
+- **item_summary:** FG0000143 - COLD PRESS GROUNDNUT OIL 5 LTR 4 PCS
+- **base_refs:** 1706264742
+- **total_quantity:** 132.000
+- **total_litres:** 660.000
 - **total_boxes:** 0.000
-- **total_weight:** 1311.276
-- **line_count:** 6
+- **total_weight:** 655.043
+- **line_count:** 1
 - **items:**
   ```json
   []
   ```
 - **plan:**
   ```json
-  {"id": null, "sap_invoice_doc_entry": 35669, "sap_invoice_doc_num": "706260933", "invoice_number": "", "eway_bill": "", "invoice_weight": null, "invoice_amount": null, "place_of_supply": "", "product_variety": "", "total_litres": null, "effective_month": null, "budget_delivery_point": "", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": null, "transporter_id": null, "driver_id": null, "linked_vehicle_entry_id": null, "is_vehicle_link_locked": false, "pipeline_status": {"stage": "BOOKED", "stage_label": "Booked", "stage_at": null, "module": "", "module_status": "not entered", "module_label": "not entered"}, "booking_status": "PENDING", "dispatch_date": null, "priority": "", "transporter_name": "", "transporter_gstin": "", "contact_person": "", "mobile_no": "", "vehicle_no": "", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "", "bilty_date": null, "bilty_attachment": null, "bilty_attachment_name": "", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": null, "updated_at": null}
+  {"id": null, "sap_invoice_doc_entry": 35740, "sap_invoice_doc_num": "706260953", "invoice_number": "", "eway_bill": "", "invoice_weight": null, "invoice_amount": null, "place_of_supply": "", "product_variety": "", "total_litres": null, "effective_month": null, "budget_delivery_point": "", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": null, "transporter_id": null, "driver_id": null, "linked_vehicle_entry_id": null, "is_vehicle_link_locked": false, "pipeline_status": {"stage": "BOOKED", "stage_label": "Booked", "stage_at": null, "module": "", "module_status": "not entered", "module_label": "not entered"}, "booking_status": "PENDING", "dispatch_date": null, "priority": "", "transporter_name": "", "transporter_gstin": "", "contact_person": "", "mobile_no": "", "vehicle_no": "", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "", "bilty_date": null, "bilty_attachment": null, "bilty_attachment_name": "", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": null, "updated_at": null}
   ```
