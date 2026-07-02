@@ -20,17 +20,69 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-citymall]]
 ```json
 {
  "commodity": {
-  "categories": [],
-  "sub_categories": [],
-  "total_ltrs": 0
+  "categories": [
+   {
+    "ltrs": 7588.0,
+    "name": "SOYABEAN"
+   },
+   {
+    "ltrs": 1096.0,
+    "name": "MUSTARD"
+   },
+   {
+    "ltrs": 320.0,
+    "name": "RICE BRAN"
+   },
+   {
+    "ltrs": 40.0,
+    "name": "BLENDED"
+   }
+  ],
+  "sub_categories": [
+   {
+    "ltrs": 7588.0,
+    "name": "SOYABEAN"
+   },
+   {
+    "ltrs": 1096.0,
+    "name": "MUSTARD KACCHI GHANI"
+   },
+   {
+    "ltrs": 320.0,
+    "name": "RICE BRAN"
+   },
+   {
+    "ltrs": 40.0,
+    "name": "GOLD"
+   }
+  ],
+  "total_ltrs": 9044.0
  },
  "errors": [],
  "month": 7,
  "platform": "citymall",
  "premium": {
-  "categories": [],
-  "sub_categories": [],
-  "total_ltrs": 0
+  "categories": [
+   {
+    "ltrs": 80.0,
+    "name": "GROUNDNUT"
+   },
+   {
+    "ltrs": 20.0,
+    "name": "CANOLA"
+   }
+  ],
+  "sub_categories": [
+   {
+    "ltrs": 80.0,
+    "name": "GROUNDNUT"
+   },
+   {
+    "ltrs": 20.0,
+    "name": "CANOLA"
+   }
+  ],
+  "total_ltrs": 100.0
  },
  "source": "primary",
  "year": 2026

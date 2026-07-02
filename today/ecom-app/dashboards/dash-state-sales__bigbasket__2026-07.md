@@ -21,7 +21,48 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-bigbasket]]
 {
  "brands": [],
  "categories": [],
- "cities": [],
+ "cities": [
+  {
+   "city": "Gurgaon",
+   "value": 222.0
+  },
+  {
+   "city": "Chandigarh Tricity",
+   "value": 78.0
+  },
+  {
+   "city": "Hyderabad",
+   "value": 78.0
+  },
+  {
+   "city": "Noida",
+   "value": 50.0
+  },
+  {
+   "city": "Bangalore",
+   "value": 37.0
+  },
+  {
+   "city": "Lucknow-Kanpur",
+   "value": 20.0
+  },
+  {
+   "city": "Kolkata",
+   "value": 14.0
+  },
+  {
+   "city": "Pune",
+   "value": 11.0
+  },
+  {
+   "city": "Hyderabad Rural",
+   "value": 7.0
+  },
+  {
+   "city": "Vijayawada-Guntur",
+   "value": 7.0
+  }
+ ],
  "errors": [],
  "filter_options": {
   "brands": [
@@ -398,19 +439,132 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-bigbasket]]
    }
   ]
  },
- "mapped_units": 0,
- "mapped_value": 0,
+ "mapped_units": 555.0,
+ "mapped_value": 555.0,
  "metric": "units",
  "metric_label": "Units sold",
  "metric_unit": "units",
  "mode": "single",
  "month": 7,
- "pct_mapped": 0,
+ "pct_mapped": 100.0,
  "platform": "bigbasket",
- "states": [],
+ "states": [
+  {
+   "by_platform": {
+    "BIG BASKET": 222.0
+   },
+   "state": "HARYANA",
+   "units": 222.0,
+   "value": 222.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 85.0
+   },
+   "state": "TELANGANA",
+   "units": 85.0,
+   "value": 85.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 79.0
+   },
+   "state": "UTTAR PRADESH",
+   "units": 79.0,
+   "value": 79.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 78.0
+   },
+   "state": "CHANDIGARH",
+   "units": 78.0,
+   "value": 78.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 38.0
+   },
+   "state": "KARNATAKA",
+   "units": 38.0,
+   "value": 38.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 15.0
+   },
+   "state": "MAHARASHTRA",
+   "units": 15.0,
+   "value": 15.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 14.0
+   },
+   "state": "WEST BENGAL",
+   "units": 14.0,
+   "value": 14.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 13.0
+   },
+   "state": "ANDHRA PRADESH",
+   "units": 13.0,
+   "value": 13.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 5.0
+   },
+   "state": "UTTARAKHAND",
+   "units": 5.0,
+   "value": 5.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 2.0
+   },
+   "state": "ASSAM",
+   "units": 2.0,
+   "value": 2.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 1.0
+   },
+   "state": "BIHAR",
+   "units": 1.0,
+   "value": 1.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 1.0
+   },
+   "state": "CHHATTISGARH",
+   "units": 1.0,
+   "value": 1.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 1.0
+   },
+   "state": "JHARKHAND",
+   "units": 1.0,
+   "value": 1.0
+  },
+  {
+   "by_platform": {
+    "BIG BASKET": 1.0
+   },
+   "state": "ODISHA",
+   "units": 1.0,
+   "value": 1.0
+  }
+ ],
  "sub_categories": [],
- "total_units": 0.0,
- "total_value": 0.0,
+ "total_units": 555.0,
+ "total_value": 555.0,
  "year": 2026
 }
 ```

@@ -18,12 +18,25 @@ Up: [[dashboards-index]] · [[2026-07]]
 
 ```json
 {
- "categories": [],
+ "categories": [
+  {
+   "category": "CANOLA",
+   "ltrs": 80.0
+  },
+  {
+   "category": "GROUNDNUT",
+   "ltrs": 80.0
+  },
+  {
+   "category": "OLIVE",
+   "ltrs": 64.0
+  }
+ ],
  "errors": [],
  "head": "premium",
  "month": 7,
  "platform": null,
- "total_ltrs": 0,
+ "total_ltrs": 224.0,
  "year": 2026
 }
 ```

@@ -24,9 +24,69 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-bigbasket]]
  "platform": "bigbasket",
  "prev_month": 6,
  "prev_year": 2026,
- "skus": [],
+ "skus": [
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -97.5,
+   "head": "COMMODITY",
+   "is_new": false,
+   "ltrs": 260.0,
+   "name": "SUNFLOWER 1L",
+   "prev_ltrs": 10480.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -95.1,
+   "head": "COMMODITY",
+   "is_new": false,
+   "ltrs": 260.0,
+   "name": "SUNFLOWER 5L",
+   "prev_ltrs": 5285.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -93.2,
+   "head": "PREMIUM",
+   "is_new": false,
+   "ltrs": 60.0,
+   "name": "CANOLA 1L",
+   "prev_ltrs": 883.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -85.2,
+   "head": "PREMIUM",
+   "is_new": false,
+   "ltrs": 48.0,
+   "name": "EXTRA LIGHT 1L",
+   "prev_ltrs": 324.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -96.2,
+   "head": "PREMIUM",
+   "is_new": false,
+   "ltrs": 16.0,
+   "name": "JIVO POMACE 1L",
+   "prev_ltrs": 416.0
+  }
+ ],
  "source": "primary",
- "top_faller": null,
+ "top_faller": {
+  "brand": null,
+  "code": null,
+  "delta_pct": -97.5,
+  "head": "COMMODITY",
+  "is_new": false,
+  "ltrs": 260.0,
+  "name": "SUNFLOWER 1L",
+  "prev_ltrs": 10480.0
+ },
  "top_riser": null,
  "year": 2026
 }

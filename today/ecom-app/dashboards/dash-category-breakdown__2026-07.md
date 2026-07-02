@@ -19,17 +19,89 @@ Up: [[dashboards-index]] · [[2026-07]]
 ```json
 {
  "commodity": {
-  "categories": [],
-  "sub_categories": [],
-  "total_ltrs": 0
+  "categories": [
+   {
+    "ltrs": 7588.0,
+    "name": "SOYABEAN"
+   },
+   {
+    "ltrs": 1096.0,
+    "name": "MUSTARD"
+   },
+   {
+    "ltrs": 520.0,
+    "name": "SUNFLOWER"
+   },
+   {
+    "ltrs": 320.0,
+    "name": "RICE BRAN"
+   },
+   {
+    "ltrs": 40.0,
+    "name": "BLENDED"
+   }
+  ],
+  "sub_categories": [
+   {
+    "ltrs": 7588.0,
+    "name": "SOYABEAN"
+   },
+   {
+    "ltrs": 1096.0,
+    "name": "MUSTARD KACCHI GHANI"
+   },
+   {
+    "ltrs": 520.0,
+    "name": "SUNFLOWER"
+   },
+   {
+    "ltrs": 320.0,
+    "name": "RICE BRAN"
+   },
+   {
+    "ltrs": 40.0,
+    "name": "GOLD"
+   }
+  ],
+  "total_ltrs": 9564.0
  },
  "errors": [],
  "month": 7,
  "platform": null,
  "premium": {
-  "categories": [],
-  "sub_categories": [],
-  "total_ltrs": 0
+  "categories": [
+   {
+    "ltrs": 80.0,
+    "name": "CANOLA"
+   },
+   {
+    "ltrs": 80.0,
+    "name": "GROUNDNUT"
+   },
+   {
+    "ltrs": 64.0,
+    "name": "OLIVE"
+   }
+  ],
+  "sub_categories": [
+   {
+    "ltrs": 80.0,
+    "name": "CANOLA"
+   },
+   {
+    "ltrs": 80.0,
+    "name": "GROUNDNUT"
+   },
+   {
+    "ltrs": 48.0,
+    "name": "EXTRA LIGHT"
+   },
+   {
+    "ltrs": 16.0,
+    "name": "JIVO POMACE"
+   }
+  ],
+  "total_ltrs": 224.0
  },
  "source": "primary",
  "year": 2026

@@ -20,17 +20,49 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-bigbasket]]
 ```json
 {
  "commodity": {
-  "categories": [],
-  "sub_categories": [],
-  "total_ltrs": 0
+  "categories": [
+   {
+    "ltrs": 520.0,
+    "name": "SUNFLOWER"
+   }
+  ],
+  "sub_categories": [
+   {
+    "ltrs": 520.0,
+    "name": "SUNFLOWER"
+   }
+  ],
+  "total_ltrs": 520.0
  },
  "errors": [],
  "month": 7,
  "platform": "bigbasket",
  "premium": {
-  "categories": [],
-  "sub_categories": [],
-  "total_ltrs": 0
+  "categories": [
+   {
+    "ltrs": 64.0,
+    "name": "OLIVE"
+   },
+   {
+    "ltrs": 60.0,
+    "name": "CANOLA"
+   }
+  ],
+  "sub_categories": [
+   {
+    "ltrs": 60.0,
+    "name": "CANOLA"
+   },
+   {
+    "ltrs": 48.0,
+    "name": "EXTRA LIGHT"
+   },
+   {
+    "ltrs": 16.0,
+    "name": "JIVO POMACE"
+   }
+  ],
+  "total_ltrs": 124.0
  },
  "source": "primary",
  "year": 2026

@@ -21,7 +21,48 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-swiggy]]
 {
  "brands": [],
  "categories": [],
- "cities": [],
+ "cities": [
+  {
+   "city": "Bangalore",
+   "value": 1124.0
+  },
+  {
+   "city": "Delhi",
+   "value": 1083.0
+  },
+  {
+   "city": "Hyderabad",
+   "value": 942.0
+  },
+  {
+   "city": "Mumbai",
+   "value": 834.0
+  },
+  {
+   "city": "Chennai",
+   "value": 544.0
+  },
+  {
+   "city": "Kolkata",
+   "value": 313.0
+  },
+  {
+   "city": "Chandigarh",
+   "value": 281.0
+  },
+  {
+   "city": "Pune",
+   "value": 215.0
+  },
+  {
+   "city": "Gurgaon",
+   "value": 160.0
+  },
+  {
+   "city": "Jaipur",
+   "value": 131.0
+  }
+ ],
  "errors": [],
  "filter_options": {
   "brands": [
@@ -398,19 +439,196 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-swiggy]]
    }
   ]
  },
- "mapped_units": 0,
- "mapped_value": 0,
+ "mapped_units": 7985.0,
+ "mapped_value": 7985.0,
  "metric": "units",
  "metric_label": "Units sold",
  "metric_unit": "units",
  "mode": "single",
  "month": 7,
- "pct_mapped": 0,
+ "pct_mapped": 100.0,
  "platform": "swiggy",
- "states": [],
+ "states": [
+  {
+   "by_platform": {
+    "SWIGGY": 1240.0
+   },
+   "state": "KARNATAKA",
+   "units": 1240.0,
+   "value": 1240.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 1171.0
+   },
+   "state": "MAHARASHTRA",
+   "units": 1171.0,
+   "value": 1171.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 1083.0
+   },
+   "state": "DELHI",
+   "units": 1083.0,
+   "value": 1083.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 989.0
+   },
+   "state": "TELANGANA",
+   "units": 989.0,
+   "value": 989.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 746.0
+   },
+   "state": "TAMIL NADU",
+   "units": 746.0,
+   "value": 746.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 330.0
+   },
+   "state": "WEST BENGAL",
+   "units": 330.0,
+   "value": 330.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 294.0
+   },
+   "state": "UTTAR PRADESH",
+   "units": 294.0,
+   "value": 294.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 289.0
+   },
+   "state": "HARYANA",
+   "units": 289.0,
+   "value": 289.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 281.0
+   },
+   "state": "CHANDIGARH",
+   "units": 281.0,
+   "value": 281.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 277.0
+   },
+   "state": "ANDHRA PRADESH",
+   "units": 277.0,
+   "value": 277.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 242.0
+   },
+   "state": "PUNJAB",
+   "units": 242.0,
+   "value": 242.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 203.0
+   },
+   "state": "RAJASTHAN",
+   "units": 203.0,
+   "value": 203.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 166.0
+   },
+   "state": "GUJARAT",
+   "units": 166.0,
+   "value": 166.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 166.0
+   },
+   "state": "KERALA",
+   "units": 166.0,
+   "value": 166.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 120.0
+   },
+   "state": "UTTARAKHAND",
+   "units": 120.0,
+   "value": 120.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 105.0
+   },
+   "state": "MADHYA PRADESH",
+   "units": 105.0,
+   "value": 105.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 76.0
+   },
+   "state": "GOA",
+   "units": 76.0,
+   "value": 76.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 73.0
+   },
+   "state": "BIHAR",
+   "units": 73.0,
+   "value": 73.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 68.0
+   },
+   "state": "ODISHA",
+   "units": 68.0,
+   "value": 68.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 56.0
+   },
+   "state": "JHARKHAND",
+   "units": 56.0,
+   "value": 56.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 9.0
+   },
+   "state": "CHHATTISGARH",
+   "units": 9.0,
+   "value": 9.0
+  },
+  {
+   "by_platform": {
+    "SWIGGY": 1.0
+   },
+   "state": "ASSAM",
+   "units": 1.0,
+   "value": 1.0
+  }
+ ],
  "sub_categories": [],
- "total_units": 0.0,
- "total_value": 0.0,
+ "total_units": 7985.0,
+ "total_value": 7985.0,
  "year": 2026
 }
 ```
