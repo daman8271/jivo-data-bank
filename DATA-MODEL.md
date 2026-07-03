@@ -4,7 +4,7 @@ The semantic foundation: JIVO's business, the bridge that joins the two systems,
 vocabulary, and the honest gaps. Read **[`VAULT-GUIDE.md`](VAULT-GUIDE.md)** for how to find these
 things in the vault.
 
-> Figures are **as of the 2026-06-27 snapshot**. Use git history to move through time, and
+> Figures are from the current checked-in data-bank build. Use git history to move through time, and
 > date-stamp anything you report.
 
 ---
@@ -18,8 +18,8 @@ house brands: **JIVO** (flagship) and **SANO** (value, esp. sunflower).
 
 - **The house unit is LITRES** (`per_unit_value` = litres per unit); leadership reasons in litres.
 - **Three product tiers** drive every rollup — **PREMIUM** (olive + A2 ghee), **COMMODITY**
-  (canola/sunflower/mustard…), **OTHER** (beverages/misc). In this vault: 64 Premium · 29 Commodity ·
-  60 Other product nodes.
+  (canola/sunflower/mustard…), **OTHER** (beverages/misc). In this vault: 63 Premium · 29 Commodity ·
+  59 Other product nodes.
 - **The North-Star is premium-mix (~52 % by litres)** — keeping the premium line pacing is "the one
   number".
 - **JIVO sells through distributors, not direct;** the app tracks a **Wellness → JM Primary →
@@ -58,10 +58,11 @@ sku-FG0000032     ──►    jivo-…-canola-…-1l, canola-oil-…-1l  ──
 (pack/spelling twins — 200 GM vs 200G, 1+1L vs 1L+1L, CHIASEEDS vs CHIA SEEDS — collapse to ONE node)
 ```
 
-- **170 of 178** JIVO SKUs are bridged: **112 core (priced)** + **58 new_confirmed**.
+- **151 fused product nodes** are generated after pack/spelling twins collapse: **111 core (priced)** +
+  **40 new_confirmed**.
 - A product node's `## Identity` shows its SAP code(s) and every `canonical_sku` that folded into it,
   plus its **bridge class** (`core (priced)` vs `new_confirmed`).
-- **9 SKUs are unmatched** (surfaced in `Home.md` → Gaps, never dropped): **8** have no ecom listing
+- **9 JIVO SKUs are unmatched** (surfaced in `Home.md` → Gaps, never dropped): **8** have no ecom listing
   (bulk pack-size gaps — 15L / 3kg / 100ml not sold online; the product *is* matched in its retail
   sizes), and **1** (cola juice) needs owner review.
 
@@ -140,7 +141,7 @@ The full per-page app model (what every page does + the data behind it) lives in
 ## 6. Gaps & caveats (read before drawing conclusions)
 
 - **JIVO volume is tier-level, not per-product** (§5) — the single most important caveat.
-- **Partial price coverage:** live dated competitor prices exist for **121 of 153** products (32
+- **Partial price coverage:** live dated competitor prices exist for **120 of 151** products (31
   await a live match), and only **5 of 10 platforms are priced** — **amazon, flipkart, bigbasket,
   zepto, blinkit**. The other five — **swiggy, flipkart_grocery, jiomart, citymall, zomato** —
   contribute **0** priced products so far.
@@ -156,9 +157,9 @@ The full per-page app model (what every page does + the data behind it) lives in
 - **Join landmines** (carried from the source data model): never join on EAN (sci-notation text);
   `amazon_inventory.brand` is dirty (derive brand from the master); `fc_code` ≠ inventory `location`;
   raw PO `status` is dirty — use normalised statuses. Full list in the jivo-intel `datamap`.
-- **It is a snapshot.** This build reflects the SKU bridge + price-match data **as of 2026-06-27**;
-  `zero_loss_ok: true` in [`.manifest.json`](.manifest.json) proves the *capture* is lossless, not
-  that the live world has stood still.
+- **It is a snapshot.** This build reflects the SKU bridge + price-match data in the checked-in
+  generated files. `zero_loss_ok: true` in [`.manifest.json`](.manifest.json) proves the *capture* is
+  lossless, not that the live world has stood still.
 
 ---
 

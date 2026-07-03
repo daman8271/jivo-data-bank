@@ -20,212 +20,219 @@ Up: [[dashboards-index]] · [[pf-blinkit]]
 {
  "daily": [
   {
-   "date": "2026-06-01",
+   "date": "2026-07-01",
    "day": 1,
-   "display_date": "01-06-2026",
-   "ltr": 2372.0,
-   "ops": 582759.9999742
+   "display_date": "01-07-2026",
+   "ltr": 3852.0,
+   "ops": 0.0
   },
   {
-   "date": "2026-06-02",
+   "date": "2026-07-02",
    "day": 2,
-   "display_date": "02-06-2026",
-   "ltr": 2622.0,
-   "ops": 634046.666642
-  },
-  {
-   "date": "2026-06-03",
-   "day": 3,
-   "display_date": "03-06-2026",
-   "ltr": 2789.0,
-   "ops": 673383.8094967
-  },
-  {
-   "date": "2026-06-04",
-   "day": 4,
-   "display_date": "04-06-2026",
-   "ltr": 2507.0,
-   "ops": 616351.4285479
-  },
-  {
-   "date": "2026-06-05",
-   "day": 5,
-   "display_date": "05-06-2026",
-   "ltr": 2958.0,
-   "ops": 692911.4285434
-  },
-  {
-   "date": "2026-06-06",
-   "day": 6,
-   "display_date": "06-06-2026",
-   "ltr": 2722.0,
-   "ops": 662446.6666405
-  },
-  {
-   "date": "2026-06-07",
-   "day": 7,
-   "display_date": "07-06-2026",
-   "ltr": 3378.0,
-   "ops": 811348.5713956
-  },
-  {
-   "date": "2026-06-08",
-   "day": 8,
-   "display_date": "08-06-2026",
-   "ltr": 2589.0,
-   "ops": 634967.61902
-  },
-  {
-   "date": "2026-06-09",
-   "day": 9,
-   "display_date": "09-06-2026",
-   "ltr": 2471.0,
-   "ops": 609650.4761663
-  },
-  {
-   "date": "2026-06-10",
-   "day": 10,
-   "display_date": "10-06-2026",
-   "ltr": 2823.0,
-   "ops": 663560.9523523
-  },
-  {
-   "date": "2026-06-11",
-   "day": 11,
-   "display_date": "11-06-2026",
-   "ltr": 2585.0,
-   "ops": 639656.1904519
-  },
-  {
-   "date": "2026-06-12",
-   "day": 12,
-   "display_date": "12-06-2026",
-   "ltr": 2916.0,
-   "ops": 679942.8571134
-  },
-  {
-   "date": "2026-06-13",
-   "day": 13,
-   "display_date": "13-06-2026",
-   "ltr": 2693.0,
-   "ops": 656951.4285465
-  },
-  {
-   "date": "2026-06-14",
-   "day": 14,
-   "display_date": "14-06-2026",
-   "ltr": 3409.0,
-   "ops": 789016.1904428
-  },
-  {
-   "date": "2026-06-15",
-   "day": 15,
-   "display_date": "15-06-2026",
-   "ltr": 2784.0,
-   "ops": 652815.2380666
-  },
-  {
-   "date": "2026-06-16",
-   "day": 16,
-   "display_date": "16-06-2026",
-   "ltr": 2640.0,
-   "ops": 617819.9999705
-  },
-  {
-   "date": "2026-06-17",
-   "day": 17,
-   "display_date": "17-06-2026",
-   "ltr": 2963.0,
-   "ops": 716810.4761552
-  },
-  {
-   "date": "2026-06-18",
-   "day": 18,
-   "display_date": "18-06-2026",
-   "ltr": 2697.0,
-   "ops": 656580.952351
-  },
-  {
-   "date": "2026-06-19",
-   "day": 19,
-   "display_date": "19-06-2026",
-   "ltr": 2938.0,
-   "ops": 715184.7618736
-  },
-  {
-   "date": "2026-06-20",
-   "day": 20,
-   "display_date": "20-06-2026",
-   "ltr": 2532.0,
-   "ops": 627533.3333055
-  },
-  {
-   "date": "2026-06-21",
-   "day": 21,
-   "display_date": "21-06-2026",
-   "ltr": 3136.0,
-   "ops": 755308.5713923
-  },
-  {
-   "date": "2026-06-22",
-   "day": 22,
-   "display_date": "22-06-2026",
-   "ltr": 2706.0,
-   "ops": 638485.7142569
-  },
-  {
-   "date": "2026-06-23",
-   "day": 23,
-   "display_date": "23-06-2026",
-   "ltr": 2712.0,
-   "ops": 644330.4761599
-  },
-  {
-   "date": "2026-06-24",
-   "day": 24,
-   "display_date": "24-06-2026",
-   "ltr": 2981.0,
-   "ops": 703536.1904434
-  },
-  {
-   "date": "2026-06-25",
-   "day": 25,
-   "display_date": "25-06-2026",
-   "ltr": 2871.0,
-   "ops": 671083.8094922
-  },
-  {
-   "date": "2026-06-26",
-   "day": 26,
-   "display_date": "26-06-2026",
-   "ltr": 2933.0,
-   "ops": 691149.5237763
-  },
-  {
-   "date": "2026-06-27",
-   "day": 27,
-   "display_date": "27-06-2026",
-   "ltr": 2611.0,
-   "ops": 636540.9523538
-  },
-  {
-   "date": "2026-06-28",
-   "day": 28,
-   "display_date": "28-06-2026",
-   "ltr": 3360.0,
-   "ops": 781666.6666287
-  },
-  {
-   "date": "2026-06-29",
-   "day": 29,
-   "display_date": "29-06-2026",
+   "display_date": "02-07-2026",
    "ltr": 0.0,
    "ops": 0.0
   },
   {
-   "date": "2026-06-30",
+   "date": "2026-07-03",
+   "day": 3,
+   "display_date": "03-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-04",
+   "day": 4,
+   "display_date": "04-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-05",
+   "day": 5,
+   "display_date": "05-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-06",
+   "day": 6,
+   "display_date": "06-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-07",
+   "day": 7,
+   "display_date": "07-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-08",
+   "day": 8,
+   "display_date": "08-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-09",
+   "day": 9,
+   "display_date": "09-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-10",
+   "day": 10,
+   "display_date": "10-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-11",
+   "day": 11,
+   "display_date": "11-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-12",
+   "day": 12,
+   "display_date": "12-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-13",
+   "day": 13,
+   "display_date": "13-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-14",
+   "day": 14,
+   "display_date": "14-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-15",
+   "day": 15,
+   "display_date": "15-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-16",
+   "day": 16,
+   "display_date": "16-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-17",
+   "day": 17,
+   "display_date": "17-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-18",
+   "day": 18,
+   "display_date": "18-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-19",
+   "day": 19,
+   "display_date": "19-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-20",
+   "day": 20,
+   "display_date": "20-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-21",
+   "day": 21,
+   "display_date": "21-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-22",
+   "day": 22,
+   "display_date": "22-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-23",
+   "day": 23,
+   "display_date": "23-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-24",
+   "day": 24,
+   "display_date": "24-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-25",
+   "day": 25,
+   "display_date": "25-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-26",
+   "day": 26,
+   "display_date": "26-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-27",
+   "day": 27,
+   "display_date": "27-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-28",
+   "day": 28,
+   "display_date": "28-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-29",
+   "day": 29,
+   "display_date": "29-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-30",
    "day": 30,
-   "display_date": "30-06-2026",
+   "display_date": "30-07-2026",
+   "ltr": 0.0,
+   "ops": 0.0
+  },
+  {
+   "date": "2026-07-31",
+   "day": 31,
+   "display_date": "31-07-2026",
    "ltr": 0.0,
    "ops": 0.0
   }
@@ -234,67 +241,67 @@ Up: [[dashboards-index]] · [[pf-blinkit]]
   {
    "days": [
     {
-     "date": "2026-06-01",
+     "date": "2026-07-01",
      "day": 1,
-     "display_date": "01-06-2026",
-     "ltr": 2372.0,
-     "ops": 582759.9999742
+     "display_date": "01-07-2026",
+     "ltr": 3852.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-02",
+     "date": "2026-07-02",
      "day": 2,
-     "display_date": "02-06-2026",
-     "ltr": 2622.0,
-     "ops": 634046.666642
+     "display_date": "02-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-03",
+     "date": "2026-07-03",
      "day": 3,
-     "display_date": "03-06-2026",
-     "ltr": 2789.0,
-     "ops": 673383.8094967
+     "display_date": "03-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-04",
+     "date": "2026-07-04",
      "day": 4,
-     "display_date": "04-06-2026",
-     "ltr": 2507.0,
-     "ops": 616351.4285479
+     "display_date": "04-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-05",
+     "date": "2026-07-05",
      "day": 5,
-     "display_date": "05-06-2026",
-     "ltr": 2958.0,
-     "ops": 692911.4285434
+     "display_date": "05-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-06",
+     "date": "2026-07-06",
      "day": 6,
-     "display_date": "06-06-2026",
-     "ltr": 2722.0,
-     "ops": 662446.6666405
+     "display_date": "06-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-07",
+     "date": "2026-07-07",
      "day": 7,
-     "display_date": "07-06-2026",
-     "ltr": 3378.0,
-     "ops": 811348.5713956
+     "display_date": "07-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-08",
+     "date": "2026-07-08",
      "day": 8,
-     "display_date": "08-06-2026",
-     "ltr": 2589.0,
-     "ops": 634967.61902
+     "display_date": "08-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-09",
+     "date": "2026-07-09",
      "day": 9,
-     "display_date": "09-06-2026",
-     "ltr": 2471.0,
-     "ops": 609650.4761663
+     "display_date": "09-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     }
    ],
    "label": "1-9"
@@ -302,67 +309,67 @@ Up: [[dashboards-index]] · [[pf-blinkit]]
   {
    "days": [
     {
-     "date": "2026-06-10",
+     "date": "2026-07-10",
      "day": 10,
-     "display_date": "10-06-2026",
-     "ltr": 2823.0,
-     "ops": 663560.9523523
+     "display_date": "10-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-11",
+     "date": "2026-07-11",
      "day": 11,
-     "display_date": "11-06-2026",
-     "ltr": 2585.0,
-     "ops": 639656.1904519
+     "display_date": "11-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-12",
+     "date": "2026-07-12",
      "day": 12,
-     "display_date": "12-06-2026",
-     "ltr": 2916.0,
-     "ops": 679942.8571134
+     "display_date": "12-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-13",
+     "date": "2026-07-13",
      "day": 13,
-     "display_date": "13-06-2026",
-     "ltr": 2693.0,
-     "ops": 656951.4285465
+     "display_date": "13-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-14",
+     "date": "2026-07-14",
      "day": 14,
-     "display_date": "14-06-2026",
-     "ltr": 3409.0,
-     "ops": 789016.1904428
+     "display_date": "14-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-15",
+     "date": "2026-07-15",
      "day": 15,
-     "display_date": "15-06-2026",
-     "ltr": 2784.0,
-     "ops": 652815.2380666
+     "display_date": "15-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-16",
+     "date": "2026-07-16",
      "day": 16,
-     "display_date": "16-06-2026",
-     "ltr": 2640.0,
-     "ops": 617819.9999705
+     "display_date": "16-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-17",
+     "date": "2026-07-17",
      "day": 17,
-     "display_date": "17-06-2026",
-     "ltr": 2963.0,
-     "ops": 716810.4761552
+     "display_date": "17-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-18",
+     "date": "2026-07-18",
      "day": 18,
-     "display_date": "18-06-2026",
-     "ltr": 2697.0,
-     "ops": 656580.952351
+     "display_date": "18-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     }
    ],
    "label": "10-18"
@@ -370,67 +377,67 @@ Up: [[dashboards-index]] · [[pf-blinkit]]
   {
    "days": [
     {
-     "date": "2026-06-19",
+     "date": "2026-07-19",
      "day": 19,
-     "display_date": "19-06-2026",
-     "ltr": 2938.0,
-     "ops": 715184.7618736
+     "display_date": "19-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-20",
+     "date": "2026-07-20",
      "day": 20,
-     "display_date": "20-06-2026",
-     "ltr": 2532.0,
-     "ops": 627533.3333055
+     "display_date": "20-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-21",
+     "date": "2026-07-21",
      "day": 21,
-     "display_date": "21-06-2026",
-     "ltr": 3136.0,
-     "ops": 755308.5713923
+     "display_date": "21-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-22",
+     "date": "2026-07-22",
      "day": 22,
-     "display_date": "22-06-2026",
-     "ltr": 2706.0,
-     "ops": 638485.7142569
+     "display_date": "22-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-23",
+     "date": "2026-07-23",
      "day": 23,
-     "display_date": "23-06-2026",
-     "ltr": 2712.0,
-     "ops": 644330.4761599
+     "display_date": "23-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-24",
+     "date": "2026-07-24",
      "day": 24,
-     "display_date": "24-06-2026",
-     "ltr": 2981.0,
-     "ops": 703536.1904434
+     "display_date": "24-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-25",
+     "date": "2026-07-25",
      "day": 25,
-     "display_date": "25-06-2026",
-     "ltr": 2871.0,
-     "ops": 671083.8094922
+     "display_date": "25-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-26",
+     "date": "2026-07-26",
      "day": 26,
-     "display_date": "26-06-2026",
-     "ltr": 2933.0,
-     "ops": 691149.5237763
+     "display_date": "26-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     },
     {
-     "date": "2026-06-27",
+     "date": "2026-07-27",
      "day": 27,
-     "display_date": "27-06-2026",
-     "ltr": 2611.0,
-     "ops": 636540.9523538
+     "display_date": "27-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
     }
    ],
    "label": "19-27"
@@ -438,23 +445,30 @@ Up: [[dashboards-index]] · [[pf-blinkit]]
   {
    "days": [
     {
-     "date": "2026-06-28",
+     "date": "2026-07-28",
      "day": 28,
-     "display_date": "28-06-2026",
-     "ltr": 3360.0,
-     "ops": 781666.6666287
-    },
-    {
-     "date": "2026-06-29",
-     "day": 29,
-     "display_date": "29-06-2026",
+     "display_date": "28-07-2026",
      "ltr": 0.0,
      "ops": 0.0
     },
     {
-     "date": "2026-06-30",
+     "date": "2026-07-29",
+     "day": 29,
+     "display_date": "29-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
+    },
+    {
+     "date": "2026-07-30",
      "day": 30,
-     "display_date": "30-06-2026",
+     "display_date": "30-07-2026",
+     "ltr": 0.0,
+     "ops": 0.0
+    },
+    {
+     "date": "2026-07-31",
+     "day": 31,
+     "display_date": "31-07-2026",
      "ltr": 0.0,
      "ops": 0.0
     }
@@ -463,348 +477,348 @@ Up: [[dashboards-index]] · [[pf-blinkit]]
   }
  ],
  "daily_total": {
-  "ltr": 78698.0,
-  "ops": 18855840.9515594
+  "ltr": 3852.0,
+  "ops": 0.0
  },
- "days_in_month": 30,
+ "days_in_month": 31,
  "defaulted_to_latest": true,
  "doh_note": "DOH follows the DRR sheet: current SOH units divided by DRR qty.",
- "elapsed_day": 28,
- "elapsed_days": 28,
+ "elapsed_day": 1,
+ "elapsed_days": 1,
  "format": "BLINKIT",
- "inventory_effective_date": "2026-06-29",
+ "inventory_effective_date": "2026-07-02",
  "items": [
   {
-   "cur_day_soh_ltr": 10529.0,
-   "cur_day_soh_units": 10529.0,
-   "doh": 28.109458428680398,
-   "drr_liters": 374.57142857142856,
-   "drr_ltr": 374.57142857142856,
-   "drr_qty": 374.57142857142856,
-   "drr_value": 76341.22448622857,
+   "cur_day_soh_ltr": 9291.0,
+   "cur_day_soh_units": 9291.0,
+   "doh": 19.396659707724424,
+   "drr_liters": 479.0,
+   "drr_ltr": 479.0,
+   "drr_qty": 479.0,
+   "drr_value": 0.0,
    "inventory_item": "CANOLA 1L",
    "item": "CANOLA 1L",
    "item_head": "PREMIUM",
-   "landing_amt": 2137554.2856144,
-   "liters": 10488.0,
-   "ltr": 10488.0,
+   "landing_amt": 0.0,
+   "liters": 479.0,
+   "ltr": 479.0,
    "product": "CANOLA 1L",
-   "qty": 10488.0,
-   "value": 2137554.2856144
+   "qty": 479.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 13665.0,
-   "cur_day_soh_units": 2733.0,
-   "doh": 59.0462962962963,
-   "drr_liters": 231.42857142857142,
-   "drr_ltr": 231.42857142857142,
-   "drr_qty": 46.285714285714285,
-   "drr_value": 44522.448979371424,
+   "cur_day_soh_ltr": 13040.0,
+   "cur_day_soh_units": 2608.0,
+   "doh": 50.15384615384615,
+   "drr_liters": 260.0,
+   "drr_ltr": 260.0,
+   "drr_qty": 52.0,
+   "drr_value": 0.0,
    "inventory_item": "CANOLA 5L",
    "item": "CANOLA 5L",
    "item_head": "PREMIUM",
-   "landing_amt": 1246628.5714224,
-   "liters": 6480.0,
-   "ltr": 6480.0,
+   "landing_amt": 0.0,
+   "liters": 260.0,
+   "ltr": 260.0,
    "product": "CANOLA 5L",
-   "qty": 1296.0,
-   "value": 1246628.5714224
+   "qty": 52.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 3807.0,
-   "cur_day_soh_units": 3807.0,
-   "doh": 26.307008884501478,
-   "drr_liters": 144.71428571428572,
-   "drr_ltr": 144.71428571428572,
-   "drr_qty": 144.71428571428572,
-   "drr_value": 71943.67346318571,
+   "cur_day_soh_ltr": 3345.0,
+   "cur_day_soh_units": 3345.0,
+   "doh": 15.414746543778802,
+   "drr_liters": 217.0,
+   "drr_ltr": 217.0,
+   "drr_qty": 217.0,
+   "drr_value": 0.0,
    "inventory_item": "EXTRA LIGHT 1L",
    "item": "EXTRA LIGHT 1L",
    "item_head": "PREMIUM",
-   "landing_amt": 2014422.8569692,
-   "liters": 4052.0,
-   "ltr": 4052.0,
+   "landing_amt": 0.0,
+   "liters": 217.0,
+   "ltr": 217.0,
    "product": "EXTRA LIGHT 1L",
-   "qty": 4052.0,
-   "value": 2014422.8569692
+   "qty": 217.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 7136.0,
-   "cur_day_soh_units": 3568.0,
-   "doh": 47.03578154425612,
-   "drr_liters": 151.71428571428572,
-   "drr_ltr": 151.71428571428572,
-   "drr_qty": 75.85714285714286,
-   "drr_value": 69355.1020419,
+   "cur_day_soh_ltr": 6698.0,
+   "cur_day_soh_units": 3349.0,
+   "doh": 33.15841584158416,
+   "drr_liters": 202.0,
+   "drr_ltr": 202.0,
+   "drr_qty": 101.0,
+   "drr_value": 0.0,
    "inventory_item": "EXTRA LIGHT 2L",
    "item": "EXTRA LIGHT 2L",
    "item_head": "PREMIUM",
-   "landing_amt": 1941942.8571732,
-   "liters": 4248.0,
-   "ltr": 4248.0,
+   "landing_amt": 0.0,
+   "liters": 202.0,
+   "ltr": 202.0,
    "product": "EXTRA LIGHT 2L",
-   "qty": 2124.0,
-   "value": 1941942.8571732
+   "qty": 101.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 10394.0,
-   "cur_day_soh_units": 10394.0,
-   "doh": 18.459469745020932,
-   "drr_liters": 563.0714285714286,
-   "drr_ltr": 563.0714285714286,
-   "drr_qty": 563.0714285714286,
-   "drr_value": 182327.8911511,
+   "cur_day_soh_ltr": 8719.0,
+   "cur_day_soh_units": 8719.0,
+   "doh": 12.784457478005866,
+   "drr_liters": 682.0,
+   "drr_ltr": 682.0,
+   "drr_qty": 682.0,
+   "drr_value": 0.0,
    "inventory_item": "JIVO POMACE 1L",
    "item": "JIVO POMACE 1L",
    "item_head": "PREMIUM",
-   "landing_amt": 5105180.9522308,
-   "liters": 15766.0,
-   "ltr": 15766.0,
+   "landing_amt": 0.0,
+   "liters": 682.0,
+   "ltr": 682.0,
    "product": "JIVO POMACE 1L",
-   "qty": 15766.0,
-   "value": 5105180.9522308
+   "qty": 682.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 15230.0,
-   "cur_day_soh_units": 3046.0,
-   "doh": 121.49287749287748,
-   "drr_liters": 125.35714285714286,
-   "drr_ltr": 125.35714285714286,
-   "drr_qty": 25.071428571428573,
-   "drr_value": 44173.46939014286,
+   "cur_day_soh_ltr": 14965.0,
+   "cur_day_soh_units": 2993.0,
+   "doh": 119.72,
+   "drr_liters": 125.0,
+   "drr_ltr": 125.0,
+   "drr_qty": 25.0,
+   "drr_value": 0.0,
    "inventory_item": "JIVO POMACE 5L",
    "item": "JIVO POMACE 5L",
    "item_head": "PREMIUM",
-   "landing_amt": 1236857.142924,
-   "liters": 3510.0,
-   "ltr": 3510.0,
+   "landing_amt": 0.0,
+   "liters": 125.0,
+   "ltr": 125.0,
    "product": "JIVO POMACE 5L",
-   "qty": 702.0,
-   "value": 1236857.142924
+   "qty": 25.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 9177.0,
-   "cur_day_soh_units": 9177.0,
-   "doh": 12.375668256032364,
-   "drr_liters": 741.5357142857143,
-   "drr_ltr": 741.5357142857143,
-   "drr_qty": 741.5357142857143,
-   "drr_value": 109464.79590424286,
+   "cur_day_soh_ltr": 6392.0,
+   "cur_day_soh_units": 6392.0,
+   "doh": 5.477292202227935,
+   "drr_liters": 1167.0,
+   "drr_ltr": 1167.0,
+   "drr_qty": 1167.0,
+   "drr_value": 0.0,
    "inventory_item": "MUSTARD 1L",
    "item": "MUSTARD 1L",
    "item_head": "COMMODITY",
-   "landing_amt": 3065014.2853188,
-   "liters": 20763.0,
-   "ltr": 20763.0,
+   "landing_amt": 0.0,
+   "liters": 1167.0,
+   "ltr": 1167.0,
    "product": "MUSTARD 1L",
-   "qty": 20763.0,
-   "value": 3065014.2853188
+   "qty": 1167.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 5550.0,
-   "cur_day_soh_units": 1110.0,
-   "doh": 17.34375,
-   "drr_liters": 320.0,
-   "drr_ltr": 320.0,
-   "drr_qty": 64.0,
-   "drr_value": 49371.4285696,
+   "cur_day_soh_ltr": 4375.0,
+   "cur_day_soh_units": 875.0,
+   "doh": 9.210526315789474,
+   "drr_liters": 475.0,
+   "drr_ltr": 475.0,
+   "drr_qty": 95.0,
+   "drr_value": 0.0,
    "inventory_item": "MUSTARD 5L",
    "item": "MUSTARD 5L",
    "item_head": "COMMODITY",
-   "landing_amt": 1382399.9999488,
-   "liters": 8960.0,
-   "ltr": 8960.0,
+   "landing_amt": 0.0,
+   "liters": 475.0,
+   "ltr": 475.0,
    "product": "MUSTARD 5L",
-   "qty": 1792.0,
-   "value": 1382399.9999488
+   "qty": 95.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 1925.0,
-   "cur_day_soh_units": 1925.0,
-   "doh": 12.164296998420221,
-   "drr_liters": 158.25,
-   "drr_ltr": 158.25,
-   "drr_qty": 158.25,
-   "drr_value": 25922.85714135,
+   "cur_day_soh_ltr": 1716.0,
+   "cur_day_soh_units": 1716.0,
+   "doh": 7.004081632653061,
+   "drr_liters": 245.0,
+   "drr_ltr": 245.0,
+   "drr_qty": 245.0,
+   "drr_value": 0.0,
    "inventory_item": "SUNFLOWER 1L",
    "item": "SUNFLOWER 1L",
    "item_head": "COMMODITY",
-   "landing_amt": 725839.9999578,
-   "liters": 4431.0,
-   "ltr": 4431.0,
+   "landing_amt": 0.0,
+   "liters": 245.0,
+   "ltr": 245.0,
    "product": "SUNFLOWER 1L",
-   "qty": 4431.0,
-   "value": 725839.9999578
+   "qty": 245.0,
+   "value": 0.0
   }
  ],
- "max_date": "2026-06-28",
- "month": 6,
- "month_name": "JUNE",
+ "max_date": "2026-07-01",
+ "month": 7,
+ "month_name": "JULY",
  "rows": [
   {
-   "cur_day_soh_ltr": 10529.0,
-   "cur_day_soh_units": 10529.0,
-   "doh": 28.109458428680398,
-   "drr_liters": 374.57142857142856,
-   "drr_ltr": 374.57142857142856,
-   "drr_qty": 374.57142857142856,
-   "drr_value": 76341.22448622857,
+   "cur_day_soh_ltr": 9291.0,
+   "cur_day_soh_units": 9291.0,
+   "doh": 19.396659707724424,
+   "drr_liters": 479.0,
+   "drr_ltr": 479.0,
+   "drr_qty": 479.0,
+   "drr_value": 0.0,
    "inventory_item": "CANOLA 1L",
    "item": "CANOLA 1L",
    "item_head": "PREMIUM",
-   "landing_amt": 2137554.2856144,
-   "liters": 10488.0,
-   "ltr": 10488.0,
+   "landing_amt": 0.0,
+   "liters": 479.0,
+   "ltr": 479.0,
    "product": "CANOLA 1L",
-   "qty": 10488.0,
-   "value": 2137554.2856144
+   "qty": 479.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 13665.0,
-   "cur_day_soh_units": 2733.0,
-   "doh": 59.0462962962963,
-   "drr_liters": 231.42857142857142,
-   "drr_ltr": 231.42857142857142,
-   "drr_qty": 46.285714285714285,
-   "drr_value": 44522.448979371424,
+   "cur_day_soh_ltr": 13040.0,
+   "cur_day_soh_units": 2608.0,
+   "doh": 50.15384615384615,
+   "drr_liters": 260.0,
+   "drr_ltr": 260.0,
+   "drr_qty": 52.0,
+   "drr_value": 0.0,
    "inventory_item": "CANOLA 5L",
    "item": "CANOLA 5L",
    "item_head": "PREMIUM",
-   "landing_amt": 1246628.5714224,
-   "liters": 6480.0,
-   "ltr": 6480.0,
+   "landing_amt": 0.0,
+   "liters": 260.0,
+   "ltr": 260.0,
    "product": "CANOLA 5L",
-   "qty": 1296.0,
-   "value": 1246628.5714224
+   "qty": 52.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 3807.0,
-   "cur_day_soh_units": 3807.0,
-   "doh": 26.307008884501478,
-   "drr_liters": 144.71428571428572,
-   "drr_ltr": 144.71428571428572,
-   "drr_qty": 144.71428571428572,
-   "drr_value": 71943.67346318571,
+   "cur_day_soh_ltr": 3345.0,
+   "cur_day_soh_units": 3345.0,
+   "doh": 15.414746543778802,
+   "drr_liters": 217.0,
+   "drr_ltr": 217.0,
+   "drr_qty": 217.0,
+   "drr_value": 0.0,
    "inventory_item": "EXTRA LIGHT 1L",
    "item": "EXTRA LIGHT 1L",
    "item_head": "PREMIUM",
-   "landing_amt": 2014422.8569692,
-   "liters": 4052.0,
-   "ltr": 4052.0,
+   "landing_amt": 0.0,
+   "liters": 217.0,
+   "ltr": 217.0,
    "product": "EXTRA LIGHT 1L",
-   "qty": 4052.0,
-   "value": 2014422.8569692
+   "qty": 217.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 7136.0,
-   "cur_day_soh_units": 3568.0,
-   "doh": 47.03578154425612,
-   "drr_liters": 151.71428571428572,
-   "drr_ltr": 151.71428571428572,
-   "drr_qty": 75.85714285714286,
-   "drr_value": 69355.1020419,
+   "cur_day_soh_ltr": 6698.0,
+   "cur_day_soh_units": 3349.0,
+   "doh": 33.15841584158416,
+   "drr_liters": 202.0,
+   "drr_ltr": 202.0,
+   "drr_qty": 101.0,
+   "drr_value": 0.0,
    "inventory_item": "EXTRA LIGHT 2L",
    "item": "EXTRA LIGHT 2L",
    "item_head": "PREMIUM",
-   "landing_amt": 1941942.8571732,
-   "liters": 4248.0,
-   "ltr": 4248.0,
+   "landing_amt": 0.0,
+   "liters": 202.0,
+   "ltr": 202.0,
    "product": "EXTRA LIGHT 2L",
-   "qty": 2124.0,
-   "value": 1941942.8571732
+   "qty": 101.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 10394.0,
-   "cur_day_soh_units": 10394.0,
-   "doh": 18.459469745020932,
-   "drr_liters": 563.0714285714286,
-   "drr_ltr": 563.0714285714286,
-   "drr_qty": 563.0714285714286,
-   "drr_value": 182327.8911511,
+   "cur_day_soh_ltr": 8719.0,
+   "cur_day_soh_units": 8719.0,
+   "doh": 12.784457478005866,
+   "drr_liters": 682.0,
+   "drr_ltr": 682.0,
+   "drr_qty": 682.0,
+   "drr_value": 0.0,
    "inventory_item": "JIVO POMACE 1L",
    "item": "JIVO POMACE 1L",
    "item_head": "PREMIUM",
-   "landing_amt": 5105180.9522308,
-   "liters": 15766.0,
-   "ltr": 15766.0,
+   "landing_amt": 0.0,
+   "liters": 682.0,
+   "ltr": 682.0,
    "product": "JIVO POMACE 1L",
-   "qty": 15766.0,
-   "value": 5105180.9522308
+   "qty": 682.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 15230.0,
-   "cur_day_soh_units": 3046.0,
-   "doh": 121.49287749287748,
-   "drr_liters": 125.35714285714286,
-   "drr_ltr": 125.35714285714286,
-   "drr_qty": 25.071428571428573,
-   "drr_value": 44173.46939014286,
+   "cur_day_soh_ltr": 14965.0,
+   "cur_day_soh_units": 2993.0,
+   "doh": 119.72,
+   "drr_liters": 125.0,
+   "drr_ltr": 125.0,
+   "drr_qty": 25.0,
+   "drr_value": 0.0,
    "inventory_item": "JIVO POMACE 5L",
    "item": "JIVO POMACE 5L",
    "item_head": "PREMIUM",
-   "landing_amt": 1236857.142924,
-   "liters": 3510.0,
-   "ltr": 3510.0,
+   "landing_amt": 0.0,
+   "liters": 125.0,
+   "ltr": 125.0,
    "product": "JIVO POMACE 5L",
-   "qty": 702.0,
-   "value": 1236857.142924
+   "qty": 25.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 9177.0,
-   "cur_day_soh_units": 9177.0,
-   "doh": 12.375668256032364,
-   "drr_liters": 741.5357142857143,
-   "drr_ltr": 741.5357142857143,
-   "drr_qty": 741.5357142857143,
-   "drr_value": 109464.79590424286,
+   "cur_day_soh_ltr": 6392.0,
+   "cur_day_soh_units": 6392.0,
+   "doh": 5.477292202227935,
+   "drr_liters": 1167.0,
+   "drr_ltr": 1167.0,
+   "drr_qty": 1167.0,
+   "drr_value": 0.0,
    "inventory_item": "MUSTARD 1L",
    "item": "MUSTARD 1L",
    "item_head": "COMMODITY",
-   "landing_amt": 3065014.2853188,
-   "liters": 20763.0,
-   "ltr": 20763.0,
+   "landing_amt": 0.0,
+   "liters": 1167.0,
+   "ltr": 1167.0,
    "product": "MUSTARD 1L",
-   "qty": 20763.0,
-   "value": 3065014.2853188
+   "qty": 1167.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 5550.0,
-   "cur_day_soh_units": 1110.0,
-   "doh": 17.34375,
-   "drr_liters": 320.0,
-   "drr_ltr": 320.0,
-   "drr_qty": 64.0,
-   "drr_value": 49371.4285696,
+   "cur_day_soh_ltr": 4375.0,
+   "cur_day_soh_units": 875.0,
+   "doh": 9.210526315789474,
+   "drr_liters": 475.0,
+   "drr_ltr": 475.0,
+   "drr_qty": 95.0,
+   "drr_value": 0.0,
    "inventory_item": "MUSTARD 5L",
    "item": "MUSTARD 5L",
    "item_head": "COMMODITY",
-   "landing_amt": 1382399.9999488,
-   "liters": 8960.0,
-   "ltr": 8960.0,
+   "landing_amt": 0.0,
+   "liters": 475.0,
+   "ltr": 475.0,
    "product": "MUSTARD 5L",
-   "qty": 1792.0,
-   "value": 1382399.9999488
+   "qty": 95.0,
+   "value": 0.0
   },
   {
-   "cur_day_soh_ltr": 1925.0,
-   "cur_day_soh_units": 1925.0,
-   "doh": 12.164296998420221,
-   "drr_liters": 158.25,
-   "drr_ltr": 158.25,
-   "drr_qty": 158.25,
-   "drr_value": 25922.85714135,
+   "cur_day_soh_ltr": 1716.0,
+   "cur_day_soh_units": 1716.0,
+   "doh": 7.004081632653061,
+   "drr_liters": 245.0,
+   "drr_ltr": 245.0,
+   "drr_qty": 245.0,
+   "drr_value": 0.0,
    "inventory_item": "SUNFLOWER 1L",
    "item": "SUNFLOWER 1L",
    "item_head": "COMMODITY",
-   "landing_amt": 725839.9999578,
-   "liters": 4431.0,
-   "ltr": 4431.0,
+   "landing_amt": 0.0,
+   "liters": 245.0,
+   "ltr": 245.0,
    "product": "SUNFLOWER 1L",
-   "qty": 4431.0,
-   "value": 725839.9999578
+   "qty": 245.0,
+   "value": 0.0
   }
  ],
- "sales_max_date": "2026-06-28",
+ "sales_max_date": "2026-07-01",
  "sales_of": "ALL",
  "sales_of_options": [
   "ALL",
@@ -819,32 +833,32 @@ Up: [[dashboards-index]] · [[pf-blinkit]]
   "sales": "SecMaster"
  },
  "total": {
-  "cur_day_soh_ltr": 77413.0,
-  "cur_day_soh_units": 46289.0,
+  "cur_day_soh_ltr": 68541.0,
+  "cur_day_soh_units": 39288.0,
   "doh": null,
-  "drr_liters": 2810.6428571428573,
-  "drr_ltr": 2810.6428571428573,
-  "drr_qty": 2193.3571428571427,
-  "drr_value": 673422.8911271214,
-  "landing_amt": 18855840.9515594,
-  "liters": 78698.0,
-  "ltr": 78698.0,
-  "qty": 61414.0,
-  "value": 18855840.9515594
+  "drr_liters": 3852.0,
+  "drr_ltr": 3852.0,
+  "drr_qty": 3063.0,
+  "drr_value": 0.0,
+  "landing_amt": 0.0,
+  "liters": 3852.0,
+  "ltr": 3852.0,
+  "qty": 3063.0,
+  "value": 0.0
  },
  "totals": {
-  "cur_day_soh_ltr": 77413.0,
-  "cur_day_soh_units": 46289.0,
+  "cur_day_soh_ltr": 68541.0,
+  "cur_day_soh_units": 39288.0,
   "doh": null,
-  "drr_liters": 2810.6428571428573,
-  "drr_ltr": 2810.6428571428573,
-  "drr_qty": 2193.3571428571427,
-  "drr_value": 673422.8911271214,
-  "landing_amt": 18855840.9515594,
-  "liters": 78698.0,
-  "ltr": 78698.0,
-  "qty": 61414.0,
-  "value": 18855840.9515594
+  "drr_liters": 3852.0,
+  "drr_ltr": 3852.0,
+  "drr_qty": 3063.0,
+  "drr_value": 0.0,
+  "landing_amt": 0.0,
+  "liters": 3852.0,
+  "ltr": 3852.0,
+  "qty": 3063.0,
+  "value": 0.0
  },
  "value_source_note": "VALUE and OPS use SecMaster.sales_amt_exc to match DRR DATABASE column S.",
  "year": 2026

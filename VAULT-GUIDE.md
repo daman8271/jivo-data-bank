@@ -14,7 +14,7 @@ This is the manual for actually reading the vault to gather data and make sense 
 > following links the way you'd browse a graph.**
 
 **Open `Home.md` first** (in Obsidian: *Open folder as vault* → this folder). It is the map of
-content: every **tier**, **platform**, and **category** hub, all **153 products**, and the honest
+content: every **tier**, **platform**, and **category** hub, all **151 products**, and the honest
 **Gaps / Unmatched** list. From there, click into a product or pivot through a hub.
 
 ---
@@ -51,7 +51,7 @@ per-unit litres, and the **bridge class** (`core (priced)` or `new_confirmed`).
 | **Diff %** | `(live − ref) / ref` |
 | **Violation** | where live sits vs the reference — **BELOW** / **MATCH** / **ABOVE** |
 | **Regime** | the price-match engine's market-regime label (`BAU` / `SVD` / `ART`) |
-| **Latest** | the date of that observation (snapshot ≈ 2026-06-27) |
+| **Latest** | the date of that observation (current generated product files show latest dated prices at 2026-06-30) |
 
 The full day-by-day history (160+ observations per SKU, with `live_min/live_max`, `stores_below`,
 `in_stock`, and `OOS` / `NOT_LISTED` states) lives in the linked **`ecom/pricematch/pm-<NAME>.md`**
@@ -130,9 +130,9 @@ litres table. Use hubs to move from "one product" to "all products like it".
 
 ## Caveats when reading
 
-- **Date-stamp everything** — this is the 2026-06-27 snapshot; use git history to move through time.
+- **Date-stamp everything** — this is a checked-in snapshot; use git history to move through time.
 - **Per-product vs per-tier** — see the caveat above. It's the single easiest mistake to make here.
-- **Partial price coverage** — 121/153 products and only 5/10 platforms are priced; a blank price
+- **Partial price coverage** — 120/151 products and only 5/10 platforms are priced; a blank price
   row means "not yet matched/scraped", not "free". Details in [DATA-MODEL](DATA-MODEL.md).
 - **Don't hand-edit** `products/`, `hubs/`, `Home.md`, `identity/`, `jivo/`, `ecom/`, `factory/` —
   they're regenerated every refresh. Fix the builders in `bin/` instead.

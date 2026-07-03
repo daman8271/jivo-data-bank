@@ -1,7 +1,7 @@
 ---
 type: factory-gate-core__sales-dispatch__documents
 id: INVOICE
-title: "Documents INVOICE"
+title: "GJ27TD9843"
 entity: Documents
 source_endpoint: /gate-core/sales-dispatch/documents/
 company: JIVO_MART
@@ -10,38 +10,38 @@ tags:
   - source/factory
   - company/JIVO_MART
 ---
-# Documents INVOICE
+# GJ27TD9843
 
 > Documents from `/gate-core/sales-dispatch/documents/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **document_type:** INVOICE
-- **doc_entry:** 34114
-- **doc_num:** 706260128
-- **doc_date:** 2026-06-03
-- **doc_total:** 370.00
-- **branch_id:** 1
-- **branch_name:** DELHI
-- **card_code:** CUSTA000930
-- **card_name:** SANTOSH JHA
-- **ship_to_code:** SANTOSH JHA DELHI
-- **ship_to_address:** WAZIR NAGAR KOTLA MUBARAKPUR LODHI ROAD  1465 A THIRD FLOOR GALI NO-7NEW DELHI-110003IN
-- **place_of_supply:** DL
-- **bp_gstin:** 
+- **doc_entry:** 34409
+- **doc_num:** 606260126
+- **doc_date:** 2026-06-09
+- **doc_total:** 260400.00
+- **branch_id:** 2
+- **branch_name:** HARYANA
+- **card_code:** CUSTA000592
+- **card_name:** KNOWTABLE ONLINE SERVICES PRIVATE LIMITED
+- **ship_to_code:** KNOWTABLE ONLINE SERVICES PRIVATE LIMITED GODOWN
+- **ship_to_address:** ELECTRICITY CITY POSTBENGALURU-560100IN
+- **place_of_supply:** KT
+- **bp_gstin:** 29AAICK3556G1Z9
 - **eway_bill:** 
-- **vehicle_no:** 
-- **transporter_name:** 
-- **bilty_no:** 
-- **bilty_date:** None
+- **vehicle_no:** GJ27TD9843
+- **transporter_name:** Abhiman Express
+- **bilty_no:** 1127
+- **bilty_date:** 2026-06-10
 - **from_warehouse:** 
 - **to_warehouse:** 
-- **warehouses:** DL-MP
-- **item_summary:** FG0000032 - COLD PRESS 1 LTR 20 PCS
-- **base_refs:** 1506264525
-- **total_quantity:** 2.000
-- **total_litres:** 2.000
+- **warehouses:** BH-FGM
+- **item_summary:** FG0000030 - MUSTARD KACHI GHANI 1 LTR 20 PCS
+- **base_refs:** 1706264521
+- **total_quantity:** 1680.000
+- **total_litres:** 1680.000
 - **total_boxes:** 0.000
-- **total_weight:** 1.978
+- **total_weight:** 1630.826
 - **line_count:** 1
 - **items:**
   ```json
@@ -49,5 +49,5 @@ tags:
   ```
 - **plan:**
   ```json
-  {"id": null, "sap_invoice_doc_entry": 34114, "sap_invoice_doc_num": "706260128", "invoice_number": "", "eway_bill": "", "invoice_weight": null, "invoice_amount": null, "place_of_supply": "", "product_variety": "", "total_litres": null, "effective_month": null, "budget_delivery_point": "", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": null, "transporter_id": null, "driver_id": null, "linked_vehicle_entry_id": null, "is_vehicle_link_locked": false, "pipeline_status": {"stage": "BOOKED", "stage_label": "Booked", "stage_at": null, "module": "", "module_status": "not entered", "module_label": "not entered"}, "booking_status": "PENDING", "dispatch_date": null, "priority": "", "transporter_name": "", "transporter_gstin": "", "contact_person": "", "mobile_no": "", "vehicle_no": "", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "", "bilty_date": null, "bilty_attachment": null, "bilty_attachment_name": "", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": null, "updated_at": null}
+  {"id": null, "sap_invoice_doc_entry": 34409, "sap_invoice_doc_num": "606260126", "invoice_number": "", "eway_bill": "", "invoice_weight": null, "invoice_amount": null, "place_of_supply": "", "product_variety": "", "total_litres": null, "effective_month": null, "budget_delivery_point": "", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": null, "transporter_id": null, "driver_id": null, "linked_vehicle_entry_id": null, "is_vehicle_link_locked": false, "pipeline_status": {"stage": "BOOKED", "stage_label": "Booked", "stage_at": null, "module": "", "module_status": "not entered", "module_label": "not entered"}, "booking_status": "PENDING", "dispatch_date": null, "priority": "", "transporter_name": "", "transporter_gstin": "", "contact_person": "", "mobile_no": "", "vehicle_no": "", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "", "bilty_date": null, "bilty_attachment": null, "bilty_attachment_name": "", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": null, "updated_at": null}
   ```

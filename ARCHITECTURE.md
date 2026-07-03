@@ -25,7 +25,7 @@ and **[`RUNBOOK.md`](RUNBOOK.md)** for the operational commands.
 | **`jivo/`** | The JIVO app vault — 34,955 notes (~1.31M rows): SKUs, POs, dashboards, taxonomy, vendors, months | verbatim copy of `/root/jivo-intel/vault` | **never** (source) |
 | **`ecom/`** | The competitor-price vault — 2,878 notes: per-SKU price-match history, platforms, daily/weekly/monthly runs | verbatim copy of `/opt/ecom-intel/vault` | **never** (source) |
 | **`factory/`** | The JIVO factory (Jivo Mart / `JIVO_MART`) vault — 49,462 notes: gate, vehicles, drivers, QC, GRPO, barcode traceability (boxes/pallets/scans), dispatch, SAP item master — one note per record, FK-linked | verbatim copy of `/root/jivo-factory-intel/vault` (refreshed daily, see [`RUNBOOK.md`](RUNBOOK.md)) | **never** (source) |
-| **`products/` · `hubs/` · `Home.md`** | The fusion layer — 151 product nodes (each with a **Factory lens**) + 30 hubs + the map of content | **generated** by `bin/combined_backbone.py` + `bin/factory_pillar.py` + `bin/combined_identity.py` | **never** (regenerated every refresh) |
+| **`products/` · `hubs/` · `Home.md`** | The fusion layer — 151 product nodes (136 with a **Factory lens**) + 30 hubs + the map of content | **generated** by `bin/combined_backbone.py` + `bin/factory_pillar.py` + `bin/combined_identity.py` | **never** (regenerated every refresh) |
 
 `jivo/`, `ecom/`, and `factory/` are the **source of truth**; the fusion layer is a pure function of
 them. The fusion is rebuildable; the sources are not — they come from upstream extracts. **The
@@ -47,7 +47,7 @@ Orchestrated by `bin/daily_rebuild.sh` (single-flight `flock`), a deterministic 
  3. combined_inject_links.py   re-apply cached semantic cross-vault links from .links/domain-*.json
         │                        → "## Related (discovered)" appended to matching source notes  (cheap)
         ▼
- 4. combined_backbone.py       regenerate products/ (153) + hubs/ (30) + Home.md + the deterministic
+ 4. combined_backbone.py       regenerate products/ (151) + hubs/ (30) + Home.md + the deterministic
         │                        "## Related" link layer + .manifest.json (the zero-loss proof)
         ▼
  4b.factory_pillar.py          copy factory/ verbatim (sha256 proof merged into the manifest) + append a
@@ -114,7 +114,7 @@ jivo-data-bank/
 ├── README.md ARCHITECTURE.md VAULT-GUIDE.md DATA-MODEL.md RUNBOOK.md   repo-only docs (rsync-protected)
 ├── Home.md                  the generated MOC (entry point in Obsidian)            [generated]
 │
-├── products/                153 fused product nodes — Identity · Price lens · JIVO lens · Connections  [generated]
+├── products/                151 fused product nodes — Identity · Price lens · JIVO lens · Connections  [generated]
 ├── hubs/                    30 hubs:                                                                   [generated]
 │   ├── Platform - *.md        10 (amazon, swiggy, blinkit, zepto, flipkart, flipkart_grocery,
 │   │                              jiomart, bigbasket, citymall, zomato)

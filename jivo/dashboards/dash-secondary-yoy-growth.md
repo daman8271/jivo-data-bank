@@ -17,8 +17,8 @@ Up: [[dashboards-index]]
 
 ```json
 {
- "anchor_month": 6,
- "anchor_month_label": "June",
+ "anchor_month": 7,
+ "anchor_month_label": "July",
  "anchor_year": 2026,
  "defaulted_to_latest": true,
  "errors": [],
@@ -29,40 +29,39 @@ Up: [[dashboards-index]]
    "slug": "amazon",
    "values": {
     "2024": {
-     "actual": 115716.5,
+     "actual": 142216.85,
      "days_in_month": null,
      "elapsed_day": null,
      "growth_pct": null,
      "has_data": true,
-     "max_date": "2024-06-30",
+     "max_date": "2024-07-31",
      "projection": null,
      "source": "amazon_sec_range_master_view",
-     "units": 40414.0,
-     "value": 28433382.56191089
+     "units": 49965.0,
+     "value": 34740528.23899925
     },
     "2025": {
-     "actual": 194997.6,
+     "actual": 238090.45,
      "days_in_month": null,
      "elapsed_day": null,
-     "growth_pct": 68.51,
+     "growth_pct": 67.41,
      "has_data": true,
-     "max_date": "2025-06-30",
+     "max_date": "2025-07-31",
      "projection": null,
      "source": "amazon_sec_range_master_view",
-     "units": 77862.0,
-     "value": 43625083.39647204
+     "units": 89270.0,
+     "value": 54160941.06669587
     },
     "2026": {
-     "actual": 223081.9,
-     "days_in_month": 30,
-     "elapsed_day": 27,
-     "growth_pct": 14.4,
-     "has_data": true,
-     "max_date": "2026-06-27",
-     "projection": 247868.78,
-     "source": "amazon_sec_range_master_view",
-     "units": 131586.0,
-     "value": 51014261.79675856
+     "actual": null,
+     "days_in_month": null,
+     "elapsed_day": null,
+     "growth_pct": null,
+     "has_data": false,
+     "max_date": null,
+     "projection": null,
+     "units": null,
+     "value": null
     }
    }
   },
@@ -93,15 +92,15 @@ Up: [[dashboards-index]]
      "value": null
     },
     "2026": {
-     "actual": 5073.5,
-     "days_in_month": 30,
-     "elapsed_day": 28,
+     "actual": 403.5,
+     "days_in_month": 31,
+     "elapsed_day": 1,
      "growth_pct": null,
      "has_data": true,
-     "max_date": "2026-06-28",
-     "projection": 5435.89,
+     "max_date": "2026-07-01",
+     "projection": 12508.5,
      "source": "amazon_mp_master",
-     "units": 1767.0,
+     "units": 113.0,
      "value": null
     }
    }
@@ -111,40 +110,40 @@ Up: [[dashboards-index]]
    "slug": "blinkit",
    "values": {
     "2024": {
-     "actual": 22789.0,
+     "actual": 25917.0,
      "days_in_month": null,
      "elapsed_day": null,
      "growth_pct": null,
      "has_data": true,
-     "max_date": "2024-06-30",
+     "max_date": "2024-07-31",
      "projection": null,
      "source": "SecMaster",
-     "units": 15810.0,
-     "value": 17385894.0
+     "units": 17880.0,
+     "value": 20026588.0
     },
     "2025": {
-     "actual": 64666.0,
+     "actual": 61081.0,
      "days_in_month": null,
      "elapsed_day": null,
-     "growth_pct": 183.76,
+     "growth_pct": 135.68,
      "has_data": true,
-     "max_date": "2025-06-30",
+     "max_date": "2025-07-31",
      "projection": null,
      "source": "SecMaster",
-     "units": 48662.0,
-     "value": 38947064.0
+     "units": 45004.0,
+     "value": 39220284.0
     },
     "2026": {
-     "actual": 78698.0,
-     "days_in_month": 30,
-     "elapsed_day": 28,
-     "growth_pct": 21.7,
+     "actual": 3852.0,
+     "days_in_month": 31,
+     "elapsed_day": 1,
+     "growth_pct": -93.69,
      "has_data": true,
-     "max_date": "2026-06-28",
-     "projection": 84319.29,
+     "max_date": "2026-07-01",
+     "projection": 119412.0,
      "source": "SecMaster",
-     "units": 61414.0,
-     "value": 18855840.0
+     "units": 3063.0,
+     "value": 2197510.0
     }
    }
   },
@@ -175,16 +174,16 @@ Up: [[dashboards-index]]
      "value": null
     },
     "2026": {
-     "actual": 174375.75,
-     "days_in_month": 30,
-     "elapsed_day": 28,
+     "actual": 10023.0,
+     "days_in_month": 31,
+     "elapsed_day": 1,
      "growth_pct": null,
      "has_data": true,
-     "max_date": "2026-06-28",
-     "projection": 186831.16,
+     "max_date": "2026-07-01",
+     "projection": 310713.0,
      "source": "SecMaster",
-     "units": 144681.0,
-     "value": 32441186.0
+     "units": 7985.0,
+     "value": 4172870.0
     }
    }
   },
@@ -215,16 +214,16 @@ Up: [[dashboards-index]]
      "value": null
     },
     "2026": {
-     "actual": 75323.00013545156,
-     "days_in_month": 30,
-     "elapsed_day": 28,
+     "actual": 3934.6000052392483,
+     "days_in_month": 31,
+     "elapsed_day": 1,
      "growth_pct": null,
      "has_data": true,
-     "max_date": "2026-06-28",
-     "projection": 80703.21,
+     "max_date": "2026-07-01",
+     "projection": 121972.6,
      "source": "SecMaster",
-     "units": 107168.0,
-     "value": 17263616.0
+     "units": 5092.0,
+     "value": 2398770.0
     }
    }
   },
@@ -244,28 +243,28 @@ Up: [[dashboards-index]]
      "value": null
     },
     "2025": {
-     "actual": 9295.0,
+     "actual": 10997.0,
      "days_in_month": null,
      "elapsed_day": null,
      "growth_pct": null,
      "has_data": true,
-     "max_date": "2025-06-30",
+     "max_date": "2025-07-31",
      "projection": null,
      "source": "SecMaster",
-     "units": 8185.0,
-     "value": 2816542.0
+     "units": 8763.0,
+     "value": 3164789.0
     },
     "2026": {
-     "actual": 11151.0,
-     "days_in_month": 30,
-     "elapsed_day": 28,
-     "growth_pct": 19.97,
+     "actual": 773.0,
+     "days_in_month": 31,
+     "elapsed_day": 1,
+     "growth_pct": -92.97,
      "has_data": true,
-     "max_date": "2026-06-28",
-     "projection": 11947.5,
+     "max_date": "2026-07-01",
+     "projection": 23963.0,
      "source": "SecMaster",
-     "units": 8442.0,
-     "value": 1972716.6
+     "units": 555.0,
+     "value": 166835.38
     }
    }
   },
@@ -285,28 +284,27 @@ Up: [[dashboards-index]]
      "value": null
     },
     "2025": {
-     "actual": 26978.0,
+     "actual": 27841.0,
      "days_in_month": null,
      "elapsed_day": null,
      "growth_pct": null,
      "has_data": true,
-     "max_date": "2025-06-30",
+     "max_date": "2025-07-31",
      "projection": null,
      "source": "flipkart_secondary_all",
-     "units": 8554.0,
-     "value": 6205145.0
+     "units": 8959.0,
+     "value": 7364896.0
     },
     "2026": {
-     "actual": 21875.6,
-     "days_in_month": 30,
-     "elapsed_day": 27,
-     "growth_pct": -18.91,
-     "has_data": true,
-     "max_date": "2026-06-27",
-     "projection": 24306.22,
-     "source": "flipkart_secondary_all",
-     "units": 6110.0,
-     "value": 6551669.0
+     "actual": null,
+     "days_in_month": null,
+     "elapsed_day": null,
+     "growth_pct": null,
+     "has_data": false,
+     "max_date": null,
+     "projection": null,
+     "units": null,
+     "value": null
     }
    }
   },
@@ -337,16 +335,15 @@ Up: [[dashboards-index]]
      "value": null
     },
     "2026": {
-     "actual": 17986.0,
-     "days_in_month": 30,
-     "elapsed_day": 27,
+     "actual": null,
+     "days_in_month": null,
+     "elapsed_day": null,
      "growth_pct": null,
-     "has_data": true,
-     "max_date": "2026-06-27",
-     "projection": 19984.44,
-     "source": "flipkart_grocery_master",
-     "units": 17128.0,
-     "value": 2851936.1904761903
+     "has_data": false,
+     "max_date": null,
+     "projection": null,
+     "units": null,
+     "value": null
     }
    }
   }
@@ -354,22 +351,22 @@ Up: [[dashboards-index]]
  "source": "secondary",
  "totals": {
   "2024": {
-   "actual": 138505.5,
+   "actual": 168133.85,
    "growth_pct": null,
    "has_data": true,
    "projection": null
   },
   "2025": {
-   "actual": 295936.6,
-   "growth_pct": 113.66,
+   "actual": 338009.45,
+   "growth_pct": 101.04,
    "has_data": true,
    "projection": null
   },
   "2026": {
-   "actual": 607564.7501354516,
-   "growth_pct": 105.3,
+   "actual": 18986.10000523925,
+   "growth_pct": -94.38,
    "has_data": true,
-   "projection": 661396.4899999999
+   "projection": 588569.1
   }
  },
  "years": [

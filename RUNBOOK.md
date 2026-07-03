@@ -12,7 +12,7 @@ data than today's wrong data.
 
 That rebuilds the whole combined vault from the current source vaults, proves zero
 data loss, verifies the product/hub/link backbone, and **commits only if every gate
-passes**. It never pushes (the owner pushes — see bottom).
+passes**. Verified automation may push after a successful run; manual pushes remain owner-only.
 
 ---
 
@@ -26,7 +26,7 @@ passes**. It never pushes (the owner pushes — see bottom).
    copy is byte-for-byte identical (sha256 per file + aggregate).
 3. **`combined_inject_links.py`** — re-applies the cached semantic cross-vault links
    from `.links/domain-*.json` (cheap; skipped if the cache is absent).
-4. **`combined_backbone.py`** — regenerates the 153 product nodes, 30 hubs, `Home.md`,
+4. **`combined_backbone.py`** — regenerates the 151 product nodes, 30 hubs, `Home.md`,
    the deterministic `## Related` link layer, and the zero-loss `.manifest.json`.
 5. **`verify_databank.py`** (fail-closed gate) — must pass ALL of:
    - zero-loss proof (`zero_loss_ok`, no altered/truncated/missing/extra files),
@@ -50,23 +50,23 @@ A run log is appended to `bin/daily_rebuild.log` (git-ignored).
 |---|---|---|
 | **Ecom price vault** (`/opt/ecom-intel/vault`) | **Daily, automatic** | existing ecom-intel scrape crons |
 | **Factory vault** (`/root/jivo-factory-intel/vault`) | **Daily, automatic** | `factory_refresh.sh` @ 05:30 IST (rotating-auth → capture → render); self-sustaining auth, see `/root/jivo-factory-intel/REFRESH-RUNBOOK.md` |
-| **JIVO app vault** (`/root/jivo-intel/vault`) | **Periodic, owner-driven** | needs a re-auth + re-pull (see below) |
+| **JIVO app vault** (`/root/jivo-intel/vault`) | **Daily, automatic** | `run_daily.sh` @ 05:00 IST from the jivo-intel feeder cron; owner re-seeds only if auth fails |
 | **Semantic link fan-out** (`.links/domain-*.json`) | **Weekly / on-demand** | expensive agent pass (see below) |
 
-### JIVO app re-auth + pull (owner, periodic)
+### JIVO app source refresh
 
-The JIVO app token lives ~24h, there is no refresh token, and **the password is never
-stored** (cardinal rule). So the JIVO lens is only as fresh as the last extract. To
-refresh it, the owner:
+The JIVO app source vault refreshes at **05:00 IST** from `/root/jivo-intel/bin/run_daily.sh`.
+The owner has authorized the gitignored `.env` auto-refresh path for this feeder. If auth fails or the
+feeder has been disabled, re-seed manually without writing credentials into git:
 
 ```bash
-# refresh the ~24h bearer token (password via stdin / env, never persisted)
+# refresh the bearer token / source extract (password via stdin / env, never persisted)
 jivo-ecom-pp-cli auth login            # or: JIVO_ECOM_EMAIL=... JIVO_ECOM_PASSWORD=... ...
 # then re-run the jivo-intel lossless extract that populates /root/jivo-intel/vault
 ```
 
-Until that is done, `daily_rebuild.sh` simply re-fuses the most recent JIVO extract on
-disk — correct, just not newer.
+Until that is done, `daily_rebuild.sh` simply re-fuses the most recent JIVO extract on disk — correct,
+just not newer.
 
 ### Weekly semantic link regeneration (expensive)
 
@@ -86,10 +86,12 @@ directly — so **the data bank lands ~12:20 IST** with no fixed wait. There is 
 06:00 (or later 13:30) daily fusion cron anymore: that line was removed in favour of the
 event-driven chain (goal #35, 2026-07-01).
 
-The source feeder and the weekly semantic pass are still fixed crontab lines (IST,
+The source feeders and the weekly semantic pass are still fixed crontab lines (IST,
 single-flight locked and idempotent):
 
 ```cron
+# 05:00 — refresh the JIVO app source vault before same-day data-bank fusion
+0 5 * * *   /root/jivo-intel/bin/run_daily.sh >> /root/jivo-intel/logs/cron.log 2>&1
 # 05:30 — refresh the factory (Jivo Mart) source vault (rotating-auth → capture → render, full REPLACE)
 30 5 * * *  /root/jivo-factory-intel/bin/factory_refresh.sh >> /root/jivo-factory-intel/daily.log 2>&1
 # Sun 15:00 — regenerate the expensive semantic cross-vault link cache (AFTER that day's daily rebuild)
@@ -117,10 +119,11 @@ Environment overrides (all optional): `JDB_REPO`, `JDB_COMBINED`, `JDB_GEN_DIR`,
 python3 /root/jivo-data-bank/bin/verify_databank.py            # exit 0 = PASS, 1 = FAIL
 ```
 
-## Pushing (owner only)
+## Pushing
 
-Claude is blocked from pushing the proprietary dataset (data-exfiltration classifier),
-so **the owner runs the push** with `!`:
+Verified automation can push successful refresh commits through the installed owner-sanctioned cron
+chain (`run_daily.sh`/`push_both.sh`) and the 15-minute `/root/bin/push_all_repos.sh` sweep. Manual
+pushes are still owner-only:
 
 ```bash
 cd /root/jivo-data-bank && git push origin main

@@ -18,63 +18,47 @@ Up: [[dashboards-index]]
 ```json
 {
  "errors": [],
- "month": "JUNE",
+ "month": "JULY",
  "platforms": [
   {
    "format": "SWIGGY",
-   "po_count": 33,
+   "po_count": 42,
    "slug": "swiggy",
-   "total_litrs": 27026.0,
-   "total_order_units": 23046.0,
-   "total_units": 4787777.82
-  },
-  {
-   "format": "CITY MALL",
-   "po_count": 1,
-   "slug": "citymall",
-   "total_litrs": 9784.0,
-   "total_order_units": 8536.0,
-   "total_units": 1386658.32
-  },
-  {
-   "format": "ZEPTO",
-   "po_count": 2,
-   "slug": "zepto",
-   "total_litrs": 1562.4,
-   "total_order_units": 7812.0,
-   "total_units": 446377.68
-  },
-  {
-   "format": "FLIPKART GROCERY",
-   "po_count": 2,
-   "slug": "flipkart_grocery",
-   "total_litrs": 1280.0,
-   "total_order_units": 1280.0,
-   "total_units": 195142.85714285713
+   "total_litrs": 41316.0,
+   "total_order_units": 35095.0,
+   "total_units": 7091513.73
   },
   {
    "format": "BLINKIT",
-   "po_count": 8,
+   "po_count": 22,
    "slug": "blinkit",
-   "total_litrs": 580.0,
-   "total_order_units": 482.0,
-   "total_units": 156037.3
+   "total_litrs": 4824.0,
+   "total_order_units": 4676.0,
+   "total_units": 910534.24
+  },
+  {
+   "format": "FLIPKART GROCERY",
+   "po_count": 1,
+   "slug": "flipkart_grocery",
+   "total_litrs": 2020.0,
+   "total_order_units": 2020.0,
+   "total_units": 298190.4761904762
   },
   {
    "format": "BIG BASKET",
-   "po_count": 1,
+   "po_count": 2,
    "slug": "bigbasket",
-   "total_litrs": 312.0,
-   "total_order_units": 758.0,
-   "total_units": 81383.36
+   "total_litrs": 986.0,
+   "total_order_units": 1782.0,
+   "total_units": 230178.3
   },
   {
    "format": "AMAZON",
-   "po_count": 4,
+   "po_count": 10,
    "slug": "amazon",
-   "total_litrs": 11854.2,
-   "total_order_units": 9698.0,
-   "total_units": 9698.0
+   "total_litrs": 39854.34,
+   "total_order_units": 20510.0,
+   "total_units": 20510.0
   }
  ],
  "year": 2026

@@ -54,18 +54,18 @@ hand-edit it.**
 
 ---
 
-## At a glance (as of the 2026-06-27 snapshot)
+## At a glance (current data-bank build)
 
 | Metric | Value |
 |---|---|
-| Fused product nodes | **151** (each: identity · price lens · JIVO lens · **factory lens**) |
+| Fused product nodes | **151** (111 core-priced + 40 new-confirmed; each has identity · price lens · JIVO lens · **factory lens** where bridged) |
 | Hubs | **30** — 10 platform · 3 tier · 17 category |
 | Lossless source notes carried verbatim | **87,295** across **3 pillars** (JIVO 34,955 · ecom 2,878 · **factory 49,462**) |
 | Wikilinks across the vault | **~486,000+** |
 | Rows behind it | **~1.31M** JIVO app + **~48k** factory records (gate/QC/barcode/dispatch) |
-| Notes on disk | **~760 MB** |
+| Markdown on disk | **~1.4 GB** excluding `.git` (includes the generated `today/` snapshot); fused source trees are ~843 MB |
 | Zero-loss proof | **`zero_loss_ok: true`** — see [`.manifest.json`](.manifest.json) |
-| SKU bridge (ecom) | **170 / 178** JIVO SKUs matched (9 honestly surfaced as gaps) |
+| SKU bridge (ecom) | **151 product nodes** after pack/spelling twins collapse; **9** JIVO SKU gaps honestly surfaced |
 | Factory bridge (SAP `FG####`) | **136** product nodes gain a Factory lens; 420 SAP items in `factory/` |
 
 > **A snapshot, not a live mirror.** Every figure here is "as of `<the commit's date>`". The build
@@ -83,7 +83,7 @@ jivo-data-bank/
 ├── VAULT-GUIDE.md       ← how to read & navigate the fused vault
 ├── DATA-MODEL.md        ← what the data means (business, bridge, price-match, gaps)
 ├── RUNBOOK.md           ← how to refresh the data bank (operations)
-├── Home.md              ← START HERE in Obsidian (MOC: tiers · platforms · categories · 153 products)
+├── Home.md              ← START HERE in Obsidian (MOC: tiers · platforms · categories · 151 products)
 ├── products/            151 fused product nodes (one per bridged product)   [generated]
 ├── hubs/                30 hubs (Platform-* · Tier-* · Category-*)           [generated]
 ├── identity/            JID identity layer — REGISTRY.md + registry.json (stable internal IDs)  [generated]
@@ -109,7 +109,7 @@ This is a real dataset with real limits. The full discussion is in **[`DATA-MODE
   sell-through of its whole tier** (Premium / Commodity), *shared across every product in that
   tier* — **not** that one product's volume. The **competitor-price lens, by contrast, is
   per-product.** (The `Other` tier isn't in target-history at all.)
-- **Competitor-price coverage is partial:** **121 of 153** products have live dated prices today,
+- **Competitor-price coverage is partial:** **120 of 151** products have live dated prices today,
   and only **5 of 10 platforms are priced** (amazon, flipkart, bigbasket, zepto, blinkit). The other
   five (swiggy, flipkart_grocery, jiomart, citymall, zomato) contribute 0 priced products so far.
 - **The top of the value chain (Wellness → JM Primary) is not in the per-product data** — only the
@@ -121,8 +121,8 @@ This is a real dataset with real limits. The full discussion is in **[`DATA-MODE
 
 ## Hard rules
 
-- **Proprietary — never publish or export.** Private repo; Claude is blocked from pushing it
-  (data-exfiltration classifier) — **the owner pushes** with `! cd /root/jivo-data-bank && git push origin main`.
+- **Proprietary — never publish or export.** Private repo. Verified automation may push through
+  owner-sanctioned cron (`run_daily.sh` / `push_all_repos.sh`); manual pushes still require the owner.
 - **Never write secrets** (JIVO password / JWT) into any file. The app token lives ~24h and is
   re-minted from env only; the password is never stored (cardinal rule).
 - **Accuracy at all costs — fail-closed.** The refresh would rather ship yesterday's correct data
