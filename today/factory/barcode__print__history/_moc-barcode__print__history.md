@@ -1,15 +1,16 @@
 ---
 type: moc
-title: History (142)
+title: History (143)
 tags:
   - moc
   - source/factory
 ---
 
-# History — 142 records
+# History — 143 records
 
 From `/barcode/print/history/`. Up: [[_HOME]]
 
+- [[barcode__print__history-166501]] — History 166501
 - [[barcode__print__history-164755]] — History 164755
 - [[barcode__print__history-164754]] — History 164754
 - [[barcode__print__history-164753]] — History 164753

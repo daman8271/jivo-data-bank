@@ -22,8 +22,8 @@ tags:
 - **click_action_url:** /gate/visitor-labour
 - **reference_type:** person_entry
 - **reference_id:** 223
-- **is_read:** False
-- **read_at:** None
+- **is_read:** True
+- **read_at:** 2026-07-02T11:04:24.803403+05:30
 - **extra_data:**
   ```json
   {"name": "Sonu 9579923955", "status": "IN", "gate_in": "Front gate", "vehicle_no": "", "person_type": "visitor", "reference_id": "223", "reference_type": "person_entry"}

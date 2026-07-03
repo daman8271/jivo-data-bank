@@ -1,16 +1,17 @@
 ---
 type: moc
-title: Users (64)
+title: Users (65)
 tags:
   - moc
   - source/factory
 ---
 
-# Users — 64 records
+# Users — 65 records
 
 From `/accounts/users/`. Up: [[_HOME]]
 
 - [[accounts__users-9]] — Quality manager
+- [[accounts__users-25]] — Raaj
 - [[accounts__users-10]] — grpo
 - [[accounts__users-21]] — Ravinder singh
 - [[accounts__users-7]] — Quality check
@@ -42,7 +43,7 @@ From `/accounts/users/`. Up: [[_HOME]]
 - [[accounts__users-35]] — Pouch Machine Production
 - [[accounts__users-11]] — Arvind
 - [[accounts__users-37]] — Sonu
-- [[accounts__users-25]] — Raaj
+- [[accounts__users-15]] — nk
 - [[accounts__users-12]] — Chemist
 - [[accounts__users-22]] — Sandeep singh
 - [[accounts__users-38]] — Deepak
@@ -50,12 +51,12 @@ From `/accounts/users/`. Up: [[_HOME]]
 - [[accounts__users-41]] — Jassi
 - [[accounts__users-26]] — RK Tiwari
 - [[accounts__users-42]] — Tarandeep Singh
-- [[accounts__users-15]] — nk
 - [[accounts__users-19]] — Bhupinder Singh
 - [[accounts__users-43]] — Sumit
 - [[accounts__users-44]] — Harpreet Singh
 - [[accounts__users-45]] — KP
 - [[accounts__users-46]] — Jagpreet Singh
+- [[accounts__users-71]] — Warehouse Operations
 - [[accounts__users-48]] — Monika
 - [[accounts__users-49]] — Rishabb@1234
 - [[accounts__users-47]] — yusuf

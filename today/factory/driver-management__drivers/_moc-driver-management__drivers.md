@@ -1,15 +1,25 @@
 ---
 type: moc
-title: Driver (314)
+title: Driver (324)
 tags:
   - moc
   - source/factory
 ---
 
-# Driver — 314 records
+# Driver — 324 records
 
 From `/driver-management/drivers/`. Up: [[_HOME]]
 
+- [[drv-334]] — Virender 9813925218
+- [[drv-333]] — Bagicha singh 7508431138
+- [[drv-332]] — Kailash singh 9461114376
+- [[drv-331]] — Bheem singh 9991840693
+- [[drv-330]] — Mukesh 8796761827
+- [[drv-329]] — Vijay kumar 7056338400
+- [[drv-328]] — Om parkash 9116471092
+- [[drv-327]] — Fareed 6006814214
+- [[drv-326]] — Arjun 7347486482
+- [[drv-325]] — Rajender 7817848520
 - [[drv-324]] — Kuljeet singh 6280363803
 - [[drv-323]] — Sukhbir 9991345786
 - [[drv-322]] — Lokinder 9599851718
