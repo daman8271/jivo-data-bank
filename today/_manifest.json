@@ -1,7 +1,7 @@
 {
   "schema": "jivo-today/manifest@1",
   "date": "2026-07-04",
-  "generated_at": "2026-07-04 16:00:21 IST",
+  "generated_at": "2026-07-04 16:20:20 IST",
   "mode": "live",
   "dry_run": false,
   "total_files": 28324,
@@ -9,25 +9,25 @@
     "price-scraper": {
       "repo": "/opt/ecom-intel",
       "base_commit": "b9a20d7e810864b4b134b066d555fd5b60cb2877",
-      "end_commit": "aa2e258d6aba0bd5818bedc531895e9995dcb34e",
+      "end_commit": "04dc6b94bf76a206137cf7598b0e71bb5b81b420",
       "files": 1604
     },
     "competitors": {
       "repo": "/opt/ecom-intel",
       "base_commit": "b9a20d7e810864b4b134b066d555fd5b60cb2877",
-      "end_commit": "aa2e258d6aba0bd5818bedc531895e9995dcb34e",
+      "end_commit": "04dc6b94bf76a206137cf7598b0e71bb5b81b420",
       "files": 2
     },
     "factory": {
       "repo": "/root/jivo-factory-intel",
       "base_commit": "c55f1743c55d1cef67902a71a59a5fdb2ffbe1b7",
-      "end_commit": "733b8389db1fecd0a93d9a9d9215b1b7cafe36da",
+      "end_commit": "5e75b245485bacb71571857a88b78afacd384756",
       "files": 4421
     },
     "ecom-app": {
       "repo": "/root/jivo-intel",
       "base_commit": "513c6a2a0a6d2be89869813f26f99064e65072cb",
-      "end_commit": "3911180051a934791e8af7f7fd26822941e3d0b9",
+      "end_commit": "5c4ab86027c4d9e2f6229e5a4c24f3cbff9bf956",
       "files": 22297
     }
   }
