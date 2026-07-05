@@ -1,0 +1,4435 @@
+{
+  "meta": {
+    "platform": "swiggy-instamart",
+    "platform_display": "Swiggy Instamart",
+    "generated_at": "2026-07-04T06:00:11Z",
+    "probed_pincodes": 1876,
+    "universe_pincodes": 1876,
+    "serviceable_pincodes": 979,
+    "coverage_carryover": 0,
+    "geo_invalid_excluded": 9,
+    "states": [
+      "Andhra Pradesh",
+      "Chandigarh",
+      "Delhi",
+      "Gujarat",
+      "Haryana",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Odisha",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "West Bengal"
+    ],
+    "grades": [
+      "pomace",
+      "extra_light",
+      "extra_virgin",
+      "pure_classic"
+    ]
+  },
+  "brand_rank_national": [
+    {
+      "brand": "Borges",
+      "universe_pct": 96.02,
+      "pins_instock": 940
+    },
+    {
+      "brand": "Jivo",
+      "universe_pct": 94.48,
+      "pins_instock": 925
+    },
+    {
+      "brand": "Del Monte",
+      "universe_pct": 91.42,
+      "pins_instock": 895
+    },
+    {
+      "brand": "Oleev",
+      "universe_pct": 90.19,
+      "pins_instock": 883
+    },
+    {
+      "brand": "Figaro",
+      "universe_pct": 86.62,
+      "pins_instock": 848
+    },
+    {
+      "brand": "Tata Simply Better",
+      "universe_pct": 84.88,
+      "pins_instock": 831
+    },
+    {
+      "brand": "Anveshan",
+      "universe_pct": 66.09,
+      "pins_instock": 647
+    },
+    {
+      "brand": "Bertolli",
+      "universe_pct": 54.34,
+      "pins_instock": 532
+    },
+    {
+      "brand": "Leonardo",
+      "universe_pct": 51.89,
+      "pins_instock": 508
+    },
+    {
+      "brand": "Allegro",
+      "universe_pct": 34.22,
+      "pins_instock": 335
+    },
+    {
+      "brand": "Disano",
+      "universe_pct": 30.64,
+      "pins_instock": 300
+    },
+    {
+      "brand": "Rafael Salgado",
+      "universe_pct": 27.27,
+      "pins_instock": 267
+    },
+    {
+      "brand": "Gramiyaa",
+      "universe_pct": 22.47,
+      "pins_instock": 220
+    },
+    {
+      "brand": "Ybarra",
+      "universe_pct": 17.88,
+      "pins_instock": 175
+    },
+    {
+      "brand": "Colavita",
+      "universe_pct": 15.63,
+      "pins_instock": 153
+    },
+    {
+      "brand": "Basso",
+      "universe_pct": 15.12,
+      "pins_instock": 148
+    },
+    {
+      "brand": "Olitalia",
+      "universe_pct": 14.71,
+      "pins_instock": 144
+    },
+    {
+      "brand": "Fragata",
+      "universe_pct": 12.16,
+      "pins_instock": 119
+    },
+    {
+      "brand": "Pure Nutrition",
+      "universe_pct": 11.24,
+      "pins_instock": 110
+    },
+    {
+      "brand": "Urban Platter",
+      "universe_pct": 3.88,
+      "pins_instock": 38
+    },
+    {
+      "brand": "Dolce Vita",
+      "universe_pct": 3.68,
+      "pins_instock": 36
+    },
+    {
+      "brand": "Kouzina",
+      "universe_pct": 2.86,
+      "pins_instock": 28
+    },
+    {
+      "brand": "Bono",
+      "universe_pct": 0.61,
+      "pins_instock": 6
+    },
+    {
+      "brand": "Voila",
+      "universe_pct": 0.51,
+      "pins_instock": 5
+    },
+    {
+      "brand": "Barbera",
+      "universe_pct": 0.41,
+      "pins_instock": 4
+    },
+    {
+      "brand": "Kaizer Spanish",
+      "universe_pct": 0.31,
+      "pins_instock": 3
+    },
+    {
+      "brand": "Rs Extra Virgin",
+      "universe_pct": 0.31,
+      "pins_instock": 3
+    },
+    {
+      "brand": "RS Extra Light",
+      "universe_pct": 0.2,
+      "pins_instock": 2
+    },
+    {
+      "brand": "Abbie's",
+      "universe_pct": 0.1,
+      "pins_instock": 1
+    },
+    {
+      "brand": "Foodie Puppies Mandarin Waterless Dry Bath for Cats - 200ml | Paraben Free & Cruelty-Free | Fortified with",
+      "universe_pct": 0.1,
+      "pins_instock": 1
+    },
+    {
+      "brand": "Paradyes Lighten Up! Bleach Pack 30 Vol. enriched with Flax Oil",
+      "universe_pct": 0.1,
+      "pins_instock": 1
+    }
+  ],
+  "national": {
+    "serviceable": 979,
+    "jivo_universe_pct": 94.48,
+    "any_competitor_pct": 96.53,
+    "jivo_absent_rivals_present": 20,
+    "by_grade": {
+      "pomace": {
+        "jivo_pct": 87.64,
+        "top_competitor": {
+          "brand": "Del Monte",
+          "pct": 74.97
+        }
+      },
+      "extra_light": {
+        "jivo_pct": 92.95,
+        "top_competitor": {
+          "brand": "Del Monte",
+          "pct": 61.8
+        }
+      },
+      "extra_virgin": {
+        "jivo_pct": 47.5,
+        "top_competitor": {
+          "brand": "Borges",
+          "pct": 89.48
+        }
+      },
+      "pure_classic": {
+        "jivo_pct": 0.0,
+        "top_competitor": {
+          "brand": "Figaro",
+          "pct": 59.75
+        }
+      }
+    }
+  },
+  "states": {
+    "Andhra Pradesh": {
+      "total_pins": 100,
+      "serviceable": 57,
+      "by_brand": [
+        {
+          "brand": "Borges",
+          "universe_pct": 100.0,
+          "pins_instock": 57,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 19.3
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 100.0,
+          "pins_instock": 57,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 82.46,
+            "extra_virgin": 94.74,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 100.0,
+          "pins_instock": 57,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 100.0,
+            "extra_virgin": 89.47,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 100.0,
+          "pins_instock": 57,
+          "by_grade": {
+            "pomace": 96.49,
+            "extra_light": 54.39,
+            "extra_virgin": 54.39,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 92.98,
+          "pins_instock": 53,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 92.98,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 87.72,
+          "pins_instock": 50,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 87.72,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 70.18,
+          "pins_instock": 40,
+          "by_grade": {
+            "pomace": 63.16,
+            "extra_light": 5.26,
+            "extra_virgin": 29.82,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 66.67,
+          "pins_instock": 38,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 29.82,
+            "extra_virgin": 0.0,
+            "pure_classic": 31.58
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 59.65,
+          "pins_instock": 34,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 49.12,
+            "extra_virgin": 24.56,
+            "pure_classic": 29.82
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 35.09,
+          "pins_instock": 20,
+          "by_grade": {
+            "pomace": 31.58,
+            "extra_light": 0.0,
+            "extra_virgin": 35.09,
+            "pure_classic": 15.79
+          }
+        },
+        {
+          "brand": "Pure Nutrition",
+          "universe_pct": 12.28,
+          "pins_instock": 7,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 12.28,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Urban Platter",
+          "universe_pct": 3.51,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 3.51,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 100.0,
+        "pins_instock": 57,
+        "by_grade": {
+          "pomace": 100.0,
+          "extra_light": 100.0,
+          "extra_virgin": 89.47,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 100.0,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Borges",
+        "Del Monte",
+        "Jivo",
+        "Oleev",
+        "Anveshan",
+        "Tata Simply Better",
+        "Leonardo",
+        "Figaro",
+        "Bertolli",
+        "Allegro",
+        "Pure Nutrition",
+        "Urban Platter"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Visakhapatnam",
+          "probed": 41,
+          "serviceable": 37,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        },
+        {
+          "city": "Vijayawada",
+          "probed": 59,
+          "serviceable": 20,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Oleev",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Chandigarh": {
+      "total_pins": 25,
+      "serviceable": 23,
+      "by_brand": [
+        {
+          "brand": "Allegro",
+          "universe_pct": 100.0,
+          "pins_instock": 23,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Borges",
+          "universe_pct": 100.0,
+          "pins_instock": 23,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 86.96,
+            "pure_classic": 21.74
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 100.0,
+          "pins_instock": 23,
+          "by_grade": {
+            "pomace": 95.65,
+            "extra_light": 95.65,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 100.0,
+          "pins_instock": 23,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 100.0,
+            "extra_virgin": 86.96,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 100.0,
+          "pins_instock": 23,
+          "by_grade": {
+            "pomace": 4.35,
+            "extra_light": 100.0,
+            "extra_virgin": 95.65,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 100.0,
+          "pins_instock": 23,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 95.65,
+          "pins_instock": 22,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 95.65,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 95.65,
+          "pins_instock": 22,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 21.74,
+            "extra_virgin": 0.0,
+            "pure_classic": 21.74
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 95.65,
+          "pins_instock": 22,
+          "by_grade": {
+            "pomace": 95.65,
+            "extra_light": 21.74,
+            "extra_virgin": 95.65,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 30.43,
+          "pins_instock": 7,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 30.43,
+            "extra_virgin": 0.0,
+            "pure_classic": 8.7
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 21.74,
+          "pins_instock": 5,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 21.74,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 13.04,
+          "pins_instock": 3,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 13.04,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 100.0,
+        "pins_instock": 23,
+        "by_grade": {
+          "pomace": 100.0,
+          "extra_light": 100.0,
+          "extra_virgin": 86.96,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 100.0,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Allegro",
+        "Borges",
+        "Del Monte",
+        "Jivo",
+        "Oleev",
+        "Tata Simply Better",
+        "Anveshan",
+        "Figaro",
+        "Leonardo",
+        "Bertolli",
+        "Rafael Salgado",
+        "Gramiyaa"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Chandigarh",
+          "probed": 25,
+          "serviceable": 23,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Delhi": {
+      "total_pins": 96,
+      "serviceable": 76,
+      "by_brand": [
+        {
+          "brand": "Del Monte",
+          "universe_pct": 100.0,
+          "pins_instock": 76,
+          "by_grade": {
+            "pomace": 47.37,
+            "extra_light": 42.11,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 100.0,
+          "pins_instock": 76,
+          "by_grade": {
+            "pomace": 89.47,
+            "extra_light": 90.79,
+            "extra_virgin": 56.58,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 100.0,
+          "pins_instock": 76,
+          "by_grade": {
+            "pomace": 32.89,
+            "extra_light": 11.84,
+            "extra_virgin": 26.32,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 100.0,
+          "pins_instock": 76,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Borges",
+          "universe_pct": 97.37,
+          "pins_instock": 74,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 97.37,
+            "pure_classic": 18.42
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 94.74,
+          "pins_instock": 72,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 3.95,
+            "extra_virgin": 30.26,
+            "pure_classic": 23.68
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 81.58,
+          "pins_instock": 62,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 1.32,
+            "extra_virgin": 0.0,
+            "pure_classic": 22.37
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 64.47,
+          "pins_instock": 49,
+          "by_grade": {
+            "pomace": 64.47,
+            "extra_light": 14.47,
+            "extra_virgin": 10.53,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Disano",
+          "universe_pct": 61.84,
+          "pins_instock": 47,
+          "by_grade": {
+            "pomace": 40.79,
+            "extra_light": 19.74,
+            "extra_virgin": 43.42,
+            "pure_classic": 7.89
+          }
+        },
+        {
+          "brand": "Basso",
+          "universe_pct": 50.0,
+          "pins_instock": 38,
+          "by_grade": {
+            "pomace": 27.63,
+            "extra_light": 0.0,
+            "extra_virgin": 50.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 44.74,
+          "pins_instock": 34,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 44.74,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 35.53,
+          "pins_instock": 27,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 35.53,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Colavita",
+          "universe_pct": 34.21,
+          "pins_instock": 26,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 26.32,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Ybarra",
+          "universe_pct": 32.89,
+          "pins_instock": 25,
+          "by_grade": {
+            "pomace": 32.89,
+            "extra_light": 30.26,
+            "extra_virgin": 31.58,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Olitalia",
+          "universe_pct": 23.68,
+          "pins_instock": 18,
+          "by_grade": {
+            "pomace": 7.89,
+            "extra_light": 0.0,
+            "extra_virgin": 6.58,
+            "pure_classic": 21.05
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 19.74,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 11.84,
+            "extra_light": 0.0,
+            "extra_virgin": 10.53,
+            "pure_classic": 15.79
+          }
+        },
+        {
+          "brand": "Fragata",
+          "universe_pct": 17.11,
+          "pins_instock": 13,
+          "by_grade": {
+            "pomace": 10.53,
+            "extra_light": 0.0,
+            "extra_virgin": 17.11,
+            "pure_classic": 10.53
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 11.84,
+          "pins_instock": 9,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 7.89,
+            "extra_virgin": 7.89,
+            "pure_classic": 9.21
+          }
+        },
+        {
+          "brand": "Kouzina",
+          "universe_pct": 11.84,
+          "pins_instock": 9,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 11.84,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Pure Nutrition",
+          "universe_pct": 10.53,
+          "pins_instock": 8,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 7.89,
+            "extra_virgin": 3.95,
+            "pure_classic": 3.95
+          }
+        },
+        {
+          "brand": "Dolce Vita",
+          "universe_pct": 9.21,
+          "pins_instock": 7,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 9.21,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Urban Platter",
+          "universe_pct": 1.32,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 1.32,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 100.0,
+        "pins_instock": 76,
+        "by_grade": {
+          "pomace": 89.47,
+          "extra_light": 90.79,
+          "extra_virgin": 56.58,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 100.0,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Del Monte",
+        "Jivo",
+        "Oleev",
+        "Tata Simply Better",
+        "Borges",
+        "Figaro",
+        "Rafael Salgado",
+        "Leonardo",
+        "Disano",
+        "Basso",
+        "Gramiyaa",
+        "Anveshan",
+        "Colavita",
+        "Ybarra",
+        "Olitalia",
+        "Allegro",
+        "Fragata",
+        "Bertolli",
+        "Kouzina",
+        "Pure Nutrition",
+        "Dolce Vita",
+        "Urban Platter"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Delhi",
+          "probed": 96,
+          "serviceable": 76,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Gujarat": {
+      "total_pins": 220,
+      "serviceable": 110,
+      "by_brand": [
+        {
+          "brand": "Borges",
+          "universe_pct": 100.0,
+          "pins_instock": 110,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 88.18,
+            "pure_classic": 42.73
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 100.0,
+          "pins_instock": 110,
+          "by_grade": {
+            "pomace": 97.27,
+            "extra_light": 63.64,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 100.0,
+          "pins_instock": 110,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 50.0,
+            "extra_virgin": 24.55,
+            "pure_classic": 100.0
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 100.0,
+          "pins_instock": 110,
+          "by_grade": {
+            "pomace": 82.73,
+            "extra_light": 100.0,
+            "extra_virgin": 1.82,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 98.18,
+          "pins_instock": 108,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 90.0,
+            "extra_virgin": 55.45,
+            "pure_classic": 36.36
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 95.45,
+          "pins_instock": 105,
+          "by_grade": {
+            "pomace": 79.09,
+            "extra_light": 54.55,
+            "extra_virgin": 43.64,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 83.64,
+          "pins_instock": 92,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 83.64,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 70.0,
+          "pins_instock": 77,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 70.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 30.0,
+          "pins_instock": 33,
+          "by_grade": {
+            "pomace": 8.18,
+            "extra_light": 0.0,
+            "extra_virgin": 2.73,
+            "pure_classic": 23.64
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 26.36,
+          "pins_instock": 29,
+          "by_grade": {
+            "pomace": 2.73,
+            "extra_light": 24.55,
+            "extra_virgin": 9.09,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Pure Nutrition",
+          "universe_pct": 23.64,
+          "pins_instock": 26,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 23.64
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 6.36,
+          "pins_instock": 7,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 4.55,
+            "extra_virgin": 0.0,
+            "pure_classic": 1.82
+          }
+        },
+        {
+          "brand": "Urban Platter",
+          "universe_pct": 3.64,
+          "pins_instock": 4,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 3.64,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Basso",
+          "universe_pct": 1.82,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 1.82,
+            "extra_light": 0.0,
+            "extra_virgin": 1.82,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Colavita",
+          "universe_pct": 1.82,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 1.82,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Disano",
+          "universe_pct": 1.82,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 1.82
+          }
+        },
+        {
+          "brand": "Fragata",
+          "universe_pct": 1.82,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 1.82,
+            "extra_light": 0.0,
+            "extra_virgin": 1.82,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 1.82,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 1.82,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Olitalia",
+          "universe_pct": 1.82,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 1.82
+          }
+        },
+        {
+          "brand": "Ybarra",
+          "universe_pct": 1.82,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 1.82,
+            "extra_light": 1.82,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 100.0,
+        "pins_instock": 110,
+        "by_grade": {
+          "pomace": 82.73,
+          "extra_light": 100.0,
+          "extra_virgin": 1.82,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 100.0,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Borges",
+        "Del Monte",
+        "Figaro",
+        "Jivo",
+        "Bertolli",
+        "Oleev",
+        "Tata Simply Better",
+        "Anveshan",
+        "Allegro",
+        "Leonardo",
+        "Pure Nutrition",
+        "Rafael Salgado",
+        "Urban Platter",
+        "Basso",
+        "Colavita",
+        "Disano",
+        "Fragata",
+        "Gramiyaa",
+        "Olitalia",
+        "Ybarra"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Ahmedabad",
+          "probed": 81,
+          "serviceable": 44,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        },
+        {
+          "city": "Vadodara",
+          "probed": 61,
+          "serviceable": 43,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Oleev",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        },
+        {
+          "city": "Surat",
+          "probed": 78,
+          "serviceable": 23,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Haryana": {
+      "total_pins": 29,
+      "serviceable": 17,
+      "by_brand": [
+        {
+          "brand": "Borges",
+          "universe_pct": 100.0,
+          "pins_instock": 17,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 5.88
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 100.0,
+          "pins_instock": 17,
+          "by_grade": {
+            "pomace": 88.24,
+            "extra_light": 88.24,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 100.0,
+          "pins_instock": 17,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 5.88,
+            "extra_virgin": 88.24,
+            "pure_classic": 64.71
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 100.0,
+          "pins_instock": 17,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 100.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 100.0,
+          "pins_instock": 17,
+          "by_grade": {
+            "pomace": 11.76,
+            "extra_light": 29.41,
+            "extra_virgin": 17.65,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 100.0,
+          "pins_instock": 17,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 82.35,
+          "pins_instock": 14,
+          "by_grade": {
+            "pomace": 82.35,
+            "extra_light": 11.76,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 82.35,
+          "pins_instock": 14,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 11.76
+          }
+        },
+        {
+          "brand": "Ybarra",
+          "universe_pct": 70.59,
+          "pins_instock": 12,
+          "by_grade": {
+            "pomace": 64.71,
+            "extra_light": 70.59,
+            "extra_virgin": 64.71,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Basso",
+          "universe_pct": 64.71,
+          "pins_instock": 11,
+          "by_grade": {
+            "pomace": 64.71,
+            "extra_light": 0.0,
+            "extra_virgin": 64.71,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Colavita",
+          "universe_pct": 64.71,
+          "pins_instock": 11,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 41.18,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Fragata",
+          "universe_pct": 64.71,
+          "pins_instock": 11,
+          "by_grade": {
+            "pomace": 52.94,
+            "extra_light": 0.0,
+            "extra_virgin": 64.71,
+            "pure_classic": 52.94
+          }
+        },
+        {
+          "brand": "Olitalia",
+          "universe_pct": 52.94,
+          "pins_instock": 9,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 11.76,
+            "pure_classic": 52.94
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 29.41,
+          "pins_instock": 5,
+          "by_grade": {
+            "pomace": 29.41,
+            "extra_light": 0.0,
+            "extra_virgin": 5.88,
+            "pure_classic": 11.76
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 23.53,
+          "pins_instock": 4,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 23.53,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 11.76,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 11.76,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 11.76,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Disano",
+          "universe_pct": 5.88,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 5.88
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 100.0,
+        "pins_instock": 17,
+        "by_grade": {
+          "pomace": 100.0,
+          "extra_light": 100.0,
+          "extra_virgin": 100.0,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 100.0,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Borges",
+        "Del Monte",
+        "Figaro",
+        "Jivo",
+        "Oleev",
+        "Tata Simply Better",
+        "Leonardo",
+        "Rafael Salgado",
+        "Ybarra",
+        "Basso",
+        "Colavita",
+        "Fragata",
+        "Olitalia",
+        "Allegro",
+        "Gramiyaa",
+        "Anveshan",
+        "Bertolli",
+        "Disano"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Gurugram",
+          "probed": 29,
+          "serviceable": 17,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Karnataka": {
+      "total_pins": 183,
+      "serviceable": 104,
+      "by_brand": [
+        {
+          "brand": "Borges",
+          "universe_pct": 95.19,
+          "pins_instock": 99,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 92.31,
+            "pure_classic": 31.73
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 95.19,
+          "pins_instock": 99,
+          "by_grade": {
+            "pomace": 83.65,
+            "extra_light": 83.65,
+            "extra_virgin": 95.19,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 95.19,
+          "pins_instock": 99,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 33.65,
+            "extra_virgin": 67.31,
+            "pure_classic": 62.5
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 95.19,
+          "pins_instock": 99,
+          "by_grade": {
+            "pomace": 91.35,
+            "extra_light": 94.23,
+            "extra_virgin": 82.69,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 95.19,
+          "pins_instock": 99,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 95.19,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 90.38,
+          "pins_instock": 94,
+          "by_grade": {
+            "pomace": 16.35,
+            "extra_light": 47.12,
+            "extra_virgin": 44.23,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 85.58,
+          "pins_instock": 89,
+          "by_grade": {
+            "pomace": 82.69,
+            "extra_light": 49.04,
+            "extra_virgin": 18.27,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 81.73,
+          "pins_instock": 85,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 81.73,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 69.23,
+          "pins_instock": 72,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 62.5,
+            "extra_virgin": 24.04,
+            "pure_classic": 39.42
+          }
+        },
+        {
+          "brand": "Disano",
+          "universe_pct": 57.69,
+          "pins_instock": 60,
+          "by_grade": {
+            "pomace": 22.12,
+            "extra_light": 10.58,
+            "extra_virgin": 55.77,
+            "pure_classic": 24.04
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 45.19,
+          "pins_instock": 47,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 45.19,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 44.23,
+          "pins_instock": 46,
+          "by_grade": {
+            "pomace": 36.54,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 32.69
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 40.38,
+          "pins_instock": 42,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 10.58
+          }
+        },
+        {
+          "brand": "Olitalia",
+          "universe_pct": 35.58,
+          "pins_instock": 37,
+          "by_grade": {
+            "pomace": 17.31,
+            "extra_light": 0.0,
+            "extra_virgin": 11.54,
+            "pure_classic": 22.12
+          }
+        },
+        {
+          "brand": "Ybarra",
+          "universe_pct": 33.65,
+          "pins_instock": 35,
+          "by_grade": {
+            "pomace": 18.27,
+            "extra_light": 16.35,
+            "extra_virgin": 22.12,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Colavita",
+          "universe_pct": 25.0,
+          "pins_instock": 26,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 17.31,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Basso",
+          "universe_pct": 17.31,
+          "pins_instock": 18,
+          "by_grade": {
+            "pomace": 15.38,
+            "extra_light": 0.0,
+            "extra_virgin": 14.42,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Fragata",
+          "universe_pct": 17.31,
+          "pins_instock": 18,
+          "by_grade": {
+            "pomace": 11.54,
+            "extra_light": 0.0,
+            "extra_virgin": 14.42,
+            "pure_classic": 4.81
+          }
+        },
+        {
+          "brand": "Pure Nutrition",
+          "universe_pct": 17.31,
+          "pins_instock": 18,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 11.54,
+            "extra_virgin": 3.85,
+            "pure_classic": 8.65
+          }
+        },
+        {
+          "brand": "Dolce Vita",
+          "universe_pct": 1.92,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 1.92,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Kouzina",
+          "universe_pct": 1.92,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 1.92,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 95.19,
+        "pins_instock": 99,
+        "by_grade": {
+          "pomace": 91.35,
+          "extra_light": 94.23,
+          "extra_virgin": 82.69,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 95.19,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Borges",
+        "Del Monte",
+        "Figaro",
+        "Jivo",
+        "Tata Simply Better",
+        "Oleev",
+        "Leonardo",
+        "Anveshan",
+        "Bertolli",
+        "Disano",
+        "Gramiyaa",
+        "Allegro",
+        "Rafael Salgado",
+        "Olitalia",
+        "Ybarra",
+        "Colavita",
+        "Basso",
+        "Fragata",
+        "Pure Nutrition",
+        "Dolce Vita",
+        "Kouzina"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Bengaluru",
+          "probed": 117,
+          "serviceable": 74,
+          "jivo_pct": 93.24,
+          "any_competitor_pct": 93.24,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 93.24
+          },
+          "jivo_absent_rivals_present": 0
+        },
+        {
+          "city": "Mysuru",
+          "probed": 66,
+          "serviceable": 30,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Kerala": {
+      "total_pins": 276,
+      "serviceable": 125,
+      "by_brand": [
+        {
+          "brand": "Anveshan",
+          "universe_pct": 85.6,
+          "pins_instock": 107,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 85.6,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Borges",
+          "universe_pct": 85.6,
+          "pins_instock": 107,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 79.2,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 85.6,
+          "pins_instock": 107,
+          "by_grade": {
+            "pomace": 85.6,
+            "extra_light": 32.0,
+            "extra_virgin": 85.6,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 85.6,
+          "pins_instock": 107,
+          "by_grade": {
+            "pomace": 84.8,
+            "extra_light": 85.6,
+            "extra_virgin": 64.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 81.6,
+          "pins_instock": 102,
+          "by_grade": {
+            "pomace": 45.6,
+            "extra_light": 76.8,
+            "extra_virgin": 56.8,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 56.0,
+          "pins_instock": 70,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 56.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 36.8,
+          "pins_instock": 46,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 4.8,
+            "pure_classic": 36.8
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 36.0,
+          "pins_instock": 45,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 36.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 34.4,
+          "pins_instock": 43,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 34.4,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 25.6,
+          "pins_instock": 32,
+          "by_grade": {
+            "pomace": 24.0,
+            "extra_light": 9.6,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 16.0,
+          "pins_instock": 20,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 12.8,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Olitalia",
+          "universe_pct": 8.0,
+          "pins_instock": 10,
+          "by_grade": {
+            "pomace": 8.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 1.6,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 1.6
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 85.6,
+        "pins_instock": 107,
+        "by_grade": {
+          "pomace": 84.8,
+          "extra_light": 85.6,
+          "extra_virgin": 64.0,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 85.6,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Anveshan",
+        "Borges",
+        "Del Monte",
+        "Jivo",
+        "Oleev",
+        "Tata Simply Better",
+        "Figaro",
+        "Rafael Salgado",
+        "Gramiyaa",
+        "Leonardo",
+        "Bertolli",
+        "Olitalia",
+        "Allegro"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Kochi",
+          "probed": 143,
+          "serviceable": 84,
+          "jivo_pct": 96.43,
+          "any_competitor_pct": 96.43,
+          "top_competitor": {
+            "brand": "Del Monte",
+            "pct": 96.43
+          },
+          "jivo_absent_rivals_present": 0
+        },
+        {
+          "city": "Thiruvananthapuram",
+          "probed": 133,
+          "serviceable": 41,
+          "jivo_pct": 63.41,
+          "any_competitor_pct": 63.41,
+          "top_competitor": {
+            "brand": "Del Monte",
+            "pct": 63.41
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Madhya Pradesh": {
+      "total_pins": 30,
+      "serviceable": 15,
+      "by_brand": [
+        {
+          "brand": "Bertolli",
+          "universe_pct": 100.0,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 100.0,
+            "extra_virgin": 40.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Borges",
+          "universe_pct": 100.0,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 60.0
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 100.0,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 46.67,
+            "extra_virgin": 20.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 100.0,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 53.33,
+            "extra_virgin": 100.0,
+            "pure_classic": 100.0
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 100.0,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 100.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 100.0,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 46.67,
+            "extra_virgin": 20.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 100.0,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 60.0,
+          "pins_instock": 9,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 60.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Urban Platter",
+          "universe_pct": 46.67,
+          "pins_instock": 7,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 46.67,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 40.0,
+          "pins_instock": 6,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 40.0
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 6.67,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 6.67,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 100.0,
+        "pins_instock": 15,
+        "by_grade": {
+          "pomace": 100.0,
+          "extra_light": 100.0,
+          "extra_virgin": 0.0,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 100.0,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Bertolli",
+        "Borges",
+        "Del Monte",
+        "Figaro",
+        "Jivo",
+        "Oleev",
+        "Tata Simply Better",
+        "Anveshan",
+        "Urban Platter",
+        "Allegro",
+        "Rafael Salgado"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Indore",
+          "probed": 30,
+          "serviceable": 15,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Maharashtra": {
+      "total_pins": 372,
+      "serviceable": 157,
+      "by_brand": [
+        {
+          "brand": "Borges",
+          "universe_pct": 98.73,
+          "pins_instock": 155,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 91.72,
+            "pure_classic": 43.95
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 97.45,
+          "pins_instock": 153,
+          "by_grade": {
+            "pomace": 61.78,
+            "extra_light": 64.33,
+            "extra_virgin": 95.54,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 97.45,
+          "pins_instock": 153,
+          "by_grade": {
+            "pomace": 93.63,
+            "extra_light": 94.9,
+            "extra_virgin": 27.39,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 96.18,
+          "pins_instock": 151,
+          "by_grade": {
+            "pomace": 48.41,
+            "extra_light": 47.77,
+            "extra_virgin": 34.39,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 92.99,
+          "pins_instock": 146,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 46.5,
+            "extra_virgin": 80.89,
+            "pure_classic": 69.43
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 91.08,
+          "pins_instock": 143,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 91.08,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 74.52,
+          "pins_instock": 117,
+          "by_grade": {
+            "pomace": 73.89,
+            "extra_light": 46.5,
+            "extra_virgin": 20.38,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 63.06,
+          "pins_instock": 99,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 60.51,
+            "extra_virgin": 28.03,
+            "pure_classic": 15.29
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 57.96,
+          "pins_instock": 91,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 57.96,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 57.32,
+          "pins_instock": 90,
+          "by_grade": {
+            "pomace": 43.95,
+            "extra_light": 0.0,
+            "extra_virgin": 36.31,
+            "pure_classic": 35.67
+          }
+        },
+        {
+          "brand": "Disano",
+          "universe_pct": 47.13,
+          "pins_instock": 74,
+          "by_grade": {
+            "pomace": 13.38,
+            "extra_light": 30.57,
+            "extra_virgin": 22.93,
+            "pure_classic": 33.12
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 38.85,
+          "pins_instock": 61,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 4.46,
+            "extra_virgin": 5.1,
+            "pure_classic": 13.38
+          }
+        },
+        {
+          "brand": "Colavita",
+          "universe_pct": 23.57,
+          "pins_instock": 37,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 17.83,
+            "pure_classic": 2.55
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 23.57,
+          "pins_instock": 37,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 23.57,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Fragata",
+          "universe_pct": 22.29,
+          "pins_instock": 35,
+          "by_grade": {
+            "pomace": 17.83,
+            "extra_light": 0.0,
+            "extra_virgin": 10.19,
+            "pure_classic": 12.1
+          }
+        },
+        {
+          "brand": "Ybarra",
+          "universe_pct": 21.66,
+          "pins_instock": 34,
+          "by_grade": {
+            "pomace": 14.65,
+            "extra_light": 14.01,
+            "extra_virgin": 21.66,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Basso",
+          "universe_pct": 19.75,
+          "pins_instock": 31,
+          "by_grade": {
+            "pomace": 12.74,
+            "extra_light": 0.0,
+            "extra_virgin": 15.29,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Olitalia",
+          "universe_pct": 14.01,
+          "pins_instock": 22,
+          "by_grade": {
+            "pomace": 0.64,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 14.01
+          }
+        },
+        {
+          "brand": "Dolce Vita",
+          "universe_pct": 5.1,
+          "pins_instock": 8,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 5.1,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bono",
+          "universe_pct": 3.82,
+          "pins_instock": 6,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 3.82,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Pure Nutrition",
+          "universe_pct": 3.18,
+          "pins_instock": 5,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.64,
+            "extra_virgin": 3.18,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Urban Platter",
+          "universe_pct": 3.18,
+          "pins_instock": 5,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 3.18,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Voila",
+          "universe_pct": 3.18,
+          "pins_instock": 5,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 3.18
+          }
+        },
+        {
+          "brand": "Barbera",
+          "universe_pct": 2.55,
+          "pins_instock": 4,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Kaizer Spanish",
+          "universe_pct": 1.91,
+          "pins_instock": 3,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Rs Extra Virgin",
+          "universe_pct": 1.91,
+          "pins_instock": 3,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 1.91,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "RS Extra Light",
+          "universe_pct": 1.27,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 1.27,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Abbie's",
+          "universe_pct": 0.64,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.64,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 97.45,
+        "pins_instock": 153,
+        "by_grade": {
+          "pomace": 93.63,
+          "extra_light": 94.9,
+          "extra_virgin": 27.39,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 98.73,
+      "jivo_absent_rivals_present": 2,
+      "dominance_rank": [
+        "Borges",
+        "Del Monte",
+        "Jivo",
+        "Oleev",
+        "Figaro",
+        "Tata Simply Better",
+        "Leonardo",
+        "Bertolli",
+        "Anveshan",
+        "Allegro",
+        "Disano",
+        "Rafael Salgado",
+        "Colavita",
+        "Gramiyaa",
+        "Fragata",
+        "Ybarra",
+        "Basso",
+        "Olitalia",
+        "Dolce Vita",
+        "Bono",
+        "Pure Nutrition",
+        "Urban Platter",
+        "Voila",
+        "Barbera",
+        "Kaizer Spanish",
+        "Rs Extra Virgin",
+        "RS Extra Light",
+        "Abbie's"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Mumbai",
+          "probed": 89,
+          "serviceable": 68,
+          "jivo_pct": 94.12,
+          "any_competitor_pct": 97.06,
+          "top_competitor": {
+            "brand": "Borges",
+            "pct": 97.06
+          },
+          "jivo_absent_rivals_present": 2
+        },
+        {
+          "city": "Pune",
+          "probed": 144,
+          "serviceable": 51,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        },
+        {
+          "city": "Nagpur",
+          "probed": 63,
+          "serviceable": 24,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        },
+        {
+          "city": "Nashik",
+          "probed": 76,
+          "serviceable": 14,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Odisha": {
+      "total_pins": 69,
+      "serviceable": 36,
+      "by_brand": [
+        {
+          "brand": "Borges",
+          "universe_pct": 100.0,
+          "pins_instock": 36,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 77.78
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 100.0,
+          "pins_instock": 36,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 100.0,
+            "extra_virgin": 91.67,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Disano",
+          "universe_pct": 100.0,
+          "pins_instock": 36,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 100.0,
+          "pins_instock": 36,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 88.89,
+            "extra_virgin": 100.0,
+            "pure_classic": 100.0
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 100.0,
+          "pins_instock": 36,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 100.0,
+            "extra_virgin": 19.44,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 88.89,
+          "pins_instock": 32,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 88.89,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 88.89,
+          "pins_instock": 32,
+          "by_grade": {
+            "pomace": 41.67,
+            "extra_light": 72.22,
+            "extra_virgin": 27.78,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 83.33,
+          "pins_instock": 30,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 19.44,
+            "extra_virgin": 19.44,
+            "pure_classic": 58.33
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 52.78,
+          "pins_instock": 19,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 52.78,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Urban Platter",
+          "universe_pct": 36.11,
+          "pins_instock": 13,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 36.11,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 27.78,
+          "pins_instock": 10,
+          "by_grade": {
+            "pomace": 27.78,
+            "extra_light": 2.78,
+            "extra_virgin": 11.11,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 19.44,
+          "pins_instock": 7,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 19.44,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 11.11,
+          "pins_instock": 4,
+          "by_grade": {
+            "pomace": 8.33,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 11.11
+          }
+        },
+        {
+          "brand": "Olitalia",
+          "universe_pct": 11.11,
+          "pins_instock": 4,
+          "by_grade": {
+            "pomace": 11.11,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Pure Nutrition",
+          "universe_pct": 2.78,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 2.78,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 100.0,
+        "pins_instock": 36,
+        "by_grade": {
+          "pomace": 100.0,
+          "extra_light": 100.0,
+          "extra_virgin": 19.44,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 100.0,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Borges",
+        "Del Monte",
+        "Disano",
+        "Figaro",
+        "Jivo",
+        "Anveshan",
+        "Oleev",
+        "Bertolli",
+        "Tata Simply Better",
+        "Urban Platter",
+        "Leonardo",
+        "Gramiyaa",
+        "Allegro",
+        "Olitalia",
+        "Pure Nutrition"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Bhubaneswar",
+          "probed": 69,
+          "serviceable": 36,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Figaro",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Rajasthan": {
+      "total_pins": 83,
+      "serviceable": 29,
+      "by_brand": [
+        {
+          "brand": "Bertolli",
+          "universe_pct": 100.0,
+          "pins_instock": 29,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 100.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 3.45
+          }
+        },
+        {
+          "brand": "Borges",
+          "universe_pct": 100.0,
+          "pins_instock": 29,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 75.86
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 100.0,
+          "pins_instock": 29,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 100.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 100.0,
+          "pins_instock": 29,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 20.69,
+            "extra_virgin": 100.0,
+            "pure_classic": 100.0
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 100.0,
+          "pins_instock": 29,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 100.0,
+            "extra_virgin": 20.69,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 100.0,
+          "pins_instock": 29,
+          "by_grade": {
+            "pomace": 100.0,
+            "extra_light": 3.45,
+            "extra_virgin": 20.69,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 100.0,
+          "pins_instock": 29,
+          "by_grade": {
+            "pomace": 75.86,
+            "extra_light": 100.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 100.0,
+          "pins_instock": 29,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 86.21,
+          "pins_instock": 25,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 86.21,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 82.76,
+          "pins_instock": 24,
+          "by_grade": {
+            "pomace": 17.24,
+            "extra_light": 0.0,
+            "extra_virgin": 79.31,
+            "pure_classic": 17.24
+          }
+        },
+        {
+          "brand": "Disano",
+          "universe_pct": 3.45,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 3.45,
+            "extra_virgin": 0.0,
+            "pure_classic": 3.45
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 3.45,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 3.45,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 100.0,
+        "pins_instock": 29,
+        "by_grade": {
+          "pomace": 100.0,
+          "extra_light": 100.0,
+          "extra_virgin": 20.69,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 100.0,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Bertolli",
+        "Borges",
+        "Del Monte",
+        "Figaro",
+        "Jivo",
+        "Leonardo",
+        "Oleev",
+        "Tata Simply Better",
+        "Anveshan",
+        "Allegro",
+        "Disano",
+        "Rafael Salgado"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Jaipur",
+          "probed": 83,
+          "serviceable": 29,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Tamil Nadu": {
+      "total_pins": 189,
+      "serviceable": 95,
+      "by_brand": [
+        {
+          "brand": "Del Monte",
+          "universe_pct": 94.74,
+          "pins_instock": 90,
+          "by_grade": {
+            "pomace": 64.21,
+            "extra_light": 71.58,
+            "extra_virgin": 93.68,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Borges",
+          "universe_pct": 93.68,
+          "pins_instock": 89,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 71.58,
+            "pure_classic": 24.21
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 93.68,
+          "pins_instock": 89,
+          "by_grade": {
+            "pomace": 89.47,
+            "extra_light": 92.63,
+            "extra_virgin": 58.95,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 92.63,
+          "pins_instock": 88,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 22.11,
+            "extra_virgin": 74.74,
+            "pure_classic": 53.68
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 85.26,
+          "pins_instock": 81,
+          "by_grade": {
+            "pomace": 17.89,
+            "extra_light": 73.68,
+            "extra_virgin": 66.32,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 81.05,
+          "pins_instock": 77,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 81.05,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 71.58,
+          "pins_instock": 68,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 24.21,
+            "extra_virgin": 10.53,
+            "pure_classic": 21.05
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 66.32,
+          "pins_instock": 63,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 66.32,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Disano",
+          "universe_pct": 44.21,
+          "pins_instock": 42,
+          "by_grade": {
+            "pomace": 23.16,
+            "extra_light": 37.89,
+            "extra_virgin": 14.74,
+            "pure_classic": 26.32
+          }
+        },
+        {
+          "brand": "Ybarra",
+          "universe_pct": 29.47,
+          "pins_instock": 28,
+          "by_grade": {
+            "pomace": 25.26,
+            "extra_light": 23.16,
+            "extra_virgin": 25.26,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Pure Nutrition",
+          "universe_pct": 27.37,
+          "pins_instock": 26,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 12.63,
+            "pure_classic": 22.11
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 26.32,
+          "pins_instock": 25,
+          "by_grade": {
+            "pomace": 7.37,
+            "extra_light": 25.26,
+            "extra_virgin": 18.95,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Colavita",
+          "universe_pct": 23.16,
+          "pins_instock": 22,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 20.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 20.0,
+          "pins_instock": 19,
+          "by_grade": {
+            "pomace": 20.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 3.16
+          }
+        },
+        {
+          "brand": "Basso",
+          "universe_pct": 17.89,
+          "pins_instock": 17,
+          "by_grade": {
+            "pomace": 4.21,
+            "extra_light": 0.0,
+            "extra_virgin": 17.89,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Dolce Vita",
+          "universe_pct": 15.79,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 15.79,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 14.74,
+          "pins_instock": 14,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 14.74,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Kouzina",
+          "universe_pct": 13.68,
+          "pins_instock": 13,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 13.68,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Olitalia",
+          "universe_pct": 13.68,
+          "pins_instock": 13,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 13.68
+          }
+        },
+        {
+          "brand": "Fragata",
+          "universe_pct": 11.58,
+          "pins_instock": 11,
+          "by_grade": {
+            "pomace": 11.58,
+            "extra_light": 0.0,
+            "extra_virgin": 6.32,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 5.26,
+          "pins_instock": 5,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 5.26,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 93.68,
+        "pins_instock": 89,
+        "by_grade": {
+          "pomace": 89.47,
+          "extra_light": 92.63,
+          "extra_virgin": 58.95,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 94.74,
+      "jivo_absent_rivals_present": 1,
+      "dominance_rank": [
+        "Del Monte",
+        "Borges",
+        "Jivo",
+        "Figaro",
+        "Oleev",
+        "Tata Simply Better",
+        "Bertolli",
+        "Anveshan",
+        "Disano",
+        "Ybarra",
+        "Pure Nutrition",
+        "Leonardo",
+        "Colavita",
+        "Allegro",
+        "Basso",
+        "Dolce Vita",
+        "Gramiyaa",
+        "Kouzina",
+        "Olitalia",
+        "Fragata",
+        "Rafael Salgado"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Chennai",
+          "probed": 83,
+          "serviceable": 50,
+          "jivo_pct": 90.0,
+          "any_competitor_pct": 92.0,
+          "top_competitor": {
+            "brand": "Del Monte",
+            "pct": 92.0
+          },
+          "jivo_absent_rivals_present": 1
+        },
+        {
+          "city": "Coimbatore",
+          "probed": 106,
+          "serviceable": 45,
+          "jivo_pct": 97.78,
+          "any_competitor_pct": 97.78,
+          "top_competitor": {
+            "brand": "Figaro",
+            "pct": 97.78
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Telangana": {
+      "total_pins": 59,
+      "serviceable": 41,
+      "by_brand": [
+        {
+          "brand": "Jivo",
+          "universe_pct": 100.0,
+          "pins_instock": 41,
+          "by_grade": {
+            "pomace": 70.73,
+            "extra_light": 97.56,
+            "extra_virgin": 46.34,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 97.56,
+          "pins_instock": 40,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 21.95,
+            "extra_virgin": 63.41,
+            "pure_classic": 24.39
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 97.56,
+          "pins_instock": 40,
+          "by_grade": {
+            "pomace": 53.66,
+            "extra_light": 39.02,
+            "extra_virgin": 24.39,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 97.56,
+          "pins_instock": 40,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 97.56,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Borges",
+          "universe_pct": 95.12,
+          "pins_instock": 39,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 92.68,
+            "pure_classic": 41.46
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 92.68,
+          "pins_instock": 38,
+          "by_grade": {
+            "pomace": 51.22,
+            "extra_light": 46.34,
+            "extra_virgin": 92.68,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Disano",
+          "universe_pct": 58.54,
+          "pins_instock": 24,
+          "by_grade": {
+            "pomace": 34.15,
+            "extra_light": 29.27,
+            "extra_virgin": 51.22,
+            "pure_classic": 21.95
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 53.66,
+          "pins_instock": 22,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 53.66,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 41.46,
+          "pins_instock": 17,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 31.71,
+            "extra_virgin": 29.27,
+            "pure_classic": 17.07
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 34.15,
+          "pins_instock": 14,
+          "by_grade": {
+            "pomace": 19.51,
+            "extra_light": 0.0,
+            "extra_virgin": 19.51,
+            "pure_classic": 14.63
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 31.71,
+          "pins_instock": 13,
+          "by_grade": {
+            "pomace": 29.27,
+            "extra_light": 4.88,
+            "extra_virgin": 19.51,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 29.27,
+          "pins_instock": 12,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 29.27,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Basso",
+          "universe_pct": 29.27,
+          "pins_instock": 12,
+          "by_grade": {
+            "pomace": 21.95,
+            "extra_light": 0.0,
+            "extra_virgin": 29.27,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Colavita",
+          "universe_pct": 29.27,
+          "pins_instock": 12,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 29.27,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Fragata",
+          "universe_pct": 29.27,
+          "pins_instock": 12,
+          "by_grade": {
+            "pomace": 29.27,
+            "extra_light": 0.0,
+            "extra_virgin": 21.95,
+            "pure_classic": 2.44
+          }
+        },
+        {
+          "brand": "Olitalia",
+          "universe_pct": 29.27,
+          "pins_instock": 12,
+          "by_grade": {
+            "pomace": 2.44,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 29.27
+          }
+        },
+        {
+          "brand": "Ybarra",
+          "universe_pct": 29.27,
+          "pins_instock": 12,
+          "by_grade": {
+            "pomace": 4.88,
+            "extra_light": 29.27,
+            "extra_virgin": 24.39,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Pure Nutrition",
+          "universe_pct": 26.83,
+          "pins_instock": 11,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 7.32,
+            "extra_virgin": 21.95,
+            "pure_classic": 4.88
+          }
+        },
+        {
+          "brand": "Dolce Vita",
+          "universe_pct": 9.76,
+          "pins_instock": 4,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 9.76,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Kouzina",
+          "universe_pct": 9.76,
+          "pins_instock": 4,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 9.76,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Urban Platter",
+          "universe_pct": 4.88,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 4.88,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Foodie Puppies Mandarin Waterless Dry Bath for Cats - 200ml | Paraben Free & Cruelty-Free | Fortified with",
+          "universe_pct": 2.44,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 100.0,
+        "pins_instock": 41,
+        "by_grade": {
+          "pomace": 70.73,
+          "extra_light": 97.56,
+          "extra_virgin": 46.34,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 100.0,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Jivo",
+        "Figaro",
+        "Oleev",
+        "Tata Simply Better",
+        "Borges",
+        "Del Monte",
+        "Disano",
+        "Gramiyaa",
+        "Bertolli",
+        "Allegro",
+        "Leonardo",
+        "Anveshan",
+        "Basso",
+        "Colavita",
+        "Fragata",
+        "Olitalia",
+        "Ybarra",
+        "Pure Nutrition",
+        "Dolce Vita",
+        "Kouzina",
+        "Urban Platter",
+        "Foodie Puppies Mandarin Waterless Dry Bath for Cats - 200ml | Paraben Free & Cruelty-Free | Fortified with"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Hyderabad",
+          "probed": 59,
+          "serviceable": 41,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 97.56
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "Uttar Pradesh": {
+      "total_pins": 71,
+      "serviceable": 41,
+      "by_brand": [
+        {
+          "brand": "Borges",
+          "universe_pct": 90.24,
+          "pins_instock": 37,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 80.49,
+            "pure_classic": 48.78
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 90.24,
+          "pins_instock": 37,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 12.2,
+            "extra_virgin": 26.83,
+            "pure_classic": 90.24
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 90.24,
+          "pins_instock": 37,
+          "by_grade": {
+            "pomace": 87.8,
+            "extra_light": 87.8,
+            "extra_virgin": 24.39,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 90.24,
+          "pins_instock": 37,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 90.24,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Allegro",
+          "universe_pct": 82.93,
+          "pins_instock": 34,
+          "by_grade": {
+            "pomace": 63.41,
+            "extra_light": 0.0,
+            "extra_virgin": 19.51,
+            "pure_classic": 34.15
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 82.93,
+          "pins_instock": 34,
+          "by_grade": {
+            "pomace": 9.76,
+            "extra_light": 53.66,
+            "extra_virgin": 80.49,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 75.61,
+          "pins_instock": 31,
+          "by_grade": {
+            "pomace": 53.66,
+            "extra_light": 48.78,
+            "extra_virgin": 68.29,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 63.41,
+          "pins_instock": 26,
+          "by_grade": {
+            "pomace": 60.98,
+            "extra_light": 60.98,
+            "extra_virgin": 34.15,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 60.98,
+          "pins_instock": 25,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 60.98,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 51.22,
+          "pins_instock": 21,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 19.51,
+            "extra_virgin": 0.0,
+            "pure_classic": 31.71
+          }
+        },
+        {
+          "brand": "Ybarra",
+          "universe_pct": 29.27,
+          "pins_instock": 12,
+          "by_grade": {
+            "pomace": 29.27,
+            "extra_light": 17.07,
+            "extra_virgin": 14.63,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 19.51,
+          "pins_instock": 8,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 7.32,
+            "extra_virgin": 2.44,
+            "pure_classic": 7.32
+          }
+        },
+        {
+          "brand": "Olitalia",
+          "universe_pct": 19.51,
+          "pins_instock": 8,
+          "by_grade": {
+            "pomace": 7.32,
+            "extra_light": 0.0,
+            "extra_virgin": 9.76,
+            "pure_classic": 4.88
+          }
+        },
+        {
+          "brand": "Pure Nutrition",
+          "universe_pct": 7.32,
+          "pins_instock": 3,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 7.32
+          }
+        },
+        {
+          "brand": "Basso",
+          "universe_pct": 4.88,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 4.88,
+            "extra_light": 0.0,
+            "extra_virgin": 4.88,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Colavita",
+          "universe_pct": 4.88,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 4.88,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Fragata",
+          "universe_pct": 4.88,
+          "pins_instock": 2,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 4.88,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Disano",
+          "universe_pct": 2.44,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 2.44,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 2.44,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 2.44,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Paradyes Lighten Up! Bleach Pack 30 Vol. enriched with Flax Oil",
+          "universe_pct": 2.44,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 2.44,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Urban Platter",
+          "universe_pct": 2.44,
+          "pins_instock": 1,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 2.44,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 90.24,
+        "pins_instock": 37,
+        "by_grade": {
+          "pomace": 87.8,
+          "extra_light": 87.8,
+          "extra_virgin": 24.39,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 90.24,
+      "jivo_absent_rivals_present": 0,
+      "dominance_rank": [
+        "Borges",
+        "Figaro",
+        "Jivo",
+        "Tata Simply Better",
+        "Allegro",
+        "Oleev",
+        "Leonardo",
+        "Del Monte",
+        "Anveshan",
+        "Rafael Salgado",
+        "Ybarra",
+        "Bertolli",
+        "Olitalia",
+        "Pure Nutrition",
+        "Basso",
+        "Colavita",
+        "Fragata",
+        "Disano",
+        "Gramiyaa",
+        "Paradyes Lighten Up! Bleach Pack 30 Vol. enriched with Flax Oil",
+        "Urban Platter"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Lucknow",
+          "probed": 43,
+          "serviceable": 28,
+          "jivo_pct": 85.71,
+          "any_competitor_pct": 85.71,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 85.71
+          },
+          "jivo_absent_rivals_present": 0
+        },
+        {
+          "city": "Noida",
+          "probed": 28,
+          "serviceable": 13,
+          "jivo_pct": 100.0,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Tata Simply Better",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 0
+        }
+      ]
+    },
+    "West Bengal": {
+      "total_pins": 74,
+      "serviceable": 53,
+      "by_brand": [
+        {
+          "brand": "Borges",
+          "universe_pct": 100.0,
+          "pins_instock": 53,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 100.0,
+            "pure_classic": 15.09
+          }
+        },
+        {
+          "brand": "Figaro",
+          "universe_pct": 100.0,
+          "pins_instock": 53,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 35.85,
+            "extra_virgin": 100.0,
+            "pure_classic": 47.17
+          }
+        },
+        {
+          "brand": "Tata Simply Better",
+          "universe_pct": 83.02,
+          "pins_instock": 44,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 83.02,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Jivo",
+          "universe_pct": 67.92,
+          "pins_instock": 36,
+          "by_grade": {
+            "pomace": 45.28,
+            "extra_light": 67.92,
+            "extra_virgin": 47.17,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Oleev",
+          "universe_pct": 50.94,
+          "pins_instock": 27,
+          "by_grade": {
+            "pomace": 13.21,
+            "extra_light": 11.32,
+            "extra_virgin": 15.09,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Del Monte",
+          "universe_pct": 35.85,
+          "pins_instock": 19,
+          "by_grade": {
+            "pomace": 35.85,
+            "extra_light": 13.21,
+            "extra_virgin": 28.3,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Anveshan",
+          "universe_pct": 32.08,
+          "pins_instock": 17,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 32.08,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Basso",
+          "universe_pct": 32.08,
+          "pins_instock": 17,
+          "by_grade": {
+            "pomace": 32.08,
+            "extra_light": 0.0,
+            "extra_virgin": 32.08,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Colavita",
+          "universe_pct": 28.3,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 16.98,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Fragata",
+          "universe_pct": 28.3,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 18.87,
+            "extra_light": 0.0,
+            "extra_virgin": 24.53,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Ybarra",
+          "universe_pct": 28.3,
+          "pins_instock": 15,
+          "by_grade": {
+            "pomace": 16.98,
+            "extra_light": 11.32,
+            "extra_virgin": 28.3,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Bertolli",
+          "universe_pct": 26.42,
+          "pins_instock": 14,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 5.66,
+            "pure_classic": 26.42
+          }
+        },
+        {
+          "brand": "Disano",
+          "universe_pct": 22.64,
+          "pins_instock": 12,
+          "by_grade": {
+            "pomace": 3.77,
+            "extra_light": 20.75,
+            "extra_virgin": 11.32,
+            "pure_classic": 9.43
+          }
+        },
+        {
+          "brand": "Olitalia",
+          "universe_pct": 16.98,
+          "pins_instock": 9,
+          "by_grade": {
+            "pomace": 11.32,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 5.66
+          }
+        },
+        {
+          "brand": "Leonardo",
+          "universe_pct": 15.09,
+          "pins_instock": 8,
+          "by_grade": {
+            "pomace": 15.09,
+            "extra_light": 1.89,
+            "extra_virgin": 7.55,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Gramiyaa",
+          "universe_pct": 11.32,
+          "pins_instock": 6,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 11.32,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Pure Nutrition",
+          "universe_pct": 9.43,
+          "pins_instock": 5,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 9.43,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Rafael Salgado",
+          "universe_pct": 5.66,
+          "pins_instock": 3,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 0.0,
+            "pure_classic": 0.0
+          }
+        },
+        {
+          "brand": "Urban Platter",
+          "universe_pct": 5.66,
+          "pins_instock": 3,
+          "by_grade": {
+            "pomace": 0.0,
+            "extra_light": 0.0,
+            "extra_virgin": 5.66,
+            "pure_classic": 0.0
+          }
+        }
+      ],
+      "jivo": {
+        "universe_pct": 67.92,
+        "pins_instock": 36,
+        "by_grade": {
+          "pomace": 45.28,
+          "extra_light": 67.92,
+          "extra_virgin": 47.17,
+          "pure_classic": 0.0
+        }
+      },
+      "any_competitor_pct": 100.0,
+      "jivo_absent_rivals_present": 17,
+      "dominance_rank": [
+        "Borges",
+        "Figaro",
+        "Tata Simply Better",
+        "Jivo",
+        "Oleev",
+        "Del Monte",
+        "Anveshan",
+        "Basso",
+        "Colavita",
+        "Fragata",
+        "Ybarra",
+        "Bertolli",
+        "Disano",
+        "Olitalia",
+        "Leonardo",
+        "Gramiyaa",
+        "Pure Nutrition",
+        "Rafael Salgado",
+        "Urban Platter"
+      ],
+      "jivo_lens": null,
+      "cities": [
+        {
+          "city": "Kolkata",
+          "probed": 74,
+          "serviceable": 53,
+          "jivo_pct": 67.92,
+          "any_competitor_pct": 100.0,
+          "top_competitor": {
+            "brand": "Figaro",
+            "pct": 100.0
+          },
+          "jivo_absent_rivals_present": 17
+        }
+      ]
+    }
+  },
+  "ncr": {
+    "total_pins": 153,
+    "serviceable": 106,
+    "by_brand": [
+      {
+        "brand": "Del Monte",
+        "universe_pct": 100.0,
+        "pins_instock": 106,
+        "by_grade": {
+          "pomace": 59.43,
+          "extra_light": 55.66,
+          "extra_virgin": 100.0,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Jivo",
+        "universe_pct": 100.0,
+        "pins_instock": 106,
+        "by_grade": {
+          "pomace": 92.45,
+          "extra_light": 93.4,
+          "extra_virgin": 66.04,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Tata Simply Better",
+        "universe_pct": 100.0,
+        "pins_instock": 106,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 0.0,
+          "extra_virgin": 100.0,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Borges",
+        "universe_pct": 98.11,
+        "pins_instock": 104,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 0.0,
+          "extra_virgin": 98.11,
+          "pure_classic": 23.58
+        }
+      },
+      {
+        "brand": "Oleev",
+        "universe_pct": 97.17,
+        "pins_instock": 103,
+        "by_grade": {
+          "pomace": 27.36,
+          "extra_light": 21.7,
+          "extra_virgin": 30.19,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Figaro",
+        "universe_pct": 96.23,
+        "pins_instock": 102,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 7.55,
+          "extra_virgin": 46.23,
+          "pure_classic": 39.62
+        }
+      },
+      {
+        "brand": "Rafael Salgado",
+        "universe_pct": 83.96,
+        "pins_instock": 89,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 0.94,
+          "extra_virgin": 0.0,
+          "pure_classic": 30.19
+        }
+      },
+      {
+        "brand": "Leonardo",
+        "universe_pct": 68.87,
+        "pins_instock": 73,
+        "by_grade": {
+          "pomace": 68.87,
+          "extra_light": 20.75,
+          "extra_virgin": 16.98,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Basso",
+        "universe_pct": 48.11,
+        "pins_instock": 51,
+        "by_grade": {
+          "pomace": 32.08,
+          "extra_light": 0.0,
+          "extra_virgin": 48.11,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Disano",
+        "universe_pct": 46.23,
+        "pins_instock": 49,
+        "by_grade": {
+          "pomace": 29.25,
+          "extra_light": 14.15,
+          "extra_virgin": 32.08,
+          "pure_classic": 6.6
+        }
+      },
+      {
+        "brand": "Ybarra",
+        "universe_pct": 46.23,
+        "pins_instock": 49,
+        "by_grade": {
+          "pomace": 45.28,
+          "extra_light": 39.62,
+          "extra_virgin": 38.68,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Anveshan",
+        "universe_pct": 36.79,
+        "pins_instock": 39,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 0.0,
+          "extra_virgin": 36.79,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Colavita",
+        "universe_pct": 36.79,
+        "pins_instock": 39,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 0.0,
+          "extra_virgin": 27.36,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Gramiyaa",
+        "universe_pct": 36.79,
+        "pins_instock": 39,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 0.0,
+          "extra_virgin": 36.79,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Allegro",
+        "universe_pct": 28.3,
+        "pins_instock": 30,
+        "by_grade": {
+          "pomace": 15.09,
+          "extra_light": 0.0,
+          "extra_virgin": 16.04,
+          "pure_classic": 22.64
+        }
+      },
+      {
+        "brand": "Olitalia",
+        "universe_pct": 27.36,
+        "pins_instock": 29,
+        "by_grade": {
+          "pomace": 5.66,
+          "extra_light": 0.0,
+          "extra_virgin": 6.6,
+          "pure_classic": 25.47
+        }
+      },
+      {
+        "brand": "Fragata",
+        "universe_pct": 24.53,
+        "pins_instock": 26,
+        "by_grade": {
+          "pomace": 16.04,
+          "extra_light": 0.0,
+          "extra_virgin": 24.53,
+          "pure_classic": 16.04
+        }
+      },
+      {
+        "brand": "Bertolli",
+        "universe_pct": 14.15,
+        "pins_instock": 15,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 8.49,
+          "extra_virgin": 5.66,
+          "pure_classic": 7.55
+        }
+      },
+      {
+        "brand": "Pure Nutrition",
+        "universe_pct": 10.38,
+        "pins_instock": 11,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 5.66,
+          "extra_virgin": 2.83,
+          "pure_classic": 5.66
+        }
+      },
+      {
+        "brand": "Kouzina",
+        "universe_pct": 8.49,
+        "pins_instock": 9,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 0.0,
+          "extra_virgin": 8.49,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Dolce Vita",
+        "universe_pct": 6.6,
+        "pins_instock": 7,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 6.6,
+          "extra_virgin": 0.0,
+          "pure_classic": 0.0
+        }
+      },
+      {
+        "brand": "Urban Platter",
+        "universe_pct": 1.89,
+        "pins_instock": 2,
+        "by_grade": {
+          "pomace": 0.0,
+          "extra_light": 0.0,
+          "extra_virgin": 1.89,
+          "pure_classic": 0.0
+        }
+      }
+    ],
+    "jivo": {
+      "universe_pct": 100.0,
+      "pins_instock": 106,
+      "by_grade": {
+        "pomace": 92.45,
+        "extra_light": 93.4,
+        "extra_virgin": 66.04,
+        "pure_classic": 0.0
+      }
+    },
+    "any_competitor_pct": 100.0,
+    "jivo_absent_rivals_present": 0,
+    "dominance_rank": [
+      "Del Monte",
+      "Jivo",
+      "Tata Simply Better",
+      "Borges",
+      "Oleev",
+      "Figaro",
+      "Rafael Salgado",
+      "Leonardo",
+      "Basso",
+      "Disano",
+      "Ybarra",
+      "Anveshan",
+      "Colavita",
+      "Gramiyaa",
+      "Allegro",
+      "Olitalia",
+      "Fragata",
+      "Bertolli",
+      "Pure Nutrition",
+      "Kouzina",
+      "Dolce Vita",
+      "Urban Platter"
+    ],
+    "jivo_lens": null,
+    "cities": [
+      {
+        "city": "Delhi",
+        "probed": 96,
+        "serviceable": 76,
+        "jivo_pct": 100.0,
+        "any_competitor_pct": 100.0,
+        "top_competitor": {
+          "brand": "Tata Simply Better",
+          "pct": 100.0
+        },
+        "jivo_absent_rivals_present": 0
+      },
+      {
+        "city": "Gurugram",
+        "probed": 29,
+        "serviceable": 17,
+        "jivo_pct": 100.0,
+        "any_competitor_pct": 100.0,
+        "top_competitor": {
+          "brand": "Tata Simply Better",
+          "pct": 100.0
+        },
+        "jivo_absent_rivals_present": 0
+      },
+      {
+        "city": "Noida",
+        "probed": 28,
+        "serviceable": 13,
+        "jivo_pct": 100.0,
+        "any_competitor_pct": 100.0,
+        "top_competitor": {
+          "brand": "Tata Simply Better",
+          "pct": 100.0
+        },
+        "jivo_absent_rivals_present": 0
+      }
+    ]
+  },
+  "quality": {
+    "serviceable_definition": "v2: serviceable = RESOLVED THIS RUN ONLY (perPin resolved==true, plus any pincode that produced rows). known_serviceable-but-unresolved pins = coverage_carryover, EXCLUDED from all denominators.",
+    "official_denominator": {
+      "denominator_pincodes": 979,
+      "jivo_pins": 925,
+      "jivo_pct": 94.48,
+      "any_competitor_pins": 945,
+      "any_competitor_pct": 96.53
+    },
+    "strict_current_resolved_denominator": {
+      "denominator_pincodes": 979,
+      "jivo_pins": 925,
+      "jivo_pct": 94.48,
+      "any_competitor_pins": 945,
+      "any_competitor_pct": 96.53
+    },
+    "source_counts": {
+      "probed_pincodes": 1876,
+      "resolved_this_run": 979,
+      "row_pincodes": 952,
+      "known_serviceable_pincodes": 0,
+      "known_only_no_current_resolution": 0
+    }
+  },
+  "notes": [
+    "METHODOLOGY: brand availability % = pins with >=1 in-stock edible olive-oil SKU of that brand DIVIDED BY resolved-serviceable pins (resolved this run). Serviceable = perPin resolved==true in tonight's scrape, plus any pincode that produced product rows.",
+    "COVERAGE CARRYOVER: 0 pincodes are known-serviceable from earlier runs but did NOT resolve tonight; they are EXCLUDED from every denominator and disclosed here (meta.coverage_carryover) rather than silently deflating brand percentages.",
+    "Brand present at a pincode = >=1 EDIBLE olive-oil SKU in_stock there; non-edible (massage/hair/skin/cosmetic/baby) and blends excluded via taxonomy. Grades (pomace / extra_light / extra_virgin / pure_classic) are parsed deterministically from the product NAME.",
+    "NCR is a cross-cut over Delhi + Gurugram/Gurgaon/Faridabad + Noida/Greater Noida/Ghaziabad; it is NOT summed into the 9 states (no double count).",
+    "jivo_absent_rivals_present = serviceable pins where JIVO has no in-stock edible olive SKU but at least one competitor does (whitespace = actionable lead list).",
+    "jivo_lens compares yesterday's full-JIVO daily Blinkit scrape (ANY oil type) to tonight's olive study: JIVO the brand is often present via other oils where the olive shelf is the gap. null when the daily file was unavailable.",
+    "Deterministic: no LLM in the data path. Classification is exact-name map + brand/grade/exclude rules from taxonomy.json."
+  ]
+}

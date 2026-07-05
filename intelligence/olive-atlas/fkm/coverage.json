@@ -1,0 +1,7431 @@
+{
+ "meta": {
+  "platform": "flipkart-minutes",
+  "platform_display": "Flipkart Minutes",
+  "generated_at": "2026-07-04T08:23:32Z",
+  "universe_pins": 1876,
+  "probed_pins": 1876,
+  "serviceable": 611,
+  "serviceable_total_incl_offuniverse": 611,
+  "geo_invalid_excluded": 9,
+  "missing_count": 1265,
+  "jivo_pins": 86,
+  "cities": 25,
+  "definitions": {
+   "serviceable": "perPin resolved==true this run + any pincode that produced rows (v2 rule, same as aggregate.py)",
+   "missing": "universe pin NOT serviceable this run (unresolved or never probed)",
+   "serviceable_no_jivo": "serviceable pin with no in-stock edible Jivo olive-oil SKU (whitespace)"
+  }
+ },
+ "cities": [
+  {
+   "city": "Kochi",
+   "total_pins": 143,
+   "serviceable_count": 2,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "680667",
+     "locality": "Thuruthippuram BO"
+    },
+    {
+     "pincode": "682001",
+     "locality": "Kochi HO"
+    },
+    {
+     "pincode": "682002",
+     "locality": "Mattancherry SO"
+    },
+    {
+     "pincode": "682003",
+     "locality": "Willingdon Island SO"
+    },
+    {
+     "pincode": "682004",
+     "locality": "Kochi Naval Base SO"
+    },
+    {
+     "pincode": "682005",
+     "locality": "Thoppumpady SO"
+    },
+    {
+     "pincode": "682006",
+     "locality": "Palluruthy SO"
+    },
+    {
+     "pincode": "682007",
+     "locality": "Kumbalangi SO"
+    },
+    {
+     "pincode": "682008",
+     "locality": "Andikkadavu BO"
+    },
+    {
+     "pincode": "682009",
+     "locality": "North End SO"
+    },
+    {
+     "pincode": "682010",
+     "locality": "Edakochi SO"
+    },
+    {
+     "pincode": "682011",
+     "locality": "Ernakulam HO"
+    },
+    {
+     "pincode": "682012",
+     "locality": "Pachalam SO"
+    },
+    {
+     "pincode": "682013",
+     "locality": "Thevara SO"
+    },
+    {
+     "pincode": "682015",
+     "locality": "Perumanur SO"
+    },
+    {
+     "pincode": "682016",
+     "locality": "Kochi MGRoad SO"
+    },
+    {
+     "pincode": "682017",
+     "locality": "Kaloor SO"
+    },
+    {
+     "pincode": "682018",
+     "locality": "Ernakulam North SO"
+    },
+    {
+     "pincode": "682019",
+     "locality": "Vyttila SO"
+    },
+    {
+     "pincode": "682020",
+     "locality": "Kadavanthara SO"
+    },
+    {
+     "pincode": "682021",
+     "locality": "Vadacode Kailas Colony BO"
+    },
+    {
+     "pincode": "682022",
+     "locality": "Kochi University SO"
+    },
+    {
+     "pincode": "682023",
+     "locality": "Vaduthala SO"
+    },
+    {
+     "pincode": "682024",
+     "locality": "Edapally North BO"
+    },
+    {
+     "pincode": "682025",
+     "locality": "Palarivattom SO"
+    },
+    {
+     "pincode": "682026",
+     "locality": "Elamakkara SO"
+    },
+    {
+     "pincode": "682027",
+     "locality": "Kadamakudi BO"
+    },
+    {
+     "pincode": "682028",
+     "locality": "Vennala SO"
+    },
+    {
+     "pincode": "682029",
+     "locality": "Matsyapuri SO"
+    },
+    {
+     "pincode": "682030",
+     "locality": "Kusumagiri BO"
+    },
+    {
+     "pincode": "682031",
+     "locality": "Shanmugham Road SO"
+    },
+    {
+     "pincode": "682032",
+     "locality": "Thammanam SO"
+    },
+    {
+     "pincode": "682033",
+     "locality": "Changampuzha Nagar SO"
+    },
+    {
+     "pincode": "682034",
+     "locality": "Cheranallur SO"
+    },
+    {
+     "pincode": "682035",
+     "locality": "Ernakulam College SO"
+    },
+    {
+     "pincode": "682036",
+     "locality": "Panampilly Nagar SO"
+    },
+    {
+     "pincode": "682037",
+     "locality": "Cochin Special Economic Zone SO"
+    },
+    {
+     "pincode": "682038",
+     "locality": "Poonithura SO"
+    },
+    {
+     "pincode": "682039",
+     "locality": "Rajagiri Valley SO"
+    },
+    {
+     "pincode": "682040",
+     "locality": "Nettoor SO"
+    },
+    {
+     "pincode": "682041",
+     "locality": "AIMS Ponekkara SO"
+    },
+    {
+     "pincode": "682042",
+     "locality": "InfoparkKochi SO"
+    },
+    {
+     "pincode": "682050",
+     "locality": "International Business Centre IBC"
+    },
+    {
+     "pincode": "682051",
+     "locality": "Kochi Parcel Centre PO"
+    },
+    {
+     "pincode": "682052",
+     "locality": "Kakkanad NDC"
+    },
+    {
+     "pincode": "682301",
+     "locality": "Kochi Palace BO"
+    },
+    {
+     "pincode": "682302",
+     "locality": "Ambalamugal SO"
+    },
+    {
+     "pincode": "682303",
+     "locality": "Brahmapuram BO"
+    },
+    {
+     "pincode": "682304",
+     "locality": "Maradu SO"
+    },
+    {
+     "pincode": "682305",
+     "locality": "Kokkappilly BO"
+    },
+    {
+     "pincode": "682307",
+     "locality": "South Paravoor BO"
+    },
+    {
+     "pincode": "682308",
+     "locality": "Bhaktanandapuram BO"
+    },
+    {
+     "pincode": "682309",
+     "locality": "Irimbanam SO"
+    },
+    {
+     "pincode": "682310",
+     "locality": "Kaninad BO"
+    },
+    {
+     "pincode": "682311",
+     "locality": "Kadayirippu BO"
+    },
+    {
+     "pincode": "682312",
+     "locality": "Kuzhiyara BO"
+    },
+    {
+     "pincode": "682313",
+     "locality": "Edakkattuvayal BO"
+    },
+    {
+     "pincode": "682314",
+     "locality": "Paingarapilly BO"
+    },
+    {
+     "pincode": "682315",
+     "locality": "Amballur BO"
+    },
+    {
+     "pincode": "682316",
+     "locality": "Mekkadambu BO"
+    },
+    {
+     "pincode": "682317",
+     "locality": "KULAYATTIKKARA"
+    },
+    {
+     "pincode": "682501",
+     "locality": "Ayyampilly SO"
+    },
+    {
+     "pincode": "682502",
+     "locality": "Edavanakad SO"
+    },
+    {
+     "pincode": "682503",
+     "locality": "Elamkunnapuzha SO"
+    },
+    {
+     "pincode": "682504",
+     "locality": "Vallarpadam BO"
+    },
+    {
+     "pincode": "682505",
+     "locality": "Narakkal SO"
+    },
+    {
+     "pincode": "682507",
+     "locality": "Mundamveli SO"
+    },
+    {
+     "pincode": "682508",
+     "locality": "Azheekal BO"
+    },
+    {
+     "pincode": "682509",
+     "locality": "Nayarambalam SO"
+    },
+    {
+     "pincode": "682511",
+     "locality": "Malipuram SO"
+    },
+    {
+     "pincode": "683101",
+     "locality": "Aluva HO"
+    },
+    {
+     "pincode": "683102",
+     "locality": "Desom BO"
+    },
+    {
+     "pincode": "683104",
+     "locality": "Kalamassery Development Plot BO"
+    },
+    {
+     "pincode": "683105",
+     "locality": "Marampally BO"
+    },
+    {
+     "pincode": "683106",
+     "locality": "Thaikkattukara SO"
+    },
+    {
+     "pincode": "683108",
+     "locality": "Uliyannoor BO"
+    },
+    {
+     "pincode": "683110",
+     "locality": "West Kadungalloor BO"
+    },
+    {
+     "pincode": "683111",
+     "locality": "Kochi Airport SO"
+    },
+    {
+     "pincode": "683112",
+     "locality": "Erumathala SO"
+    },
+    {
+     "pincode": "683501",
+     "locality": "Manjummel BO"
+    },
+    {
+     "pincode": "683502",
+     "locality": "Binanipuram SO"
+    },
+    {
+     "pincode": "683503",
+     "locality": "Hmt Colony SO"
+    },
+    {
+     "pincode": "683511",
+     "locality": "Neericode BO"
+    },
+    {
+     "pincode": "683512",
+     "locality": "Chendamangalam SO"
+    },
+    {
+     "pincode": "683513",
+     "locality": "Ezhikkara BO"
+    },
+    {
+     "pincode": "683514",
+     "locality": "Cherai SO"
+    },
+    {
+     "pincode": "683515",
+     "locality": "Palliport SO"
+    },
+    {
+     "pincode": "683516",
+     "locality": "Gothuruthy BO"
+    },
+    {
+     "pincode": "683517",
+     "locality": "Varapuzha Landing BO"
+    },
+    {
+     "pincode": "683518",
+     "locality": "Kongorpilly BO"
+    },
+    {
+     "pincode": "683519",
+     "locality": "Kaitharam SO"
+    },
+    {
+     "pincode": "683520",
+     "locality": "Thathappilly BO"
+    },
+    {
+     "pincode": "683521",
+     "locality": "Vadakkumpuram SO"
+    },
+    {
+     "pincode": "683522",
+     "locality": "Kunjithai BO"
+    },
+    {
+     "pincode": "683541",
+     "locality": "Pulluvazhi BO"
+    },
+    {
+     "pincode": "683542",
+     "locality": "Perumbavoor HO"
+    },
+    {
+     "pincode": "683543",
+     "locality": "Rayonpuram SO"
+    },
+    {
+     "pincode": "683544",
+     "locality": "Alattuchira BO"
+    },
+    {
+     "pincode": "683545",
+     "locality": "Methala BO"
+    },
+    {
+     "pincode": "683546",
+     "locality": "Paniely BO"
+    },
+    {
+     "pincode": "683547",
+     "locality": "Ponjassery BO"
+    },
+    {
+     "pincode": "683548",
+     "locality": "Iringole SO"
+    },
+    {
+     "pincode": "683549",
+     "locality": "Vaikkara BO"
+    },
+    {
+     "pincode": "683550",
+     "locality": "Okkal SO"
+    },
+    {
+     "pincode": "683556",
+     "locality": "Vengola BO"
+    },
+    {
+     "pincode": "683561",
+     "locality": "Malayidumthuruth BO"
+    },
+    {
+     "pincode": "683562",
+     "locality": "Pattimattam BO"
+    },
+    {
+     "pincode": "683563",
+     "locality": "Naval Armament Depot  Aluva SO"
+    },
+    {
+     "pincode": "683565",
+     "locality": "Peringala BO"
+    },
+    {
+     "pincode": "683571",
+     "locality": "Chowara SO"
+    },
+    {
+     "pincode": "683572",
+     "locality": "Thuravoor BO"
+    },
+    {
+     "pincode": "683573",
+     "locality": "Angamally South SO"
+    },
+    {
+     "pincode": "683574",
+     "locality": "Piraroor BO"
+    },
+    {
+     "pincode": "683575",
+     "locality": "Thuravumkara BO"
+    },
+    {
+     "pincode": "683576",
+     "locality": "Paduvapuram BO"
+    },
+    {
+     "pincode": "683577",
+     "locality": "Azhakam BO"
+    },
+    {
+     "pincode": "683578",
+     "locality": "SAduvassery BO"
+    },
+    {
+     "pincode": "683579",
+     "locality": "Vattaparambu BO"
+    },
+    {
+     "pincode": "683580",
+     "locality": "Vellarappilly South BO"
+    },
+    {
+     "pincode": "683581",
+     "locality": "Kalady Plantation BO"
+    },
+    {
+     "pincode": "683585",
+     "locality": "Nedumbassery BO"
+    },
+    {
+     "pincode": "683587",
+     "locality": "Malayattoor SO"
+    },
+    {
+     "pincode": "683589",
+     "locality": "Mekkad SO"
+    },
+    {
+     "pincode": "683594",
+     "locality": "Elanthikara BO"
+    },
+    {
+     "pincode": "686661",
+     "locality": "Muvattupuzha HO"
+    },
+    {
+     "pincode": "686662",
+     "locality": "Edayar BO"
+    },
+    {
+     "pincode": "686663",
+     "locality": "Kizhmuri BO"
+    },
+    {
+     "pincode": "686664",
+     "locality": "Nechoor BO"
+    },
+    {
+     "pincode": "686665",
+     "locality": "Mutholapuram BO"
+    },
+    {
+     "pincode": "686666",
+     "locality": "Kothamangalam College SO"
+    },
+    {
+     "pincode": "686667",
+     "locality": "Mannathur BO"
+    },
+    {
+     "pincode": "686668",
+     "locality": "Ayavana BO"
+    },
+    {
+     "pincode": "686669",
+     "locality": "Mazhuvannoor South BO"
+    },
+    {
+     "pincode": "686670",
+     "locality": "Vadakodevazhakulam BO"
+    },
+    {
+     "pincode": "686671",
+     "locality": "Chathamattam BO"
+    },
+    {
+     "pincode": "686672",
+     "locality": "Meenkunnam BO"
+    },
+    {
+     "pincode": "686673",
+     "locality": "Manary BO"
+    },
+    {
+     "pincode": "686681",
+     "locality": "Bhoothathankettu BO"
+    },
+    {
+     "pincode": "686691",
+     "locality": "Karukadom BO"
+    },
+    {
+     "pincode": "686692",
+     "locality": "Kottappady BO"
+    },
+    {
+     "pincode": "686693",
+     "locality": "Neendapara BO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "682306",
+     "locality": "Eroor West BO"
+    },
+    {
+     "pincode": "682506",
+     "locality": "Kumbalam BO"
+    }
+   ]
+  },
+  {
+   "city": "Thiruvananthapuram",
+   "total_pins": 133,
+   "serviceable_count": 2,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "695001",
+     "locality": "Thiruvananthapuram GPO"
+    },
+    {
+     "pincode": "695002",
+     "locality": "Karumom BO"
+    },
+    {
+     "pincode": "695003",
+     "locality": "Kaudiar SO"
+    },
+    {
+     "pincode": "695004",
+     "locality": "Pattom Palace SO"
+    },
+    {
+     "pincode": "695005",
+     "locality": "Perurkada SO"
+    },
+    {
+     "pincode": "695006",
+     "locality": "Tirumala SO Thiruvananthapuram"
+    },
+    {
+     "pincode": "695007",
+     "locality": "Thiruvananthapuram  Beach SO"
+    },
+    {
+     "pincode": "695008",
+     "locality": "Vallakkadavoo SO"
+    },
+    {
+     "pincode": "695009",
+     "locality": "Manacaud SO"
+    },
+    {
+     "pincode": "695010",
+     "locality": "Sasthamangalam SO"
+    },
+    {
+     "pincode": "695011",
+     "locality": "Thuruvikkal BO"
+    },
+    {
+     "pincode": "695012",
+     "locality": "Poojapura HO"
+    },
+    {
+     "pincode": "695013",
+     "locality": "Cheriyakonni BO"
+    },
+    {
+     "pincode": "695014",
+     "locality": "Thycaud SO"
+    },
+    {
+     "pincode": "695015",
+     "locality": "Nalanchira SO"
+    },
+    {
+     "pincode": "695016",
+     "locality": "Thiruvananthapuram  Engg College SO"
+    },
+    {
+     "pincode": "695017",
+     "locality": "Sreekaryam SO"
+    },
+    {
+     "pincode": "695018",
+     "locality": "Pappanamcode SO"
+    },
+    {
+     "pincode": "695019",
+     "locality": "Industrial Estate SO Thiruvananthapuram"
+    },
+    {
+     "pincode": "695020",
+     "locality": "Ookode BO"
+    },
+    {
+     "pincode": "695021",
+     "locality": "Valiaveli BO"
+    },
+    {
+     "pincode": "695022",
+     "locality": "Thiruvananthapuram  ISRO SO"
+    },
+    {
+     "pincode": "695023",
+     "locality": "Thiruvananthapuram  Fort SO"
+    },
+    {
+     "pincode": "695024",
+     "locality": "Thiruvananthapuram  Pettah SO"
+    },
+    {
+     "pincode": "695025",
+     "locality": "Muttada SO"
+    },
+    {
+     "pincode": "695026",
+     "locality": "Poonthura SO"
+    },
+    {
+     "pincode": "695027",
+     "locality": "Pachallur BO"
+    },
+    {
+     "pincode": "695028",
+     "locality": "Pandalacode BO"
+    },
+    {
+     "pincode": "695029",
+     "locality": "Anayara SO"
+    },
+    {
+     "pincode": "695030",
+     "locality": "Kanjirampara SO"
+    },
+    {
+     "pincode": "695032",
+     "locality": "Aramada SO"
+    },
+    {
+     "pincode": "695033",
+     "locality": "Vikas Bhavan SO"
+    },
+    {
+     "pincode": "695034",
+     "locality": "Thiruvananthapuram  University SO"
+    },
+    {
+     "pincode": "695035",
+     "locality": "Vanchiyur SO"
+    },
+    {
+     "pincode": "695036",
+     "locality": "Thiruvananthapuram  Chalai SO"
+    },
+    {
+     "pincode": "695038",
+     "locality": "PTP Nagar SO"
+    },
+    {
+     "pincode": "695040",
+     "locality": "Kaimanam SO"
+    },
+    {
+     "pincode": "695042",
+     "locality": "Kalliyoor SO"
+    },
+    {
+     "pincode": "695043",
+     "locality": "Kallayam BO"
+    },
+    {
+     "pincode": "695051",
+     "locality": "NDC TRIVANDRUM FORT"
+    },
+    {
+     "pincode": "695099",
+     "locality": "Kerala Governors Camp SO"
+    },
+    {
+     "pincode": "695101",
+     "locality": "Attingal HO"
+    },
+    {
+     "pincode": "695102",
+     "locality": "Altharamoodu BO"
+    },
+    {
+     "pincode": "695103",
+     "locality": "Poikamukku BO"
+    },
+    {
+     "pincode": "695104",
+     "locality": "Oorupoika BO"
+    },
+    {
+     "pincode": "695121",
+     "locality": "Neyyattinkara HO"
+    },
+    {
+     "pincode": "695122",
+     "locality": "Arayur BO"
+    },
+    {
+     "pincode": "695123",
+     "locality": "Venpakal BO"
+    },
+    {
+     "pincode": "695124",
+     "locality": "Keezharur BO"
+    },
+    {
+     "pincode": "695125",
+     "locality": "Mannamkonam BO"
+    },
+    {
+     "pincode": "695126",
+     "locality": "Aruvipuram BO"
+    },
+    {
+     "pincode": "695132",
+     "locality": "Vattavila BO"
+    },
+    {
+     "pincode": "695133",
+     "locality": "Mulluvila BO"
+    },
+    {
+     "pincode": "695134",
+     "locality": "Vlathankara SO"
+    },
+    {
+     "pincode": "695141",
+     "locality": "Varkala SO"
+    },
+    {
+     "pincode": "695142",
+     "locality": "Cherunniyur SO"
+    },
+    {
+     "pincode": "695143",
+     "locality": "Palachira BO"
+    },
+    {
+     "pincode": "695144",
+     "locality": "Kulamuttam BO"
+    },
+    {
+     "pincode": "695145",
+     "locality": "Panayara BO"
+    },
+    {
+     "pincode": "695146",
+     "locality": "Muthana BO"
+    },
+    {
+     "pincode": "695301",
+     "locality": "Chittattumukku BO"
+    },
+    {
+     "pincode": "695302",
+     "locality": "Murukumpuzhaa SO"
+    },
+    {
+     "pincode": "695303",
+     "locality": "Perumathura BO"
+    },
+    {
+     "pincode": "695304",
+     "locality": "Mudapuram BO"
+    },
+    {
+     "pincode": "695305",
+     "locality": "Sasthavattom BO"
+    },
+    {
+     "pincode": "695306",
+     "locality": "Anathalavattom BO"
+    },
+    {
+     "pincode": "695307",
+     "locality": "Kaikara BO"
+    },
+    {
+     "pincode": "695308",
+     "locality": "Vakkom SO"
+    },
+    {
+     "pincode": "695309",
+     "locality": "Poothura BO"
+    },
+    {
+     "pincode": "695310",
+     "locality": "Elakamon BO"
+    },
+    {
+     "pincode": "695311",
+     "locality": "Kappil BO"
+    },
+    {
+     "pincode": "695312",
+     "locality": "Vettoor BO"
+    },
+    {
+     "pincode": "695313",
+     "locality": "Manjamala BO"
+    },
+    {
+     "pincode": "695316",
+     "locality": "Pallipuram SO Thiruvananthapuram"
+    },
+    {
+     "pincode": "695317",
+     "locality": "Thonnakkal SO"
+    },
+    {
+     "pincode": "695318",
+     "locality": "Vennicode SO"
+    },
+    {
+     "pincode": "695501",
+     "locality": "Payattuvila BO"
+    },
+    {
+     "pincode": "695502",
+     "locality": "Ayira BO"
+    },
+    {
+     "pincode": "695503",
+     "locality": "Manchavilakom BO"
+    },
+    {
+     "pincode": "695504",
+     "locality": "Cheriakolla BO"
+    },
+    {
+     "pincode": "695505",
+     "locality": "Mayam BO"
+    },
+    {
+     "pincode": "695506",
+     "locality": "Karode BO"
+    },
+    {
+     "pincode": "695507",
+     "locality": "Ooruttambalam SO"
+    },
+    {
+     "pincode": "695508",
+     "locality": "Parasuvaickal SO"
+    },
+    {
+     "pincode": "695512",
+     "locality": "Kandala BO"
+    },
+    {
+     "pincode": "695513",
+     "locality": "Pozhiyoor SO"
+    },
+    {
+     "pincode": "695521",
+     "locality": "Mullur BO"
+    },
+    {
+     "pincode": "695522",
+     "locality": "Vellayani SO"
+    },
+    {
+     "pincode": "695523",
+     "locality": "Nellivila BO"
+    },
+    {
+     "pincode": "695524",
+     "locality": "Nellimoodu BO"
+    },
+    {
+     "pincode": "695525",
+     "locality": "Kanjampazhanji BO"
+    },
+    {
+     "pincode": "695526",
+     "locality": "Kazhavur BO"
+    },
+    {
+     "pincode": "695527",
+     "locality": "Kovalam SO Thiruvananthapuram"
+    },
+    {
+     "pincode": "695528",
+     "locality": "Naruvamoodu SO"
+    },
+    {
+     "pincode": "695541",
+     "locality": "Mannurkonam BO"
+    },
+    {
+     "pincode": "695542",
+     "locality": "Kulappada BO"
+    },
+    {
+     "pincode": "695543",
+     "locality": "Mithraniketan BO"
+    },
+    {
+     "pincode": "695547",
+     "locality": "Valiamala SO"
+    },
+    {
+     "pincode": "695551",
+     "locality": "Memala BO"
+    },
+    {
+     "pincode": "695561",
+     "locality": "Panayamuttom BO"
+    },
+    {
+     "pincode": "695562",
+     "locality": "Meenmutty BO"
+    },
+    {
+     "pincode": "695563",
+     "locality": "Kochuvila BO"
+    },
+    {
+     "pincode": "695564",
+     "locality": "Chekkakonam BO"
+    },
+    {
+     "pincode": "695568",
+     "locality": "Koonanvenga BO"
+    },
+    {
+     "pincode": "695570",
+     "locality": "Machel SO"
+    },
+    {
+     "pincode": "695571",
+     "locality": "Kollode BO"
+    },
+    {
+     "pincode": "695572",
+     "locality": "Amachal BO"
+    },
+    {
+     "pincode": "695573",
+     "locality": "Puliyarakonam BO"
+    },
+    {
+     "pincode": "695574",
+     "locality": "KottoorTVM BO"
+    },
+    {
+     "pincode": "695575",
+     "locality": "Panniyode BO"
+    },
+    {
+     "pincode": "695581",
+     "locality": "Pangappara BO"
+    },
+    {
+     "pincode": "695583",
+     "locality": "Karimanal BO"
+    },
+    {
+     "pincode": "695584",
+     "locality": "Iroopara BO"
+    },
+    {
+     "pincode": "695586",
+     "locality": "Pallithura BO"
+    },
+    {
+     "pincode": "695587",
+     "locality": "Chempazhanthy SO"
+    },
+    {
+     "pincode": "695588",
+     "locality": "Powdikonam"
+    },
+    {
+     "pincode": "695589",
+     "locality": "Nethajipuram BO"
+    },
+    {
+     "pincode": "695601",
+     "locality": "Vellallur BO"
+    },
+    {
+     "pincode": "695602",
+     "locality": "Malakkal BO"
+    },
+    {
+     "pincode": "695603",
+     "locality": "Maruthikunnu BO"
+    },
+    {
+     "pincode": "695604",
+     "locality": "Moothala BO"
+    },
+    {
+     "pincode": "695605",
+     "locality": "Thottakkad BO"
+    },
+    {
+     "pincode": "695606",
+     "locality": "Kalamachal BO"
+    },
+    {
+     "pincode": "695607",
+     "locality": "Mukkudil BO"
+    },
+    {
+     "pincode": "695608",
+     "locality": "Kodithookiyakunnu BO"
+    },
+    {
+     "pincode": "695609",
+     "locality": "Kanchinada BO"
+    },
+    {
+     "pincode": "695610",
+     "locality": "Muthuvila BO"
+    },
+    {
+     "pincode": "695611",
+     "locality": "Manambur SO"
+    },
+    {
+     "pincode": "695612",
+     "locality": "Koduvazhannur BO"
+    },
+    {
+     "pincode": "695614",
+     "locality": "Adayamon BO"
+    },
+    {
+     "pincode": "695615",
+     "locality": "Konchira BO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "695582",
+     "locality": "Kazhakuttam SO"
+    },
+    {
+     "pincode": "695585",
+     "locality": "Sainik School SO Thiruvananthapuram"
+    }
+   ]
+  },
+  {
+   "city": "Pune",
+   "total_pins": 144,
+   "serviceable_count": 32,
+   "jivo_count": 1,
+   "missing": [
+    {
+     "pincode": "410301",
+     "locality": "Khandala S.O"
+    },
+    {
+     "pincode": "410302",
+     "locality": "R P T S Khandala S.O"
+    },
+    {
+     "pincode": "410401",
+     "locality": "Ambavane B.O"
+    },
+    {
+     "pincode": "410402",
+     "locality": "Kurwande B.O"
+    },
+    {
+     "pincode": "410403",
+     "locality": "Kaivalyadham S.O"
+    },
+    {
+     "pincode": "410405",
+     "locality": "Karanjgaon B.O"
+    },
+    {
+     "pincode": "410406",
+     "locality": "Shivali B.O"
+    },
+    {
+     "pincode": "410502",
+     "locality": "Aptale B.O"
+    },
+    {
+     "pincode": "410503",
+     "locality": "Chandoli BK B.O"
+    },
+    {
+     "pincode": "410504",
+     "locality": "Hivare BK B.O"
+    },
+    {
+     "pincode": "410505",
+     "locality": "Ghotawadi B.O"
+    },
+    {
+     "pincode": "410506",
+     "locality": "Dhamane B.O"
+    },
+    {
+     "pincode": "410507",
+     "locality": "Varale B.O"
+    },
+    {
+     "pincode": "410508",
+     "locality": "Dhamani S.O"
+    },
+    {
+     "pincode": "410509",
+     "locality": "Bhimashankar B.O"
+    },
+    {
+     "pincode": "410510",
+     "locality": "Vadgaon Peer B.O"
+    },
+    {
+     "pincode": "410511",
+     "locality": "Kuran B.O"
+    },
+    {
+     "pincode": "410512",
+     "locality": "Kurwandi B.O"
+    },
+    {
+     "pincode": "410513",
+     "locality": "Bibi B.O"
+    },
+    {
+     "pincode": "410515",
+     "locality": "Mahalunge Padwal B.O"
+    },
+    {
+     "pincode": "410516",
+     "locality": "Gangapur KH B.O"
+    },
+    {
+     "pincode": "411002",
+     "locality": "Pune City H.O"
+    },
+    {
+     "pincode": "411003",
+     "locality": "Khadki S.O"
+    },
+    {
+     "pincode": "411004",
+     "locality": "Deccan Gymkhana S.O"
+    },
+    {
+     "pincode": "411005",
+     "locality": "Shivajinagar S.O (Pune)"
+    },
+    {
+     "pincode": "411006",
+     "locality": "Yerwada S.O"
+    },
+    {
+     "pincode": "411011",
+     "locality": "Kasba Peth S.O"
+    },
+    {
+     "pincode": "411013",
+     "locality": "Hadpsar I.E. S.O"
+    },
+    {
+     "pincode": "411014",
+     "locality": "Dunkirk lines S.O"
+    },
+    {
+     "pincode": "411015",
+     "locality": "Dhanori B.O"
+    },
+    {
+     "pincode": "411020",
+     "locality": "Range Hills S.O"
+    },
+    {
+     "pincode": "411024",
+     "locality": "Khadakwasla R.S. S.O"
+    },
+    {
+     "pincode": "411025",
+     "locality": "Vardade B.O"
+    },
+    {
+     "pincode": "411026",
+     "locality": "Bhosari I.E. S.O"
+    },
+    {
+     "pincode": "411030",
+     "locality": "S.P. College S.O"
+    },
+    {
+     "pincode": "411031",
+     "locality": "C M E S.O"
+    },
+    {
+     "pincode": "411032",
+     "locality": "Iaf Station S.O"
+    },
+    {
+     "pincode": "411033",
+     "locality": "Tathawade B.O"
+    },
+    {
+     "pincode": "411034",
+     "locality": "Kasarwadi S.O"
+    },
+    {
+     "pincode": "411036",
+     "locality": "Mundhva AV S.O"
+    },
+    {
+     "pincode": "411037",
+     "locality": "Market Yard S.O (Pune)"
+    },
+    {
+     "pincode": "411040",
+     "locality": "Wanowarie S.O"
+    },
+    {
+     "pincode": "411041",
+     "locality": "Vadgaon Budruk S.O"
+    },
+    {
+     "pincode": "411042",
+     "locality": "Swargate S.O"
+    },
+    {
+     "pincode": "411047",
+     "locality": "Vadgaon Shinde B.O"
+    },
+    {
+     "pincode": "411048",
+     "locality": "Kondhwa Lh B.O"
+    },
+    {
+     "pincode": "411051",
+     "locality": "Anandnagar S.O (Pune)"
+    },
+    {
+     "pincode": "411060",
+     "locality": "Mohamadwadi S.O"
+    },
+    {
+     "pincode": "411061",
+     "locality": "Pimple Gurav S.O"
+    },
+    {
+     "pincode": "412101",
+     "locality": "Salumbre B.O"
+    },
+    {
+     "pincode": "412102",
+     "locality": "Khandobachi Wadi B.O"
+    },
+    {
+     "pincode": "412103",
+     "locality": "Korhale KH B.O"
+    },
+    {
+     "pincode": "412104",
+     "locality": "Gurholi B.O"
+    },
+    {
+     "pincode": "412105",
+     "locality": "Charoli BK B.O"
+    },
+    {
+     "pincode": "412106",
+     "locality": "Inglun B.O"
+    },
+    {
+     "pincode": "412108",
+     "locality": "Belawade B.O"
+    },
+    {
+     "pincode": "412109",
+     "locality": "Sadumbre B.O"
+    },
+    {
+     "pincode": "412110",
+     "locality": "Kolwadi B.O"
+    },
+    {
+     "pincode": "412112",
+     "locality": "Dasve Lavasa S.O"
+    },
+    {
+     "pincode": "412115",
+     "locality": "Bhugaon B.O"
+    },
+    {
+     "pincode": "412201",
+     "locality": "Alandi Chorachi B.O"
+    },
+    {
+     "pincode": "412202",
+     "locality": "Bori Aindi B.O"
+    },
+    {
+     "pincode": "412203",
+     "locality": "Galandwadi B.O"
+    },
+    {
+     "pincode": "412204",
+     "locality": "Bhondave Wadi B.O"
+    },
+    {
+     "pincode": "412205",
+     "locality": "Sarole B.O"
+    },
+    {
+     "pincode": "412206",
+     "locality": "Khanapur B.O"
+    },
+    {
+     "pincode": "412207",
+     "locality": "Dahitane B.O"
+    },
+    {
+     "pincode": "412208",
+     "locality": "Burunjwadi B.O"
+    },
+    {
+     "pincode": "412209",
+     "locality": "Ganegaon Khalasa B.O"
+    },
+    {
+     "pincode": "412210",
+     "locality": "Golegaon B.O"
+    },
+    {
+     "pincode": "412211",
+     "locality": "Alegaon B.O"
+    },
+    {
+     "pincode": "412212",
+     "locality": "Pabe B.O"
+    },
+    {
+     "pincode": "412213",
+     "locality": "Jambhali BK B.O"
+    },
+    {
+     "pincode": "412214",
+     "locality": "Bhandgaon B.O"
+    },
+    {
+     "pincode": "412215",
+     "locality": "Kadethan B.O"
+    },
+    {
+     "pincode": "412216",
+     "locality": "Pimpri Sandas B.O"
+    },
+    {
+     "pincode": "412218",
+     "locality": "Amdabad B.O"
+    },
+    {
+     "pincode": "412219",
+     "locality": "Kusgaon B.O"
+    },
+    {
+     "pincode": "412301",
+     "locality": "Chambli B.O"
+    },
+    {
+     "pincode": "412303",
+     "locality": "Javalarjun B.O"
+    },
+    {
+     "pincode": "412304",
+     "locality": "Murti Modhave B.O"
+    },
+    {
+     "pincode": "412305",
+     "locality": "Pingori B.O"
+    },
+    {
+     "pincode": "412306",
+     "locality": "Hol B.O"
+    },
+    {
+     "pincode": "412308",
+     "locality": "Uruli Devachi B.O"
+    },
+    {
+     "pincode": "412311",
+     "locality": "Hargude B.O"
+    },
+    {
+     "pincode": "412312",
+     "locality": "Tondal B.O"
+    },
+    {
+     "pincode": "412401",
+     "locality": "Gunjalwadi B.O"
+    },
+    {
+     "pincode": "412402",
+     "locality": "Bhorgiri B.O"
+    },
+    {
+     "pincode": "412403",
+     "locality": "Dhamari B.O"
+    },
+    {
+     "pincode": "412404",
+     "locality": "Kohinde BK B.O"
+    },
+    {
+     "pincode": "412405",
+     "locality": "Gawadewadi B.O"
+    },
+    {
+     "pincode": "412406",
+     "locality": "Nirgudsar B.O"
+    },
+    {
+     "pincode": "412408",
+     "locality": "Amondi B.O"
+    },
+    {
+     "pincode": "412409",
+     "locality": "Madh B.O"
+    },
+    {
+     "pincode": "412410",
+     "locality": "Nalavane B.O"
+    },
+    {
+     "pincode": "412411",
+     "locality": "Bori BK B.O"
+    },
+    {
+     "pincode": "412412",
+     "locality": "Kandali B.O"
+    },
+    {
+     "pincode": "413102",
+     "locality": "Barhanpur B.O"
+    },
+    {
+     "pincode": "413103",
+     "locality": "Pimpri BK B.O"
+    },
+    {
+     "pincode": "413104",
+     "locality": "Belawadi B.O"
+    },
+    {
+     "pincode": "413105",
+     "locality": "Watluj B.O"
+    },
+    {
+     "pincode": "413106",
+     "locality": "Hingangaon B.O"
+    },
+    {
+     "pincode": "413110",
+     "locality": "Kambaleshwar B.O"
+    },
+    {
+     "pincode": "413114",
+     "locality": "Nimsakhar B.O"
+    },
+    {
+     "pincode": "413115",
+     "locality": "Malegaon IRR Colony B.O"
+    },
+    {
+     "pincode": "413116",
+     "locality": "Khandaj B.O"
+    },
+    {
+     "pincode": "413120",
+     "locality": "Ghotondi B.O"
+    },
+    {
+     "pincode": "413130",
+     "locality": "Chincholi B.O"
+    },
+    {
+     "pincode": "413132",
+     "locality": "Dalaj B.O"
+    },
+    {
+     "pincode": "413133",
+     "locality": "Saval B.O"
+    },
+    {
+     "pincode": "413801",
+     "locality": "Beam Wirelee Station B.O"
+    },
+    {
+     "pincode": "413802",
+     "locality": "Kurkumbh B.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "410501",
+     "locality": "Koyali B.O"
+    },
+    {
+     "pincode": "411001",
+     "locality": "Pune H.O"
+    },
+    {
+     "pincode": "411007",
+     "locality": "Ganeshkhind S.O"
+    },
+    {
+     "pincode": "411008",
+     "locality": "N.C.L. Pune S.O"
+    },
+    {
+     "pincode": "411009",
+     "locality": "Parvati S.O"
+    },
+    {
+     "pincode": "411012",
+     "locality": "Dapodi S.O"
+    },
+    {
+     "pincode": "411016",
+     "locality": "Model Colony S.O"
+    },
+    {
+     "pincode": "411017",
+     "locality": "Pimpri Colony S.O"
+    },
+    {
+     "pincode": "411018",
+     "locality": "Pimpri P F S.O"
+    },
+    {
+     "pincode": "411019",
+     "locality": "Chinchwad East S.O"
+    },
+    {
+     "pincode": "411021",
+     "locality": "Bavdhan B.O"
+    },
+    {
+     "pincode": "411022",
+     "locality": "Srpf S.O"
+    },
+    {
+     "pincode": "411023",
+     "locality": "Shivane B.O"
+    },
+    {
+     "pincode": "411027",
+     "locality": "Aundh Camp S.O"
+    },
+    {
+     "pincode": "411028",
+     "locality": "Hadapsar S.O"
+    },
+    {
+     "pincode": "411035",
+     "locality": "Akurdi S.O"
+    },
+    {
+     "pincode": "411038",
+     "locality": "Ex. Serviceman Colony S.O"
+    },
+    {
+     "pincode": "411043",
+     "locality": "Dhankawadi S.O"
+    },
+    {
+     "pincode": "411044",
+     "locality": "P.C.N.T. S.O"
+    },
+    {
+     "pincode": "411045",
+     "locality": "N.I.A. S.O"
+    },
+    {
+     "pincode": "411046",
+     "locality": "Katraj S.O"
+    },
+    {
+     "pincode": "411052",
+     "locality": "Navsahyadri S.O"
+    },
+    {
+     "pincode": "411057",
+     "locality": "Marunji B.O"
+    },
+    {
+     "pincode": "411058",
+     "locality": "Warje S.O"
+    },
+    {
+     "pincode": "411062",
+     "locality": "Talawade B.O"
+    },
+    {
+     "pincode": "411067",
+     "locality": "Aundh S.O (Pune)"
+    },
+    {
+     "pincode": "411068",
+     "locality": "Nanded S.O (Pune)"
+    },
+    {
+     "pincode": "411069",
+     "locality": "Baner DSO (Pune)"
+    },
+    {
+     "pincode": "412107",
+     "locality": "Rule B.O"
+    },
+    {
+     "pincode": "412220",
+     "locality": "Karegaon B.O"
+    },
+    {
+     "pincode": "412307",
+     "locality": "Manjari BK B.O"
+    }
+   ]
+  },
+  {
+   "city": "Coimbatore",
+   "total_pins": 106,
+   "serviceable_count": 33,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "638459",
+     "locality": "Pongaluravanashi BO"
+    },
+    {
+     "pincode": "641004",
+     "locality": "Peelamedu SO"
+    },
+    {
+     "pincode": "641009",
+     "locality": "Ramnagar Coimbatore SO"
+    },
+    {
+     "pincode": "641010",
+     "locality": "Kuppanur BO"
+    },
+    {
+     "pincode": "641017",
+     "locality": "Thoppampatti BO"
+    },
+    {
+     "pincode": "641019",
+     "locality": "Veerapandi Periyanaickenpalaya BO"
+    },
+    {
+     "pincode": "641020",
+     "locality": "Naickenpalayam BO"
+    },
+    {
+     "pincode": "641022",
+     "locality": "Sengalipalayam BO"
+    },
+    {
+     "pincode": "641029",
+     "locality": "Vellakinar BO"
+    },
+    {
+     "pincode": "641031",
+     "locality": "Rakkipalayam BO"
+    },
+    {
+     "pincode": "641032",
+     "locality": "Kumittipathi BO"
+    },
+    {
+     "pincode": "641034",
+     "locality": "Tudiyalur SO"
+    },
+    {
+     "pincode": "641035",
+     "locality": "Keeranatham BO"
+    },
+    {
+     "pincode": "641036",
+     "locality": "Nanjundapuram SO"
+    },
+    {
+     "pincode": "641039",
+     "locality": "Telungupalayam SO"
+    },
+    {
+     "pincode": "641042",
+     "locality": "Kovaipudur SO"
+    },
+    {
+     "pincode": "641046",
+     "locality": "Bharathiyar University SO"
+    },
+    {
+     "pincode": "641047",
+     "locality": "Gudalurcoimbatore BO"
+    },
+    {
+     "pincode": "641048",
+     "locality": "Vellanaipatti BO"
+    },
+    {
+     "pincode": "641050",
+     "locality": "Malumichampatti SO"
+    },
+    {
+     "pincode": "641062",
+     "locality": "Nilambur BO"
+    },
+    {
+     "pincode": "641101",
+     "locality": "Mathipalayam BO"
+    },
+    {
+     "pincode": "641103",
+     "locality": "Athappagoundenpudur BO"
+    },
+    {
+     "pincode": "641104",
+     "locality": "Belladi BO"
+    },
+    {
+     "pincode": "641105",
+     "locality": "Sinnanavakkarai BO"
+    },
+    {
+     "pincode": "641107",
+     "locality": "Kallipalayam BO"
+    },
+    {
+     "pincode": "641108",
+     "locality": "Anaikatti BO"
+    },
+    {
+     "pincode": "641109",
+     "locality": "Devarayapuram BO"
+    },
+    {
+     "pincode": "641110",
+     "locality": "Athipalayam BO"
+    },
+    {
+     "pincode": "641112",
+     "locality": "Amritanagar SO"
+    },
+    {
+     "pincode": "641113",
+     "locality": "Bhujanganur BO"
+    },
+    {
+     "pincode": "641114",
+     "locality": "Ishana Vihar BO"
+    },
+    {
+     "pincode": "641201",
+     "locality": "Kallapalayam BO"
+    },
+    {
+     "pincode": "641202",
+     "locality": "Mettubavi B.O"
+    },
+    {
+     "pincode": "641301",
+     "locality": "Mettupalayam HO"
+    },
+    {
+     "pincode": "641302",
+     "locality": "Akkaraisengapalli BO"
+    },
+    {
+     "pincode": "641305",
+     "locality": "Palapatti BO"
+    },
+    {
+     "pincode": "641401",
+     "locality": "Goldenpet BO"
+    },
+    {
+     "pincode": "641402",
+     "locality": "Kalingal BO"
+    },
+    {
+     "pincode": "641407",
+     "locality": "Arasur SO"
+    },
+    {
+     "pincode": "641653",
+     "locality": "Allapalayam BO"
+    },
+    {
+     "pincode": "641658",
+     "locality": "Jalakarichal BO"
+    },
+    {
+     "pincode": "641659",
+     "locality": "Chennappachettipudur BO"
+    },
+    {
+     "pincode": "641668",
+     "locality": "Ichipatti BO"
+    },
+    {
+     "pincode": "641669",
+     "locality": "Purandampalayam BO"
+    },
+    {
+     "pincode": "641671",
+     "locality": "Jallipatti BO"
+    },
+    {
+     "pincode": "641697",
+     "locality": "Karegoundenpalayam BO"
+    },
+    {
+     "pincode": "642001",
+     "locality": "Pollachi West B.O"
+    },
+    {
+     "pincode": "642002",
+     "locality": "Achipatti B.O"
+    },
+    {
+     "pincode": "642003",
+     "locality": "Kanjampatti B.O"
+    },
+    {
+     "pincode": "642004",
+     "locality": "Akilandapuram B.O"
+    },
+    {
+     "pincode": "642005",
+     "locality": "Thimmankothu B.O"
+    },
+    {
+     "pincode": "642007",
+     "locality": "Reddiarur B.O"
+    },
+    {
+     "pincode": "642101",
+     "locality": "Kadamparai Power House B.O"
+    },
+    {
+     "pincode": "642103",
+     "locality": "Marappagoundenpudur B.O"
+    },
+    {
+     "pincode": "642104",
+     "locality": "Chinnappampalayam B.O"
+    },
+    {
+     "pincode": "642105",
+     "locality": "Mount Stuart B.O"
+    },
+    {
+     "pincode": "642106",
+     "locality": "Cinchona East B.O"
+    },
+    {
+     "pincode": "642107",
+     "locality": "Thippampatti B.O"
+    },
+    {
+     "pincode": "642108",
+     "locality": "Paralai B.O"
+    },
+    {
+     "pincode": "642109",
+     "locality": "Palarpathy B.O"
+    },
+    {
+     "pincode": "642110",
+     "locality": "Alagirichettipalayam B.O"
+    },
+    {
+     "pincode": "642114",
+     "locality": "Malayandipattinam S.O"
+    },
+    {
+     "pincode": "642117",
+     "locality": "Nallamudi B.O"
+    },
+    {
+     "pincode": "642120",
+     "locality": "Chinna Negamam B.O"
+    },
+    {
+     "pincode": "642123",
+     "locality": "Thondamuthur B.O"
+    },
+    {
+     "pincode": "642125",
+     "locality": "Murugali Bazaar B.O"
+    },
+    {
+     "pincode": "642129",
+     "locality": "Odayakulam B.O"
+    },
+    {
+     "pincode": "642130",
+     "locality": "Vellamalai B.O"
+    },
+    {
+     "pincode": "642133",
+     "locality": "Topslip B.O"
+    },
+    {
+     "pincode": "642134",
+     "locality": "Pethanaickanur B.O"
+    },
+    {
+     "pincode": "642202",
+     "locality": "Dasanaicken Palayam B.O"
+    },
+    {
+     "pincode": "642205",
+     "locality": "Pudupalayam B.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "641001",
+     "locality": "Coimbatore HO"
+    },
+    {
+     "pincode": "641002",
+     "locality": "Rathinasabapathy Puram HO"
+    },
+    {
+     "pincode": "641003",
+     "locality": "Lawley Road SO"
+    },
+    {
+     "pincode": "641005",
+     "locality": "Singanallur SO"
+    },
+    {
+     "pincode": "641006",
+     "locality": "Ganapathy SO"
+    },
+    {
+     "pincode": "641007",
+     "locality": "Sundapalayam BO"
+    },
+    {
+     "pincode": "641008",
+     "locality": "Kuniamuthur SO"
+    },
+    {
+     "pincode": "641011",
+     "locality": "Saibaba Mission SO"
+    },
+    {
+     "pincode": "641012",
+     "locality": "Tatabad SO"
+    },
+    {
+     "pincode": "641013",
+     "locality": "GovtCollege Of Technology SO"
+    },
+    {
+     "pincode": "641014",
+     "locality": "Coimbatore Aerodrome SO"
+    },
+    {
+     "pincode": "641015",
+     "locality": "Uppilipalayam SO"
+    },
+    {
+     "pincode": "641016",
+     "locality": "Pattanam BO"
+    },
+    {
+     "pincode": "641018",
+     "locality": "Coimbatore Central SO"
+    },
+    {
+     "pincode": "641021",
+     "locality": "Eachanari BO"
+    },
+    {
+     "pincode": "641023",
+     "locality": "Podanur SO"
+    },
+    {
+     "pincode": "641024",
+     "locality": "Sundarapuram SO"
+    },
+    {
+     "pincode": "641025",
+     "locality": "Velandipalayam SO"
+    },
+    {
+     "pincode": "641026",
+     "locality": "Komarapalayam Coimbatore SO"
+    },
+    {
+     "pincode": "641027",
+     "locality": "Rathinapuri SO"
+    },
+    {
+     "pincode": "641028",
+     "locality": "Sowripalayam SO"
+    },
+    {
+     "pincode": "641030",
+     "locality": "Kavundampalayam Colony SO"
+    },
+    {
+     "pincode": "641033",
+     "locality": "Neelikonampalayam SO"
+    },
+    {
+     "pincode": "641037",
+     "locality": "Pappanaickenpalayam SO"
+    },
+    {
+     "pincode": "641038",
+     "locality": "Kuppakonanpudur SO"
+    },
+    {
+     "pincode": "641040",
+     "locality": "NDC Coimbatore"
+    },
+    {
+     "pincode": "641041",
+     "locality": "Pappanaickenpudur SO"
+    },
+    {
+     "pincode": "641043",
+     "locality": "Sahs College SO"
+    },
+    {
+     "pincode": "641044",
+     "locality": "Siddhapudur SO"
+    },
+    {
+     "pincode": "641045",
+     "locality": "Ramanathapuram Coimbatore SO"
+    },
+    {
+     "pincode": "641049",
+     "locality": "Chinnavedampatti SO"
+    },
+    {
+     "pincode": "641111",
+     "locality": "Vellalore SO"
+    },
+    {
+     "pincode": "642006",
+     "locality": "Suleeswaran Patti S.O"
+    }
+   ]
+  },
+  {
+   "city": "Surat",
+   "total_pins": 78,
+   "serviceable_count": 8,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "394101",
+     "locality": "Mota Varachha SO"
+    },
+    {
+     "pincode": "394107",
+     "locality": "Kosad BO"
+    },
+    {
+     "pincode": "394110",
+     "locality": "Karanj BO"
+    },
+    {
+     "pincode": "394111",
+     "locality": "Kim Char Rasta SO"
+    },
+    {
+     "pincode": "394120",
+     "locality": "Panjroli BO"
+    },
+    {
+     "pincode": "394125",
+     "locality": "Boridra BO"
+    },
+    {
+     "pincode": "394130",
+     "locality": "Atodara BO"
+    },
+    {
+     "pincode": "394140",
+     "locality": "Vareli BO"
+    },
+    {
+     "pincode": "394150",
+     "locality": "Abrama BO"
+    },
+    {
+     "pincode": "394155",
+     "locality": "Karjan BO"
+    },
+    {
+     "pincode": "394160",
+     "locality": "Dadhwada BO"
+    },
+    {
+     "pincode": "394163",
+     "locality": "Tuked BO"
+    },
+    {
+     "pincode": "394170",
+     "locality": "Nogama BO"
+    },
+    {
+     "pincode": "394180",
+     "locality": "Dhatva BO"
+    },
+    {
+     "pincode": "394185",
+     "locality": "Navagam BO"
+    },
+    {
+     "pincode": "394190",
+     "locality": "Kholvad SO"
+    },
+    {
+     "pincode": "394210",
+     "locality": "Bhedvad BO"
+    },
+    {
+     "pincode": "394235",
+     "locality": "Kachholi BO"
+    },
+    {
+     "pincode": "394240",
+     "locality": "Bartad BO"
+    },
+    {
+     "pincode": "394245",
+     "locality": "Kharvan BO"
+    },
+    {
+     "pincode": "394246",
+     "locality": "Algat BO"
+    },
+    {
+     "pincode": "394248",
+     "locality": "Dhamkhadi BO"
+    },
+    {
+     "pincode": "394250",
+     "locality": "Amchak BO"
+    },
+    {
+     "pincode": "394270",
+     "locality": "Hajira SO"
+    },
+    {
+     "pincode": "394305",
+     "locality": "Tantithaiya BO"
+    },
+    {
+     "pincode": "394310",
+     "locality": "Barasadi BO"
+    },
+    {
+     "pincode": "394315",
+     "locality": "Italva BO"
+    },
+    {
+     "pincode": "394317",
+     "locality": "Vadadla Tanti BO"
+    },
+    {
+     "pincode": "394320",
+     "locality": "Vihan BO"
+    },
+    {
+     "pincode": "394325",
+     "locality": "Antroli BO"
+    },
+    {
+     "pincode": "394326",
+     "locality": "Jokha BO"
+    },
+    {
+     "pincode": "394327",
+     "locality": "Kadodara SO"
+    },
+    {
+     "pincode": "394330",
+     "locality": "Shampura BO"
+    },
+    {
+     "pincode": "394335",
+     "locality": "Bamni BO"
+    },
+    {
+     "pincode": "394340",
+     "locality": "Dhamodla BO"
+    },
+    {
+     "pincode": "394345",
+     "locality": "Umrakh BO"
+    },
+    {
+     "pincode": "394350",
+     "locality": "Amalsadi BO"
+    },
+    {
+     "pincode": "394352",
+     "locality": "Ambheti BO"
+    },
+    {
+     "pincode": "394355",
+     "locality": "Palsod BO"
+    },
+    {
+     "pincode": "394360",
+     "locality": "Panchpipla BO"
+    },
+    {
+     "pincode": "394405",
+     "locality": "Asarma BO"
+    },
+    {
+     "pincode": "394410",
+     "locality": "Ankdod BO"
+    },
+    {
+     "pincode": "394421",
+     "locality": "Harsani BO"
+    },
+    {
+     "pincode": "394430",
+     "locality": "Ambawadi BO"
+    },
+    {
+     "pincode": "394440",
+     "locality": "Bundha BO"
+    },
+    {
+     "pincode": "394445",
+     "locality": "Ghanavad BO"
+    },
+    {
+     "pincode": "394510",
+     "locality": "Bhatpore BO"
+    },
+    {
+     "pincode": "394515",
+     "locality": "Kribhconagar SO"
+    },
+    {
+     "pincode": "394516",
+     "locality": "Adityanagar SO"
+    },
+    {
+     "pincode": "394517",
+     "locality": "Suvali BO"
+    },
+    {
+     "pincode": "394518",
+     "locality": "Ongc Nagar SO"
+    },
+    {
+     "pincode": "394520",
+     "locality": "Sherdi BO"
+    },
+    {
+     "pincode": "394530",
+     "locality": "Bhagwa BO"
+    },
+    {
+     "pincode": "394540",
+     "locality": "Orma BO"
+    },
+    {
+     "pincode": "394541",
+     "locality": "Saras SO"
+    },
+    {
+     "pincode": "394550",
+     "locality": "Dumas SO"
+    },
+    {
+     "pincode": "394601",
+     "locality": "Bardoli HO"
+    },
+    {
+     "pincode": "394620",
+     "locality": "Delvada BO"
+    },
+    {
+     "pincode": "394651",
+     "locality": "Agasvan BO"
+    },
+    {
+     "pincode": "395001",
+     "locality": "Nanpura HO"
+    },
+    {
+     "pincode": "395002",
+     "locality": "Sagrampura Putli SO"
+    },
+    {
+     "pincode": "395003",
+     "locality": "Surat HO"
+    },
+    {
+     "pincode": "395004",
+     "locality": "Dabholi BO"
+    },
+    {
+     "pincode": "395005",
+     "locality": "Dihen BO"
+    },
+    {
+     "pincode": "395007",
+     "locality": "Bharthana BO"
+    },
+    {
+     "pincode": "395010",
+     "locality": "Kumbharia BO"
+    },
+    {
+     "pincode": "395011",
+     "locality": "Puna Kumbharia SO"
+    },
+    {
+     "pincode": "395012",
+     "locality": "Limbayat SO"
+    },
+    {
+     "pincode": "395013",
+     "locality": "Kosmada BO"
+    },
+    {
+     "pincode": "396510",
+     "locality": "Kos BO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "394105",
+     "locality": "Utran Power House SO"
+    },
+    {
+     "pincode": "394221",
+     "locality": "Pandesara IE SO"
+    },
+    {
+     "pincode": "394230",
+     "locality": "Bonandh BO"
+    },
+    {
+     "pincode": "395006",
+     "locality": "Varachha Road SO"
+    },
+    {
+     "pincode": "395008",
+     "locality": "A K Road SO"
+    },
+    {
+     "pincode": "395009",
+     "locality": "Navyug College SO"
+    },
+    {
+     "pincode": "395017",
+     "locality": "Althan SO"
+    },
+    {
+     "pincode": "395023",
+     "locality": "Bhestan SO"
+    }
+   ]
+  },
+  {
+   "city": "Nashik",
+   "total_pins": 76,
+   "serviceable_count": 8,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "422001",
+     "locality": "Nashik H.O"
+    },
+    {
+     "pincode": "422003",
+     "locality": "Darnasangvi B.O"
+    },
+    {
+     "pincode": "422004",
+     "locality": "Dhakambe B.O"
+    },
+    {
+     "pincode": "422005",
+     "locality": "H P T College S.O"
+    },
+    {
+     "pincode": "422006",
+     "locality": "Wadala B.O"
+    },
+    {
+     "pincode": "422007",
+     "locality": "Kaudasar B.O"
+    },
+    {
+     "pincode": "422009",
+     "locality": "Cidco Colony S.O (Nashik)"
+    },
+    {
+     "pincode": "422010",
+     "locality": "Pathardi B.O"
+    },
+    {
+     "pincode": "422101",
+     "locality": "Nashik Road H.O"
+    },
+    {
+     "pincode": "422102",
+     "locality": "Jaigaon B.O"
+    },
+    {
+     "pincode": "422103",
+     "locality": "Dhondbhar B.O"
+    },
+    {
+     "pincode": "422104",
+     "locality": "Mithsagare B.O"
+    },
+    {
+     "pincode": "422112",
+     "locality": "Gulvanch B.O"
+    },
+    {
+     "pincode": "422113",
+     "locality": "Paste B.O"
+    },
+    {
+     "pincode": "422201",
+     "locality": "Kherwadi R.S B.O"
+    },
+    {
+     "pincode": "422202",
+     "locality": "Indore B.O"
+    },
+    {
+     "pincode": "422203",
+     "locality": "Devargaon B.O"
+    },
+    {
+     "pincode": "422204",
+     "locality": "Shirasgaon (Peint) B.O"
+    },
+    {
+     "pincode": "422205",
+     "locality": "Rajapur B.O"
+    },
+    {
+     "pincode": "422206",
+     "locality": "Ojhar S.O"
+    },
+    {
+     "pincode": "422207",
+     "locality": "Amba B.O"
+    },
+    {
+     "pincode": "422208",
+     "locality": "Bhuvan B.O"
+    },
+    {
+     "pincode": "422209",
+     "locality": "Ahergaon B.O"
+    },
+    {
+     "pincode": "422210",
+     "locality": "Bhendali B.O"
+    },
+    {
+     "pincode": "422211",
+     "locality": "Khirad B.O"
+    },
+    {
+     "pincode": "422212",
+     "locality": "Brahmanwade B.O"
+    },
+    {
+     "pincode": "422213",
+     "locality": "Anjneri B.O"
+    },
+    {
+     "pincode": "422214",
+     "locality": "Wavi Harsh B.O"
+    },
+    {
+     "pincode": "422215",
+     "locality": "Maledumala B.O"
+    },
+    {
+     "pincode": "422222",
+     "locality": "Gangapur B.O"
+    },
+    {
+     "pincode": "422301",
+     "locality": "B.S. Nagar S.O"
+    },
+    {
+     "pincode": "422302",
+     "locality": "Oney B.O"
+    },
+    {
+     "pincode": "422303",
+     "locality": "Naitale B.O"
+    },
+    {
+     "pincode": "422304",
+     "locality": "Khadak Malegaon B.O"
+    },
+    {
+     "pincode": "422305",
+     "locality": "Khedlezung B.O"
+    },
+    {
+     "pincode": "422306",
+     "locality": "Kotamgaon B.O"
+    },
+    {
+     "pincode": "422308",
+     "locality": "Deopur B.O"
+    },
+    {
+     "pincode": "422401",
+     "locality": "Belatgavhan B.O"
+    },
+    {
+     "pincode": "422402",
+     "locality": "Khadked B.O"
+    },
+    {
+     "pincode": "422403",
+     "locality": "Murambi B.O"
+    },
+    {
+     "pincode": "422502",
+     "locality": "Vadgaon Pingala B.O"
+    },
+    {
+     "pincode": "422606",
+     "locality": "Marhal BK B.O"
+    },
+    {
+     "pincode": "423101",
+     "locality": "Dighwad B.O"
+    },
+    {
+     "pincode": "423102",
+     "locality": "Kapshi B.O"
+    },
+    {
+     "pincode": "423104",
+     "locality": "Kanadgaon B.O"
+    },
+    {
+     "pincode": "423105",
+     "locality": "Deoghat B.O"
+    },
+    {
+     "pincode": "423106",
+     "locality": "Bangaon B.O"
+    },
+    {
+     "pincode": "423108",
+     "locality": "Talwade B.O"
+    },
+    {
+     "pincode": "423110",
+     "locality": "Kumbharde B.O"
+    },
+    {
+     "pincode": "423111",
+     "locality": "Pimpalnare B.O"
+    },
+    {
+     "pincode": "423117",
+     "locality": "Kanmandale B.O"
+    },
+    {
+     "pincode": "423201",
+     "locality": "Mungse B.O"
+    },
+    {
+     "pincode": "423202",
+     "locality": "Jalgaon Galane B.O"
+    },
+    {
+     "pincode": "423203",
+     "locality": "Malegaon H.O"
+    },
+    {
+     "pincode": "423204",
+     "locality": "Kotbel B.O"
+    },
+    {
+     "pincode": "423205",
+     "locality": "Galane B.O"
+    },
+    {
+     "pincode": "423208",
+     "locality": "Erandgaon B.O"
+    },
+    {
+     "pincode": "423212",
+     "locality": "Chandanpuri B.O"
+    },
+    {
+     "pincode": "423213",
+     "locality": "Brahmangaon B.O"
+    },
+    {
+     "pincode": "423301",
+     "locality": "Khalap B.O"
+    },
+    {
+     "pincode": "423302",
+     "locality": "Antapur B.O"
+    },
+    {
+     "pincode": "423303",
+     "locality": "Askheda B.O"
+    },
+    {
+     "pincode": "423401",
+     "locality": "Erandgaon Jeur B.O"
+    },
+    {
+     "pincode": "423402",
+     "locality": "Bokte B.O"
+    },
+    {
+     "pincode": "423403",
+     "locality": "Mamdapur B.O"
+    },
+    {
+     "pincode": "423501",
+     "locality": "Athambe B.O"
+    },
+    {
+     "pincode": "423502",
+     "locality": "Dalwat B.O"
+    },
+    {
+     "pincode": "424109",
+     "locality": "Pimparkhed B.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "422002",
+     "locality": "Gole Colony S.O"
+    },
+    {
+     "pincode": "422008",
+     "locality": "Trimurti Chowk S.O"
+    },
+    {
+     "pincode": "422011",
+     "locality": "Dwarka Corner S.O"
+    },
+    {
+     "pincode": "422012",
+     "locality": "Ashok Nagar S.O (Nashik)"
+    },
+    {
+     "pincode": "422013",
+     "locality": "Sawarkar Nagar S.O"
+    },
+    {
+     "pincode": "422105",
+     "locality": "Kotamgaon B.O"
+    },
+    {
+     "pincode": "422221",
+     "locality": "Ojhar A.F. Stn. S.O"
+    },
+    {
+     "pincode": "422501",
+     "locality": "Devlali Air Force S.O"
+    }
+   ]
+  },
+  {
+   "city": "Bhubaneswar",
+   "total_pins": 69,
+   "serviceable_count": 8,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "751001",
+     "locality": "Bhubaneswar G.P.O."
+    },
+    {
+     "pincode": "751003",
+     "locality": "Andharua B.O"
+    },
+    {
+     "pincode": "751004",
+     "locality": "Utkal University S.O"
+    },
+    {
+     "pincode": "751005",
+     "locality": "Sainik School S.O (Khorda)"
+    },
+    {
+     "pincode": "751006",
+     "locality": "Budheswari Colony S.O"
+    },
+    {
+     "pincode": "751007",
+     "locality": "Saheed Nagar S.O"
+    },
+    {
+     "pincode": "751008",
+     "locality": "Rajbhawan S.O (Khorda)"
+    },
+    {
+     "pincode": "751010",
+     "locality": "Rasulgarh S.O"
+    },
+    {
+     "pincode": "751011",
+     "locality": "C R P Lines S.O"
+    },
+    {
+     "pincode": "751012",
+     "locality": "Nayapalli S.O"
+    },
+    {
+     "pincode": "751013",
+     "locality": "Regional Research Laboratory S.O"
+    },
+    {
+     "pincode": "751015",
+     "locality": "I R C Village S.O"
+    },
+    {
+     "pincode": "751016",
+     "locality": "Chandra Sekhar Pur S.O"
+    },
+    {
+     "pincode": "751017",
+     "locality": "Mancheswar B.O"
+    },
+    {
+     "pincode": "751020",
+     "locality": "Aerodrome Area S.O"
+    },
+    {
+     "pincode": "751022",
+     "locality": "Bhoinagar S.O"
+    },
+    {
+     "pincode": "751023",
+     "locality": "S.E Rly.Proj. Complex S.O"
+    },
+    {
+     "pincode": "751024",
+     "locality": "Kalarahanga B.O"
+    },
+    {
+     "pincode": "751025",
+     "locality": "G.G.P.Colony S.O"
+    },
+    {
+     "pincode": "751027",
+     "locality": "International Business Centre"
+    },
+    {
+     "pincode": "751029",
+     "locality": "Mahalaxmivihar S.O"
+    },
+    {
+     "pincode": "751030",
+     "locality": "Khandagiri S.O"
+    },
+    {
+     "pincode": "751031",
+     "locality": "Patia S.O"
+    },
+    {
+     "pincode": "751032",
+     "locality": "PAHAL S.O"
+    },
+    {
+     "pincode": "751033",
+     "locality": "BARAMUNDA NDC"
+    },
+    {
+     "pincode": "751034",
+     "locality": "RASULGARH NDC"
+    },
+    {
+     "pincode": "752018",
+     "locality": "Brajamohanpur B.O"
+    },
+    {
+     "pincode": "752019",
+     "locality": "Baku B.O"
+    },
+    {
+     "pincode": "752020",
+     "locality": "Motta B.O"
+    },
+    {
+     "pincode": "752021",
+     "locality": "Abhimanpur B.O"
+    },
+    {
+     "pincode": "752022",
+     "locality": "Jaripada B.O"
+    },
+    {
+     "pincode": "752023",
+     "locality": "Badapari B.O"
+    },
+    {
+     "pincode": "752027",
+     "locality": "Baradihi B.O"
+    },
+    {
+     "pincode": "752030",
+     "locality": "Ghiakhala B.O"
+    },
+    {
+     "pincode": "752031",
+     "locality": "Balidihi B.O"
+    },
+    {
+     "pincode": "752034",
+     "locality": "Baulabandha B.O"
+    },
+    {
+     "pincode": "752035",
+     "locality": "Ayatapur B.O"
+    },
+    {
+     "pincode": "752037",
+     "locality": "Navalbasechilika  S.O"
+    },
+    {
+     "pincode": "752038",
+     "locality": "Chhatrapada B.O"
+    },
+    {
+     "pincode": "752050",
+     "locality": "Turumal B.O"
+    },
+    {
+     "pincode": "752054",
+     "locality": "Angarpada B.O"
+    },
+    {
+     "pincode": "752055",
+     "locality": "Khurda H.O"
+    },
+    {
+     "pincode": "752056",
+     "locality": "Daleiput B.O"
+    },
+    {
+     "pincode": "752057",
+     "locality": "Paikatigiria B.O"
+    },
+    {
+     "pincode": "752060",
+     "locality": "Anda B.O"
+    },
+    {
+     "pincode": "752061",
+     "locality": "Gediapalli B.O"
+    },
+    {
+     "pincode": "752062",
+     "locality": "Routapada B.O"
+    },
+    {
+     "pincode": "752064",
+     "locality": "Chhamundiapalli B.O"
+    },
+    {
+     "pincode": "752066",
+     "locality": "Bankoi B.O"
+    },
+    {
+     "pincode": "752100",
+     "locality": "Brahman Suanlo B.O"
+    },
+    {
+     "pincode": "752101",
+     "locality": "Jagannathpur B.O"
+    },
+    {
+     "pincode": "752102",
+     "locality": "Biswanathpur B.O"
+    },
+    {
+     "pincode": "752103",
+     "locality": "Majhihara B.O"
+    },
+    {
+     "pincode": "752104",
+     "locality": "Bindha"
+    },
+    {
+     "pincode": "752106",
+     "locality": "Charanapada"
+    },
+    {
+     "pincode": "752114",
+     "locality": "Sunugoradi"
+    },
+    {
+     "pincode": "752115",
+     "locality": "Bhatpatna S.O"
+    },
+    {
+     "pincode": "754001",
+     "locality": "Raipur Cuttack B.O"
+    },
+    {
+     "pincode": "754004",
+     "locality": "Bilasuni B.O"
+    },
+    {
+     "pincode": "754005",
+     "locality": "Dara B.O"
+    },
+    {
+     "pincode": "754012",
+     "locality": "Bhola S.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "751002",
+     "locality": "Itipur B.O"
+    },
+    {
+     "pincode": "751009",
+     "locality": "Ashok Nagar S.O (Khorda)"
+    },
+    {
+     "pincode": "751014",
+     "locality": "B J B Nagar S.O"
+    },
+    {
+     "pincode": "751018",
+     "locality": "Badagarh Brit Colony S.O"
+    },
+    {
+     "pincode": "751019",
+     "locality": "Jadupur B.O"
+    },
+    {
+     "pincode": "751021",
+     "locality": "Sailashree Vihar S.O"
+    },
+    {
+     "pincode": "751026",
+     "locality": "N.M.D Parcel Centre Bhubaneswar"
+    },
+    {
+     "pincode": "751028",
+     "locality": "Tamando S.O"
+    }
+   ]
+  },
+  {
+   "city": "Jaipur",
+   "total_pins": 83,
+   "serviceable_count": 23,
+   "jivo_count": 4,
+   "missing": [
+    {
+     "pincode": "302002",
+     "locality": "Tripolia Bazar S.O"
+    },
+    {
+     "pincode": "302003",
+     "locality": "Jaipur City S.O"
+    },
+    {
+     "pincode": "302012",
+     "locality": "Hathoj B.O"
+    },
+    {
+     "pincode": "302013",
+     "locality": "Akhepura B.O"
+    },
+    {
+     "pincode": "302016",
+     "locality": "Shastri Nagar H.O"
+    },
+    {
+     "pincode": "302022",
+     "locality": "Bilwa B.O"
+    },
+    {
+     "pincode": "302026",
+     "locality": "Jaisinghpura Bas B.O"
+    },
+    {
+     "pincode": "302027",
+     "locality": "Rahori B.O"
+    },
+    {
+     "pincode": "302028",
+     "locality": "Amer S.O"
+    },
+    {
+     "pincode": "302029",
+     "locality": "Lakhana B.O"
+    },
+    {
+     "pincode": "302031",
+     "locality": "Luniawas B.O"
+    },
+    {
+     "pincode": "302038",
+     "locality": "Kookas S.O"
+    },
+    {
+     "pincode": "302042",
+     "locality": "Bad Ke Balaji S.O"
+    },
+    {
+     "pincode": "302043",
+     "locality": "Muhana S.O"
+    },
+    {
+     "pincode": "303001",
+     "locality": "Bhawani BO"
+    },
+    {
+     "pincode": "303002",
+     "locality": "Jaitpura Khinchi BO"
+    },
+    {
+     "pincode": "303003",
+     "locality": "Paldi BO"
+    },
+    {
+     "pincode": "303005",
+     "locality": "Narera BO"
+    },
+    {
+     "pincode": "303006",
+     "locality": "Didawata BO"
+    },
+    {
+     "pincode": "303007",
+     "locality": "Ajairajpura BO"
+    },
+    {
+     "pincode": "303008",
+     "locality": "Dantri BO"
+    },
+    {
+     "pincode": "303009",
+     "locality": "Dhamana BO"
+    },
+    {
+     "pincode": "303012",
+     "locality": "Faliawas BO"
+    },
+    {
+     "pincode": "303102",
+     "locality": "Beelwadi BO"
+    },
+    {
+     "pincode": "303103",
+     "locality": "Devan BO"
+    },
+    {
+     "pincode": "303105",
+     "locality": "Beri BO"
+    },
+    {
+     "pincode": "303106",
+     "locality": "Fatehpura Khurd BO"
+    },
+    {
+     "pincode": "303107",
+     "locality": "Dantil BO"
+    },
+    {
+     "pincode": "303108",
+     "locality": "Kujota BO"
+    },
+    {
+     "pincode": "303109",
+     "locality": "Mathasula BO"
+    },
+    {
+     "pincode": "303110",
+     "locality": "Karoli BO"
+    },
+    {
+     "pincode": "303119",
+     "locality": "Bajrangpura BO"
+    },
+    {
+     "pincode": "303120",
+     "locality": "Amloda BO"
+    },
+    {
+     "pincode": "303123",
+     "locality": "Karansar SO"
+    },
+    {
+     "pincode": "303301",
+     "locality": "Chanwandia BO"
+    },
+    {
+     "pincode": "303305",
+     "locality": "Badwa BO"
+    },
+    {
+     "pincode": "303328",
+     "locality": "Kodi BO"
+    },
+    {
+     "pincode": "303329",
+     "locality": "A C Jobner SO"
+    },
+    {
+     "pincode": "303338",
+     "locality": "Akoda BO"
+    },
+    {
+     "pincode": "303348",
+     "locality": "Chainpura BO"
+    },
+    {
+     "pincode": "303601",
+     "locality": "Nayan BO"
+    },
+    {
+     "pincode": "303602",
+     "locality": "Nangal Govind BO"
+    },
+    {
+     "pincode": "303603",
+     "locality": "Bagawas BO"
+    },
+    {
+     "pincode": "303604",
+     "locality": "Asalpur BO"
+    },
+    {
+     "pincode": "303701",
+     "locality": "Kanipura BO"
+    },
+    {
+     "pincode": "303702",
+     "locality": "Hadota BO"
+    },
+    {
+     "pincode": "303704",
+     "locality": "Anantpura BO"
+    },
+    {
+     "pincode": "303706",
+     "locality": "Bassi Naga BO"
+    },
+    {
+     "pincode": "303712",
+     "locality": "Bhutera BO"
+    },
+    {
+     "pincode": "303801",
+     "locality": "Alisar BO"
+    },
+    {
+     "pincode": "303803",
+     "locality": "Singot Kalan BO"
+    },
+    {
+     "pincode": "303804",
+     "locality": "Amarpura BO"
+    },
+    {
+     "pincode": "303805",
+     "locality": "Bagwara BO"
+    },
+    {
+     "pincode": "303806",
+     "locality": "Shivsinghpura BO"
+    },
+    {
+     "pincode": "303807",
+     "locality": "Bhopawa BO"
+    },
+    {
+     "pincode": "303901",
+     "locality": "Kareda Khurd BO"
+    },
+    {
+     "pincode": "303903",
+     "locality": "Teetaria BO"
+    },
+    {
+     "pincode": "303904",
+     "locality": "BHAPURA BO"
+    },
+    {
+     "pincode": "303905",
+     "locality": "Mohanpura BO"
+    },
+    {
+     "pincode": "303908",
+     "locality": "Achalpura BO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "302001",
+     "locality": "Jaipur G.P.O."
+    },
+    {
+     "pincode": "302004",
+     "locality": "Jawahar Nagar H.O"
+    },
+    {
+     "pincode": "302005",
+     "locality": "Rajasthan Secretariate S.O"
+    },
+    {
+     "pincode": "302006",
+     "locality": "Jaipur R.S. S.O"
+    },
+    {
+     "pincode": "302015",
+     "locality": "Gandhi Nagar S.O (Jaipur)"
+    },
+    {
+     "pincode": "302018",
+     "locality": "Durgapura S.O"
+    },
+    {
+     "pincode": "302019",
+     "locality": "Shyam Nagar S.O (Jaipur)"
+    },
+    {
+     "pincode": "302021",
+     "locality": "Vaishali Nagar S.O"
+    },
+    {
+     "pincode": "302033",
+     "locality": "Pratap Nagar Sector 11 S.O"
+    },
+    {
+     "pincode": "302034",
+     "locality": "Panchyawala S.O"
+    },
+    {
+     "pincode": "302036",
+     "locality": "Jaisinghpura Khore S.O"
+    },
+    {
+     "pincode": "302037",
+     "locality": "Mahindra World City S.O (Jaipur)"
+    },
+    {
+     "pincode": "302039",
+     "locality": "Murlipura S.O"
+    },
+    {
+     "pincode": "302040",
+     "locality": "Nangal Jaisabohara S.O"
+    },
+    {
+     "pincode": "302044",
+     "locality": "Govindpura S.O."
+    },
+    {
+     "pincode": "302046",
+     "locality": "Bhanpur kalan S.O"
+    },
+    {
+     "pincode": "303104",
+     "locality": "Dev Ka Harwada BO"
+    },
+    {
+     "pincode": "303121",
+     "locality": "NIMS University SO"
+    },
+    {
+     "pincode": "303122",
+     "locality": "Vedaant Gyan Valley SO"
+    }
+   ]
+  },
+  {
+   "city": "Nagpur",
+   "total_pins": 63,
+   "serviceable_count": 12,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "440002",
+     "locality": "Nagpur City H.O"
+    },
+    {
+     "pincode": "440005",
+     "locality": "Nagpur Airport S.O"
+    },
+    {
+     "pincode": "440007",
+     "locality": "Vayusena Nagar S.O"
+    },
+    {
+     "pincode": "440010",
+     "locality": "Shankar Nagar S.O"
+    },
+    {
+     "pincode": "440014",
+     "locality": "Jaripatka S.O"
+    },
+    {
+     "pincode": "440015",
+     "locality": "Vivekanand Nagar S.O"
+    },
+    {
+     "pincode": "440016",
+     "locality": "Indl.Area Nagpur S.O"
+    },
+    {
+     "pincode": "440017",
+     "locality": "Dr.Ambedkar Marg S.O"
+    },
+    {
+     "pincode": "440018",
+     "locality": "Mahatma Fule Bazar S.O"
+    },
+    {
+     "pincode": "440019",
+     "locality": "C.R.P.F. Nagpur S.O"
+    },
+    {
+     "pincode": "440021",
+     "locality": "A.D. Project S.O"
+    },
+    {
+     "pincode": "440023",
+     "locality": "Deoli Kalbande B.O"
+    },
+    {
+     "pincode": "440025",
+     "locality": "Khamla S.O"
+    },
+    {
+     "pincode": "440026",
+     "locality": "Uppalwadi S.O"
+    },
+    {
+     "pincode": "440030",
+     "locality": "Mankapur S.O (Nagpur)"
+    },
+    {
+     "pincode": "440032",
+     "locality": "Mahal S.O (Nagpur)"
+    },
+    {
+     "pincode": "440033",
+     "locality": "University Campus S.O (Nagpur)"
+    },
+    {
+     "pincode": "440035",
+     "locality": "Kalmna Market Yard S.O"
+    },
+    {
+     "pincode": "440036",
+     "locality": "Jaitala S.O"
+    },
+    {
+     "pincode": "441001",
+     "locality": "Kamthi H.O"
+    },
+    {
+     "pincode": "441101",
+     "locality": "Khubala B.O"
+    },
+    {
+     "pincode": "441102",
+     "locality": "Walni Colliery B.O"
+    },
+    {
+     "pincode": "441103",
+     "locality": "Khursapar B.O"
+    },
+    {
+     "pincode": "441104",
+     "locality": "Kapsi BK B.O"
+    },
+    {
+     "pincode": "441105",
+     "locality": "Itgaon B.O"
+    },
+    {
+     "pincode": "441106",
+     "locality": "Aroli B.O"
+    },
+    {
+     "pincode": "441107",
+     "locality": "Khangaon B.O"
+    },
+    {
+     "pincode": "441108",
+     "locality": "Borkhedi B.O"
+    },
+    {
+     "pincode": "441109",
+     "locality": "Sillewara Project S.O"
+    },
+    {
+     "pincode": "441110",
+     "locality": "Kanholibara B.O"
+    },
+    {
+     "pincode": "441111",
+     "locality": "Gumthi B.O"
+    },
+    {
+     "pincode": "441112",
+     "locality": "Khairi Dhalgaon B.O"
+    },
+    {
+     "pincode": "441113",
+     "locality": "Chanpa B.O"
+    },
+    {
+     "pincode": "441122",
+     "locality": "Gumgaon B.O"
+    },
+    {
+     "pincode": "441123",
+     "locality": "Godhani S.O"
+    },
+    {
+     "pincode": "441201",
+     "locality": "Adyar Dupache B.O"
+    },
+    {
+     "pincode": "441202",
+     "locality": "Ambadi B.O"
+    },
+    {
+     "pincode": "441203",
+     "locality": "Bamhni B.O"
+    },
+    {
+     "pincode": "441204",
+     "locality": "Narsala B.O"
+    },
+    {
+     "pincode": "441210",
+     "locality": "Jiwnapur B.O"
+    },
+    {
+     "pincode": "441214",
+     "locality": "Besur B.O"
+    },
+    {
+     "pincode": "441301",
+     "locality": "Dawsa B.O"
+    },
+    {
+     "pincode": "441302",
+     "locality": "Lohgad B.O"
+    },
+    {
+     "pincode": "441303",
+     "locality": "Khairgaon B.O"
+    },
+    {
+     "pincode": "441304",
+     "locality": "Tinkheda B.O"
+    },
+    {
+     "pincode": "441305",
+     "locality": "Bharsingi B.O"
+    },
+    {
+     "pincode": "441306",
+     "locality": "Dorli Bhandwalkar B.O"
+    },
+    {
+     "pincode": "441401",
+     "locality": "Khairi Akashwani B.O"
+    },
+    {
+     "pincode": "441404",
+     "locality": "Gondegaon B.O"
+    },
+    {
+     "pincode": "441501",
+     "locality": "Dhapewada B.O"
+    },
+    {
+     "pincode": "441502",
+     "locality": "Raulgaon B.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "440001",
+     "locality": "Nagpur GPO"
+    },
+    {
+     "pincode": "440003",
+     "locality": "Ajni S.O"
+    },
+    {
+     "pincode": "440006",
+     "locality": "Seminary Hills S.O"
+    },
+    {
+     "pincode": "440008",
+     "locality": "Bagadganj S.O"
+    },
+    {
+     "pincode": "440012",
+     "locality": "Patwardhan Ground S.O"
+    },
+    {
+     "pincode": "440013",
+     "locality": "Katolroad S.O"
+    },
+    {
+     "pincode": "440020",
+     "locality": "Neeri S.O"
+    },
+    {
+     "pincode": "440022",
+     "locality": "Ranapratap Nagar S.O"
+    },
+    {
+     "pincode": "440024",
+     "locality": "Ayodhya Nagar S.O"
+    },
+    {
+     "pincode": "440027",
+     "locality": "Parvati Nagar S.O"
+    },
+    {
+     "pincode": "440034",
+     "locality": "Mhalginagar S.O"
+    },
+    {
+     "pincode": "440037",
+     "locality": "BESA Road S.O"
+    }
+   ]
+  },
+  {
+   "city": "Ahmedabad",
+   "total_pins": 81,
+   "serviceable_count": 32,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "363423",
+     "locality": "Anandpur Bhal BO"
+    },
+    {
+     "pincode": "380001",
+     "locality": "Ahmedabad GPO"
+    },
+    {
+     "pincode": "380002",
+     "locality": "Railwaypura SO"
+    },
+    {
+     "pincode": "380005",
+     "locality": "Sabarmati SO"
+    },
+    {
+     "pincode": "380018",
+     "locality": "Saraspur SO"
+    },
+    {
+     "pincode": "380019",
+     "locality": "Railway Colony SO Ahmedabad"
+    },
+    {
+     "pincode": "380021",
+     "locality": "Rajpur Gomtipur SO"
+    },
+    {
+     "pincode": "380027",
+     "locality": "Gandhi Ashram SO Ahmedabad"
+    },
+    {
+     "pincode": "380050",
+     "locality": "Ghodasar SO Ahmedabad"
+    },
+    {
+     "pincode": "380055",
+     "locality": "Juhapura SO"
+    },
+    {
+     "pincode": "380060",
+     "locality": "Ognaj BO"
+    },
+    {
+     "pincode": "382110",
+     "locality": "Charel BO"
+    },
+    {
+     "pincode": "382115",
+     "locality": "Andej BO"
+    },
+    {
+     "pincode": "382120",
+     "locality": "Abasana BO"
+    },
+    {
+     "pincode": "382130",
+     "locality": "Dalod BO"
+    },
+    {
+     "pincode": "382140",
+     "locality": "Ashoknagar BO"
+    },
+    {
+     "pincode": "382145",
+     "locality": "Madrisana BO"
+    },
+    {
+     "pincode": "382150",
+     "locality": "Asalgam BO"
+    },
+    {
+     "pincode": "382170",
+     "locality": "Iawa Vasna BO"
+    },
+    {
+     "pincode": "382210",
+     "locality": "Kasindra BO"
+    },
+    {
+     "pincode": "382213",
+     "locality": "Devtimoti BO"
+    },
+    {
+     "pincode": "382220",
+     "locality": "Daran BO"
+    },
+    {
+     "pincode": "382225",
+     "locality": "Kelia  Vasna BO"
+    },
+    {
+     "pincode": "382240",
+     "locality": "Gangad BO"
+    },
+    {
+     "pincode": "382250",
+     "locality": "Jeska BO"
+    },
+    {
+     "pincode": "382260",
+     "locality": "Chandisar BO"
+    },
+    {
+     "pincode": "382265",
+     "locality": "Ingoli BO"
+    },
+    {
+     "pincode": "382308",
+     "locality": "Chiskari BO"
+    },
+    {
+     "pincode": "382330",
+     "locality": "Pardhol BO"
+    },
+    {
+     "pincode": "382340",
+     "locality": "Kubernagar SO"
+    },
+    {
+     "pincode": "382405",
+     "locality": "Gyaspur BO"
+    },
+    {
+     "pincode": "382418",
+     "locality": "Vastral SO"
+    },
+    {
+     "pincode": "382421",
+     "locality": "Sargasan BO"
+    },
+    {
+     "pincode": "382424",
+     "locality": "Sughad BO"
+    },
+    {
+     "pincode": "382425",
+     "locality": "Girmatha BO"
+    },
+    {
+     "pincode": "382427",
+     "locality": "Jetalpur BO"
+    },
+    {
+     "pincode": "382428",
+     "locality": "Bhat SO"
+    },
+    {
+     "pincode": "382430",
+     "locality": "Kubadthal BO"
+    },
+    {
+     "pincode": "382433",
+     "locality": "Bhavda BO"
+    },
+    {
+     "pincode": "382435",
+     "locality": "Geratpur BO"
+    },
+    {
+     "pincode": "382449",
+     "locality": "Ramol BO"
+    },
+    {
+     "pincode": "382450",
+     "locality": "Kundal BO"
+    },
+    {
+     "pincode": "382455",
+     "locality": "Bhangadh BO"
+    },
+    {
+     "pincode": "382460",
+     "locality": "Khasta BO"
+    },
+    {
+     "pincode": "382463",
+     "locality": "Ambli BO"
+    },
+    {
+     "pincode": "382465",
+     "locality": "Fatepur BO"
+    },
+    {
+     "pincode": "382470",
+     "locality": "Jagatpur BO"
+    },
+    {
+     "pincode": "382475",
+     "locality": "Sardarnagar SO"
+    },
+    {
+     "pincode": "382722",
+     "locality": "Bhadaj BO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "380003",
+     "locality": "DELIVERY HUB AHMEDABAD"
+    },
+    {
+     "pincode": "380004",
+     "locality": "Shahibag SO"
+    },
+    {
+     "pincode": "380006",
+     "locality": "Ellisbridge SO"
+    },
+    {
+     "pincode": "380007",
+     "locality": "Paldi SO Ahmedabad"
+    },
+    {
+     "pincode": "380008",
+     "locality": "Maninagar SO"
+    },
+    {
+     "pincode": "380009",
+     "locality": "Navrangpura HO"
+    },
+    {
+     "pincode": "380013",
+     "locality": "Naranpura Vistar SO"
+    },
+    {
+     "pincode": "380014",
+     "locality": "Navjivan SO"
+    },
+    {
+     "pincode": "380015",
+     "locality": "Manekbag SO"
+    },
+    {
+     "pincode": "380016",
+     "locality": "Civil Hospital SO"
+    },
+    {
+     "pincode": "380022",
+     "locality": "Behrampura SO"
+    },
+    {
+     "pincode": "380023",
+     "locality": "Rakhial Udyog Vistar SO"
+    },
+    {
+     "pincode": "380024",
+     "locality": "I E Bapunagar SO"
+    },
+    {
+     "pincode": "380026",
+     "locality": "Amraiwadi SO"
+    },
+    {
+     "pincode": "380028",
+     "locality": "Shah Alam Roza SO"
+    },
+    {
+     "pincode": "380049",
+     "locality": "Nikol SO"
+    },
+    {
+     "pincode": "380051",
+     "locality": "Jivraj Park SO"
+    },
+    {
+     "pincode": "380052",
+     "locality": "Memnagar SO"
+    },
+    {
+     "pincode": "380054",
+     "locality": "Bodakdev SO"
+    },
+    {
+     "pincode": "380058",
+     "locality": "Ambli BO"
+    },
+    {
+     "pincode": "380059",
+     "locality": "Shilaj BO"
+    },
+    {
+     "pincode": "380061",
+     "locality": "Ghatlodia SO"
+    },
+    {
+     "pincode": "380063",
+     "locality": "Sola H B C SO"
+    },
+    {
+     "pincode": "382230",
+     "locality": "Nani Boru BO"
+    },
+    {
+     "pincode": "382245",
+     "locality": "Kundli BO"
+    },
+    {
+     "pincode": "382345",
+     "locality": "Saijpur Bogha SO"
+    },
+    {
+     "pincode": "382350",
+     "locality": "T B Nagar SO"
+    },
+    {
+     "pincode": "382415",
+     "locality": "Odhav Industrial Estate SO"
+    },
+    {
+     "pincode": "382443",
+     "locality": "Isanpur SO"
+    },
+    {
+     "pincode": "382445",
+     "locality": "Vivekanandnagar BO"
+    },
+    {
+     "pincode": "382480",
+     "locality": "Ranip SO"
+    },
+    {
+     "pincode": "382481",
+     "locality": "Chandlodia SO"
+    }
+   ]
+  },
+  {
+   "city": "Vijayawada",
+   "total_pins": 59,
+   "serviceable_count": 14,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "520003",
+     "locality": "Gandhinagaram S.O (Vijayawada)"
+    },
+    {
+     "pincode": "520004",
+     "locality": "Machavaram S.O (Krishna)"
+    },
+    {
+     "pincode": "520010",
+     "locality": "Venkateswarapuram S.O"
+    },
+    {
+     "pincode": "520011",
+     "locality": "Satyanarayanapuram S.O (Vijayawada)"
+    },
+    {
+     "pincode": "520012",
+     "locality": "Ambapuram B.O"
+    },
+    {
+     "pincode": "521101",
+     "locality": "Buthumillipadu B.O"
+    },
+    {
+     "pincode": "521102",
+     "locality": "Zakkulanekkalam B.O"
+    },
+    {
+     "pincode": "521104",
+     "locality": "Gudavalli B.O"
+    },
+    {
+     "pincode": "521107",
+     "locality": "Savaragudem B.O"
+    },
+    {
+     "pincode": "521109",
+     "locality": "Ampapuram B.O"
+    },
+    {
+     "pincode": "521110",
+     "locality": "Kodurupadu B.O"
+    },
+    {
+     "pincode": "521134",
+     "locality": "Pedapulipaka B.O"
+    },
+    {
+     "pincode": "521139",
+     "locality": "Chodavaram B.O"
+    },
+    {
+     "pincode": "521151",
+     "locality": "Manthena B.O"
+    },
+    {
+     "pincode": "521153",
+     "locality": "Kolavennu S.O"
+    },
+    {
+     "pincode": "521163",
+     "locality": "Bhadrirajupalem B.O"
+    },
+    {
+     "pincode": "521164",
+     "locality": "Kalavapamula B.O"
+    },
+    {
+     "pincode": "521165",
+     "locality": "Garikiparru B.O"
+    },
+    {
+     "pincode": "521170",
+     "locality": "Chowtapalli B.O"
+    },
+    {
+     "pincode": "521180",
+     "locality": "Gottumukkala B.O"
+    },
+    {
+     "pincode": "521181",
+     "locality": "Kontalapalli B.O"
+    },
+    {
+     "pincode": "521182",
+     "locality": "Popuru B.O"
+    },
+    {
+     "pincode": "521183",
+     "locality": "Chintalapadu B.O"
+    },
+    {
+     "pincode": "521184",
+     "locality": "Ramireddipalli B.O"
+    },
+    {
+     "pincode": "521185",
+     "locality": "Keesara BO"
+    },
+    {
+     "pincode": "521190",
+     "locality": "Venkatapuram B.O"
+    },
+    {
+     "pincode": "521211",
+     "locality": "Kotha Edara B.O"
+    },
+    {
+     "pincode": "521212",
+     "locality": "Adavinekkalam B.O"
+    },
+    {
+     "pincode": "521226",
+     "locality": "Ramachandrapuram B.O"
+    },
+    {
+     "pincode": "521227",
+     "locality": "Chavutapalli B.O"
+    },
+    {
+     "pincode": "521228",
+     "locality": "Kavuluru B.O"
+    },
+    {
+     "pincode": "521229",
+     "locality": "Atkuru B.O"
+    },
+    {
+     "pincode": "521230",
+     "locality": "China Nandigama B.O"
+    },
+    {
+     "pincode": "521231",
+     "locality": "JNNURM Colony S.O"
+    },
+    {
+     "pincode": "521235",
+     "locality": "Kokilampadu B.O"
+    },
+    {
+     "pincode": "521241",
+     "locality": "Rayanapadu B.O"
+    },
+    {
+     "pincode": "521245",
+     "locality": "Chinaogirala B.O"
+    },
+    {
+     "pincode": "521246",
+     "locality": "Hanumanthapuram B.O"
+    },
+    {
+     "pincode": "521247",
+     "locality": "Iluru B.O"
+    },
+    {
+     "pincode": "521250",
+     "locality": "Choragudi B.O"
+    },
+    {
+     "pincode": "521256",
+     "locality": "Gurazada B.O"
+    },
+    {
+     "pincode": "521286",
+     "locality": "Atkur B.O"
+    },
+    {
+     "pincode": "521401",
+     "locality": "Tunikipadu B.O"
+    },
+    {
+     "pincode": "521403",
+     "locality": "Gullapudi B.O"
+    },
+    {
+     "pincode": "521456",
+     "locality": "Jupudi B.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "509132",
+     "locality": "Thummala Chervu B.O"
+    },
+    {
+     "pincode": "520001",
+     "locality": "Vijayawada H.O"
+    },
+    {
+     "pincode": "520002",
+     "locality": "Buckinghampet H.O"
+    },
+    {
+     "pincode": "520007",
+     "locality": "Yanamalakuduru B.O"
+    },
+    {
+     "pincode": "520008",
+     "locality": "Vj Polytechnic S.O"
+    },
+    {
+     "pincode": "520013",
+     "locality": "Krishnalanka S.O"
+    },
+    {
+     "pincode": "520015",
+     "locality": "Wambay Colony BO"
+    },
+    {
+     "pincode": "521108",
+     "locality": "Enikepadu B.O"
+    },
+    {
+     "pincode": "521137",
+     "locality": "Poranki S.O"
+    },
+    {
+     "pincode": "521175",
+     "locality": "Lime Stone Town Ship B.O"
+    },
+    {
+     "pincode": "521178",
+     "locality": "Bandipalem B.O"
+    },
+    {
+     "pincode": "521225",
+     "locality": "Gollapudi S.O"
+    },
+    {
+     "pincode": "521402",
+     "locality": "Vemulanarva B.O"
+    },
+    {
+     "pincode": "521457",
+     "locality": "Vedadri B.O"
+    }
+   ]
+  },
+  {
+   "city": "Kolkata",
+   "total_pins": 74,
+   "serviceable_count": 31,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "700001",
+     "locality": "Kolkatta GPO"
+    },
+    {
+     "pincode": "700006",
+     "locality": "Beadon Street SO"
+    },
+    {
+     "pincode": "700007",
+     "locality": "Barabazar H O"
+    },
+    {
+     "pincode": "700009",
+     "locality": "Raja Ram Mohan Sarani SO"
+    },
+    {
+     "pincode": "700010",
+     "locality": "Beleghata HO"
+    },
+    {
+     "pincode": "700011",
+     "locality": "Narkeldanga SO"
+    },
+    {
+     "pincode": "700012",
+     "locality": "Bowbazar SO Kolkata"
+    },
+    {
+     "pincode": "700013",
+     "locality": "Dharmatala SO"
+    },
+    {
+     "pincode": "700014",
+     "locality": "Intally SO"
+    },
+    {
+     "pincode": "700015",
+     "locality": "Tangra SO"
+    },
+    {
+     "pincode": "700017",
+     "locality": "Circus Avenue SO"
+    },
+    {
+     "pincode": "700018",
+     "locality": "Bartala SO"
+    },
+    {
+     "pincode": "700020",
+     "locality": "LRSarani SO"
+    },
+    {
+     "pincode": "700021",
+     "locality": "Fort William SO"
+    },
+    {
+     "pincode": "700022",
+     "locality": "Hastings SO"
+    },
+    {
+     "pincode": "700023",
+     "locality": "Khiddirpore SO"
+    },
+    {
+     "pincode": "700024",
+     "locality": "Garden Reach SO"
+    },
+    {
+     "pincode": "700025",
+     "locality": "Bhawanipore SO"
+    },
+    {
+     "pincode": "700026",
+     "locality": "Kalighat SO"
+    },
+    {
+     "pincode": "700027",
+     "locality": "Alipore HO"
+    },
+    {
+     "pincode": "700029",
+     "locality": "Sarat Bose Road SO"
+    },
+    {
+     "pincode": "700030",
+     "locality": "Ghugudanga SO"
+    },
+    {
+     "pincode": "700031",
+     "locality": "Dhakuria SO"
+    },
+    {
+     "pincode": "700033",
+     "locality": "Tollygunge HO"
+    },
+    {
+     "pincode": "700044",
+     "locality": "Badartala SO"
+    },
+    {
+     "pincode": "700045",
+     "locality": "Lake Gardens SO"
+    },
+    {
+     "pincode": "700046",
+     "locality": "Gobinda Khatick Road SO"
+    },
+    {
+     "pincode": "700054",
+     "locality": "Kankurgachi SO"
+    },
+    {
+     "pincode": "700060",
+     "locality": "Parnasree Pally SO"
+    },
+    {
+     "pincode": "700062",
+     "locality": "West Bengal Governors Camp SO"
+    },
+    {
+     "pincode": "700066",
+     "locality": "Bidhangarh SO"
+    },
+    {
+     "pincode": "700068",
+     "locality": "Jodhpur Park SO"
+    },
+    {
+     "pincode": "700069",
+     "locality": "Esplanade SO"
+    },
+    {
+     "pincode": "700070",
+     "locality": "Bansdroni SO"
+    },
+    {
+     "pincode": "700073",
+     "locality": "Chittaranjan Avenue SO Kolkata"
+    },
+    {
+     "pincode": "700075",
+     "locality": "Santoshpur SO"
+    },
+    {
+     "pincode": "700078",
+     "locality": "Haltu SO"
+    },
+    {
+     "pincode": "700082",
+     "locality": "Haridevpur SO"
+    },
+    {
+     "pincode": "700085",
+     "locality": "KG Bose Sarani SO"
+    },
+    {
+     "pincode": "700086",
+     "locality": "Baghajatin SO"
+    },
+    {
+     "pincode": "700100",
+     "locality": "Vip Nagar SO"
+    },
+    {
+     "pincode": "700105",
+     "locality": "Chowbaga BO"
+    },
+    {
+     "pincode": "900099",
+     "locality": "2CBPO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "700002",
+     "locality": "Cossipore HO"
+    },
+    {
+     "pincode": "700003",
+     "locality": "Baghbazar SO"
+    },
+    {
+     "pincode": "700004",
+     "locality": "Shyambazar Mail SO"
+    },
+    {
+     "pincode": "700005",
+     "locality": "Hatkhola SO"
+    },
+    {
+     "pincode": "700008",
+     "locality": "Barisha SO"
+    },
+    {
+     "pincode": "700016",
+     "locality": "Park Street HO"
+    },
+    {
+     "pincode": "700019",
+     "locality": "Ballygunge SO"
+    },
+    {
+     "pincode": "700032",
+     "locality": "Jadavpur University SO"
+    },
+    {
+     "pincode": "700034",
+     "locality": "Behala SO"
+    },
+    {
+     "pincode": "700037",
+     "locality": "Belgachia SO"
+    },
+    {
+     "pincode": "700038",
+     "locality": "Sahapur SO"
+    },
+    {
+     "pincode": "700039",
+     "locality": "Tiljala SO"
+    },
+    {
+     "pincode": "700040",
+     "locality": "Regent Park SO"
+    },
+    {
+     "pincode": "700041",
+     "locality": "Paschim Putiari SO"
+    },
+    {
+     "pincode": "700042",
+     "locality": "Kasba SO Kolkata"
+    },
+    {
+     "pincode": "700043",
+     "locality": "South Eastern Railway SO"
+    },
+    {
+     "pincode": "700047",
+     "locality": "Naktala SO"
+    },
+    {
+     "pincode": "700050",
+     "locality": "Sinthee SO"
+    },
+    {
+     "pincode": "700053",
+     "locality": "New Alipore SO"
+    },
+    {
+     "pincode": "700061",
+     "locality": "Sarsoona SO"
+    },
+    {
+     "pincode": "700063",
+     "locality": "Thakurpukur SO"
+    },
+    {
+     "pincode": "700067",
+     "locality": "Ultadanga Main Road SO"
+    },
+    {
+     "pincode": "700071",
+     "locality": "Middleton Row SO"
+    },
+    {
+     "pincode": "700072",
+     "locality": "Princep Street SO"
+    },
+    {
+     "pincode": "700087",
+     "locality": "New Market SO"
+    },
+    {
+     "pincode": "700088",
+     "locality": "Brace Bridge SO"
+    },
+    {
+     "pincode": "700092",
+     "locality": "Regent Estate SO"
+    },
+    {
+     "pincode": "700094",
+     "locality": "Panchasayar SO"
+    },
+    {
+     "pincode": "700095",
+     "locality": "Golf Green SO"
+    },
+    {
+     "pincode": "700099",
+     "locality": "Mukundapur SO"
+    },
+    {
+     "pincode": "700107",
+     "locality": "Madurdaha SO"
+    }
+   ]
+  },
+  {
+   "city": "Mysuru",
+   "total_pins": 66,
+   "serviceable_count": 23,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "570003",
+     "locality": "Naganahalli B.O"
+    },
+    {
+     "pincode": "570006",
+     "locality": "Manasagangothri S.O"
+    },
+    {
+     "pincode": "570008",
+     "locality": "Srirampura B.O"
+    },
+    {
+     "pincode": "570010",
+     "locality": "Varakodu B.O"
+    },
+    {
+     "pincode": "570011",
+     "locality": "Siddarthanagar Nagar S.O"
+    },
+    {
+     "pincode": "570018",
+     "locality": "Koorgalli B.O"
+    },
+    {
+     "pincode": "570020",
+     "locality": "Yadavagiri S.O"
+    },
+    {
+     "pincode": "570025",
+     "locality": "G S Ashram S.O"
+    },
+    {
+     "pincode": "570026",
+     "locality": "Kyathanahalli B.O"
+    },
+    {
+     "pincode": "570027",
+     "locality": "Infosys Campus S.O"
+    },
+    {
+     "pincode": "570028",
+     "locality": "Lalithadripura B.O"
+    },
+    {
+     "pincode": "570032",
+     "locality": "Vijayanagar IV Stage S.O"
+    },
+    {
+     "pincode": "571101",
+     "locality": "Kodagahalli B.O"
+    },
+    {
+     "pincode": "571102",
+     "locality": "Barse B.O"
+    },
+    {
+     "pincode": "571103",
+     "locality": "Bolanahalli B.O"
+    },
+    {
+     "pincode": "571105",
+     "locality": "Hareenahalli B.O"
+    },
+    {
+     "pincode": "571107",
+     "locality": "Kamplapura B.O"
+    },
+    {
+     "pincode": "571108",
+     "locality": "Kellur B.O"
+    },
+    {
+     "pincode": "571110",
+     "locality": "Binakanahalli B.O"
+    },
+    {
+     "pincode": "571116",
+     "locality": "Beeramballi B.O"
+    },
+    {
+     "pincode": "571118",
+     "locality": "Kudlapura B.O"
+    },
+    {
+     "pincode": "571119",
+     "locality": "Chunchanahalli B.O"
+    },
+    {
+     "pincode": "571120",
+     "locality": "Horalahalli B.O"
+    },
+    {
+     "pincode": "571121",
+     "locality": "Hanchipura B.O"
+    },
+    {
+     "pincode": "571122",
+     "locality": "Hemmige B.O"
+    },
+    {
+     "pincode": "571124",
+     "locality": "Ganaganur B.O"
+    },
+    {
+     "pincode": "571125",
+     "locality": "Chikkeriyur B.O"
+    },
+    {
+     "pincode": "571129",
+     "locality": "Biligere B.O"
+    },
+    {
+     "pincode": "571130",
+     "locality": "Anandur B.O"
+    },
+    {
+     "pincode": "571134",
+     "locality": "Harave B.O"
+    },
+    {
+     "pincode": "571189",
+     "locality": "Dharmapura B.O"
+    },
+    {
+     "pincode": "571301",
+     "locality": "Nanjangud H.O"
+    },
+    {
+     "pincode": "571302",
+     "locality": "Hadinaru B.O"
+    },
+    {
+     "pincode": "571311",
+     "locality": "Ayyarahalli B.O"
+    },
+    {
+     "pincode": "571312",
+     "locality": "Halepura B.O"
+    },
+    {
+     "pincode": "571314",
+     "locality": "Haradanahalli B.O"
+    },
+    {
+     "pincode": "571316",
+     "locality": "Dasanur B.O"
+    },
+    {
+     "pincode": "571442",
+     "locality": "Alahalli B.O"
+    },
+    {
+     "pincode": "571601",
+     "locality": "Arjunahalli B.O"
+    },
+    {
+     "pincode": "571602",
+     "locality": "Marchahalli B.O"
+    },
+    {
+     "pincode": "571603",
+     "locality": "Gandanahalli B.O"
+    },
+    {
+     "pincode": "571610",
+     "locality": "Mullur B.O"
+    },
+    {
+     "pincode": "571617",
+     "locality": "Channamgere B.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "570001",
+     "locality": "Mysuru H.O"
+    },
+    {
+     "pincode": "570002",
+     "locality": "Vani Vilas Mohalla S.O"
+    },
+    {
+     "pincode": "570004",
+     "locality": "Lakshmipuram S.O (Mysuru)"
+    },
+    {
+     "pincode": "570005",
+     "locality": "Mysuru University S.O"
+    },
+    {
+     "pincode": "570007",
+     "locality": "Narasimha Raja Mohalla S.O"
+    },
+    {
+     "pincode": "570009",
+     "locality": "Saraswathipuram H.O"
+    },
+    {
+     "pincode": "570012",
+     "locality": "Jayalakshmipuram S.O (Mysuru)"
+    },
+    {
+     "pincode": "570014",
+     "locality": "Jayanagar S.O (Mysuru)"
+    },
+    {
+     "pincode": "570015",
+     "locality": "Bannimantap S.O"
+    },
+    {
+     "pincode": "570016",
+     "locality": "Metagalli S.O"
+    },
+    {
+     "pincode": "570017",
+     "locality": "Vijaynagar II Stage S.O"
+    },
+    {
+     "pincode": "570019",
+     "locality": "Hanchya BO"
+    },
+    {
+     "pincode": "570022",
+     "locality": "Ramakrishna Nagar S.O (Mysuru)"
+    },
+    {
+     "pincode": "570023",
+     "locality": "Kuvempunagar S.O (Mysuru)"
+    },
+    {
+     "pincode": "570029",
+     "locality": "Shakthinagar S.O"
+    },
+    {
+     "pincode": "570030",
+     "locality": "Vijayanagar III Stage S.O"
+    },
+    {
+     "pincode": "570031",
+     "locality": "Jaya Prakash Nagar S.O"
+    },
+    {
+     "pincode": "570033",
+     "locality": "Dattagalli S.O"
+    },
+    {
+     "pincode": "570034",
+     "locality": "Sri Rampura 2nd Stage S.O"
+    },
+    {
+     "pincode": "571106",
+     "locality": "Neralakuppe B.O"
+    },
+    {
+     "pincode": "571114",
+     "locality": "Matakere B.O"
+    },
+    {
+     "pincode": "571315",
+     "locality": "Hosakadajetty B.O"
+    },
+    {
+     "pincode": "571604",
+     "locality": "Ballur B.O"
+    }
+   ]
+  },
+  {
+   "city": "Bengaluru",
+   "total_pins": 117,
+   "serviceable_count": 76,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "560006",
+     "locality": "J C Nagar S.O"
+    },
+    {
+     "pincode": "560007",
+     "locality": "Agram S.O"
+    },
+    {
+     "pincode": "560008",
+     "locality": "H A L II Stage H.O"
+    },
+    {
+     "pincode": "560009",
+     "locality": "K. G. Road S.O"
+    },
+    {
+     "pincode": "560012",
+     "locality": "Science Institute S.O"
+    },
+    {
+     "pincode": "560016",
+     "locality": "Doorvaninagar S.O"
+    },
+    {
+     "pincode": "560017",
+     "locality": "Vimanapura S.O"
+    },
+    {
+     "pincode": "560024",
+     "locality": "H A Farm S.O"
+    },
+    {
+     "pincode": "560025",
+     "locality": "Museum Road S.O"
+    },
+    {
+     "pincode": "560033",
+     "locality": "Maruthi Sevanagar S.O"
+    },
+    {
+     "pincode": "560036",
+     "locality": "Krishnarajapuram S.O"
+    },
+    {
+     "pincode": "560037",
+     "locality": "Marathahalli Colony S.O"
+    },
+    {
+     "pincode": "560042",
+     "locality": "Sivan Chetty Gardens S.O"
+    },
+    {
+     "pincode": "560049",
+     "locality": "Bidrahalli B.O"
+    },
+    {
+     "pincode": "560050",
+     "locality": "Banashankari S.O"
+    },
+    {
+     "pincode": "560053",
+     "locality": "Chickpet S.O"
+    },
+    {
+     "pincode": "560063",
+     "locality": "A F Station Yelahanka S.O"
+    },
+    {
+     "pincode": "560066",
+     "locality": "Whitefield S.O"
+    },
+    {
+     "pincode": "560067",
+     "locality": "Naduvathi B.O"
+    },
+    {
+     "pincode": "560073",
+     "locality": "Nagasandra S.O (Bengaluru)"
+    },
+    {
+     "pincode": "560074",
+     "locality": "Kumbalgodu Gollahalli B.O"
+    },
+    {
+     "pincode": "560075",
+     "locality": "New Thippasandra S.O"
+    },
+    {
+     "pincode": "560076",
+     "locality": "Bannerghatta Road S.O"
+    },
+    {
+     "pincode": "560080",
+     "locality": "Sadashivanagar S.O"
+    },
+    {
+     "pincode": "560082",
+     "locality": "Thataguni B.O"
+    },
+    {
+     "pincode": "560083",
+     "locality": "Sakalavara B.O"
+    },
+    {
+     "pincode": "560085",
+     "locality": "Banashankari III Stage S.O"
+    },
+    {
+     "pincode": "560088",
+     "locality": "Hessarghatta S.O"
+    },
+    {
+     "pincode": "560089",
+     "locality": "Byatha B.O"
+    },
+    {
+     "pincode": "560093",
+     "locality": "C V Raman Nagar S.O"
+    },
+    {
+     "pincode": "560094",
+     "locality": "R M V Extension II Stage S.O"
+    },
+    {
+     "pincode": "560112",
+     "locality": "Kodigehalli S.O"
+    },
+    {
+     "pincode": "560116",
+     "locality": "Bolare B.O"
+    },
+    {
+     "pincode": "560300",
+     "locality": "Bengaluru International Airport S.O"
+    },
+    {
+     "pincode": "560500",
+     "locality": "CPC ITD BNPL booking HUB"
+    },
+    {
+     "pincode": "562106",
+     "locality": "Indalawadi B.O"
+    },
+    {
+     "pincode": "562120",
+     "locality": "Bachenahatti B.O"
+    },
+    {
+     "pincode": "562130",
+     "locality": "Chikkanahalli B.O"
+    },
+    {
+     "pincode": "562157",
+     "locality": "Vidyanagara B.O"
+    },
+    {
+     "pincode": "562162",
+     "locality": "Huskur B.O"
+    },
+    {
+     "pincode": "562163",
+     "locality": "Basettihalli B.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "560001",
+     "locality": "Bengaluru G.P.O."
+    },
+    {
+     "pincode": "560002",
+     "locality": "Bengaluru City S.O"
+    },
+    {
+     "pincode": "560003",
+     "locality": "Malleswaram S.O"
+    },
+    {
+     "pincode": "560004",
+     "locality": "Basavanagudi H.O"
+    },
+    {
+     "pincode": "560005",
+     "locality": "Fraser Town S.O"
+    },
+    {
+     "pincode": "560010",
+     "locality": "Rajajinagar H.O"
+    },
+    {
+     "pincode": "560011",
+     "locality": "Jayangar III Block S.O"
+    },
+    {
+     "pincode": "560013",
+     "locality": "Jalahalli H.O"
+    },
+    {
+     "pincode": "560015",
+     "locality": "Jalahalli West S.O"
+    },
+    {
+     "pincode": "560018",
+     "locality": "Chamrajpet S.O (Bengaluru)"
+    },
+    {
+     "pincode": "560020",
+     "locality": "Seshadripuram S.O"
+    },
+    {
+     "pincode": "560021",
+     "locality": "Srirampuram S.O"
+    },
+    {
+     "pincode": "560022",
+     "locality": "Yeswanthpura S.O"
+    },
+    {
+     "pincode": "560023",
+     "locality": "Magadi Road S.O"
+    },
+    {
+     "pincode": "560026",
+     "locality": "Governmemnt Electric Factory S.O"
+    },
+    {
+     "pincode": "560027",
+     "locality": "Wilson Garden S.O"
+    },
+    {
+     "pincode": "560029",
+     "locality": "Dharmaram College S.O"
+    },
+    {
+     "pincode": "560030",
+     "locality": "Adugodi S.O"
+    },
+    {
+     "pincode": "560032",
+     "locality": "R T Nagar H.O"
+    },
+    {
+     "pincode": "560034",
+     "locality": "Koramangala S.O"
+    },
+    {
+     "pincode": "560035",
+     "locality": "Carmelram S.O"
+    },
+    {
+     "pincode": "560038",
+     "locality": "Indiranagar S.O (Bengaluru)"
+    },
+    {
+     "pincode": "560040",
+     "locality": "Vijayanagar S.O (Bengaluru)"
+    },
+    {
+     "pincode": "560041",
+     "locality": "Jayanagar H.O"
+    },
+    {
+     "pincode": "560043",
+     "locality": "Kalyananagar S.O"
+    },
+    {
+     "pincode": "560045",
+     "locality": "Arabic College S.O"
+    },
+    {
+     "pincode": "560046",
+     "locality": "Benson Town S.O"
+    },
+    {
+     "pincode": "560047",
+     "locality": "Viveknagar S.O (Bengaluru)"
+    },
+    {
+     "pincode": "560048",
+     "locality": "Mahadevapura S.O"
+    },
+    {
+     "pincode": "560051",
+     "locality": "H K P Road S.O"
+    },
+    {
+     "pincode": "560054",
+     "locality": "Msrit S.O"
+    },
+    {
+     "pincode": "560055",
+     "locality": "Malleswaram West S.O"
+    },
+    {
+     "pincode": "560056",
+     "locality": "Bnagalore Viswavidalaya S.O"
+    },
+    {
+     "pincode": "560057",
+     "locality": "Peenya Dasarahalli S.O"
+    },
+    {
+     "pincode": "560058",
+     "locality": "Peenya Small Industries S.O"
+    },
+    {
+     "pincode": "560059",
+     "locality": "Rv Niketan S.O"
+    },
+    {
+     "pincode": "560060",
+     "locality": "Chudenapura B.O"
+    },
+    {
+     "pincode": "560061",
+     "locality": "Subramanyapura S.O"
+    },
+    {
+     "pincode": "560062",
+     "locality": "Doddakallasandra S.O"
+    },
+    {
+     "pincode": "560064",
+     "locality": "Singanayakanahalli B.O"
+    },
+    {
+     "pincode": "560065",
+     "locality": "G K V K S.O"
+    },
+    {
+     "pincode": "560068",
+     "locality": "Bommanahalli S.O (Bengaluru)"
+    },
+    {
+     "pincode": "560070",
+     "locality": "B Sk II Stage S.O"
+    },
+    {
+     "pincode": "560071",
+     "locality": "Domlur S.O"
+    },
+    {
+     "pincode": "560072",
+     "locality": "Nagarbhavi S.O"
+    },
+    {
+     "pincode": "560077",
+     "locality": "Doddagubbi B.O"
+    },
+    {
+     "pincode": "560078",
+     "locality": "J P Nagar S.O"
+    },
+    {
+     "pincode": "560079",
+     "locality": "Basaveshwaranagar S.O"
+    },
+    {
+     "pincode": "560081",
+     "locality": "Chandapura S.O"
+    },
+    {
+     "pincode": "560084",
+     "locality": "St. Thomas Town S.O"
+    },
+    {
+     "pincode": "560086",
+     "locality": "Mahalakshmipuram Layout S.O"
+    },
+    {
+     "pincode": "560087",
+     "locality": "Muthsandra B.O"
+    },
+    {
+     "pincode": "560090",
+     "locality": "Silvepura B.O"
+    },
+    {
+     "pincode": "560091",
+     "locality": "Bapagrama B.O"
+    },
+    {
+     "pincode": "560092",
+     "locality": "Sahakaranagar S.O"
+    },
+    {
+     "pincode": "560095",
+     "locality": "Koramangala VI Bk S.O"
+    },
+    {
+     "pincode": "560096",
+     "locality": "Nandinilayout S.O"
+    },
+    {
+     "pincode": "560097",
+     "locality": "Vidyaranyapura S.O"
+    },
+    {
+     "pincode": "560098",
+     "locality": "Rajarajeshwarinagar S.O"
+    },
+    {
+     "pincode": "560099",
+     "locality": "Huskur B.O"
+    },
+    {
+     "pincode": "560100",
+     "locality": "Electronics City S.O"
+    },
+    {
+     "pincode": "560102",
+     "locality": "HSR Layout S.O"
+    },
+    {
+     "pincode": "560103",
+     "locality": "Bellandur S.O"
+    },
+    {
+     "pincode": "560104",
+     "locality": "Hampinagar S.O"
+    },
+    {
+     "pincode": "560105",
+     "locality": "Haragadde B.O"
+    },
+    {
+     "pincode": "560107",
+     "locality": "Achitnagar S.O"
+    },
+    {
+     "pincode": "560108",
+     "locality": "Anjanapura S.O"
+    },
+    {
+     "pincode": "560109",
+     "locality": "Thalaghattapura S.O"
+    },
+    {
+     "pincode": "560110",
+     "locality": "Ullalu Upanagar S.O"
+    },
+    {
+     "pincode": "560111",
+     "locality": "Kumaraswamy Layout S.O"
+    },
+    {
+     "pincode": "560113",
+     "locality": "Horamavu S.O"
+    },
+    {
+     "pincode": "560114",
+     "locality": "Begur"
+    },
+    {
+     "pincode": "560115",
+     "locality": "Kannamangala S.O"
+    },
+    {
+     "pincode": "562107",
+     "locality": "Neralur B.O"
+    },
+    {
+     "pincode": "562125",
+     "locality": "Dommasandra B.O"
+    },
+    {
+     "pincode": "562149",
+     "locality": "Bandikodigehalli B.O"
+    }
+   ]
+  },
+  {
+   "city": "Delhi",
+   "total_pins": 96,
+   "serviceable_count": 55,
+   "jivo_count": 42,
+   "missing": [
+    {
+     "pincode": "110001",
+     "locality": "New Delhi GPO"
+    },
+    {
+     "pincode": "110002",
+     "locality": "Indraprastha HO"
+    },
+    {
+     "pincode": "110003",
+     "locality": "Lodi Road HO"
+    },
+    {
+     "pincode": "110004",
+     "locality": "Rashtrapati Bhawan SO"
+    },
+    {
+     "pincode": "110005",
+     "locality": "Karol Bagh SO"
+    },
+    {
+     "pincode": "110006",
+     "locality": "Delhi GPO"
+    },
+    {
+     "pincode": "110009",
+     "locality": "GTB Nagar SO"
+    },
+    {
+     "pincode": "110011",
+     "locality": "Nirman Bhawan SO"
+    },
+    {
+     "pincode": "110012",
+     "locality": "IARI SO"
+    },
+    {
+     "pincode": "110013",
+     "locality": "Hazrat Nizamuddin SO"
+    },
+    {
+     "pincode": "110016",
+     "locality": "Hauz Khas SO"
+    },
+    {
+     "pincode": "110019",
+     "locality": "Kalkaji HO"
+    },
+    {
+     "pincode": "110020",
+     "locality": "Okhla Industrial Estate SO"
+    },
+    {
+     "pincode": "110021",
+     "locality": "Chanakya Puri SO"
+    },
+    {
+     "pincode": "110022",
+     "locality": "R K Puram Sect5 SO"
+    },
+    {
+     "pincode": "110023",
+     "locality": "Sarojini Nagar HO"
+    },
+    {
+     "pincode": "110024",
+     "locality": "Lajpat Nagar South Delhi SO"
+    },
+    {
+     "pincode": "110029",
+     "locality": "Safdarjung Enclave SO"
+    },
+    {
+     "pincode": "110030",
+     "locality": "Mehrauli SO"
+    },
+    {
+     "pincode": "110036",
+     "locality": "Kadipur BO"
+    },
+    {
+     "pincode": "110037",
+     "locality": "Gurgaon Road SO"
+    },
+    {
+     "pincode": "110038",
+     "locality": "A F Rajokari SO"
+    },
+    {
+     "pincode": "110039",
+     "locality": "Pooth Khurd BO"
+    },
+    {
+     "pincode": "110041",
+     "locality": "Bakkarwala B.O"
+    },
+    {
+     "pincode": "110043",
+     "locality": "Jhatikara B.O"
+    },
+    {
+     "pincode": "110047",
+     "locality": "Arjungarh SO"
+    },
+    {
+     "pincode": "110049",
+     "locality": "Andrewsganj SO"
+    },
+    {
+     "pincode": "110053",
+     "locality": "Seelampur SO"
+    },
+    {
+     "pincode": "110055",
+     "locality": "Swami Ram Tirth Nagar SO"
+    },
+    {
+     "pincode": "110057",
+     "locality": "Vasant Vihar1 SO"
+    },
+    {
+     "pincode": "110059",
+     "locality": "D. K. Mohan Garden S.O"
+    },
+    {
+     "pincode": "110061",
+     "locality": "Bijwasan SO"
+    },
+    {
+     "pincode": "110071",
+     "locality": "Chhawla S.O"
+    },
+    {
+     "pincode": "110072",
+     "locality": "CRPF Jharoda Kalan S.O"
+    },
+    {
+     "pincode": "110076",
+     "locality": "Sarita Vihar SO"
+    },
+    {
+     "pincode": "110080",
+     "locality": "Sangam Vihar SO"
+    },
+    {
+     "pincode": "110081",
+     "locality": "Jaunti BO"
+    },
+    {
+     "pincode": "110082",
+     "locality": "Holambi Kalan BO"
+    },
+    {
+     "pincode": "110084",
+     "locality": "Jagatpur BO"
+    },
+    {
+     "pincode": "110086",
+     "locality": "Pooth Kalan BO"
+    },
+    {
+     "pincode": "110097",
+     "locality": "Kapashera SO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "110017",
+     "locality": "Malviya Nagar SO South Delhi"
+    },
+    {
+     "pincode": "110032",
+     "locality": "Shahdara SO"
+    },
+    {
+     "pincode": "110033",
+     "locality": "NSMandi SO"
+    },
+    {
+     "pincode": "110046",
+     "locality": "Nangal Raya S.O"
+    },
+    {
+     "pincode": "110048",
+     "locality": "Greater Kailash SO"
+    },
+    {
+     "pincode": "110065",
+     "locality": "Sriniwaspuri SO"
+    },
+    {
+     "pincode": "110070",
+     "locality": "Vasant Kunj SO"
+    },
+    {
+     "pincode": "110073",
+     "locality": "Mundela Kalan B.O"
+    },
+    {
+     "pincode": "110078",
+     "locality": "Kakrola B.O"
+    },
+    {
+     "pincode": "110085",
+     "locality": "Rohini Sector7 SO"
+    },
+    {
+     "pincode": "110091",
+     "locality": "Patparganj SO"
+    },
+    {
+     "pincode": "110093",
+     "locality": "Nand Nagri C SO"
+    },
+    {
+     "pincode": "110095",
+     "locality": "Jhilmil HO"
+    }
+   ]
+  },
+  {
+   "city": "Mumbai",
+   "total_pins": 89,
+   "serviceable_count": 53,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "400004",
+     "locality": "Girgaon S.O"
+    },
+    {
+     "pincode": "400005",
+     "locality": "Colaba SO"
+    },
+    {
+     "pincode": "400007",
+     "locality": "Grant Road S.O"
+    },
+    {
+     "pincode": "400008",
+     "locality": "Mumbai Central H.O"
+    },
+    {
+     "pincode": "400011",
+     "locality": "Jacob Circle S.O"
+    },
+    {
+     "pincode": "400015",
+     "locality": "Sewri S.O"
+    },
+    {
+     "pincode": "400017",
+     "locality": "Dharavi S.O"
+    },
+    {
+     "pincode": "400022",
+     "locality": "Sion SO"
+    },
+    {
+     "pincode": "400024",
+     "locality": "Nehru Nagar SO"
+    },
+    {
+     "pincode": "400026",
+     "locality": "Cumballa Hill S.O"
+    },
+    {
+     "pincode": "400027",
+     "locality": "V J B Udyan S.O"
+    },
+    {
+     "pincode": "400028",
+     "locality": "Bhawani Shankar S.O"
+    },
+    {
+     "pincode": "400030",
+     "locality": "Worli Colony S.O"
+    },
+    {
+     "pincode": "400032",
+     "locality": "Mantralaya SO Mumbai"
+    },
+    {
+     "pincode": "400034",
+     "locality": "Tulsiwadi S.O"
+    },
+    {
+     "pincode": "400035",
+     "locality": "Rajbhavan S.O (Mumbai)"
+    },
+    {
+     "pincode": "400042",
+     "locality": "Bhandup East SO"
+    },
+    {
+     "pincode": "400043",
+     "locality": "Shivaji Nagar SO Mumbai"
+    },
+    {
+     "pincode": "400053",
+     "locality": "Azad Nagar S.O (Mumbai)"
+    },
+    {
+     "pincode": "400058",
+     "locality": "Andheri Railway Station S.O"
+    },
+    {
+     "pincode": "400060",
+     "locality": "Jogeshwari East SO"
+    },
+    {
+     "pincode": "400061",
+     "locality": "Vesava S.O"
+    },
+    {
+     "pincode": "400064",
+     "locality": "Malad West Dely SO"
+    },
+    {
+     "pincode": "400065",
+     "locality": "Aareymilk Colony SO"
+    },
+    {
+     "pincode": "400069",
+     "locality": "Andheri East S.O"
+    },
+    {
+     "pincode": "400070",
+     "locality": "Kurla West SO"
+    },
+    {
+     "pincode": "400076",
+     "locality": "Powai Iit SO"
+    },
+    {
+     "pincode": "400081",
+     "locality": "Mulund East SO"
+    },
+    {
+     "pincode": "400083",
+     "locality": "Tagore Nagar SO"
+    },
+    {
+     "pincode": "400084",
+     "locality": "Barve Nagar SO"
+    },
+    {
+     "pincode": "400087",
+     "locality": "NITIE SO"
+    },
+    {
+     "pincode": "400088",
+     "locality": "TFDonar SO"
+    },
+    {
+     "pincode": "400095",
+     "locality": "Kharodi SO"
+    },
+    {
+     "pincode": "400101",
+     "locality": "Kandivali East SO"
+    },
+    {
+     "pincode": "400102",
+     "locality": "Jogeshwari West SO"
+    },
+    {
+     "pincode": "400104",
+     "locality": "Motilal Nagar SO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "400001",
+     "locality": "Mumbai GPO"
+    },
+    {
+     "pincode": "400002",
+     "locality": "Kalbadevi H.O"
+    },
+    {
+     "pincode": "400003",
+     "locality": "Mandvi S.O (Mumbai)"
+    },
+    {
+     "pincode": "400006",
+     "locality": "Malabar Hill S.O"
+    },
+    {
+     "pincode": "400009",
+     "locality": "CHINCHBUNDER S.O"
+    },
+    {
+     "pincode": "400010",
+     "locality": "Mazgaon S.O"
+    },
+    {
+     "pincode": "400012",
+     "locality": "Parel S.O"
+    },
+    {
+     "pincode": "400013",
+     "locality": "Delisle Road S.O"
+    },
+    {
+     "pincode": "400014",
+     "locality": "Dadar H.O"
+    },
+    {
+     "pincode": "400016",
+     "locality": "Mahim H.O"
+    },
+    {
+     "pincode": "400018",
+     "locality": "Worli S.O"
+    },
+    {
+     "pincode": "400019",
+     "locality": "Matunga SO"
+    },
+    {
+     "pincode": "400020",
+     "locality": "Marine Lines S.O"
+    },
+    {
+     "pincode": "400021",
+     "locality": "Elephanta Caves Po BO"
+    },
+    {
+     "pincode": "400025",
+     "locality": "Prabhadevi S.O"
+    },
+    {
+     "pincode": "400029",
+     "locality": "Santacruz P and T  Colony S.O"
+    },
+    {
+     "pincode": "400031",
+     "locality": "Wadala S.O"
+    },
+    {
+     "pincode": "400033",
+     "locality": "Tank Road S.O"
+    },
+    {
+     "pincode": "400037",
+     "locality": "Antop Hill S.O"
+    },
+    {
+     "pincode": "400049",
+     "locality": "Juhu S.O"
+    },
+    {
+     "pincode": "400050",
+     "locality": "Bandra West S.O"
+    },
+    {
+     "pincode": "400051",
+     "locality": "Bandra(East) S.O"
+    },
+    {
+     "pincode": "400052",
+     "locality": "Khar Delivery S.O"
+    },
+    {
+     "pincode": "400054",
+     "locality": "Santacruz(West) S.O"
+    },
+    {
+     "pincode": "400055",
+     "locality": "Santacruz(East) S.O"
+    },
+    {
+     "pincode": "400056",
+     "locality": "Vileparle(West) S.O"
+    },
+    {
+     "pincode": "400057",
+     "locality": "Vileeparle (East) S.O"
+    },
+    {
+     "pincode": "400059",
+     "locality": "J.B. Nagar S.O"
+    },
+    {
+     "pincode": "400063",
+     "locality": "Goregaon East SO"
+    },
+    {
+     "pincode": "400066",
+     "locality": "Borivali East SO"
+    },
+    {
+     "pincode": "400067",
+     "locality": "Kandivali West SO"
+    },
+    {
+     "pincode": "400068",
+     "locality": "Dahisar SO"
+    },
+    {
+     "pincode": "400071",
+     "locality": "Chembur HO"
+    },
+    {
+     "pincode": "400072",
+     "locality": "Sakinaka SO"
+    },
+    {
+     "pincode": "400074",
+     "locality": "FCI SO"
+    },
+    {
+     "pincode": "400075",
+     "locality": "Pant Nagar SO"
+    },
+    {
+     "pincode": "400077",
+     "locality": "Rajawadi SO"
+    },
+    {
+     "pincode": "400078",
+     "locality": "Bhandup West SO"
+    },
+    {
+     "pincode": "400079",
+     "locality": "Vikhroli SO"
+    },
+    {
+     "pincode": "400080",
+     "locality": "Mulund West SO"
+    },
+    {
+     "pincode": "400082",
+     "locality": "Bhandup Complex SO"
+    },
+    {
+     "pincode": "400085",
+     "locality": "BARC SO"
+    },
+    {
+     "pincode": "400086",
+     "locality": "Ghatkopar West SO"
+    },
+    {
+     "pincode": "400089",
+     "locality": "Tilak Nagar SO Mumbai"
+    },
+    {
+     "pincode": "400091",
+     "locality": "Borivali HO"
+    },
+    {
+     "pincode": "400092",
+     "locality": "Borivali West SO"
+    },
+    {
+     "pincode": "400093",
+     "locality": "Chakala Midc S.O"
+    },
+    {
+     "pincode": "400094",
+     "locality": "Anushakti Nagar SO"
+    },
+    {
+     "pincode": "400096",
+     "locality": "Seepz S.O"
+    },
+    {
+     "pincode": "400097",
+     "locality": "Malad East SO"
+    },
+    {
+     "pincode": "400098",
+     "locality": "Vidyanagari S.O"
+    },
+    {
+     "pincode": "400099",
+     "locality": "Sahar P and T Colony S.O"
+    },
+    {
+     "pincode": "400103",
+     "locality": "Mandapeshwar SO"
+    }
+   ]
+  },
+  {
+   "city": "Vadodara",
+   "total_pins": 61,
+   "serviceable_count": 28,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "390001",
+     "locality": "Vadodara HO"
+    },
+    {
+     "pincode": "390003",
+     "locality": "Chemical Industries SO"
+    },
+    {
+     "pincode": "390004",
+     "locality": "Kapurai BO"
+    },
+    {
+     "pincode": "390014",
+     "locality": "Jambua BO"
+    },
+    {
+     "pincode": "390017",
+     "locality": "Wadi SN Road SO"
+    },
+    {
+     "pincode": "390018",
+     "locality": "Karelibaug SO"
+    },
+    {
+     "pincode": "390022",
+     "locality": "Dena BO"
+    },
+    {
+     "pincode": "390023",
+     "locality": "Subhanpura SO"
+    },
+    {
+     "pincode": "390025",
+     "locality": "Soma Talav SO"
+    },
+    {
+     "pincode": "391105",
+     "locality": "Bithli BO"
+    },
+    {
+     "pincode": "391107",
+     "locality": "Anguthan BO"
+    },
+    {
+     "pincode": "391110",
+     "locality": "Sathod BO"
+    },
+    {
+     "pincode": "391115",
+     "locality": "Malsar BO"
+    },
+    {
+     "pincode": "391220",
+     "locality": "Shahpura BO"
+    },
+    {
+     "pincode": "391240",
+     "locality": "Anastu BO"
+    },
+    {
+     "pincode": "391243",
+     "locality": "Itola RS BO"
+    },
+    {
+     "pincode": "391310",
+     "locality": "Bajwa SO"
+    },
+    {
+     "pincode": "391330",
+     "locality": "Angadh BO"
+    },
+    {
+     "pincode": "391345",
+     "locality": "Petrochemical  T Ship SO"
+    },
+    {
+     "pincode": "391350",
+     "locality": "Sankarda BO"
+    },
+    {
+     "pincode": "391421",
+     "locality": "Abhol BO"
+    },
+    {
+     "pincode": "391430",
+     "locality": "Pindappa BO"
+    },
+    {
+     "pincode": "391440",
+     "locality": "Chansad BO"
+    },
+    {
+     "pincode": "391450",
+     "locality": "Tithor BO"
+    },
+    {
+     "pincode": "391510",
+     "locality": "Ajwa Compound BO"
+    },
+    {
+     "pincode": "391520",
+     "locality": "Gangadia BO"
+    },
+    {
+     "pincode": "391750",
+     "locality": "Fartilizer Nagar SO"
+    },
+    {
+     "pincode": "391760",
+     "locality": "Khanda BO"
+    },
+    {
+     "pincode": "391770",
+     "locality": "Gothda BO"
+    },
+    {
+     "pincode": "391775",
+     "locality": "Anjesar BO"
+    },
+    {
+     "pincode": "391776",
+     "locality": "Manjusar GIDC"
+    },
+    {
+     "pincode": "391780",
+     "locality": "Ranjit Nagar BO"
+    },
+    {
+     "pincode": "392220",
+     "locality": "Haldarva BO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "390002",
+     "locality": "Fateganj HO"
+    },
+    {
+     "pincode": "390006",
+     "locality": "Fatepura SO Vadodara"
+    },
+    {
+     "pincode": "390007",
+     "locality": "Racecourse SO"
+    },
+    {
+     "pincode": "390009",
+     "locality": "Tarsali BO"
+    },
+    {
+     "pincode": "390010",
+     "locality": "MI Estate SO"
+    },
+    {
+     "pincode": "390011",
+     "locality": "Manjalpur SO"
+    },
+    {
+     "pincode": "390012",
+     "locality": "Atladara SO"
+    },
+    {
+     "pincode": "390013",
+     "locality": "Maneja SO"
+    },
+    {
+     "pincode": "390016",
+     "locality": "Industrial Estate Vadodara SO"
+    },
+    {
+     "pincode": "390019",
+     "locality": "Ankhol BO"
+    },
+    {
+     "pincode": "390020",
+     "locality": "Akota SO"
+    },
+    {
+     "pincode": "390021",
+     "locality": "T B Sanatorium SO"
+    },
+    {
+     "pincode": "390024",
+     "locality": "Chhani Rd SO"
+    },
+    {
+     "pincode": "391101",
+     "locality": "Ampad BO"
+    },
+    {
+     "pincode": "391210",
+     "locality": "Dhavat BO"
+    },
+    {
+     "pincode": "391244",
+     "locality": "Atali BO"
+    },
+    {
+     "pincode": "391250",
+     "locality": "Avakhal BO"
+    },
+    {
+     "pincode": "391320",
+     "locality": "Jawahar Nagar SO Vadodara"
+    },
+    {
+     "pincode": "391340",
+     "locality": "Dodka BO"
+    },
+    {
+     "pincode": "391410",
+     "locality": "Bill BO"
+    },
+    {
+     "pincode": "391445",
+     "locality": "Pipli BO"
+    },
+    {
+     "pincode": "391530",
+     "locality": "Latwa BO"
+    },
+    {
+     "pincode": "391740",
+     "locality": "Dashrath BO"
+    },
+    {
+     "pincode": "391745",
+     "locality": "Pilol BO"
+    },
+    {
+     "pincode": "391761",
+     "locality": "Goraj BO"
+    },
+    {
+     "pincode": "391774",
+     "locality": "Itwad BO"
+    },
+    {
+     "pincode": "392310",
+     "locality": "Kiya BO"
+    },
+    {
+     "pincode": "393105",
+     "locality": "Lilod BO"
+    }
+   ]
+  },
+  {
+   "city": "Hyderabad",
+   "total_pins": 59,
+   "serviceable_count": 27,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "500001",
+     "locality": "Hyderabad G.P.O."
+    },
+    {
+     "pincode": "500002",
+     "locality": "Charminar HO"
+    },
+    {
+     "pincode": "500003",
+     "locality": "Secunderabad H.O"
+    },
+    {
+     "pincode": "500005",
+     "locality": "Jalpally B.O"
+    },
+    {
+     "pincode": "500006",
+     "locality": "Karwan Sahu S.O"
+    },
+    {
+     "pincode": "500007",
+     "locality": "Jama I Osmania S.O"
+    },
+    {
+     "pincode": "500008",
+     "locality": "Nanakramguda B.O"
+    },
+    {
+     "pincode": "500009",
+     "locality": "Manovikasnagar S.O"
+    },
+    {
+     "pincode": "500010",
+     "locality": "Bolarum S.O"
+    },
+    {
+     "pincode": "500012",
+     "locality": "Begum Bazar S.O"
+    },
+    {
+     "pincode": "500014",
+     "locality": "Hakimpet S.O"
+    },
+    {
+     "pincode": "500015",
+     "locality": "Trimulgherry H.O"
+    },
+    {
+     "pincode": "500016",
+     "locality": "Begumpet S.O"
+    },
+    {
+     "pincode": "500018",
+     "locality": "Sanathnagar I E S.O"
+    },
+    {
+     "pincode": "500022",
+     "locality": "Central Secretariat S.O"
+    },
+    {
+     "pincode": "500024",
+     "locality": "Sahifa S.O"
+    },
+    {
+     "pincode": "500027",
+     "locality": "Stn. Kachiguda H.O"
+    },
+    {
+     "pincode": "500028",
+     "locality": "Humayunnagar S.O"
+    },
+    {
+     "pincode": "500029",
+     "locality": "Himayathnagar S.O"
+    },
+    {
+     "pincode": "500031",
+     "locality": "Ibrahim Bagh Lines S.O"
+    },
+    {
+     "pincode": "500032",
+     "locality": "Manuu S.O"
+    },
+    {
+     "pincode": "500036",
+     "locality": "Malakpet Colony S.O"
+    },
+    {
+     "pincode": "500038",
+     "locality": "Sanjeev Reddy Nagar S.O"
+    },
+    {
+     "pincode": "500047",
+     "locality": "Malkajgiri S.O"
+    },
+    {
+     "pincode": "500058",
+     "locality": "Kanchanbagh S.O"
+    },
+    {
+     "pincode": "500061",
+     "locality": "Sitaphalmandi S.O"
+    },
+    {
+     "pincode": "500064",
+     "locality": "Bahadurpura S.O"
+    },
+    {
+     "pincode": "500065",
+     "locality": "Shahalibanda S.O"
+    },
+    {
+     "pincode": "500084",
+     "locality": "Kothaguda S.O"
+    },
+    {
+     "pincode": "500094",
+     "locality": "Sainikpuri S.O"
+    },
+    {
+     "pincode": "500096",
+     "locality": "Film Nagar S.O"
+    },
+    {
+     "pincode": "500107",
+     "locality": "Gopanpally S.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "500004",
+     "locality": "Khairatabad H.O"
+    },
+    {
+     "pincode": "500011",
+     "locality": "Bowenpally S.O"
+    },
+    {
+     "pincode": "500013",
+     "locality": "Amberpet S.O"
+    },
+    {
+     "pincode": "500017",
+     "locality": "Lallaguda S.O"
+    },
+    {
+     "pincode": "500020",
+     "locality": "Musheerabad (D) S.O"
+    },
+    {
+     "pincode": "500023",
+     "locality": "Yakutpura S.O"
+    },
+    {
+     "pincode": "500025",
+     "locality": "Himmatnagar S.O"
+    },
+    {
+     "pincode": "500026",
+     "locality": "Nehrunagar S.O"
+    },
+    {
+     "pincode": "500033",
+     "locality": "Jubilee Hills S.O"
+    },
+    {
+     "pincode": "500034",
+     "locality": "Banjara Hills S.O"
+    },
+    {
+     "pincode": "500040",
+     "locality": "Ie Moulali S.O"
+    },
+    {
+     "pincode": "500041",
+     "locality": "Raj Bhawan S.O"
+    },
+    {
+     "pincode": "500044",
+     "locality": "New Nallakunta S.O"
+    },
+    {
+     "pincode": "500045",
+     "locality": "Yousufguda S.O"
+    },
+    {
+     "pincode": "500053",
+     "locality": "Falaknuma S.O"
+    },
+    {
+     "pincode": "500056",
+     "locality": "Ramakrishna Puram S.O"
+    },
+    {
+     "pincode": "500057",
+     "locality": "Vijay Nagar Colony S.O"
+    },
+    {
+     "pincode": "500059",
+     "locality": "Saidabad S.O"
+    },
+    {
+     "pincode": "500063",
+     "locality": "LIC Division S.O"
+    },
+    {
+     "pincode": "500066",
+     "locality": "High Court S.O"
+    },
+    {
+     "pincode": "500073",
+     "locality": "Srinagar Colony S.O"
+    },
+    {
+     "pincode": "500080",
+     "locality": "Gandhinagar S.O"
+    },
+    {
+     "pincode": "500081",
+     "locality": "Cyberabad S.O"
+    },
+    {
+     "pincode": "500082",
+     "locality": "Somajiguda S.O"
+    },
+    {
+     "pincode": "500095",
+     "locality": "Putlibowli S.O"
+    },
+    {
+     "pincode": "500110",
+     "locality": "Prashasan Nagar S.O"
+    },
+    {
+     "pincode": "500112",
+     "locality": "Almasguda B.O"
+    }
+   ]
+  },
+  {
+   "city": "Visakhapatnam",
+   "total_pins": 41,
+   "serviceable_count": 14,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "530001",
+     "locality": "Visakhapatnam H.O"
+    },
+    {
+     "pincode": "530005",
+     "locality": "Yarada B.O"
+    },
+    {
+     "pincode": "530007",
+     "locality": "Industrial Estate S.O (Visakhapatnam)"
+    },
+    {
+     "pincode": "530008",
+     "locality": "Kancharapalem S.O"
+    },
+    {
+     "pincode": "530009",
+     "locality": "N A D S.O"
+    },
+    {
+     "pincode": "530011",
+     "locality": "Malkapuram S.O"
+    },
+    {
+     "pincode": "530012",
+     "locality": "Jaggayyapalem B.O"
+    },
+    {
+     "pincode": "530013",
+     "locality": "P and T Colony (VM) S.O"
+    },
+    {
+     "pincode": "530014",
+     "locality": "Naval Base S.O"
+    },
+    {
+     "pincode": "530015",
+     "locality": "Zinc Smelter P S.O"
+    },
+    {
+     "pincode": "530017",
+     "locality": "L B Colony S.O"
+    },
+    {
+     "pincode": "530026",
+     "locality": "Gajuwaka S.O"
+    },
+    {
+     "pincode": "530027",
+     "locality": "Narava B.O"
+    },
+    {
+     "pincode": "530028",
+     "locality": "Simhachalam S.O"
+    },
+    {
+     "pincode": "530029",
+     "locality": "Durganagar B.O"
+    },
+    {
+     "pincode": "530031",
+     "locality": "Devada B.O"
+    },
+    {
+     "pincode": "530032",
+     "locality": "Ukkunagaram S.O"
+    },
+    {
+     "pincode": "530040",
+     "locality": "Sri krishnapuram B.O"
+    },
+    {
+     "pincode": "530043",
+     "locality": "Visalakshinagar S.O"
+    },
+    {
+     "pincode": "530044",
+     "locality": "Dibbapalem B.O"
+    },
+    {
+     "pincode": "530047",
+     "locality": "Chintalaagaraharam B.O"
+    },
+    {
+     "pincode": "530051",
+     "locality": "Chinamushidiwada B.O"
+    },
+    {
+     "pincode": "530052",
+     "locality": "Palavalasa B.O"
+    },
+    {
+     "pincode": "530053",
+     "locality": "Pedamadaka B.O"
+    },
+    {
+     "pincode": "531162",
+     "locality": "Tatituru B.O"
+    },
+    {
+     "pincode": "531163",
+     "locality": "Kapuluppada B.O"
+    },
+    {
+     "pincode": "531173",
+     "locality": "Ramavaram B.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "530002",
+     "locality": "Maharanipeta S.O"
+    },
+    {
+     "pincode": "530003",
+     "locality": "Andhra University S.O"
+    },
+    {
+     "pincode": "530004",
+     "locality": "Waltair R S H.O"
+    },
+    {
+     "pincode": "530016",
+     "locality": "Akkayyapalem S.O"
+    },
+    {
+     "pincode": "530018",
+     "locality": "Marripalem S.O"
+    },
+    {
+     "pincode": "530020",
+     "locality": "Dabagardens S.O"
+    },
+    {
+     "pincode": "530022",
+     "locality": "H B Colony S.O"
+    },
+    {
+     "pincode": "530024",
+     "locality": "Salagramapuram S.O"
+    },
+    {
+     "pincode": "530041",
+     "locality": "Pothinamallayapalem S.O"
+    },
+    {
+     "pincode": "530045",
+     "locality": "Sagar Nagar B.O"
+    },
+    {
+     "pincode": "530046",
+     "locality": "Vadlapudi S.O"
+    },
+    {
+     "pincode": "530048",
+     "locality": "Gayatri Engg College B.O"
+    },
+    {
+     "pincode": "530049",
+     "locality": "Duvvada B.O"
+    },
+    {
+     "pincode": "531219",
+     "locality": "Bhandevupuram B.O"
+    }
+   ]
+  },
+  {
+   "city": "Indore",
+   "total_pins": 30,
+   "serviceable_count": 3,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "452001",
+     "locality": "Indore G.P.O."
+    },
+    {
+     "pincode": "452002",
+     "locality": "Indore City 2 S.O"
+    },
+    {
+     "pincode": "452003",
+     "locality": "Vallabhnagar S.O (Indore)"
+    },
+    {
+     "pincode": "452007",
+     "locality": "Indore Nagar H.O"
+    },
+    {
+     "pincode": "452009",
+     "locality": "Sudama Nagar S.O"
+    },
+    {
+     "pincode": "452010",
+     "locality": "Vijay Nagar S.O"
+    },
+    {
+     "pincode": "452011",
+     "locality": "Nanda Nagar S.O"
+    },
+    {
+     "pincode": "452012",
+     "locality": "Rajendra Nagar S.O (Indore)"
+    },
+    {
+     "pincode": "452013",
+     "locality": "Indore Cat S.O"
+    },
+    {
+     "pincode": "452015",
+     "locality": "Industrial Estate S.O (Indore)"
+    },
+    {
+     "pincode": "452016",
+     "locality": "Buranakhedi B.O"
+    },
+    {
+     "pincode": "452018",
+     "locality": "Indore Tillaknagar S.O"
+    },
+    {
+     "pincode": "452020",
+     "locality": "Datoda B.O"
+    },
+    {
+     "pincode": "453001",
+     "locality": "Kalaria B.O"
+    },
+    {
+     "pincode": "453111",
+     "locality": "Alwasa B.O"
+    },
+    {
+     "pincode": "453112",
+     "locality": "Jamburdi Hapsi B.O"
+    },
+    {
+     "pincode": "453115",
+     "locality": "Banedia B.O"
+    },
+    {
+     "pincode": "453220",
+     "locality": "Jalodia Gyan B.O"
+    },
+    {
+     "pincode": "453331",
+     "locality": "Rangwasa B.O"
+    },
+    {
+     "pincode": "453441",
+     "locality": "Bhagora B.O"
+    },
+    {
+     "pincode": "453446",
+     "locality": "Rasalpura S.O"
+    },
+    {
+     "pincode": "453551",
+     "locality": "Ajnod B.O"
+    },
+    {
+     "pincode": "453552",
+     "locality": "Simrol S.O"
+    },
+    {
+     "pincode": "453555",
+     "locality": "Shri Aurobindo S.O"
+    },
+    {
+     "pincode": "453556",
+     "locality": "IIM CAMPUS RAO S.O"
+    },
+    {
+     "pincode": "453661",
+     "locality": "Hasalpur B.O"
+    },
+    {
+     "pincode": "453771",
+     "locality": "Dakachiya B.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "452005",
+     "locality": "Bijasan Road S.O"
+    },
+    {
+     "pincode": "452006",
+     "locality": "Army Head Quarter S.O"
+    },
+    {
+     "pincode": "452014",
+     "locality": "Khatiwala Tank S.O"
+    }
+   ]
+  },
+  {
+   "city": "Chennai",
+   "total_pins": 83,
+   "serviceable_count": 57,
+   "jivo_count": 0,
+   "missing": [
+    {
+     "pincode": "600003",
+     "locality": "Park Town H.O"
+    },
+    {
+     "pincode": "600004",
+     "locality": "Mylapore H.O"
+    },
+    {
+     "pincode": "600006",
+     "locality": "Greams Road S.O"
+    },
+    {
+     "pincode": "600007",
+     "locality": "Vepery S.O"
+    },
+    {
+     "pincode": "600009",
+     "locality": "Fort St George S.O"
+    },
+    {
+     "pincode": "600010",
+     "locality": "Kilpauk S.O"
+    },
+    {
+     "pincode": "600012",
+     "locality": "Perambur Barracks S.O"
+    },
+    {
+     "pincode": "600020",
+     "locality": "Adyar S.O (Chennai)"
+    },
+    {
+     "pincode": "600028",
+     "locality": "Raja Annamalaipuram S.O"
+    },
+    {
+     "pincode": "600030",
+     "locality": "Shenoy Nagar S.O"
+    },
+    {
+     "pincode": "600034",
+     "locality": "Nungambakkam MDO"
+    },
+    {
+     "pincode": "600035",
+     "locality": "Nandanam S.O"
+    },
+    {
+     "pincode": "600036",
+     "locality": "Indian Institute Of Technology S.O"
+    },
+    {
+     "pincode": "600039",
+     "locality": "Vyasarpadi S.O"
+    },
+    {
+     "pincode": "600051",
+     "locality": "Madhavaram Milk Colony SO"
+    },
+    {
+     "pincode": "600057",
+     "locality": "Ennore Thermal Station SO"
+    },
+    {
+     "pincode": "600060",
+     "locality": "Vadaperumbakkam BO"
+    },
+    {
+     "pincode": "600061",
+     "locality": "Nanganallur S.O"
+    },
+    {
+     "pincode": "600066",
+     "locality": "Pozhal SO"
+    },
+    {
+     "pincode": "600082",
+     "locality": "Periyar Nagar S.O"
+    },
+    {
+     "pincode": "600085",
+     "locality": "Kotturpuram S.O"
+    },
+    {
+     "pincode": "600094",
+     "locality": "Choolaimedu S.O"
+    },
+    {
+     "pincode": "600101",
+     "locality": "Anna Nagar Western Extn S.O"
+    },
+    {
+     "pincode": "600102",
+     "locality": "Anna Nagar East S.O"
+    },
+    {
+     "pincode": "600103",
+     "locality": "Vellivoyalchavadi BO"
+    },
+    {
+     "pincode": "600106",
+     "locality": "Arumbakkam S.O"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "600001",
+     "locality": "Chennai G.P.O."
+    },
+    {
+     "pincode": "600002",
+     "locality": "Anna Road H.O"
+    },
+    {
+     "pincode": "600005",
+     "locality": "Tiruvallikeni S.O"
+    },
+    {
+     "pincode": "600008",
+     "locality": "EGMORE MDO"
+    },
+    {
+     "pincode": "600011",
+     "locality": "Perambur S.O"
+    },
+    {
+     "pincode": "600013",
+     "locality": "Rayapuram S.O"
+    },
+    {
+     "pincode": "600014",
+     "locality": "Royapettah S.O"
+    },
+    {
+     "pincode": "600015",
+     "locality": "Saidapet S.O (Chennai)"
+    },
+    {
+     "pincode": "600016",
+     "locality": "St Thomas Mount HO"
+    },
+    {
+     "pincode": "600017",
+     "locality": "Thygarayanagar H.O"
+    },
+    {
+     "pincode": "600018",
+     "locality": "Teynampet S.O"
+    },
+    {
+     "pincode": "600019",
+     "locality": "Tiruvottiyur SO"
+    },
+    {
+     "pincode": "600021",
+     "locality": "Washermanpet S.O"
+    },
+    {
+     "pincode": "600022",
+     "locality": "Rajbhavan S.O (Chennai)"
+    },
+    {
+     "pincode": "600023",
+     "locality": "Aynavaram S.O"
+    },
+    {
+     "pincode": "600024",
+     "locality": "Kodambakkam S.O"
+    },
+    {
+     "pincode": "600025",
+     "locality": "Engineering College S.O (Chennai)"
+    },
+    {
+     "pincode": "600026",
+     "locality": "Vadapalani S.O"
+    },
+    {
+     "pincode": "600031",
+     "locality": "Chetput S.O"
+    },
+    {
+     "pincode": "600032",
+     "locality": "Guindy Industrial Estate S.O"
+    },
+    {
+     "pincode": "600033",
+     "locality": "West Mambalam S.O"
+    },
+    {
+     "pincode": "600037",
+     "locality": "Mogappair SO"
+    },
+    {
+     "pincode": "600038",
+     "locality": "Icf Colony S.O"
+    },
+    {
+     "pincode": "600040",
+     "locality": "Anna Nagar S.O (Chennai)"
+    },
+    {
+     "pincode": "600041",
+     "locality": "Tiruvanmiyur S.O"
+    },
+    {
+     "pincode": "600042",
+     "locality": "Velacheri S.O"
+    },
+    {
+     "pincode": "600049",
+     "locality": "Villivakkam SO"
+    },
+    {
+     "pincode": "600050",
+     "locality": "Padi SO"
+    },
+    {
+     "pincode": "600053",
+     "locality": "Ambattur HO"
+    },
+    {
+     "pincode": "600058",
+     "locality": "Ambattur Indl Estate SO"
+    },
+    {
+     "pincode": "600068",
+     "locality": "Manali SO Tiruvallur"
+    },
+    {
+     "pincode": "600076",
+     "locality": "Korattur RS SO"
+    },
+    {
+     "pincode": "600077",
+     "locality": "Thiruverkadu SO"
+    },
+    {
+     "pincode": "600078",
+     "locality": "Kalaignar Karunanidhi Nagar S.O"
+    },
+    {
+     "pincode": "600081",
+     "locality": "Tondiarpet S.O"
+    },
+    {
+     "pincode": "600083",
+     "locality": "Ashoknagar S.O (Chennai)"
+    },
+    {
+     "pincode": "600084",
+     "locality": "Flowers Road S.O"
+    },
+    {
+     "pincode": "600086",
+     "locality": "Gopalapuram S.O (Chennai)"
+    },
+    {
+     "pincode": "600087",
+     "locality": "Alwarthirunagar S.O"
+    },
+    {
+     "pincode": "600088",
+     "locality": "Adambakkam S.O"
+    },
+    {
+     "pincode": "600089",
+     "locality": "Nandambakkam Kudiyiruppu S.O"
+    },
+    {
+     "pincode": "600090",
+     "locality": "Besantnagar S.O"
+    },
+    {
+     "pincode": "600091",
+     "locality": "Madipakkam S.O"
+    },
+    {
+     "pincode": "600092",
+     "locality": "Virugambakkam S.O"
+    },
+    {
+     "pincode": "600093",
+     "locality": "Saligramam S.O"
+    },
+    {
+     "pincode": "600095",
+     "locality": "Maduravoyal SO"
+    },
+    {
+     "pincode": "600096",
+     "locality": "Perungudi S.O"
+    },
+    {
+     "pincode": "600097",
+     "locality": "Oggiamthoraipakkam S.O"
+    },
+    {
+     "pincode": "600099",
+     "locality": "Kolathur SO"
+    },
+    {
+     "pincode": "600104",
+     "locality": "High Court Building S.O (Chennai)"
+    },
+    {
+     "pincode": "600107",
+     "locality": "Koyambedu S.O"
+    },
+    {
+     "pincode": "600113",
+     "locality": "TTTI Taramani S.O"
+    },
+    {
+     "pincode": "600115",
+     "locality": "Injambakkam S.O"
+    },
+    {
+     "pincode": "600116",
+     "locality": "Porur SO"
+    },
+    {
+     "pincode": "600118",
+     "locality": "Kodungaiyur SO"
+    },
+    {
+     "pincode": "600119",
+     "locality": "Sholinganallur S.O"
+    },
+    {
+     "pincode": "600125",
+     "locality": "Mugalivakkam SO"
+    }
+   ]
+  },
+  {
+   "city": "Lucknow",
+   "total_pins": 43,
+   "serviceable_count": 26,
+   "jivo_count": 1,
+   "missing": [
+    {
+     "pincode": "226002",
+     "locality": "Chandrawal BO"
+    },
+    {
+     "pincode": "226003",
+     "locality": "Lucknow Chowk HO"
+    },
+    {
+     "pincode": "226008",
+     "locality": "Amausi BO"
+    },
+    {
+     "pincode": "226014",
+     "locality": "Sgpgi SO"
+    },
+    {
+     "pincode": "226019",
+     "locality": "Industria Area Chinhat SO"
+    },
+    {
+     "pincode": "226025",
+     "locality": "B R A University SO"
+    },
+    {
+     "pincode": "226101",
+     "locality": "Dona BO"
+    },
+    {
+     "pincode": "226102",
+     "locality": "Kahla BO"
+    },
+    {
+     "pincode": "226103",
+     "locality": "Sahinjana B O"
+    },
+    {
+     "pincode": "226104",
+     "locality": "Baddaiyan BO"
+    },
+    {
+     "pincode": "226201",
+     "locality": "SAIRPUR BO"
+    },
+    {
+     "pincode": "226202",
+     "locality": "Kathwara B.O"
+    },
+    {
+     "pincode": "226203",
+     "locality": "Bahargaon BO"
+    },
+    {
+     "pincode": "226301",
+     "locality": "Bhilampur BO"
+    },
+    {
+     "pincode": "226303",
+     "locality": "Keoli BO"
+    },
+    {
+     "pincode": "226401",
+     "locality": "Neewan BO"
+    },
+    {
+     "pincode": "226501",
+     "locality": "Begariya Mau BO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "226001",
+     "locality": "Lucknow GPO"
+    },
+    {
+     "pincode": "226004",
+     "locality": "Rajendranagar SO Lucknow"
+    },
+    {
+     "pincode": "226005",
+     "locality": "Alambagh SO"
+    },
+    {
+     "pincode": "226006",
+     "locality": "Mahanagar SO"
+    },
+    {
+     "pincode": "226007",
+     "locality": "New Hyderabad SO"
+    },
+    {
+     "pincode": "226009",
+     "locality": "AMAUSI AD SO"
+    },
+    {
+     "pincode": "226010",
+     "locality": "Maleshemau BO"
+    },
+    {
+     "pincode": "226011",
+     "locality": "MANAK NAGAR SO"
+    },
+    {
+     "pincode": "226012",
+     "locality": "LDA Colony SO"
+    },
+    {
+     "pincode": "226013",
+     "locality": "Ghaila BO"
+    },
+    {
+     "pincode": "226015",
+     "locality": "Cimap SO"
+    },
+    {
+     "pincode": "226016",
+     "locality": "Indira Nagar SO"
+    },
+    {
+     "pincode": "226017",
+     "locality": "Avas Vikas Colony SO Lucknow"
+    },
+    {
+     "pincode": "226018",
+     "locality": "Aminabad Park SO"
+    },
+    {
+     "pincode": "226020",
+     "locality": "Niralanagar SO"
+    },
+    {
+     "pincode": "226021",
+     "locality": "Jankipuram SO"
+    },
+    {
+     "pincode": "226022",
+     "locality": "Vikas Nagar SO"
+    },
+    {
+     "pincode": "226023",
+     "locality": "MANAS NAGAR SO"
+    },
+    {
+     "pincode": "226024",
+     "locality": "Aliganj SO"
+    },
+    {
+     "pincode": "226026",
+     "locality": "BASHA BO"
+    },
+    {
+     "pincode": "226027",
+     "locality": "UPG Camp SO"
+    },
+    {
+     "pincode": "226028",
+     "locality": "Amraigaon BO"
+    },
+    {
+     "pincode": "226029",
+     "locality": "Vrindavan Colony SO"
+    },
+    {
+     "pincode": "226031",
+     "locality": "Jankipuram Extension SO"
+    },
+    {
+     "pincode": "226302",
+     "locality": "Dayalpur BO"
+    }
+   ]
+  },
+  {
+   "city": "Gurugram",
+   "total_pins": 29,
+   "serviceable_count": 14,
+   "jivo_count": 14,
+   "missing": [
+    {
+     "pincode": "122002",
+     "locality": "DLF QE SO"
+    },
+    {
+     "pincode": "122004",
+     "locality": "Khandsa BO"
+    },
+    {
+     "pincode": "122009",
+     "locality": "Galleria DLFIV SO"
+    },
+    {
+     "pincode": "122010",
+     "locality": "DLF PhIII SO"
+    },
+    {
+     "pincode": "122012",
+     "locality": "Vatika India Sec 82 SO"
+    },
+    {
+     "pincode": "122017",
+     "locality": "Carterpuri BO"
+    },
+    {
+     "pincode": "122051",
+     "locality": "Kasan BO"
+    },
+    {
+     "pincode": "122052",
+     "locality": "IMT Manesar SO"
+    },
+    {
+     "pincode": "122102",
+     "locality": "Raisina BO"
+    },
+    {
+     "pincode": "122103",
+     "locality": "Daulah BO"
+    },
+    {
+     "pincode": "122413",
+     "locality": "Moklawas BO"
+    },
+    {
+     "pincode": "122414",
+     "locality": "Khatauli BO"
+    },
+    {
+     "pincode": "122503",
+     "locality": "Baslambi BO"
+    },
+    {
+     "pincode": "122504",
+     "locality": "Jatauli BO"
+    },
+    {
+     "pincode": "122506",
+     "locality": "Khera Khurampur BO"
+    }
+   ],
+   "serviceable_no_jivo": []
+  },
+  {
+   "city": "Noida",
+   "total_pins": 28,
+   "serviceable_count": 14,
+   "jivo_count": 10,
+   "missing": [
+    {
+     "pincode": "201008",
+     "locality": "Piaoli BO"
+    },
+    {
+     "pincode": "201304",
+     "locality": "Baraula BO"
+    },
+    {
+     "pincode": "201305",
+     "locality": "Nagla Charandas BO"
+    },
+    {
+     "pincode": "201306",
+     "locality": "Kulesra BO"
+    },
+    {
+     "pincode": "201311",
+     "locality": "Kheri Bhanota BO"
+    },
+    {
+     "pincode": "201314",
+     "locality": "Kot BO"
+    },
+    {
+     "pincode": "203135",
+     "locality": "Mangrauli BO"
+    },
+    {
+     "pincode": "203141",
+     "locality": "Bhunna  Jattan BO"
+    },
+    {
+     "pincode": "203155",
+     "locality": "Ahamedpur  Chauroli BO"
+    },
+    {
+     "pincode": "203201",
+     "locality": "Parsol BO"
+    },
+    {
+     "pincode": "203202",
+     "locality": "Chiti BO"
+    },
+    {
+     "pincode": "203203",
+     "locality": "Mahmoodpur Jadon BO"
+    },
+    {
+     "pincode": "203207",
+     "locality": "Bambawar BO"
+    },
+    {
+     "pincode": "203209",
+     "locality": "Ronija BO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "201301",
+     "locality": "Noida HO"
+    },
+    {
+     "pincode": "201303",
+     "locality": "Sec37 Noida SO"
+    },
+    {
+     "pincode": "201307",
+     "locality": "Sarfabad BO"
+    },
+    {
+     "pincode": "212652",
+     "locality": "Bandipur BO"
+    }
+   ]
+  },
+  {
+   "city": "Chandigarh",
+   "total_pins": 25,
+   "serviceable_count": 16,
+   "jivo_count": 14,
+   "missing": [
+    {
+     "pincode": "160001",
+     "locality": "New Sectt Chandigarh SO"
+    },
+    {
+     "pincode": "160002",
+     "locality": "Hallomajra BO"
+    },
+    {
+     "pincode": "160004",
+     "locality": "Airforce Highground SO"
+    },
+    {
+     "pincode": "160022",
+     "locality": "Sector 22 Chandigarh SO"
+    },
+    {
+     "pincode": "160023",
+     "locality": "Sector 23  Chandigarh SO"
+    },
+    {
+     "pincode": "160025",
+     "locality": "Maloya Colony SO"
+    },
+    {
+     "pincode": "160030",
+     "locality": "Sector 30 Chandigarh SO"
+    },
+    {
+     "pincode": "160047",
+     "locality": "Burail BO"
+    },
+    {
+     "pincode": "160101",
+     "locality": "Kishangarh BO"
+    }
+   ],
+   "serviceable_no_jivo": [
+    {
+     "pincode": "160003",
+     "locality": "Behlana BO"
+    },
+    {
+     "pincode": "160102",
+     "locality": "Raipur Kalan BO"
+    }
+   ]
+  }
+ ]
+}
