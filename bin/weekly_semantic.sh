@@ -51,7 +51,7 @@
 #   JDB_CLAUDE_MODEL    (passed as --model if set; default: account default)
 #   JDB_CLAUDE_TIMEOUT  (seconds for the discovery pass; default: 1800)
 #   JDB_CLAUDE_MAXTURNS (--max-turns for the agent; default: 80)
-#   JDB_CLAUDE_PERM     (--permission-mode; default: bypassPermissions)
+#   JDB_CLAUDE_PERM     (--permission-mode; default: auto — root-safe; bypassPermissions is refused as root)
 #   JDB_SEM_FLOOR       (min fraction of the prior TOTAL link count the staged
 #                        cache must reach to be accepted; default: 0.50)
 #   JDB_SEM_MIN_DOMAINS (min number of non-empty domain files; default: 5)
@@ -69,7 +69,7 @@ CLAUDE_BIN="${JDB_CLAUDE:-claude}"
 CLAUDE_MODEL="${JDB_CLAUDE_MODEL:-}"
 CLAUDE_TIMEOUT="${JDB_CLAUDE_TIMEOUT:-1800}"
 CLAUDE_MAXTURNS="${JDB_CLAUDE_MAXTURNS:-80}"
-CLAUDE_PERM="${JDB_CLAUDE_PERM:-bypassPermissions}"
+CLAUDE_PERM="${JDB_CLAUDE_PERM:-auto}"   # 'bypassPermissions' is refused when running as root (cron runs as root)
 
 SEM_FLOOR="${JDB_SEM_FLOOR:-0.50}"
 SEM_MIN_DOMAINS="${JDB_SEM_MIN_DOMAINS:-5}"
