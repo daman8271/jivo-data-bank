@@ -3643,6 +3643,20 @@ Up: [[dashboards-index]] · [[pf-flipkart]]
    "shipped_ltr": 424.0,
    "shipped_units": 106,
    "shipped_value": 156450.0
+  },
+  {
+   "item": "SANO POMACE 5L",
+   "item_head": "PREMIUM",
+   "shipped_ltr": 335.0,
+   "shipped_units": 67,
+   "shipped_value": 98612.0
+  },
+  {
+   "item": "JIVO POMACE 5L",
+   "item_head": "PREMIUM",
+   "shipped_ltr": 320.0,
+   "shipped_units": 64,
+   "shipped_value": 111318.0
   }
  ],
  "value_source_note": "Source changed from SecMaster to flipkart_secondary_all.",

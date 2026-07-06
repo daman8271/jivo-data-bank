@@ -2846,6 +2846,20 @@ Up: [[dashboards-index]] · [[pf-flipkart_grocery]]
    "shipped_ltr": 5.0,
    "shipped_units": 1.0,
    "shipped_value": 1976.1904761904761
+  },
+  {
+   "item": "EXTRA LIGHT 2L",
+   "item_head": "PREMIUM",
+   "shipped_ltr": 4.0,
+   "shipped_units": 2.0,
+   "shipped_value": 2000.0
+  },
+  {
+   "item": "WG APPLE JUICE 200 ML",
+   "item_head": "OTHER",
+   "shipped_ltr": 0.0,
+   "shipped_units": 1.0,
+   "shipped_value": 0.0
   }
  ],
  "year": 2026

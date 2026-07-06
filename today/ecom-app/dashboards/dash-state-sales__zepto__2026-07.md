@@ -24,43 +24,43 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
  "cities": [
   {
    "city": "Bengaluru",
-   "value": 3527.0
+   "value": 4528.0
   },
   {
    "city": "Mumbai",
-   "value": 3100.0
+   "value": 4056.0
   },
   {
    "city": "Hyderabad",
-   "value": 2718.0
+   "value": 3580.0
   },
   {
    "city": "Delhi",
-   "value": 2618.0
+   "value": 3405.0
   },
   {
    "city": "Chennai",
-   "value": 1748.0
+   "value": 2207.0
   },
   {
    "city": "Gurugram",
-   "value": 939.0
+   "value": 1233.0
   },
   {
    "city": "Noida",
-   "value": 890.0
+   "value": 1160.0
   },
   {
    "city": "Ghaziabad",
-   "value": 604.0
+   "value": 827.0
   },
   {
    "city": "Pune",
-   "value": 439.0
+   "value": 551.0
   },
   {
    "city": "Faridabad",
-   "value": 228.0
+   "value": 302.0
   }
  ],
  "errors": [],
@@ -534,6 +534,11 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
    },
    {
     "category": "CANOLA",
+    "item": "CANOLA 5 LTR + EXTRA VIRGIN 200 ML",
+    "sub_category": "CANOLA"
+   },
+   {
+    "category": "CANOLA",
     "item": "CANOLA 5LTR + MUSTARD 1LTR",
     "sub_category": "CANOLA"
    },
@@ -610,12 +615,12 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
    {
     "category": "SPICES",
     "item": "CLOVE 100G",
-    "sub_category": "CLOVE"
+    "sub_category": "JIVO CLOVE"
    },
    {
     "category": "SPICES",
     "item": "CLOVE 100G",
-    "sub_category": "JIVO CLOVE"
+    "sub_category": "CLOVE"
    },
    {
     "category": "COCONUT",
@@ -914,6 +919,11 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
    },
    {
     "category": "OLIVE",
+    "item": "EXTRA LIGHT 5L + EXTRA VIRGIN 200 ML",
+    "sub_category": "EXTRA LIGHT"
+   },
+   {
+    "category": "OLIVE",
     "item": "EXTRA LIGHT 5L + EXTRA VIRGIN 5L (BUNDLE)",
     "sub_category": "EXTRA VIRGIN"
    },
@@ -1105,6 +1115,11 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
    {
     "category": "OLIVE",
     "item": "EXTRA VIRGIN 5LTR +1LTR CANOLA",
+    "sub_category": "EXTRA VIRGIN"
+   },
+   {
+    "category": "OLIVE",
+    "item": "EXTRA VIRGIN 5 LTR + 200 ML",
     "sub_category": "EXTRA VIRGIN"
    },
    {
@@ -1425,12 +1440,12 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
    {
     "category": "OLIVE",
     "item": "JIVO POMACE 2L",
-    "sub_category": "JIVO POMACE"
+    "sub_category": "POMACE"
    },
    {
     "category": "OLIVE",
     "item": "JIVO POMACE 2L",
-    "sub_category": "POMACE"
+    "sub_category": "JIVO POMACE"
    },
    {
     "category": "OLIVE",
@@ -1995,12 +2010,12 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
    {
     "category": "OLIVE",
     "item": "SANO CLASSIC 1L",
-    "sub_category": "EXTRA LIGHT"
+    "sub_category": "CLASSIC"
    },
    {
     "category": "OLIVE",
     "item": "SANO CLASSIC 1L",
-    "sub_category": "CLASSIC"
+    "sub_category": "EXTRA LIGHT"
    },
    {
     "category": "OLIVE",
@@ -2015,12 +2030,12 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
    {
     "category": "HONEY",
     "item": "SANO HONEY 1KG",
-    "sub_category": "HONEY"
+    "sub_category": "NATURAL HONEY"
    },
    {
     "category": "HONEY",
     "item": "SANO HONEY 1KG",
-    "sub_category": "NATURAL HONEY"
+    "sub_category": "HONEY"
    },
    {
     "category": "HONEY",
@@ -2641,6 +2656,11 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
     "category": "MUSTARD",
     "item": "YELLOW MUSTARD 5L",
     "sub_category": "YELLOW MUSTARD"
+   },
+   {
+    "category": "MUSTARD",
+    "item": "YELLOW MUSTARD 5L + 5L",
+    "sub_category": "YELLOW MUSTARD"
    }
   ],
   "sub_categories": [
@@ -2982,8 +3002,8 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
    }
   ]
  },
- "mapped_units": 18761.0,
- "mapped_value": 18761.0,
+ "mapped_units": 24342.0,
+ "mapped_value": 24342.0,
  "metric": "units",
  "metric_label": "Units sold",
  "metric_unit": "units",
@@ -2994,144 +3014,144 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
  "states": [
   {
    "by_platform": {
-    "ZEPTO": 3752.0
-   },
-   "state": "KARNATAKA",
-   "units": 3752.0,
-   "value": 3752.0
-  },
-  {
-   "by_platform": {
-    "ZEPTO": 3715.0
+    "ZEPTO": 4837.0
    },
    "state": "MAHARASHTRA",
-   "units": 3715.0,
-   "value": 3715.0
+   "units": 4837.0,
+   "value": 4837.0
   },
   {
    "by_platform": {
-    "ZEPTO": 2785.0
+    "ZEPTO": 4801.0
+   },
+   "state": "KARNATAKA",
+   "units": 4801.0,
+   "value": 4801.0
+  },
+  {
+   "by_platform": {
+    "ZEPTO": 3666.0
    },
    "state": "TELANGANA",
-   "units": 2785.0,
-   "value": 2785.0
+   "units": 3666.0,
+   "value": 3666.0
   },
   {
    "by_platform": {
-    "ZEPTO": 2618.0
+    "ZEPTO": 3405.0
    },
    "state": "DELHI",
-   "units": 2618.0,
-   "value": 2618.0
+   "units": 3405.0,
+   "value": 3405.0
   },
   {
    "by_platform": {
-    "ZEPTO": 1848.0
+    "ZEPTO": 2337.0
    },
    "state": "TAMIL NADU",
-   "units": 1848.0,
-   "value": 1848.0
+   "units": 2337.0,
+   "value": 2337.0
   },
   {
    "by_platform": {
-    "ZEPTO": 1588.0
+    "ZEPTO": 2117.0
    },
    "state": "UTTAR PRADESH",
-   "units": 1588.0,
-   "value": 1588.0
+   "units": 2117.0,
+   "value": 2117.0
   },
   {
    "by_platform": {
-    "ZEPTO": 1284.0
+    "ZEPTO": 1684.0
    },
    "state": "HARYANA",
-   "units": 1284.0,
-   "value": 1284.0
+   "units": 1684.0,
+   "value": 1684.0
   },
   {
    "by_platform": {
-    "ZEPTO": 294.0
+    "ZEPTO": 395.0
    },
    "state": "PUNJAB",
-   "units": 294.0,
-   "value": 294.0
+   "units": 395.0,
+   "value": 395.0
   },
   {
    "by_platform": {
-    "ZEPTO": 237.0
+    "ZEPTO": 290.0
    },
    "state": "GUJARAT",
-   "units": 237.0,
-   "value": 237.0
+   "units": 290.0,
+   "value": 290.0
   },
   {
    "by_platform": {
-    "ZEPTO": 138.0
+    "ZEPTO": 171.0
    },
    "state": "RAJASTHAN",
-   "units": 138.0,
-   "value": 138.0
+   "units": 171.0,
+   "value": 171.0
   },
   {
    "by_platform": {
-    "ZEPTO": 105.0
+    "ZEPTO": 144.0
    },
    "state": "ANDHRA PRADESH",
-   "units": 105.0,
-   "value": 105.0
+   "units": 144.0,
+   "value": 144.0
   },
   {
    "by_platform": {
-    "ZEPTO": 105.0
+    "ZEPTO": 137.0
    },
    "state": "WEST BENGAL",
-   "units": 105.0,
-   "value": 105.0
+   "units": 137.0,
+   "value": 137.0
   },
   {
    "by_platform": {
-    "ZEPTO": 102.0
+    "ZEPTO": 127.0
    },
    "state": "UTTARAKHAND",
-   "units": 102.0,
-   "value": 102.0
+   "units": 127.0,
+   "value": 127.0
   },
   {
    "by_platform": {
-    "ZEPTO": 67.0
+    "ZEPTO": 80.0
    },
    "state": "MADHYA PRADESH",
-   "units": 67.0,
-   "value": 67.0
+   "units": 80.0,
+   "value": 80.0
   },
   {
    "by_platform": {
-    "ZEPTO": 58.0
+    "ZEPTO": 66.0
    },
    "state": "CHANDIGARH",
-   "units": 58.0,
-   "value": 58.0
+   "units": 66.0,
+   "value": 66.0
   },
   {
    "by_platform": {
-    "ZEPTO": 50.0
+    "ZEPTO": 63.0
    },
    "state": "KERALA",
-   "units": 50.0,
-   "value": 50.0
+   "units": 63.0,
+   "value": 63.0
   },
   {
    "by_platform": {
-    "ZEPTO": 15.0
+    "ZEPTO": 22.0
    },
    "state": "PUDUCHERRY",
-   "units": 15.0,
-   "value": 15.0
+   "units": 22.0,
+   "value": 22.0
   }
  ],
  "sub_categories": [],
- "total_units": 18761.0,
- "total_value": 18761.0,
+ "total_units": 24342.0,
+ "total_value": 24342.0,
  "year": 2026
 }
 ```

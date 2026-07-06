@@ -37,7 +37,7 @@ Up: [[dashboards-index]] · [[pf-amazon]]
    "month": 7,
    "targets": 180000.0,
    "type": "B2C",
-   "updated_at": "2026-07-05T15:38:02.065529+00:00",
+   "updated_at": "2026-07-06T07:46:09.320167+00:00",
    "year": 2026
   },
   {
@@ -58,7 +58,7 @@ Up: [[dashboards-index]] · [[pf-amazon]]
    "month": 7,
    "targets": 200000.0,
    "type": "B2C",
-   "updated_at": "2026-07-05T15:38:02.065529+00:00",
+   "updated_at": "2026-07-06T07:46:09.320167+00:00",
    "year": 2026
   },
   {

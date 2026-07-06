@@ -93,15 +93,15 @@ Up: [[dashboards-index]]
      "value": null
     },
     "2026": {
-     "actual": 855.3,
+     "actual": 1179.2,
      "days_in_month": 31,
-     "elapsed_day": 3,
+     "elapsed_day": 5,
      "growth_pct": null,
      "has_data": true,
-     "max_date": "2026-07-03",
-     "projection": 8838.1,
+     "max_date": "2026-07-05",
+     "projection": 7311.04,
      "source": "amazon_mp_master",
-     "units": 257.0,
+     "units": 398.0,
      "value": null
     }
    }
@@ -135,16 +135,16 @@ Up: [[dashboards-index]]
      "value": 39220036.0
     },
     "2026": {
-     "actual": 17013.0,
+     "actual": 21636.0,
      "days_in_month": 31,
-     "elapsed_day": 4,
-     "growth_pct": -72.15,
+     "elapsed_day": 5,
+     "growth_pct": -64.58,
      "has_data": true,
-     "max_date": "2026-07-04",
-     "projection": 131850.75,
+     "max_date": "2026-07-05",
+     "projection": 134143.2,
      "source": "SecMaster",
-     "units": 13717.0,
-     "value": 9007914.0
+     "units": 17185.0,
+     "value": 11598112.0
     }
    }
   },
@@ -175,16 +175,16 @@ Up: [[dashboards-index]]
      "value": null
     },
     "2026": {
-     "actual": 40827.0,
+     "actual": 53961.25,
      "days_in_month": 31,
-     "elapsed_day": 4,
+     "elapsed_day": 5,
      "growth_pct": null,
      "has_data": true,
-     "max_date": "2026-07-04",
-     "projection": 316409.25,
+     "max_date": "2026-07-05",
+     "projection": 334559.75,
      "source": "SecMaster",
-     "units": 32074.0,
-     "value": 17083596.0
+     "units": 42561.0,
+     "value": 22487954.0
     }
    }
   },
@@ -215,16 +215,16 @@ Up: [[dashboards-index]]
      "value": null
     },
     "2026": {
-     "actual": 15775.000016093254,
+     "actual": 20753.800020232797,
      "days_in_month": 31,
-     "elapsed_day": 4,
+     "elapsed_day": 5,
      "growth_pct": null,
      "has_data": true,
-     "max_date": "2026-07-04",
-     "projection": 122256.25,
+     "max_date": "2026-07-05",
+     "projection": 128673.56,
      "source": "SecMaster",
-     "units": 18761.0,
-     "value": 9780003.0
+     "units": 24342.0,
+     "value": 12872158.0
     }
    }
   },
@@ -256,16 +256,16 @@ Up: [[dashboards-index]]
      "value": 3164788.0
     },
     "2026": {
-     "actual": 3013.0,
+     "actual": 3757.0,
      "days_in_month": 31,
-     "elapsed_day": 4,
-     "growth_pct": -72.6,
+     "elapsed_day": 5,
+     "growth_pct": -65.84,
      "has_data": true,
-     "max_date": "2026-07-04",
-     "projection": 23350.75,
+     "max_date": "2026-07-05",
+     "projection": 23293.4,
      "source": "SecMaster",
-     "units": 2043.0,
-     "value": 646390.7
+     "units": 2607.0,
+     "value": 811660.6
     }
    }
   },
@@ -366,10 +366,10 @@ Up: [[dashboards-index]]
    "projection": null
   },
   "2026": {
-   "actual": 138602.70001609324,
-   "growth_pct": -58.99,
+   "actual": 162406.65002023277,
+   "growth_pct": -51.95,
    "has_data": true,
-   "projection": 1204700.03
+   "projection": 1229975.8800000001
   }
  },
  "years": [

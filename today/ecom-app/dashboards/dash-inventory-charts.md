@@ -20,63 +20,63 @@ Up: [[dashboards-index]]
  "city_distribution": [
   {
    "city": "MUMBAI",
-   "qty": 1755160
+   "qty": 1768981
   },
   {
    "city": "HYDERABAD",
-   "qty": 1537860
+   "qty": 1563687
   },
   {
    "city": "GURUGRAM",
-   "qty": 1188344
+   "qty": 1193821
   },
   {
    "city": "DELHI",
-   "qty": 1064856
+   "qty": 1074214
   },
   {
    "city": "JHAJJAR",
-   "qty": 1038779
+   "qty": 1042111
   },
   {
    "city": "BANGALORE",
-   "qty": 1019960
+   "qty": 1031952
   },
   {
    "city": "BENGALURU",
-   "qty": 1015965
+   "qty": 1031676
   },
   {
    "city": "CHENNAI",
-   "qty": 791679
+   "qty": 796209
   },
   {
    "city": "CHANDIGARH",
-   "qty": 668194
+   "qty": 676178
   },
   {
    "city": "NOIDA",
-   "qty": 656715
+   "qty": 663676
   },
   {
    "city": "PUNE",
-   "qty": 644922
+   "qty": 647591
   },
   {
    "city": "GURGAON",
-   "qty": 614559
+   "qty": 622651
   },
   {
    "city": "AHMEDABAD",
-   "qty": 386214
+   "qty": 389987
   },
   {
    "city": "FARIDABAD",
-   "qty": 372749
+   "qty": 374496
   },
   {
    "city": "KOLKATA",
-   "qty": 347372
+   "qty": 354126
   }
  ],
  "platform_totals": [
@@ -89,26 +89,26 @@ Up: [[dashboards-index]]
   {
    "color": "#fc8019",
    "platform": "swiggy",
-   "sku_count": 78717,
-   "total_qty": 6905839
+   "sku_count": 79441,
+   "total_qty": 6971995
   },
   {
    "color": "#7b2ff7",
    "platform": "zepto",
-   "sku_count": 37655,
-   "total_qty": 6449712
+   "sku_count": 38113,
+   "total_qty": 6522018
   },
   {
    "color": "#f5c518",
    "platform": "blinkit",
-   "sku_count": 31318,
-   "total_qty": 4818302
+   "sku_count": 31646,
+   "total_qty": 4848046
   },
   {
    "color": "#84c225",
    "platform": "bigbasket",
-   "sku_count": 39368,
-   "total_qty": 1480138
+   "sku_count": 39714,
+   "total_qty": 1491968
   },
   {
    "color": "#0078ad",
@@ -122,43 +122,43 @@ Up: [[dashboards-index]]
    "color": "#7b2ff7",
    "platform": "zepto",
    "product": "Jivo Groundnut (Peanut) Cold Pressed Oil | Healthy Cooking Oil 1.0 LITER",
-   "qty": 2218456
+   "qty": 2229925
   },
   {
    "color": "#fc8019",
    "platform": "swiggy",
    "product": "Jivo Cold Pressed oil Groundnut Oil 1.0 ltr",
-   "qty": 1988530
+   "qty": 2009134
   },
   {
    "color": "#7b2ff7",
    "platform": "zepto",
    "product": "Jivo Groundnut | Peanut | Cold Pressed Heathy Cooking Oil 200.0 MILLILITRE",
-   "qty": 1429663
+   "qty": 1461822
   },
   {
    "color": "#fc8019",
    "platform": "swiggy",
    "product": "Jivo Gold Refined Oil - Blend of Rice Bran oil & Sunflower oil 1.0 ltr",
-   "qty": 1312378
+   "qty": 1319251
   },
   {
    "color": "#f5c518",
    "platform": "blinkit",
    "product": "Jivo Pomace Olive Oil(Bottle) 1 l - Rs 1049",
-   "qty": 1124265
+   "qty": 1130794
   },
   {
    "color": "#fc8019",
    "platform": "swiggy",
    "product": "Jivo Cold Press Kachi Ghani Mustard Oil 1.0 ltr",
-   "qty": 1068132
+   "qty": 1084988
   },
   {
    "color": "#f5c518",
    "platform": "blinkit",
    "product": "Jivo Cold Pressed Canola Oil(Pack) 1 l - Rs 375",
-   "qty": 977523
+   "qty": 984920
   },
   {
    "color": "#ff9900",
@@ -170,7 +170,7 @@ Up: [[dashboards-index]]
    "color": "#7b2ff7",
    "platform": "zepto",
    "product": "Jivo Kachi Ghani Mustard (Sarson) Cold Pressed Oil | Healthy Cooking Oil 1.0 LIT",
-   "qty": 883680
+   "qty": 891866
   },
   {
    "color": "#ff9900",
@@ -200,7 +200,7 @@ Up: [[dashboards-index]]
    "color": "#fc8019",
    "platform": "swiggy",
    "product": "Jivo Cold Pressed Chemical Free Sunflower Oil 1.0 ltr",
-   "qty": 622610
+   "qty": 626932
   },
   {
    "color": "#ff9900",

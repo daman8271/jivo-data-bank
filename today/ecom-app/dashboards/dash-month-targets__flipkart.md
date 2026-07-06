@@ -37,7 +37,7 @@ Up: [[dashboards-index]] · [[pf-flipkart]]
    "month": 7,
    "targets": 35000.0,
    "type": "B2C",
-   "updated_at": "2026-07-05T15:37:25.749233+00:00",
+   "updated_at": "2026-07-06T07:46:09.320167+00:00",
    "year": 2026
   },
   {
@@ -58,7 +58,7 @@ Up: [[dashboards-index]] · [[pf-flipkart]]
    "month": 7,
    "targets": 40000.0,
    "type": "B2C",
-   "updated_at": "2026-07-05T15:37:25.749233+00:00",
+   "updated_at": "2026-07-06T07:46:09.320167+00:00",
    "year": 2026
   },
   {
