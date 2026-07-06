@@ -1,0 +1,4 @@
+SKU Label,Exact Canonical Slug,Exists in data.js skus,Platform,Source
+Jivo Extra Light Olive Oil 1L,jivo-extra-light-olive-oil-1l,True,blinkit,/root/pa-clients/jivo-data-bank/reports/ecom-availability-app/data.js
+Jivo Canola Cold Press Edible Oil 1L,jivo-cold-pressed-canola-oil-1l,True,blinkit,/root/pa-clients/jivo-data-bank/reports/ecom-availability-app/data.js
+Jivo Pomace Olive Oil 1L,jivo-pomace-olive-oil-1l,True,blinkit,/root/pa-clients/jivo-data-bank/reports/ecom-availability-app/data.js

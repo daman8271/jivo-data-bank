@@ -34,3 +34,4 @@ today.tmp/
 today.prev/
 today/*.tmp/
 today/*.prev/
+.vercel
