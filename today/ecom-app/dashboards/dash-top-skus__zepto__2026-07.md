@@ -28,12 +28,32 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
   {
    "brand": null,
    "code": null,
-   "delta_pct": -89.1,
+   "delta_pct": -88.4,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 4151.0,
+   "ltrs": 4401.0,
    "name": "GROUNDNUT 1L",
    "prev_ltrs": 37936.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -81.3,
+   "head": "COMMODITY",
+   "is_new": false,
+   "ltrs": 1820.0,
+   "name": "SUNFLOWER 1L",
+   "prev_ltrs": 9728.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -85.5,
+   "head": "PREMIUM",
+   "is_new": false,
+   "ltrs": 1635.2,
+   "name": "GROUNDNUT 200ML",
+   "prev_ltrs": 11308.2
   },
   {
    "brand": null,
@@ -48,12 +68,12 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
   {
    "brand": null,
    "code": null,
-   "delta_pct": -87.3,
-   "head": "COMMODITY",
+   "delta_pct": -90.9,
+   "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 1232.0,
-   "name": "SUNFLOWER 1L",
-   "prev_ltrs": 9728.0
+   "ltrs": 1095.0,
+   "name": "JIVO POMACE 5L",
+   "prev_ltrs": 12085.0
   },
   {
    "brand": null,
@@ -68,22 +88,22 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
   {
    "brand": null,
    "code": null,
+   "delta_pct": -83.3,
+   "head": "PREMIUM",
+   "is_new": false,
+   "ltrs": 1052.0,
+   "name": "EXTRA LIGHT 1L",
+   "prev_ltrs": 6287.0
+  },
+  {
+   "brand": null,
+   "code": null,
    "delta_pct": -92.8,
    "head": "COMMODITY",
    "is_new": false,
    "ltrs": 820.0,
    "name": "MUSTARD 1L",
    "prev_ltrs": 11448.0
-  },
-  {
-   "brand": null,
-   "code": null,
-   "delta_pct": -87.3,
-   "head": "PREMIUM",
-   "is_new": false,
-   "ltrs": 800.0,
-   "name": "EXTRA LIGHT 1L",
-   "prev_ltrs": 6287.0
   },
   {
    "brand": null,
@@ -98,44 +118,24 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
   {
    "brand": null,
    "code": null,
-   "delta_pct": -98.4,
-   "head": "PREMIUM",
-   "is_new": false,
-   "ltrs": 195.0,
-   "name": "JIVO POMACE 5L",
-   "prev_ltrs": 12085.0
-  },
-  {
-   "brand": null,
-   "code": null,
    "delta_pct": -92.4,
    "head": "PREMIUM",
    "is_new": false,
    "ltrs": 140.0,
    "name": "EXTRA LIGHT 2L",
    "prev_ltrs": 1840.0
-  },
-  {
-   "brand": null,
-   "code": null,
-   "delta_pct": -99.3,
-   "head": "PREMIUM",
-   "is_new": false,
-   "ltrs": 84.8,
-   "name": "GROUNDNUT 200ML",
-   "prev_ltrs": 11308.2
   }
  ],
  "source": "primary",
  "top_faller": {
   "brand": null,
   "code": null,
-  "delta_pct": -99.3,
+  "delta_pct": -97.2,
   "head": "PREMIUM",
   "is_new": false,
-  "ltrs": 84.8,
-  "name": "GROUNDNUT 200ML",
-  "prev_ltrs": 11308.2
+  "ltrs": 60.0,
+  "name": "CANOLA 5L",
+  "prev_ltrs": 2140.0
  },
  "top_riser": null,
  "year": 2026

@@ -22,41 +22,41 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-swiggy]]
  "commodity": {
   "categories": [
    {
-    "ltrs": 17819.0,
+    "ltrs": 18359.0,
     "name": "MUSTARD"
    },
    {
-    "ltrs": 7636.0,
+    "ltrs": 9036.0,
     "name": "SUNFLOWER"
    },
    {
-    "ltrs": 815.0,
+    "ltrs": 915.0,
     "name": "BLENDED"
    },
    {
-    "ltrs": 116.0,
+    "ltrs": 136.0,
     "name": "RICE BRAN"
    }
   ],
   "sub_categories": [
    {
-    "ltrs": 17819.0,
+    "ltrs": 18359.0,
     "name": "MUSTARD KACCHI GHANI"
    },
    {
-    "ltrs": 7636.0,
+    "ltrs": 9036.0,
     "name": "SUNFLOWER"
    },
    {
-    "ltrs": 815.0,
+    "ltrs": 915.0,
     "name": "GOLD"
    },
    {
-    "ltrs": 116.0,
+    "ltrs": 136.0,
     "name": "RICE BRAN"
    }
   ],
-  "total_ltrs": 26386.0
+  "total_ltrs": 28446.0
  },
  "errors": [],
  "month": 7,
@@ -64,15 +64,15 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-swiggy]]
  "premium": {
   "categories": [
    {
-    "ltrs": 15204.0,
+    "ltrs": 22472.0,
     "name": "GROUNDNUT"
    },
    {
-    "ltrs": 1765.0,
+    "ltrs": 1977.0,
     "name": "OLIVE"
    },
    {
-    "ltrs": 502.0,
+    "ltrs": 582.0,
     "name": "CANOLA"
    },
    {
@@ -90,19 +90,19 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-swiggy]]
   ],
   "sub_categories": [
    {
-    "ltrs": 15204.0,
+    "ltrs": 22472.0,
     "name": "GROUNDNUT"
    },
    {
-    "ltrs": 912.0,
+    "ltrs": 1080.0,
     "name": "EXTRA LIGHT"
    },
    {
-    "ltrs": 652.0,
+    "ltrs": 696.0,
     "name": "JIVO POMACE"
    },
    {
-    "ltrs": 502.0,
+    "ltrs": 582.0,
     "name": "CANOLA"
    },
    {
@@ -122,7 +122,7 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-swiggy]]
     "name": "YELLOW MUSTARD"
    }
   ],
-  "total_ltrs": 17603.0
+  "total_ltrs": 25163.0
  },
  "source": "primary",
  "year": 2026

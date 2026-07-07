@@ -29,44 +29,54 @@ Up: [[dashboards-index]]
    "slug": "citymall"
   },
   {
-   "fill_rate": 51.3,
-   "filled_ltrs": 154802.0,
+   "fill_rate": 47.0,
+   "filled_ltrs": 166708.0,
    "format": "SWIGGY",
-   "miss_rate": 17.8,
-   "missed_ltrs": 53775.0,
-   "ordered_ltrs": 302011.0,
-   "po_count": 482,
+   "miss_rate": 19.5,
+   "missed_ltrs": 69245.0,
+   "ordered_ltrs": 354535.0,
+   "po_count": 523,
    "slug": "swiggy"
   },
   {
-   "fill_rate": 59.3,
-   "filled_ltrs": 302589.5,
+   "fill_rate": 57.8,
+   "filled_ltrs": 312694.5,
    "format": "AMAZON",
-   "miss_rate": 6.7,
-   "missed_ltrs": 34065.0,
-   "ordered_ltrs": 510578.51,
-   "po_count": 134,
+   "miss_rate": 8.2,
+   "missed_ltrs": 44590.5,
+   "ordered_ltrs": 541147.26,
+   "po_count": 139,
    "slug": "amazon"
   },
   {
-   "fill_rate": 60.9,
-   "filled_ltrs": 6328.0,
+   "fill_rate": 62.2,
+   "filled_ltrs": 7404.0,
    "format": "BLINKIT",
-   "miss_rate": 20.8,
-   "missed_ltrs": 2160.0,
-   "ordered_ltrs": 10384.0,
-   "po_count": 85,
+   "miss_rate": 18.6,
+   "missed_ltrs": 2220.0,
+   "ordered_ltrs": 11912.0,
+   "po_count": 95,
    "slug": "blinkit"
   },
   {
-   "fill_rate": 69.4,
-   "filled_ltrs": 34010.0,
+   "fill_rate": 71.9,
+   "filled_ltrs": 35246.0,
    "format": "ZOMATO",
-   "miss_rate": 9.5,
-   "missed_ltrs": 4672.0,
+   "miss_rate": 9.6,
+   "missed_ltrs": 4696.0,
    "ordered_ltrs": 49032.0,
    "po_count": 43,
    "slug": "zomato"
+  },
+  {
+   "fill_rate": 74.1,
+   "filled_ltrs": 82438.8,
+   "format": "ZEPTO",
+   "miss_rate": 8.2,
+   "missed_ltrs": 9084.6,
+   "ordered_ltrs": 111281.0,
+   "po_count": 160,
+   "slug": "zepto"
   },
   {
    "fill_rate": 82.1,
@@ -79,40 +89,30 @@ Up: [[dashboards-index]]
    "slug": "bigbasket"
   },
   {
-   "fill_rate": 84.2,
-   "filled_ltrs": 77654.6,
-   "format": "ZEPTO",
-   "miss_rate": 9.6,
-   "missed_ltrs": 8840.0,
-   "ordered_ltrs": 92225.0,
-   "po_count": 147,
-   "slug": "zepto"
-  },
-  {
-   "fill_rate": 85.9,
-   "filled_ltrs": 22098.0,
+   "fill_rate": 87.0,
+   "filled_ltrs": 24318.0,
    "format": "FLIPKART GROCERY",
-   "miss_rate": 5.4,
+   "miss_rate": 5.0,
    "missed_ltrs": 1398.0,
-   "ordered_ltrs": 25716.0,
-   "po_count": 39,
+   "ordered_ltrs": 27956.0,
+   "po_count": 40,
    "slug": "flipkart_grocery"
   }
  ],
  "errors": [],
  "platform": null,
  "total": {
-  "fill_rate": 59.7,
-  "filled_ltrs": 636642.1,
-  "miss_rate": 10.2,
-  "missed_ltrs": 108322.0,
-  "ordered_ltrs": 1065887.51,
-  "po_count": 976
+  "fill_rate": 57.0,
+  "filled_ltrs": 667969.3,
+  "miss_rate": 11.5,
+  "missed_ltrs": 134646.1,
+  "ordered_ltrs": 1171804.26,
+  "po_count": 1046
  },
  "window": {
-  "end": "2026-06-30",
+  "end": "2026-07-01",
   "lag_days": 7,
-  "start": "2026-05-31",
+  "start": "2026-06-01",
   "window_days": 30
  }
 }

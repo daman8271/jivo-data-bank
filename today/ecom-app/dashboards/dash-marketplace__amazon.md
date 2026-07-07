@@ -22,9 +22,9 @@ Up: [[dashboards-index]] · [[pf-amazon]]
  "brand": [
   {
    "label": "JIVO",
-   "ltrs": 1247.6,
-   "quantity": 426.0,
-   "value": 550821.0
+   "ltrs": 1432.5,
+   "quantity": 486.0,
+   "value": 604777.55
   },
   {
    "label": "SANO",
@@ -38,87 +38,87 @@ Up: [[dashboards-index]] · [[pf-amazon]]
  "item_head": [
   {
    "label": "PREMIUM",
-   "ltrs": 1220.6,
-   "quantity": 421.0,
-   "value": 546927.05
+   "ltrs": 1394.5,
+   "quantity": 478.0,
+   "value": 598568.6
   },
   {
    "label": "COMMODITY",
-   "ltrs": 41.0,
-   "quantity": 8.0,
-   "value": 8855.0
+   "ltrs": 51.0,
+   "quantity": 10.0,
+   "value": 10815.0
   },
   {
    "label": "OTHER",
-   "ltrs": 0.0,
-   "quantity": 1.0,
-   "value": 355.0
+   "ltrs": 1.0,
+   "quantity": 2.0,
+   "value": 710.0
   }
  ],
  "kpi": {
-  "exclusive": 529654.3,
-  "inclusive": 556137.05,
-  "ltrs": 1261.6,
-  "quantity": 430.0
+  "exclusive": 581041.48,
+  "inclusive": 610093.6,
+  "ltrs": 1446.5,
+  "quantity": 490.0
  },
- "max_date": "2026-07-05",
+ "max_date": "2026-07-06",
  "month": 7,
  "month_name": "JULY",
- "row_count": 430,
+ "row_count": 490,
  "state": [
   {
    "label": "MAHARASHTRA",
-   "ltrs": 202.2,
-   "quantity": 63.0,
-   "value": 96252.0
+   "ltrs": 236.4,
+   "quantity": 74.0,
+   "value": 98397.0
   },
   {
    "label": "UTTAR PRADESH",
-   "ltrs": 169.1,
-   "quantity": 67.0,
-   "value": 66054.0
-  },
-  {
-   "label": "KARNATAKA",
-   "ltrs": 93.9,
-   "quantity": 31.0,
-   "value": 38022.0
+   "ltrs": 179.6,
+   "quantity": 73.0,
+   "value": 69704.0
   },
   {
    "label": "TELANGANA",
-   "ltrs": 79.7,
-   "quantity": 23.0,
-   "value": 36224.05
+   "ltrs": 102.7,
+   "quantity": 28.0,
+   "value": 45052.05
   },
   {
-   "label": "WEST BENGAL",
-   "ltrs": 74.9,
-   "quantity": 29.0,
-   "value": 35706.0
+   "label": "KARNATAKA",
+   "ltrs": 98.4,
+   "quantity": 34.0,
+   "value": 41199.0
   },
   {
    "label": "DELHI",
-   "ltrs": 69.2,
-   "quantity": 22.0,
-   "value": 33557.0
+   "ltrs": 79.2,
+   "quantity": 25.0,
+   "value": 38996.55
   },
   {
-   "label": "TAMIL NADU",
-   "ltrs": 62.9,
-   "quantity": 20.0,
-   "value": 28768.0
-  },
-  {
-   "label": "HARYANA",
-   "ltrs": 53.7,
-   "quantity": 15.0,
-   "value": 22461.0
+   "label": "WEST BENGAL",
+   "ltrs": 87.9,
+   "quantity": 34.0,
+   "value": 36763.0
   },
   {
    "label": "PUNJAB",
-   "ltrs": 61.0,
-   "quantity": 14.0,
-   "value": 22102.0
+   "ltrs": 84.4,
+   "quantity": 21.0,
+   "value": 35605.0
+  },
+  {
+   "label": "TAMIL NADU",
+   "ltrs": 71.3,
+   "quantity": 21.0,
+   "value": 29097.0
+  },
+  {
+   "label": "HARYANA",
+   "ltrs": 54.9,
+   "quantity": 17.0,
+   "value": 23009.0
   },
   {
    "label": "KERALA",
@@ -130,39 +130,39 @@ Up: [[dashboards-index]] · [[pf-amazon]]
  "sub_category": [
   {
    "label": "EXTRA VIRGIN",
-   "ltrs": 302.4,
-   "quantity": 184.0,
-   "value": 199111.0
+   "ltrs": 368.1,
+   "quantity": 215.0,
+   "value": 228448.55
   },
   {
    "label": "JIVO POMACE",
-   "ltrs": 552.0,
-   "quantity": 127.0,
-   "value": 187498.0
+   "ltrs": 616.0,
+   "quantity": 141.0,
+   "value": 203258.0
   },
   {
    "label": "EXTRA LIGHT",
-   "ltrs": 266.2,
-   "quantity": 54.0,
-   "value": 123954.0
+   "ltrs": 298.4,
+   "quantity": 60.0,
+   "value": 128112.0
   },
   {
    "label": "COCONUT",
-   "ltrs": 30.0,
-   "quantity": 40.0,
-   "value": 14798.0
+   "ltrs": 34.0,
+   "quantity": 43.0,
+   "value": 14767.0
   },
   {
    "label": "GROUNDNUT",
-   "ltrs": 36.0,
-   "quantity": 6.0,
-   "value": 10194.0
+   "ltrs": 44.0,
+   "quantity": 9.0,
+   "value": 12611.0
   },
   {
    "label": "SOYABEAN",
-   "ltrs": 31.0,
-   "quantity": 6.0,
-   "value": 6295.0
+   "ltrs": 41.0,
+   "quantity": 8.0,
+   "value": 8255.0
   },
   {
    "label": "SANO POMACE",
@@ -183,7 +183,7 @@ Up: [[dashboards-index]] · [[pf-amazon]]
    "value": 2560.0
   },
   {
-   "label": "SESAME OIL",
+   "label": "SEASAME OIL",
    "ltrs": 2.0,
    "quantity": 2.0,
    "value": 898.0
@@ -199,31 +199,31 @@ Up: [[dashboards-index]] · [[pf-amazon]]
   },
   {
    "label": "APR",
-   "ltrs": 3950.25,
+   "ltrs": 4010.25,
    "month": 4,
    "quantity": 1323.0,
    "value": 1541596.0
   },
   {
    "label": "MAY",
-   "ltrs": 4993.15,
+   "ltrs": 5025.15,
    "month": 5,
    "quantity": 1622.0,
    "value": 2073250.5
   },
   {
    "label": "JUN",
-   "ltrs": 6458.6,
+   "ltrs": 6559.1,
    "month": 6,
-   "quantity": 2229.0,
-   "value": 2645434.0
+   "quantity": 2231.0,
+   "value": 2642976.0
   },
   {
    "label": "JUL",
-   "ltrs": 1261.6,
+   "ltrs": 1446.5,
    "month": 7,
-   "quantity": 430.0,
-   "value": 556137.05
+   "quantity": 490.0,
+   "value": 610093.6
   }
  ],
  "unmapped_asins": [],

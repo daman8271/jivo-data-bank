@@ -22,11 +22,11 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
  "categories": [
   {
    "category": "GROUNDNUT",
-   "ltrs": 4235.8
+   "ltrs": 6036.2
   },
   {
    "category": "OLIVE",
-   "ltrs": 2561.0
+   "ltrs": 3713.0
   },
   {
    "category": "CANOLA",
@@ -37,7 +37,7 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
  "head": "premium",
  "month": 7,
  "platform": "zepto",
- "total_ltrs": 7912.8,
+ "total_ltrs": 10865.2,
  "year": 2026
 }
 ```

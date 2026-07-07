@@ -39,24 +39,24 @@ Up: [[dashboards-index]] · [[pf-swiggy]]
   "GMV"
  ],
  "sample": {
-  "AREA_NAME": "bopal",
-  "BASE_MRP": 1350.0,
+  "AREA_NAME": "khandagiri",
+  "BASE_MRP": 600.0,
   "BRAND": "jivo",
-  "CITY": "Ahmedabad",
+  "CITY": "bhubaneswar",
   "COMBO": "No",
   "COMBO_ITEM_CODE": null,
-  "COMBO_UNITS_SOLD": null,
-  "GMV": 1350.0,
-  "ITEM_CODE": "685793",
+  "COMBO_UNITS_SOLD": 0,
+  "GMV": 600.0,
+  "ITEM_CODE": "952130",
   "L1_CATEGORY": "edible oils and ghee",
   "L2_CATEGORY": "edible oils",
-  "L3_CATEGORY": "cold pressed sunflower oil",
-  "ORDERED_DATE": "2026-03-03",
-  "PRODUCT_NAME": "jivo cold pressed chemical free sunflower oil",
-  "STORE_ID": "1393824",
+  "L3_CATEGORY": "cold pressed sesame oil",
+  "ORDERED_DATE": "2026-07-06",
+  "PRODUCT_NAME": "Jivo First Pressed Sesame Oil | Gingelly Oil",
+  "STORE_ID": "1400218",
   "UNITS_SOLD": 1,
-  "VARIANT": "5 ltr",
-  "id": 849681
+  "VARIANT": "1 ltr",
+  "id": 2263167
  }
 }
 ```

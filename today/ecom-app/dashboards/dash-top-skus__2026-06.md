@@ -30,7 +30,7 @@ Up: [[dashboards-index]] · [[2026-06]]
    "delta_pct": 8.3,
    "head": "COMMODITY",
    "is_new": false,
-   "ltrs": 120819.0,
+   "ltrs": 120839.0,
    "name": "MUSTARD 1L",
    "prev_ltrs": 111558.0
   },
@@ -40,7 +40,7 @@ Up: [[dashboards-index]] · [[2026-06]]
    "delta_pct": 0.6,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 119714.0,
+   "ltrs": 119666.0,
    "name": "GROUNDNUT 1L",
    "prev_ltrs": 118991.0
   },
@@ -60,17 +60,17 @@ Up: [[dashboards-index]] · [[2026-06]]
    "delta_pct": -23.5,
    "head": "COMMODITY",
    "is_new": false,
-   "ltrs": 52100.0,
+   "ltrs": 52105.0,
    "name": "SUNFLOWER 5L",
    "prev_ltrs": 68130.0
   },
   {
    "brand": null,
    "code": null,
-   "delta_pct": -18.7,
+   "delta_pct": -18.6,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 48350.0,
+   "ltrs": 48430.0,
    "name": "GROUNDNUT 5L",
    "prev_ltrs": 59465.0
   },
@@ -80,49 +80,49 @@ Up: [[dashboards-index]] · [[2026-06]]
    "delta_pct": -46.9,
    "head": "COMMODITY",
    "is_new": false,
-   "ltrs": 37460.0,
+   "ltrs": 37455.0,
    "name": "MUSTARD 5L",
    "prev_ltrs": 70515.0
   },
   {
    "brand": null,
    "code": null,
-   "delta_pct": -10.5,
+   "delta_pct": -10.4,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 31700.0,
+   "ltrs": 31760.0,
    "name": "JIVO POMACE 5L",
    "prev_ltrs": 35435.0
   },
   {
    "brand": null,
    "code": null,
-   "delta_pct": -53.6,
+   "delta_pct": -53.2,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 26363.0,
+   "ltrs": 26578.0,
    "name": "JIVO POMACE 1L",
    "prev_ltrs": 56818.0
   },
   {
    "brand": null,
    "code": null,
-   "delta_pct": -26.3,
+   "delta_pct": -26.2,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 16663.0,
+   "ltrs": 16679.0,
    "name": "EXTRA LIGHT 1L",
    "prev_ltrs": 22602.0
   },
   {
    "brand": null,
    "code": null,
-   "delta_pct": 58.2,
+   "delta_pct": -77.6,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 15155.0,
-   "name": "SANO POMACE 5L",
-   "prev_ltrs": 9580.0
+   "ltrs": 15230.0,
+   "name": "CANOLA 5L",
+   "prev_ltrs": 67925.0
   }
  ],
  "source": "primary",
