@@ -1,46 +1,34 @@
 {
   "schema": "jivo-today/manifest@1",
   "date": "2026-07-08",
-  "min_date": "2026-07-08",
-  "mixed_dates": false,
-  "generated_at": "2026-07-08 11:30:49 IST",
-  "mode": "eager",
+  "generated_at": "2026-07-08 11:31:26 IST",
+  "mode": "live",
   "dry_run": false,
-  "section_dates": {
-    "price-scraper": "2026-07-08",
-    "competitors": "2026-07-08",
-    "factory": "2026-07-08",
-    "ecom-app": "2026-07-08"
-  },
   "total_files": 29238,
   "sources": {
     "price-scraper": {
       "repo": "/opt/ecom-intel",
       "base_commit": "0f5ec6e292a4f6c7fcc1dcefba3dc92fee4be93d",
-      "end_commit": "566d6e8e6475d4f546a626680abbc1e31fb86bbe",
-      "files": 1756,
-      "date": "2026-07-08"
+      "end_commit": "9802edf69b86b87f41c090149196e99ccf238453",
+      "files": 1756
     },
     "competitors": {
       "repo": "/opt/ecom-intel",
       "base_commit": "0f5ec6e292a4f6c7fcc1dcefba3dc92fee4be93d",
       "end_commit": "9802edf69b86b87f41c090149196e99ccf238453",
-      "files": 2,
-      "date": "2026-07-08"
+      "files": 2
     },
     "factory": {
       "repo": "/root/jivo-factory-intel",
       "base_commit": "ac2e04f4084722522657a296af7eeac4319e73d8",
-      "end_commit": "7a90c2b5466df9a7b8dff975bb99e5b60f68f599",
-      "files": 4737,
-      "date": "2026-07-08"
+      "end_commit": "2eb1dc96299608fb53d7a6afc5f1cfb2e85a28f1",
+      "files": 4737
     },
     "ecom-app": {
       "repo": "/root/jivo-intel",
       "base_commit": "bf9d26b6a134398b9ce3d74e0cc9829f52b0c468",
-      "end_commit": "8c75e4c97280dfb12984cac8c6ca75216df6a9c3",
-      "files": 22743,
-      "date": "2026-07-08"
+      "end_commit": "5e18e3bf4ba1a8f8efccd96dd0d56cff2cfa7997",
+      "files": 22743
     }
   }
 }
