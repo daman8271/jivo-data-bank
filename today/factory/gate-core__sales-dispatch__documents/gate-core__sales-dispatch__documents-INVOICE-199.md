@@ -16,10 +16,10 @@ tags:
 
 ## Fields
 - **document_type:** INVOICE
-- **doc_entry:** 35732
-- **doc_num:** 606260220
-- **doc_date:** 2026-06-30
-- **doc_total:** 112901.00
+- **doc_entry:** 35791
+- **doc_num:** 607260101
+- **doc_date:** 2026-07-01
+- **doc_total:** 39100.00
 - **branch_id:** 2
 - **branch_name:** HARYANA
 - **card_code:** CUSTA000874
@@ -36,12 +36,12 @@ tags:
 - **from_warehouse:** 
 - **to_warehouse:** 
 - **warehouses:** DP-HR
-- **item_summary:** FG0000143 - COLD PRESS GROUNDNUT OIL 5 LTR 4 PCS
+- **item_summary:** FG0000424 - FIRST PRESSED MUSTARD OIL 1 LTR 20 PCS
 - **base_refs:** 
-- **total_quantity:** 2310.000
-- **total_litres:** 11550.000
+- **total_quantity:** 4000.000
+- **total_litres:** 4000.000
 - **total_boxes:** 0.000
-- **total_weight:** 11463.260
+- **total_weight:** 3882.920
 - **line_count:** 1
 - **items:**
   ```json
@@ -49,5 +49,5 @@ tags:
   ```
 - **plan:**
   ```json
-  {"id": null, "sap_invoice_doc_entry": 35732, "sap_invoice_doc_num": "606260220", "invoice_number": "", "eway_bill": "", "invoice_weight": null, "invoice_amount": null, "place_of_supply": "", "product_variety": "", "total_litres": null, "effective_month": null, "budget_delivery_point": "", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": null, "transporter_id": null, "driver_id": null, "linked_vehicle_entry_id": null, "is_vehicle_link_locked": false, "pipeline_status": {"stage": "BOOKED", "stage_label": "Booked", "stage_at": null, "module": "", "module_status": "not entered", "module_label": "not entered"}, "booking_status": "PENDING", "dispatch_date": null, "priority": "", "transporter_name": "", "transporter_gstin": "", "contact_person": "", "mobile_no": "", "vehicle_no": "", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "", "bilty_date": null, "bilty_attachment": null, "bilty_attachment_name": "", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": null, "updated_at": null}
+  {"id": null, "sap_invoice_doc_entry": 35791, "sap_invoice_doc_num": "607260101", "invoice_number": "", "eway_bill": "", "invoice_weight": null, "invoice_amount": null, "place_of_supply": "", "product_variety": "", "total_litres": null, "effective_month": null, "budget_delivery_point": "", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": null, "transporter_id": null, "driver_id": null, "linked_vehicle_entry_id": null, "is_vehicle_link_locked": false, "pipeline_status": {"stage": "BOOKED", "stage_label": "Booked", "stage_at": null, "module": "", "module_status": "not entered", "module_label": "not entered"}, "booking_status": "PENDING", "dispatch_date": null, "priority": "", "transporter_name": "", "transporter_gstin": "", "contact_person": "", "mobile_no": "", "vehicle_no": "", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "", "bilty_date": null, "bilty_attachment": null, "bilty_attachment_name": "", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": null, "updated_at": null}
   ```

@@ -1,7 +1,7 @@
 ---
 type: factory-gate-core__sales-dispatch__documents
 id: INVOICE
-title: "DL01LAD1397"
+title: "HR63F9826"
 entity: Documents
 source_endpoint: /gate-core/sales-dispatch/documents/
 company: JIVO_MART
@@ -10,44 +10,44 @@ tags:
   - source/factory
   - company/JIVO_MART
 ---
-# DL01LAD1397
+# HR63F9826
 
 > Documents from `/gate-core/sales-dispatch/documents/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **document_type:** INVOICE
-- **doc_entry:** 35447
-- **doc_num:** 606260182
-- **doc_date:** 2026-06-26
-- **doc_total:** 48000.00
-- **branch_id:** 2
-- **branch_name:** HARYANA
-- **card_code:** CUSTA000860
-- **card_name:** TOATS PRIVATE LIMITED (AAJCT2944G)
-- **ship_to_code:** TOATS PRIVATE LIMITED BHOPAL
-- **ship_to_address:** NEW BYPASS ROAD  KANHASAIYA  BHOPALBHOPAL-462022IN
-- **place_of_supply:** MP
-- **bp_gstin:** 09AAJCT2944G1Z3
+- **doc_entry:** 35512
+- **doc_num:** 706260818
+- **doc_date:** 2026-06-27
+- **doc_total:** 262812.00
+- **branch_id:** 1
+- **branch_name:** DELHI
+- **card_code:** CUSTA000048
+- **card_name:** R K WORLDINFOCOM PVT LTD
+- **ship_to_code:** R K WORLDINFOCOM PVT LTD GURUGRAM
+- **ship_to_address:** VILLAGE RAHAKA  ESR SOHNA LOGISTICS PARKGURUGRAM-122103IN
+- **place_of_supply:** HR
+- **bp_gstin:** 06AAECR0564M1Z7
 - **eway_bill:** 
-- **vehicle_no:** DL01LAD1397
-- **transporter_name:** Pick & Ship
-- **bilty_no:** 2674
-- **bilty_date:** 2026-06-27
+- **vehicle_no:** HR63F9826
+- **transporter_name:** Amazon vehicle pickup
+- **bilty_no:** 9808608106
+- **bilty_date:** 2026-06-30
 - **from_warehouse:** 
 - **to_warehouse:** 
-- **warehouses:** BH-FGM
-- **item_summary:** FG0000004 - COLD PRESS 5 LTR 4 PCS
-- **base_refs:** 1706264650
-- **total_quantity:** 40.000
-- **total_litres:** 200.000
+- **warehouses:** DL-FG
+- **item_summary:** FG0000328 - YELLOW MUSTARD OIL 1 LTR 20 PCS, FG0000142 - COLD PRESS GROUNDNUT OIL 1 LTR 16 PCS, FG0000150 - SANO POMACE OLIVE 1 LTR 16 PCS, FG0000030 - MUSTARD KACHI GHANI 1 LTR 20 PCS, FG0000064 - EXTRA LIGHT OIVE 2 LTR 10 PCS HANDLE
+- **base_refs:** 1706264717
+- **total_quantity:** 735.000
+- **total_litres:** 861.000
 - **total_boxes:** 0.000
-- **total_weight:** 198.328
-- **line_count:** 1
+- **total_weight:** 758.906
+- **line_count:** 5
 - **items:**
   ```json
   []
   ```
 - **plan:**
   ```json
-  {"id": 657, "sap_invoice_doc_entry": 35447, "sap_invoice_doc_num": "606260182", "invoice_number": "606260182", "eway_bill": "771646381944", "invoice_weight": "198.328", "invoice_amount": "48000.00", "place_of_supply": "MP", "location": "Bhopal", "product_variety": "Oil", "total_litres": "200.000", "effective_month": "2026-06", "budget_delivery_point": "BHOPAL", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 334, "transporter_id": 85, "driver_id": null, "linked_vehicle_entry_id": 1174, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-06-27T14:04:16.287006Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-06-27", "priority": "High", "transporter_name": "PICK & SHIP", "transporter_gstin": "09AAQCP4145A1ZF", "contact_person": "shukla", "mobile_no": "9958007610", "vehicle_no": "DL01LAD1397", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "2674", "bilty_date": "2026-06-27", "bilty_attachment": "/media/sales_dispatch/attachments/AR_-_706260627.pdf", "bilty_attachment_name": "AR - 706260627.pdf", "freight": "1.00", "total_freight": "1.00", "kanta_weight": null, "remarks": "", "created_at": "2026-06-26T18:42:49.675535+05:30", "updated_at": "2026-06-27T19:34:16.296717+05:30"}
+  {"id": 735, "sap_invoice_doc_entry": 35512, "sap_invoice_doc_num": "706260818", "invoice_number": "706260818", "eway_bill": "342273910362", "invoice_weight": "758.906", "invoice_amount": "262812.00", "place_of_supply": "HR", "location": "Delivery Address: DED5 R K WorldInfocom Pvt Ltd Emporium Industrial Park India Pvt Ltd ESR Sohna Logistics Park, Village Rahaka GURUGRAM 122103 India", "product_variety": "Oil", "total_litres": "861.000", "effective_month": "2026-06", "budget_delivery_point": "GURUGRAM", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 322, "transporter_id": 81, "driver_id": null, "linked_vehicle_entry_id": 1298, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-06-30T14:30:00.701636Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-06-30", "priority": "HIGH", "transporter_name": "Amazon Freight (ASSPL)", "transporter_gstin": "29AAICA3918J1ZE", "contact_person": "rishabh", "mobile_no": "8802345622", "vehicle_no": "HR63F9826", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "9808608106", "bilty_date": "2026-06-30", "bilty_attachment": "/media/sales_dispatch/attachments/EwaybillPrint_-_706260773_1_4MDA0u6.pdf", "bilty_attachment_name": "EwaybillPrint - 706260773 (1).pdf", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "01/07/2026 04:00 PM IST", "created_at": "2026-06-29T19:09:32.831558+05:30", "updated_at": "2026-06-30T20:00:00.729998+05:30"}
   ```

@@ -1,12 +1,12 @@
 ---
 type: moc
-title: Vehicle (385)
+title: Vehicle (389)
 tags:
   - moc
   - source/factory
 ---
 
-# Vehicle — 385 records
+# Vehicle — 389 records
 
 From `/vehicle-management/vehicles/`. Up: [[_HOME]]
 
@@ -56,6 +56,7 @@ From `/vehicle-management/vehicles/`. Up: [[_HOME]]
 - [[veh-337]] — DL01LAL8085
 - [[veh-208]] — DL01LAM0715
 - [[veh-173]] — DL01LAM1528
+- [[veh-392]] — DL01LAM4639
 - [[veh-289]] — DL01LAM6634
 - [[veh-132]] — DL01LAM7515
 - [[veh-264]] — DL01LAM8606
@@ -102,6 +103,7 @@ From `/vehicle-management/vehicles/`. Up: [[_HOME]]
 - [[veh-200]] — DL01MA5590
 - [[veh-351]] — DL01MA5762
 - [[veh-202]] — DL01MA6176
+- [[veh-394]] — DL01MA8008
 - [[veh-192]] — DL01MA8487
 - [[veh-198]] — DL01MB2623
 - [[veh-279]] — DL01VE2310
@@ -149,6 +151,7 @@ From `/vehicle-management/vehicles/`. Up: [[_HOME]]
 - [[veh-174]] — GJ12BX6999
 - [[veh-177]] — GJ12BX7002
 - [[veh-331]] — GJ12BX7799
+- [[veh-391]] — GJ31T8120
 - [[veh-366]] — GJ39T5053
 - [[veh-344]] — HP16AA2216
 - [[veh-87]] — HP39A1748
@@ -189,6 +192,7 @@ From `/vehicle-management/vehicles/`. Up: [[_HOME]]
 - [[veh-47]] — HR55AG4326
 - [[veh-9]] — HR55AG4623
 - [[veh-69]] — HR55AJ9186
+- [[veh-393]] — HR55AL2787
 - [[veh-93]] — HR55AQ3080
 - [[veh-300]] — HR55AR9792
 - [[veh-342]] — HR55AU2812

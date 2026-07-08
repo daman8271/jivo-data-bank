@@ -16,10 +16,10 @@ tags:
 
 ## Fields
 - **document_type:** INVOICE
-- **doc_entry:** 35665
-- **doc_num:** 706260929
+- **doc_entry:** 35737
+- **doc_num:** 706260951
 - **doc_date:** 2026-06-30
-- **doc_total:** 719510.00
+- **doc_total:** 345312.00
 - **branch_id:** 1
 - **branch_name:** DELHI
 - **card_code:** CUSTA000048
@@ -31,17 +31,17 @@ tags:
 - **eway_bill:** 
 - **vehicle_no:** HR63E5410
 - **transporter_name:** Amazon vehicle pickup
-- **bilty_no:** 1630866056
+- **bilty_no:** 5727855593
 - **bilty_date:** 2026-07-02
 - **from_warehouse:** 
 - **to_warehouse:** 
 - **warehouses:** DL-FG
-- **item_summary:** FG0000142 - COLD PRESS GROUNDNUT OIL 1 LTR 16 PCS
-- **base_refs:** 1706264772
-- **total_quantity:** 3440.000
-- **total_litres:** 3440.000
+- **item_summary:** FG0000143 - COLD PRESS GROUNDNUT OIL 5 LTR 4 PCS
+- **base_refs:** 1706264766
+- **total_quantity:** 384.000
+- **total_litres:** 1920.000
 - **total_boxes:** 0.000
-- **total_weight:** 3429.938
+- **total_weight:** 1905.581
 - **line_count:** 1
 - **items:**
   ```json
@@ -49,5 +49,5 @@ tags:
   ```
 - **plan:**
   ```json
-  {"id": 816, "sap_invoice_doc_entry": 35665, "sap_invoice_doc_num": "706260929", "invoice_number": "706260929", "eway_bill": "701647966822", "invoice_weight": "3429.938", "invoice_amount": "719510.00", "place_of_supply": "HR", "location": "Delivery Address: DED3 R K WorldInfocom Pvt Ltd Block J2, Farukhnagar Logistics Parks, LLP  Village- Farrukhnagar, Tehsil- Farrukhanagar Gurgaon 122506", "product_variety": "Oil", "total_litres": "3440.000", "effective_month": "2026-06", "budget_delivery_point": "GURUGRAM", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 370, "transporter_id": 81, "driver_id": null, "linked_vehicle_entry_id": 1416, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-07-02T17:38:54.514921Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-07-02", "priority": "HIGH", "transporter_name": "Amazon Freight (ASSPL)", "transporter_gstin": "29AAICA3918J1ZE", "contact_person": "rishabh", "mobile_no": "8802345622", "vehicle_no": "HR63E5410", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "1630866056", "bilty_date": "2026-07-02", "bilty_attachment": "/media/sales_dispatch/attachments/EwaybillPrint_-_707260107_TokodJV.pdf", "bilty_attachment_name": "EwaybillPrint - 707260107.pdf", "freight": "5602.61", "total_freight": "5602.61", "kanta_weight": null, "remarks": "2026/07/03 12:15 IST", "created_at": "2026-07-01T19:18:26.590118+05:30", "updated_at": "2026-07-02T23:08:54.537166+05:30"}
+  {"id": 840, "sap_invoice_doc_entry": 35737, "sap_invoice_doc_num": "706260951", "invoice_number": "706260951", "eway_bill": "771647937647", "invoice_weight": "1905.581", "invoice_amount": "345312.00", "place_of_supply": "HR", "location": "Delivery Address: DED3 R K WorldInfocom Pvt Ltd Block J2, Farukhnagar Logistics Parks, LLP  Village- Farrukhnagar, Tehsil- Farrukhanagar Gurgaon 122506", "product_variety": "Oil", "total_litres": "1920.000", "effective_month": "2026-06", "budget_delivery_point": "GURUGRAM", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 368, "transporter_id": 81, "driver_id": null, "linked_vehicle_entry_id": 1404, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-07-02T15:32:23.599758Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-07-02", "priority": "HIGH", "transporter_name": "Amazon Freight (ASSPL)", "transporter_gstin": "29AAICA3918J1ZE", "contact_person": "rishabh", "mobile_no": "8802345622", "vehicle_no": "HR63E3409", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "5727855593", "bilty_date": "2026-07-02", "bilty_attachment": "/media/sales_dispatch/attachments/AR_-_706260929.pdf", "bilty_attachment_name": "AR - 706260929.pdf", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "2026/07/02 16:00 IST", "created_at": "2026-07-02T14:03:38.103620+05:30", "updated_at": "2026-07-02T21:02:23.609862+05:30"}
   ```

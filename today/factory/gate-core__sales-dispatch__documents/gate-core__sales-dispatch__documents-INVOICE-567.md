@@ -1,7 +1,7 @@
 ---
 type: factory-gate-core__sales-dispatch__documents
 id: INVOICE
-title: "HR67C1036"
+title: "DL01LAA0449"
 entity: Documents
 source_endpoint: /gate-core/sales-dispatch/documents/
 company: JIVO_MART
@@ -10,44 +10,44 @@ tags:
   - source/factory
   - company/JIVO_MART
 ---
-# HR67C1036
+# DL01LAA0449
 
 > Documents from `/gate-core/sales-dispatch/documents/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **document_type:** INVOICE
-- **doc_entry:** 35195
-- **doc_num:** 706260626
-- **doc_date:** 2026-06-22
-- **doc_total:** 562961.00
+- **doc_entry:** 35259
+- **doc_num:** 706260669
+- **doc_date:** 2026-06-23
+- **doc_total:** 38846.00
 - **branch_id:** 1
 - **branch_name:** DELHI
 - **card_code:** CUSTA000048
 - **card_name:** R K WORLDINFOCOM PVT LTD
-- **ship_to_code:** R K WORLDINFOCOM PVT LTD DADRI TOE
-- **ship_to_address:** NIMANA ROAD METL DADRI TOE  B 300B HADBAST NO 273DADRI TOE-124103IN
-- **place_of_supply:** HR
-- **bp_gstin:** 06AAECR0564M1Z7
+- **ship_to_code:** R K WORLDINFOCOM PVT LTD HMH4 KALYAN MAHARASHTRA
+- **ship_to_address:** BHIWANDIKALYAN-421302IN
+- **place_of_supply:** MH
+- **bp_gstin:** 27AAECR0564M1Z3
 - **eway_bill:** 
-- **vehicle_no:** HR67C1036
-- **transporter_name:** Mahaveer Transport
-- **bilty_no:** 3662
-- **bilty_date:** 2026-07-03
+- **vehicle_no:** DL01LAA0449
+- **transporter_name:** Pick & Ship
+- **bilty_no:** 1125
+- **bilty_date:** 2026-06-29
 - **from_warehouse:** 
 - **to_warehouse:** 
 - **warehouses:** DL-FG
-- **item_summary:** FG0000142 - COLD PRESS GROUNDNUT OIL 1 LTR 16 PCS, FG0000143 - COLD PRESS GROUNDNUT OIL 5 LTR 4 PCS, FG0000030 - MUSTARD KACHI GHANI 1 LTR 20 PCS, FG0000042 - EXTRA VIRGIN OLIVE 1 LTR 16 PCS, FG0000008 - POMACE OLIVE 5 LTR TIN 4 PCS, FG0000088 - COLD PRESS 1 LTR +1 LTR COMBO 10 SETS PLAIN
-- **base_refs:** 1706264631
-- **total_quantity:** 1778.000
-- **total_litres:** 2562.000
+- **item_summary:** FG0000030 - MUSTARD KACHI GHANI 1 LTR 20 PCS, FG0000042 - EXTRA VIRGIN OLIVE 1 LTR 16 PCS, FG0000028 - POMACE OLIVE 1 LTR 16 PCS
+- **base_refs:** 1706264659
+- **total_quantity:** 104.000
+- **total_litres:** 104.000
 - **total_boxes:** 0.000
-- **total_weight:** 2575.713
-- **line_count:** 6
+- **total_weight:** 102.542
+- **line_count:** 3
 - **items:**
   ```json
   []
   ```
 - **plan:**
   ```json
-  {"id": 847, "sap_invoice_doc_entry": 35195, "sap_invoice_doc_num": "706260626", "invoice_number": "706260626", "eway_bill": "751648180570", "invoice_weight": "2575.713", "invoice_amount": "562961.00", "place_of_supply": "HR", "location": "B 300B, Hadbast No 273 Nimana Road, METL, Dadri Toe Dadri Toe 124103", "product_variety": "Oil", "total_litres": "2562.000", "effective_month": "2026-06", "budget_delivery_point": "DADRI TOE", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 283, "transporter_id": 64, "driver_id": null, "linked_vehicle_entry_id": 1428, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-07-03T10:32:21.391264Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-07-02", "priority": "HIGH", "transporter_name": "MAHAVIR TRANSPORT COMPANY", "transporter_gstin": "06AOUPJ8083N1ZZ", "contact_person": "ABC", "mobile_no": "9588567100", "vehicle_no": "HR67C1036", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "3662", "bilty_date": "2026-07-03", "bilty_attachment": "/media/sales_dispatch/attachments/WhatsApp_Image_2026-07-03_at_3.44.27_PM.jpeg", "bilty_attachment_name": "WhatsApp Image 2026-07-03 at 3.44.27 PM.jpeg", "freight": "0.50", "total_freight": "0.50", "kanta_weight": null, "remarks": "03/07/2026 12:30 PM IST", "created_at": "2026-07-02T17:27:06.717454+05:30", "updated_at": "2026-07-03T16:02:21.401939+05:30"}
+  {"id": 694, "sap_invoice_doc_entry": 35259, "sap_invoice_doc_num": "706260669", "invoice_number": "706260669", "eway_bill": "771646919857", "invoice_weight": "102.542", "invoice_amount": "38846.00", "place_of_supply": "MH", "location": "Prathamesh Complex sonale village , Bhiwandi Maharashtra Kalyan Kalyan 421302", "product_variety": "Oil", "total_litres": "104.000", "effective_month": "2026-06", "budget_delivery_point": "KALYAN", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 341, "transporter_id": 85, "driver_id": null, "linked_vehicle_entry_id": 1229, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-06-29T12:41:42.830219Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-06-29", "priority": "HIGH", "transporter_name": "PICK & SHIP", "transporter_gstin": "09AAQCP4145A1ZF", "contact_person": "shukla", "mobile_no": "9958007610", "vehicle_no": "DL01LAA0449", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "1125", "bilty_date": "2026-06-29", "bilty_attachment": "/media/sales_dispatch/attachments/WhatsApp_Image_2026-06-29_at_4_PQKFFnx.42.14_PM.jpeg", "bilty_attachment_name": "WhatsApp Image 2026-06-29 at 4.42.14 PM.jpeg", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": "2026-06-27T19:03:13.561623+05:30", "updated_at": "2026-06-29T18:11:42.843432+05:30"}
   ```

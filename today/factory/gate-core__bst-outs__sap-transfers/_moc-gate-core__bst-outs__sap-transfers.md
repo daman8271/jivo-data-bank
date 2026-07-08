@@ -10,6 +10,9 @@ tags:
 
 From `/gate-core/bst-outs/sap-transfers/`. Up: [[_HOME]]
 
+- [[gate-core__bst-outs__sap-transfers-3249]] — Sap Transfers 3249
+- [[gate-core__bst-outs__sap-transfers-3248]] — Sap Transfers 3248
+- [[gate-core__bst-outs__sap-transfers-3247]] — Sap Transfers 3247
 - [[gate-core__bst-outs__sap-transfers-3244]] — Sap Transfers 3244
 - [[gate-core__bst-outs__sap-transfers-3243]] — Sap Transfers 3243
 - [[gate-core__bst-outs__sap-transfers-3241]] — Sap Transfers 3241
@@ -57,6 +60,3 @@ From `/gate-core/bst-outs/sap-transfers/`. Up: [[_HOME]]
 - [[gate-core__bst-outs__sap-transfers-3179]] — Sap Transfers 3179
 - [[gate-core__bst-outs__sap-transfers-3178]] — Sap Transfers 3178
 - [[gate-core__bst-outs__sap-transfers-3177]] — Sap Transfers 3177
-- [[gate-core__bst-outs__sap-transfers-3176]] — Sap Transfers 3176
-- [[gate-core__bst-outs__sap-transfers-3175]] — Sap Transfers 3175
-- [[gate-core__bst-outs__sap-transfers-3174]] — Sap Transfers 3174
