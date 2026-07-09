@@ -22,8 +22,8 @@ tags:
 - **click_action_url:** /gate/visitor-labour
 - **reference_type:** person_entry
 - **reference_id:** 243
-- **is_read:** False
-- **read_at:** None
+- **is_read:** True
+- **read_at:** 2026-07-08T14:19:18.670155+05:30
 - **extra_data:**
   ```json
   {"name": "Mohit 8930096738", "status": "IN", "gate_in": "Front gate", "vehicle_no": "", "person_type": "visitor", "reference_id": "243", "reference_type": "person_entry"}

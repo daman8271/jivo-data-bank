@@ -24,18 +24,21 @@ tags:
   ```json
   {"id": 2, "name": "Front gate", "location": null, "is_active": true}
   ```
-- **gate_out:** None
+- **gate_out:**
+  ```json
+  {"id": 2, "name": "Front gate", "location": null, "is_active": true}
+  ```
 - **name_snapshot:** Banty 8295141504
 - **photo_snapshot:** None
 - **entry_time:** 2026-07-07T13:03:47.813499+05:30
 - **actual_entry_time:** 2026-07-07T13:02:00+05:30
-- **exit_time:** None
+- **exit_time:** 2026-07-08T10:30:38.810872+05:30
 - **purpose:** None
 - **vehicle_no:** None
 - **remarks:** Banty with 2 parson 
-- **status:** IN
+- **status:** OUT
 - **created_at:** 2026-07-07T13:03:47.813549+05:30
-- **updated_at:** 2026-07-07T13:03:47.813556+05:30
+- **updated_at:** 2026-07-08T10:30:38.813138+05:30
 - **visitor:** 175
 - **labour:** None
 - **approved_by:** None
@@ -43,5 +46,6 @@ tags:
 
 ## Related
 - gate_in -> [[pgate-2]]
+- gate_out -> [[pgate-2]]
 - person_type -> [[ptype-1]]
 - visitor -> [[vis-175]]
