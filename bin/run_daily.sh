@@ -161,7 +161,7 @@ PINCODE_APP=/root/jivo-pincode-app/build_and_deploy.sh
 if [ -x "$PINCODE_APP" ]; then
     PHASE="pincode-app"
     log "stage 4 pincode-app: rebuild+deploy (event-driven off the fusion)"
-    ( timeout 360 "$PINCODE_APP" ) >>"$LOG" 2>&1 \
+    ( timeout 900 "$PINCODE_APP" ) >>"$LOG" 2>&1 \
         || log "stage 4 pincode-app returned non-zero (non-fatal — data-bank unaffected)"
 fi
 
