@@ -24,9 +24,29 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-amazon]]
  "platform": "amazon",
  "prev_month": 6,
  "prev_year": 2026,
- "skus": [],
+ "skus": [
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -73.1,
+   "head": "PREMIUM",
+   "is_new": false,
+   "ltrs": 9580.0,
+   "name": "GROUNDNUT 5L",
+   "prev_ltrs": 35550.0
+  }
+ ],
  "source": "primary",
- "top_faller": null,
+ "top_faller": {
+  "brand": null,
+  "code": null,
+  "delta_pct": -73.1,
+  "head": "PREMIUM",
+  "is_new": false,
+  "ltrs": 9580.0,
+  "name": "GROUNDNUT 5L",
+  "prev_ltrs": 35550.0
+ },
  "top_riser": null,
  "year": 2026
 }

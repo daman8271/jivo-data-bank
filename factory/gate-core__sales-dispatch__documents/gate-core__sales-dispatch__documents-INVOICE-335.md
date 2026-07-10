@@ -1,7 +1,7 @@
 ---
 type: factory-gate-core__sales-dispatch__documents
 id: INVOICE
-title: "DL01LAA0449"
+title: "NL01AG1873"
 entity: Documents
 source_endpoint: /gate-core/sales-dispatch/documents/
 company: JIVO_MART
@@ -10,44 +10,44 @@ tags:
   - source/factory
   - company/JIVO_MART
 ---
-# DL01LAA0449
+# NL01AG1873
 
 > Documents from `/gate-core/sales-dispatch/documents/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **document_type:** INVOICE
-- **doc_entry:** 35434
-- **doc_num:** 706260772
-- **doc_date:** 2026-06-26
-- **doc_total:** 616385.00
+- **doc_entry:** 35894
+- **doc_num:** 707260129
+- **doc_date:** 2026-07-03
+- **doc_total:** 36669.00
 - **branch_id:** 1
 - **branch_name:** DELHI
 - **card_code:** CUSTA000048
 - **card_name:** R K WORLDINFOCOM PVT LTD
-- **ship_to_code:** R K WORLDINFOCOM PVT LTD HYDERABAD
-- **ship_to_address:** NEAR METRO CITY MANGALAPALLY IBRAHIMPATNAM  HMDA - ANCON LOGISTICS PARK SY. NO.124/20-26HYDERABAD-501510IN
-- **place_of_supply:** TE
-- **bp_gstin:** 36AAECR0564M3Z2
+- **ship_to_code:** RK WORLDINFOCOM PVT LTD HARYANA
+- **ship_to_address:** LLP VILLAGE- FARRUKHNAGAR TEHSIL-FARRUKH ESR SOHNA LOGISTICS PARK VILLAGE RAHAKA  BLOCK J2,FARUKHNAGAR LOGISTICS PARKS EMPORIUM INDUSTRIAL PARK INDIA PVT LTDGURUGRAM-122506IN
+- **place_of_supply:** HR
+- **bp_gstin:** 06AAECR0564M1Z7
 - **eway_bill:** 
-- **vehicle_no:** DL01LAA0449
-- **transporter_name:** Pick & Ship
-- **bilty_no:** 1126
-- **bilty_date:** 2026-06-29
+- **vehicle_no:** NL01AG1873
+- **transporter_name:** Amazon vehicle pickup
+- **bilty_no:** 
+- **bilty_date:** 2026-07-08
 - **from_warehouse:** 
 - **to_warehouse:** 
 - **warehouses:** DL-FG
-- **item_summary:** FG0000227 - RICE BRAN 1L 16 PCS, FG0000142 - COLD PRESS GROUNDNUT OIL 1 LTR 16 PCS, FG0000143 - COLD PRESS GROUNDNUT OIL 5 LTR 4 PCS, FG0000030 - MUSTARD KACHI GHANI 1 LTR 20 PCS, FG0000032 - COLD PRESS 1 LTR 20 PCS, FG0000005 - EXTRA LIGHT OLIVE 1 LTR 16 PCS, FG0000053 - COLD PRESS SUNFLOWER 5 LTR 4 PCS, FG0000042 - EXTRA VIRGIN OLIVE 1 LTR 16 PCS, FG0000028 - POMACE OLIVE 1 LTR 16 PCS, FG0000004 - COLD PRESS 5 LTR 4 PCS
-- **base_refs:** 1706264680
-- **total_quantity:** 1368.000
-- **total_litres:** 3176.000
+- **item_summary:** FG0000394 - COLD PRESS SUNFLOWER 5LTR 5 PCS
+- **base_refs:** 1707264520
+- **total_quantity:** 230.000
+- **total_litres:** 1150.000
 - **total_boxes:** 0.000
-- **total_weight:** 3191.135
-- **line_count:** 10
+- **total_weight:** 1058.000
+- **line_count:** 1
 - **items:**
   ```json
   []
   ```
 - **plan:**
   ```json
-  {"id": 695, "sap_invoice_doc_entry": 35434, "sap_invoice_doc_num": "706260772", "invoice_number": "706260772", "eway_bill": "771646919857", "invoice_weight": "3191.135", "invoice_amount": "616385.00", "place_of_supply": "TE", "location": "HMDA - Ancon Logistics Park,*Sy. No.124/20-26, Near Metro City Mangalapally, Ibrahimpatnam, HYDERABAD 501510", "product_variety": "Oil", "total_litres": "3176.000", "effective_month": "2026-06", "budget_delivery_point": "HYDERABAD", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 341, "transporter_id": 85, "driver_id": null, "linked_vehicle_entry_id": 1229, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-06-29T12:41:42.830219Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-06-29", "priority": "HIGH", "transporter_name": "PICK & SHIP", "transporter_gstin": "09AAQCP4145A1ZF", "contact_person": "shukla", "mobile_no": "9958007610", "vehicle_no": "DL01LAA0449", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "1125", "bilty_date": "2026-06-29", "bilty_attachment": "/media/sales_dispatch/attachments/WhatsApp_Image_2026-06-29_at_4_PQKFFnx.42.14_PM.jpeg", "bilty_attachment_name": "WhatsApp Image 2026-06-29 at 4.42.14 PM.jpeg", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": "2026-06-27T19:06:31.576942+05:30", "updated_at": "2026-06-29T18:11:42.840971+05:30"}
+  {"id": 894, "sap_invoice_doc_entry": 35894, "sap_invoice_doc_num": "707260129", "invoice_number": "707260129", "eway_bill": "711649473266", "invoice_weight": "1058.000", "invoice_amount": "36669.00", "place_of_supply": "HR", "location": "Delivery Address: DED3 R K WorldInfocom Pvt Ltd Block J2, Farukhnagar Logistics Parks, LLP  Village- Farrukhnagar, Tehsil- Farrukhanagar Gurgaon 122506", "product_variety": "Oil", "total_litres": "1150.000", "effective_month": "2026-07", "budget_delivery_point": "GURUGRAM", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 198, "transporter_id": 54, "driver_id": null, "linked_vehicle_entry_id": 1701, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-07-09T08:53:18.111572Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-07-09", "priority": "HIGH", "transporter_name": "Arnav Transport Service", "transporter_gstin": "", "contact_person": "Lalit Kumar", "mobile_no": "9718077490", "vehicle_no": "DL01MB2623", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "3140", "bilty_date": "2026-07-08", "bilty_attachment": "/media/sales_dispatch/attachments/EwaybillPrint_-_707260122_1_00iLZdt.pdf", "bilty_attachment_name": "EwaybillPrint - 707260122 (1).pdf", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": "2026-07-03T19:11:27.691896+05:30", "updated_at": "2026-07-09T14:23:18.123504+05:30"}
   ```

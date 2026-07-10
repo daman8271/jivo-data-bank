@@ -17,11 +17,16 @@ Up: [[dashboards-index]]
 
 ```json
 {
- "errors": [],
+ "errors": [
+  {
+   "error": "name 'month_num' is not defined",
+   "source": "amazon_po"
+  }
+ ],
  "month": "JULY",
  "platforms": [
   {
-   "delivered_ltrs": 30160.0,
+   "delivered_ltrs": 61894.75,
    "format": "SWIGGY"
   },
   {
@@ -29,28 +34,24 @@ Up: [[dashboards-index]]
    "format": "CITY MALL"
   },
   {
-   "delivered_ltrs": 4090.0,
-   "format": "ZOMATO"
-  },
-  {
-   "delivered_ltrs": 3610.4,
+   "delivered_ltrs": 17188.8,
    "format": "ZEPTO"
   },
   {
-   "delivered_ltrs": 3184.0,
-   "format": "FLIPKART GROCERY"
+   "delivered_ltrs": 7772.0,
+   "format": "ZOMATO"
   },
   {
-   "delivered_ltrs": 1840.0,
+   "delivered_ltrs": 6428.0,
    "format": "BLINKIT"
   },
   {
-   "delivered_ltrs": 1103.0,
-   "format": "BIG BASKET"
+   "delivered_ltrs": 5984.0,
+   "format": "FLIPKART GROCERY"
   },
   {
-   "delivered_ltrs": 0.0,
-   "format": "AMAZON"
+   "delivered_ltrs": 1455.0,
+   "format": "BIG BASKET"
   }
  ],
  "year": 2026

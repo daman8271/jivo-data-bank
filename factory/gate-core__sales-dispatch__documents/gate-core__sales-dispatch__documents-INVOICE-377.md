@@ -1,7 +1,7 @@
 ---
 type: factory-gate-core__sales-dispatch__documents
 id: INVOICE
-title: "HR63F9826"
+title: "HR67C4904"
 entity: Documents
 source_endpoint: /gate-core/sales-dispatch/documents/
 company: JIVO_MART
@@ -10,44 +10,44 @@ tags:
   - source/factory
   - company/JIVO_MART
 ---
-# HR63F9826
+# HR67C4904
 
 > Documents from `/gate-core/sales-dispatch/documents/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **document_type:** INVOICE
-- **doc_entry:** 35374
-- **doc_num:** 706260738
-- **doc_date:** 2026-06-25
-- **doc_total:** 1278730.00
-- **branch_id:** 1
-- **branch_name:** DELHI
-- **card_code:** CUSTA000048
-- **card_name:** R K WORLDINFOCOM PVT LTD
-- **ship_to_code:** R K WORLDINFOCOM PVT LTD GURUGRAM
-- **ship_to_address:** VILLAGE RAHAKA  ESR SOHNA LOGISTICS PARKGURUGRAM-122103IN
-- **place_of_supply:** HR
-- **bp_gstin:** 06AAECR0564M1Z7
+- **doc_entry:** 35798
+- **doc_num:** 607260102
+- **doc_date:** 2026-07-01
+- **doc_total:** 121253.00
+- **branch_id:** 2
+- **branch_name:** HARYANA
+- **card_code:** CUSTA000874
+- **card_name:** JIVO MART PVT LTD - DL
+- **ship_to_code:** JIVO MART PVT LTD  MAYAPURI
+- **ship_to_address:** PHASE 1 MAYAPURI  A/35-1 MAYAPURI INDUSTRIAL AREANEW DELHI-110064IN
+- **place_of_supply:** DL
+- **bp_gstin:** 07AAFCJ4102J1ZS
 - **eway_bill:** 
-- **vehicle_no:** HR63F9826
-- **transporter_name:** Amazon vehicle pickup
-- **bilty_no:** 1235
-- **bilty_date:** 2026-06-26
+- **vehicle_no:** HR67C4904
+- **transporter_name:** Mahaveer Transport
+- **bilty_no:** 7106
+- **bilty_date:** 2026-07-02
 - **from_warehouse:** 
 - **to_warehouse:** 
-- **warehouses:** DL-FG
-- **item_summary:** FG0000385 - YELLOW MUSTARD OIL 5 LTR TIN 4 PCS, FG0000005 - EXTRA LIGHT OLIVE 1 LTR 16 PCS, FG0000053 - COLD PRESS SUNFLOWER 5 LTR 4 PCS, FG0000028 - POMACE OLIVE 1 LTR 16 PCS, FG0000009 - EXTRA LIGHT OLIVE 5 LTR TIN 4 PCS
-- **base_refs:** 1706264675
-- **total_quantity:** 1851.000
-- **total_litres:** 6759.000
+- **warehouses:** DP-HR
+- **item_summary:** FG0000004 - COLD PRESS 5 LTR 4 PCS, FG0000005 - EXTRA LIGHT OLIVE 1 LTR 16 PCS, FG0000009 - EXTRA LIGHT OLIVE 5 LTR TIN 4 PCS, FG0000008 - POMACE OLIVE 5 LTR TIN 4 PCS, FG0000042 - EXTRA VIRGIN OLIVE 1 LTR 16 PCS, FG0000230 - RICE BRAN OIL 5 LTR 4 PCS, FG0000328 - YELLOW MUSTARD OIL 1 LTR 20 PCS, FG0000011 - MUSTARD KACCHI GHANI 5 LTR 4 PCS, FG0000422 - COLD PRESS 1 LTR (NIRMAL RISHI )20PCS
+- **base_refs:** 
+- **total_quantity:** 4755.000
+- **total_litres:** 9775.000
 - **total_boxes:** 0.000
-- **total_weight:** 6652.716
-- **line_count:** 5
+- **total_weight:** 8757.049
+- **line_count:** 9
 - **items:**
   ```json
   []
   ```
 - **plan:**
   ```json
-  {"id": 618, "sap_invoice_doc_entry": 35374, "sap_invoice_doc_num": "706260738", "invoice_number": "706260738", "eway_bill": "771646206689", "invoice_weight": "6652.716", "invoice_amount": "1278730.00", "place_of_supply": "HR", "location": "Delivery Address: DED5 R K WorldInfocom Pvt Ltd Emporium Industrial Park India Pvt Ltd ESR Sohna Logistics Park, Village Rahaka GURUGRAM 122103 India", "product_variety": "Oil", "total_litres": "6759.000", "effective_month": "2026-06", "budget_delivery_point": "GURUGRAM", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 322, "transporter_id": 81, "driver_id": null, "linked_vehicle_entry_id": 1136, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-06-26T15:31:38.952277Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-06-26", "priority": "HIGH", "transporter_name": "Amazon Freight (ASSPL)", "transporter_gstin": "29AAICA3918J1ZE", "contact_person": "rishabh", "mobile_no": "8802345622", "vehicle_no": "HR63F9826", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "1235", "bilty_date": "2026-06-26", "bilty_attachment": "/media/sales_dispatch/attachments/HR63F9826--GRN.pdf", "bilty_attachment_name": "HR63F9826--GRN.pdf", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": "2026-06-25T18:41:17.994456+05:30", "updated_at": "2026-06-26T21:01:38.962162+05:30"}
+  {"id": 806, "sap_invoice_doc_entry": 35798, "sap_invoice_doc_num": "607260102", "invoice_number": "607260102", "eway_bill": "322283888897", "invoice_weight": "8757.049", "invoice_amount": "121253.00", "place_of_supply": "DL", "location": "", "product_variety": "Oil", "total_litres": "9775.000", "effective_month": "2026-07", "budget_delivery_point": "NEW DELHI", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 213, "transporter_id": 50, "driver_id": null, "linked_vehicle_entry_id": 1406, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-07-02T13:57:28.199550Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-07-02", "priority": "High", "transporter_name": "Bhargave Road Carrier", "transporter_gstin": "07BZQPP0903H1Z8", "contact_person": "Pardeep", "mobile_no": "8708270230", "vehicle_no": "HR67C4904", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "7106", "bilty_date": "2026-07-02", "bilty_attachment": "/media/sales_dispatch/attachments/WhatsApp_Image_2026-07-02_at_6.52.46_PM_1.jpeg", "bilty_attachment_name": "WhatsApp Image 2026-07-02 at 6.52.46 PM (1).jpeg", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": "2026-07-01T18:44:02.667070+05:30", "updated_at": "2026-07-02T19:27:28.209497+05:30"}
   ```

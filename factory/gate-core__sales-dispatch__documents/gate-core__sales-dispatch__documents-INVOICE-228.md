@@ -1,7 +1,7 @@
 ---
 type: factory-gate-core__sales-dispatch__documents
 id: INVOICE
-title: "HR63F9826"
+title: "HR67E3663"
 entity: Documents
 source_endpoint: /gate-core/sales-dispatch/documents/
 company: JIVO_MART
@@ -10,44 +10,44 @@ tags:
   - source/factory
   - company/JIVO_MART
 ---
-# HR63F9826
+# HR67E3663
 
 > Documents from `/gate-core/sales-dispatch/documents/` (Jivo Mart / JIVO_MART).
 
 ## Fields
 - **document_type:** INVOICE
-- **doc_entry:** 35583
-- **doc_num:** 706260871
-- **doc_date:** 2026-06-29
-- **doc_total:** 692519.00
-- **branch_id:** 1
-- **branch_name:** DELHI
-- **card_code:** CUSTA000048
-- **card_name:** R K WORLDINFOCOM PVT LTD
-- **ship_to_code:** R K WORLDINFOCOM PVT LTD GURUGRAM
-- **ship_to_address:** VILLAGE RAHAKA  ESR SOHNA LOGISTICS PARKGURUGRAM-122103IN
-- **place_of_supply:** HR
-- **bp_gstin:** 06AAECR0564M1Z7
+- **doc_entry:** 36043
+- **doc_num:** 607260118
+- **doc_date:** 2026-07-06
+- **doc_total:** 1598500.00
+- **branch_id:** 2
+- **branch_name:** HARYANA
+- **card_code:** CUSTA000906
+- **card_name:** EVARA ENTERPRISES
+- **ship_to_code:** EVARA ENTERPRISES PUNJAB
+- **ship_to_address:** VILLAGE SARINH  NEAR SINGH MOTORS MALERKOTLA ROADLUDHIANA-141116IN
+- **place_of_supply:** PB
+- **bp_gstin:** 03AALFE9594L1ZR
 - **eway_bill:** 
-- **vehicle_no:** HR63F9826
-- **transporter_name:** Amazon vehicle pickup
-- **bilty_no:** 9808608106
-- **bilty_date:** 2026-06-30
+- **vehicle_no:** HR67E3663
+- **transporter_name:** Delhi Punjab
+- **bilty_no:** 13072
+- **bilty_date:** 2026-07-07
 - **from_warehouse:** 
 - **to_warehouse:** 
-- **warehouses:** DL-FG
-- **item_summary:** FG0000230 - RICE BRAN OIL 5 LTR 4 PCS, FG0000151 - SANO POMACE OLIVE 5 LTR TIN 4 PCS, FG0000141 - SANO SOYABEAN OIL 5 LTR 4 PCS, FG0000011 - MUSTARD KACCHI GHANI 5 LTR 4 PCS, FG0000004 - COLD PRESS 5 LTR 4 PCS, FG0000088 - COLD PRESS 1 LTR +1 LTR COMBO 10 SETS PLAIN
-- **base_refs:** 1706264746
-- **total_quantity:** 858.000
-- **total_litres:** 3930.000
+- **warehouses:** BH-FGM
+- **item_summary:** FG0000030 - MUSTARD KACHI GHANI 1 LTR 20 PCS, FG0000081 - COLD PRESS SUNFLOWER 1 LTR 20 PCS
+- **base_refs:** 1706264764
+- **total_quantity:** 10000.000
+- **total_litres:** 10000.000
 - **total_boxes:** 0.000
-- **total_weight:** 3975.258
-- **line_count:** 6
+- **total_weight:** 9739.880
+- **line_count:** 2
 - **items:**
   ```json
   []
   ```
 - **plan:**
   ```json
-  {"id": 740, "sap_invoice_doc_entry": 35583, "sap_invoice_doc_num": "706260871", "invoice_number": "706260871", "eway_bill": "342273910362", "invoice_weight": "3975.258", "invoice_amount": "692519.00", "place_of_supply": "HR", "location": "Delivery Address: DED5 R K WorldInfocom Pvt Ltd Emporium Industrial Park India Pvt Ltd ESR Sohna Logistics Park, Village Rahaka GURUGRAM 122103 India", "product_variety": "Oil", "total_litres": "3930.000", "effective_month": "2026-06", "budget_delivery_point": "GURUGRAM", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 322, "transporter_id": 81, "driver_id": null, "linked_vehicle_entry_id": 1298, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-06-30T14:30:00.701636Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-06-30", "priority": "HIGH", "transporter_name": "Amazon Freight (ASSPL)", "transporter_gstin": "29AAICA3918J1ZE", "contact_person": "rishabh", "mobile_no": "8802345622", "vehicle_no": "HR63F9826", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "9808608106", "bilty_date": "2026-06-30", "bilty_attachment": "/media/sales_dispatch/attachments/EwaybillPrint_-_706260773_1_4MDA0u6.pdf", "bilty_attachment_name": "EwaybillPrint - 706260773 (1).pdf", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "01/07/2026 04:00 PM IST", "created_at": "2026-06-29T19:12:58.575449+05:30", "updated_at": "2026-06-30T20:00:00.723075+05:30"}
+  {"id": 1043, "sap_invoice_doc_entry": 36043, "sap_invoice_doc_num": "607260118", "invoice_number": "607260118", "eway_bill": "332286608378", "invoice_weight": "9739.880", "invoice_amount": "1598500.00", "place_of_supply": "PB", "location": "", "product_variety": "Oil", "total_litres": "10000.000", "effective_month": "2026-07", "budget_delivery_point": "LUDHIANA", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 314, "transporter_id": 47, "driver_id": null, "linked_vehicle_entry_id": 1574, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-07-07T09:01:02.255416Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-07-07", "priority": "", "transporter_name": "Delhi Punjab", "transporter_gstin": "06AANFD7642N1ZV", "contact_person": "vijayb", "mobile_no": "9812004610", "vehicle_no": "HR67E3663", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "13071", "bilty_date": "2026-07-07", "bilty_attachment": "/media/sales_dispatch/attachments/WhatsApp_Image_2026-07-07_at_2.00.25_PM.jpeg", "bilty_attachment_name": "WhatsApp Image 2026-07-07 at 2.00.25 PM.jpeg", "freight": "10438.41", "total_freight": "10438.41", "kanta_weight": null, "remarks": "", "created_at": "2026-07-07T09:59:24.709327+05:30", "updated_at": "2026-07-07T14:31:02.265985+05:30"}
   ```

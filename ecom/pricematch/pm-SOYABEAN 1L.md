@@ -12,10 +12,10 @@ platforms:
   - flipkart-minutes
   - zepto
 first_seen: 2026-06-08
-last_seen: 2026-07-06
-observations: 224
+last_seen: 2026-07-10
+observations: 256
 latest_status: NOT_LISTED
-below_days: 10
+below_days: 14
 tags:
   - type/pricematch-sku
   - platform/amazon
@@ -37,11 +37,11 @@ SKU memory: [[jivo-cooking-edible-soyabean-oil-1-litre-high-in-omega6-pufa-conta
 ## Sold on
 [[amazon]] · [[amazon-fresh]] · [[amazon-now]] · [[bigbasket]] · [[blinkit]] · [[flipkart]] · [[flipkart-minutes]] · [[zepto]]
 
-- **Latest status:** ▫️ not listed on [[zepto]] (2026-07-06) — ref ₹199 vs live ₹-
-- **Days below reference:** 10 of 28
-- **Below on:** [[2026-06-08]] · [[2026-06-09]] · [[2026-06-15]] · [[2026-06-22]] · [[2026-06-29]] · [[2026-07-02]] · [[2026-07-03]] · [[2026-07-04]] · [[2026-07-05]] · [[2026-07-06]]
+- **Latest status:** ▫️ not listed on [[zepto]] (2026-07-10) — ref ₹199 vs live ₹-
+- **Days below reference:** 14 of 32
+- **Below on:** [[2026-06-08]] · [[2026-06-09]] · [[2026-06-15]] · [[2026-06-22]] · [[2026-06-29]] · [[2026-07-02]] · [[2026-07-03]] · [[2026-07-04]] · [[2026-07-05]] · [[2026-07-06]] · [[2026-07-07]] · [[2026-07-08]] · [[2026-07-09]] · [[2026-07-10]]
 
-## Ref-vs-live history (224 observations)
+## Ref-vs-live history (256 observations)
 
 ```csv
 date,platform,status,regime,ref,live,live_min,live_max,diff,diff_pct,stores_below,in_stock
@@ -269,6 +269,38 @@ date,platform,status,regime,ref,live,live_min,live_max,diff,diff_pct,stores_belo
 2026-07-06,flipkart,NOT_LISTED,SVD,199,,,,,,0,false
 2026-07-06,flipkart-minutes,NOT_LISTED,SVD,199,,,,,,0,false
 2026-07-06,zepto,NOT_LISTED,SVD,199,,,,,,0,false
+2026-07-07,amazon,ABOVE,SVD,199,225,225,225,26,13.07,0,true
+2026-07-07,amazon-fresh,BELOW,SVD,199,179,179,179,-20,-10.05,30,true
+2026-07-07,amazon-now,BELOW,SVD,199,169,169,169,-30,-15.08,3,true
+2026-07-07,bigbasket,NOT_LISTED,SVD,199,,,,,,0,false
+2026-07-07,blinkit,NOT_LISTED,SVD,199,,,,,,0,false
+2026-07-07,flipkart,NOT_LISTED,SVD,199,,,,,,0,false
+2026-07-07,flipkart-minutes,NOT_LISTED,SVD,199,,,,,,0,false
+2026-07-07,zepto,NOT_LISTED,SVD,199,,,,,,0,false
+2026-07-08,amazon,BELOW,BAU,209,169,169,169,-40,-19.14,1,true
+2026-07-08,amazon-fresh,BELOW,BAU,209,169,169,179,-40,-19.14,35,true
+2026-07-08,amazon-now,BELOW,BAU,209,169,169,169,-40,-19.14,76,true
+2026-07-08,bigbasket,NOT_LISTED,BAU,209,,,,,,0,false
+2026-07-08,blinkit,NOT_LISTED,BAU,209,,,,,,0,false
+2026-07-08,flipkart,NOT_LISTED,BAU,209,,,,,,0,false
+2026-07-08,flipkart-minutes,NOT_LISTED,BAU,209,,,,,,0,false
+2026-07-08,zepto,NOT_LISTED,BAU,209,,,,,,0,false
+2026-07-09,amazon,BELOW,BAU,209,169,169,169,-40,-19.14,1,true
+2026-07-09,amazon-fresh,BELOW,BAU,209,169,169,169,-40,-19.14,32,true
+2026-07-09,amazon-now,BELOW,BAU,209,169,169,169,-40,-19.14,69,true
+2026-07-09,bigbasket,NOT_LISTED,BAU,209,,,,,,0,false
+2026-07-09,blinkit,NOT_LISTED,BAU,209,,,,,,0,false
+2026-07-09,flipkart,NOT_LISTED,BAU,209,,,,,,0,false
+2026-07-09,flipkart-minutes,NOT_LISTED,BAU,209,,,,,,0,false
+2026-07-09,zepto,NOT_LISTED,BAU,209,,,,,,0,false
+2026-07-10,amazon,BELOW,SVD,199,189,189,189,-10,-5.03,1,true
+2026-07-10,amazon-fresh,BELOW,SVD,199,189,189,189,-10,-5.03,16,true
+2026-07-10,amazon-now,BELOW,SVD,199,189,189,189,-10,-5.03,61,true
+2026-07-10,bigbasket,NOT_LISTED,SVD,199,,,,,,0,false
+2026-07-10,blinkit,NOT_LISTED,SVD,199,,,,,,0,false
+2026-07-10,flipkart,NOT_LISTED,SVD,199,,,,,,0,false
+2026-07-10,flipkart-minutes,NOT_LISTED,SVD,199,,,,,,0,false
+2026-07-10,zepto,NOT_LISTED,SVD,199,,,,,,0,false
 ```
 
 ---

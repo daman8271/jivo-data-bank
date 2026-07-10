@@ -39,24 +39,24 @@ Up: [[dashboards-index]] · [[pf-swiggy]]
   "GMV"
  ],
  "sample": {
-  "AREA_NAME": "hathibarkala",
+  "AREA_NAME": "budh bazar",
   "BASE_MRP": 255.0,
   "BRAND": "jivo",
-  "CITY": "Dehradun",
+  "CITY": "Moradabad",
   "COMBO": "No",
   "COMBO_ITEM_CODE": null,
   "COMBO_UNITS_SOLD": null,
-  "GMV": 765.0,
+  "GMV": 255.0,
   "ITEM_CODE": "60711",
   "L1_CATEGORY": "edible oils and ghee",
   "L2_CATEGORY": "edible oils",
   "L3_CATEGORY": "mustard oil",
-  "ORDERED_DATE": "2026-03-01",
+  "ORDERED_DATE": "2026-04-24",
   "PRODUCT_NAME": "jivo cold press kachi ghani mustard oil",
-  "STORE_ID": "1403178",
-  "UNITS_SOLD": 3,
+  "STORE_ID": "1401290",
+  "UNITS_SOLD": 1,
   "VARIANT": "1 ltr",
-  "id": 836811
+  "id": 1303442
  }
 }
 ```

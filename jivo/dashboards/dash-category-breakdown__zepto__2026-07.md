@@ -22,25 +22,33 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
  "commodity": {
   "categories": [
    {
-    "ltrs": 236.0,
+    "ltrs": 1740.0,
     "name": "SUNFLOWER"
    },
    {
-    "ltrs": 100.0,
+    "ltrs": 1300.0,
     "name": "MUSTARD"
+   },
+   {
+    "ltrs": 32.0,
+    "name": "RICE BRAN"
    }
   ],
   "sub_categories": [
    {
-    "ltrs": 236.0,
+    "ltrs": 1740.0,
     "name": "SUNFLOWER"
    },
    {
-    "ltrs": 100.0,
+    "ltrs": 1300.0,
     "name": "MUSTARD KACCHI GHANI"
+   },
+   {
+    "ltrs": 32.0,
+    "name": "RICE BRAN"
    }
   ],
-  "total_ltrs": 336.0
+  "total_ltrs": 3072.0
  },
  "errors": [],
  "month": 7,
@@ -48,29 +56,41 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-zepto]]
  "premium": {
   "categories": [
    {
-    "ltrs": 2397.0,
+    "ltrs": 8888.6,
+    "name": "GROUNDNUT"
+   },
+   {
+    "ltrs": 3852.2,
     "name": "OLIVE"
    },
    {
-    "ltrs": 877.4,
-    "name": "GROUNDNUT"
+    "ltrs": 1376.0,
+    "name": "CANOLA"
    }
   ],
   "sub_categories": [
    {
-    "ltrs": 2109.0,
-    "name": "JIVO POMACE"
-   },
-   {
-    "ltrs": 877.4,
+    "ltrs": 8888.6,
     "name": "GROUNDNUT"
    },
    {
-    "ltrs": 288.0,
+    "ltrs": 2003.0,
+    "name": "JIVO POMACE"
+   },
+   {
+    "ltrs": 1690.0,
     "name": "EXTRA LIGHT"
+   },
+   {
+    "ltrs": 1376.0,
+    "name": "CANOLA"
+   },
+   {
+    "ltrs": 159.2,
+    "name": "EXTRA VIRGIN"
    }
   ],
-  "total_ltrs": 3274.4
+  "total_ltrs": 14116.8
  },
  "source": "primary",
  "year": 2026

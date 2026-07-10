@@ -12,7 +12,7 @@ tags:
 
 Up: [[Home]]
 
-**59 matched products** in the Other tier.
+**60 matched products** in the Other tier.
 
 ## 2026 aggregate (target-history)
 - _OTHER tier not tracked in target-history (PREMIUM/COMMODITY only)._
@@ -23,23 +23,23 @@ Up: [[Home]]
 - [[BASIL SEEDS 800 GM]] — [[Category - SEEDS\|SEEDS]] · 800 GM
 - [[BLACK CARDAMOM 100G]] — [[Category - SPICES\|SPICES]] · 100G
 - [[BLACK PEPPER 100G]] — [[Category - SPICES\|SPICES]] · 100G
-- [[BLUEBERRY 200ML]] — [[Category - OTHER\|OTHER]] · 200ML
+- [[BLUEBERRY 200ML]] — [[Category - DRINKS\|DRINKS]] · 200ML
 - [[CHIA SEEDS 200GM]] — [[Category - SEEDS\|SEEDS]] · 200GM
 - [[CHIA SEEDS 400G]] — [[Category - SEEDS\|SEEDS]] · 400G
 - [[CHIASEEDS 800G]] — [[Category - SEEDS\|SEEDS]] · 800G
 - [[CINNAMON 100G]] — [[Category - SPICES\|SPICES]] · 100G
 - [[CINNAMON BARK 100G]] — [[Category - SPICES\|SPICES]] · 100G
 - [[CLOVE 100G]] — [[Category - SPICES\|SPICES]] · 100G
-- [[COFFEE]] — [[Category - COFFEE\|COFFEE]] · —
+- [[COFFEE]] — [[Category - DRINKS\|DRINKS]] · —
 - [[CUMIN SEEDS 100G]] — [[Category - SEEDS\|SEEDS]] · 100G
-- [[DRY FRUITS 200G]] — [[Category - OTHER\|OTHER]] · 200G
+- [[DRY FRUITS 200G]] — [[Category - GIFT PACK\|GIFT PACK]] · 200G
 - [[ENERGY DRINK 200ML]] — [[Category - OTHER\|OTHER]] · 200ML
 - [[FLAX SEEDS 200G]] — [[Category - SEEDS\|SEEDS]] · 200G
 - [[FLAX SEEDS 400 GM]] — [[Category - SEEDS\|SEEDS]] · 400 GM
 - [[FLAX SEEDS 800G]] — [[Category - SEEDS\|SEEDS]] · 800G
 - [[GINGER ALE 200ML]] — [[Category - DRINKS\|DRINKS]] · 200ML
 - [[GREEN CARDAMOM 100G]] — [[Category - SPICES\|SPICES]] · 100G
-- [[JEERA JUICE]] — [[Category - SPICES\|SPICES]] · —
+- [[JEERA JUICE]] — [[Category - DRINKS\|DRINKS]] · —
 - [[JIVO PUNJABI SHIKANJI 160 MLS]] — [[Category - DRINKS\|DRINKS]] · 160 MLS
 - [[JIVO WATER 250ML]] — [[Category - DRINKS\|DRINKS]] · 250ML
 - [[JIVO WATER 500 MLS]] — [[Category - DRINKS\|DRINKS]] · 500 MLS
@@ -53,9 +53,10 @@ Up: [[Home]]
 - [[QUINOA SEEDS 400G]] — [[Category - SEEDS\|SEEDS]] · 400G
 - [[QUINOA SEEDS 800G]] — [[Category - SEEDS\|SEEDS]] · 800G
 - [[RICE 1KG]] — [[Category - RICE\|RICE]] · 1KG
-- [[ROSE FLAVOR 200ML]] — [[Category - OTHER\|OTHER]] · 200ML
+- [[ROSE FLAVOR 200ML]] — [[Category - DRINKS\|DRINKS]] · 200ML
 - [[ROSEMARY LEAVES 150G]] — [[Category - SPICES\|SPICES]] · 150G
 - [[SAFFRON 1GMS]] — [[Category - SPICES\|SPICES]] · 1GMS
+- [[SANO CLASSIC 1L]] — [[Category - OTHER\|OTHER]] · 1L
 - [[SANO HONEY 1KG]] — [[Category - HONEY\|HONEY]] · 1KG
 - [[SANO HONEY 500G]] — [[Category - HONEY\|HONEY]] · 500G
 - [[SODA 750ML]] — [[Category - DRINKS\|DRINKS]] · 750ML

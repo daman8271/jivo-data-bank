@@ -28,52 +28,92 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-blinkit]]
   {
    "brand": null,
    "code": null,
-   "delta_pct": -84.7,
+   "delta_pct": -63.5,
    "head": "COMMODITY",
    "is_new": false,
-   "ltrs": 1740.0,
+   "ltrs": 4160.0,
    "name": "MUSTARD 1L",
    "prev_ltrs": 11400.0
   },
   {
    "brand": null,
    "code": null,
-   "delta_pct": -98.6,
+   "delta_pct": -80.7,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 40.0,
+   "ltrs": 848.0,
+   "name": "JIVO POMACE 1L",
+   "prev_ltrs": 4400.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -81.0,
+   "head": "PREMIUM",
+   "is_new": false,
+   "ltrs": 540.0,
    "name": "CANOLA 5L",
    "prev_ltrs": 2840.0
   },
   {
    "brand": null,
    "code": null,
-   "delta_pct": -95.1,
+   "delta_pct": -89.0,
+   "head": "COMMODITY",
+   "is_new": false,
+   "ltrs": 332.0,
+   "name": "SUNFLOWER 1L",
+   "prev_ltrs": 3008.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -90.7,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 40.0,
+   "ltrs": 300.0,
+   "name": "CANOLA 1L",
+   "prev_ltrs": 3230.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -85.4,
+   "head": "PREMIUM",
+   "is_new": false,
+   "ltrs": 120.0,
    "name": "EXTRA LIGHT 2L",
    "prev_ltrs": 820.0
   },
   {
    "brand": null,
    "code": null,
-   "delta_pct": -99.6,
+   "delta_pct": -98.3,
    "head": "PREMIUM",
    "is_new": false,
-   "ltrs": 20.0,
+   "ltrs": 80.0,
    "name": "JIVO POMACE 5L",
    "prev_ltrs": 4780.0
+  },
+  {
+   "brand": null,
+   "code": null,
+   "delta_pct": -94.3,
+   "head": "PREMIUM",
+   "is_new": false,
+   "ltrs": 48.0,
+   "name": "EXTRA LIGHT 1L",
+   "prev_ltrs": 836.0
   }
  ],
  "source": "primary",
  "top_faller": {
   "brand": null,
   "code": null,
-  "delta_pct": -99.6,
+  "delta_pct": -98.3,
   "head": "PREMIUM",
   "is_new": false,
-  "ltrs": 20.0,
+  "ltrs": 80.0,
   "name": "JIVO POMACE 5L",
   "prev_ltrs": 4780.0
  },

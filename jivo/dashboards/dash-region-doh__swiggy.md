@@ -20,143 +20,143 @@ Up: [[dashboards-index]] · [[pf-swiggy]]
 {
  "dashboard_title": "Swiggy Region DOH Dashboard",
  "defaulted_to_latest": true,
- "effective_date": "2026-07-05",
- "elapsed_day": 4,
+ "effective_date": "2026-07-09",
+ "elapsed_day": 8,
  "format": "SWIGGY",
- "max_sales_date": "2026-07-04",
+ "max_sales_date": "2026-07-08",
  "month_start": "2026-07-01",
  "platform": "swiggy",
- "requested_date": "2026-07-05",
+ "requested_date": "2026-07-09",
  "rows": [
   {
    "city": "agra",
    "doh": 0.0,
-   "drr_ltr": 28.0,
-   "drr_units": 24.0,
-   "ltr_sold": 112.0,
+   "drr_ltr": 29.90625,
+   "drr_units": 24.5,
+   "ltr_sold": 239.25,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 96.0
+   "units_sold": 196.0
   },
   {
    "city": "AHMEDABAD",
-   "doh": 7.709302325581396,
-   "drr_ltr": 126.0,
-   "drr_units": 86.0,
-   "ltr_sold": 504.0,
-   "soh_ltr": 992.0,
-   "soh_units": 663.0,
-   "units_sold": 344.0
+   "doh": 4.019017432646593,
+   "drr_ltr": 111.25,
+   "drr_units": 78.875,
+   "ltr_sold": 890.0,
+   "soh_ltr": 608.0,
+   "soh_units": 317.0,
+   "units_sold": 631.0
   },
   {
    "city": "ajmer",
    "doh": 0.0,
-   "drr_ltr": 7.25,
-   "drr_units": 5.0,
-   "ltr_sold": 29.0,
+   "drr_ltr": 10.25,
+   "drr_units": 7.5,
+   "ltr_sold": 82.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 20.0
+   "units_sold": 60.0
   },
   {
    "city": "alappuzha",
    "doh": 0.0,
    "drr_ltr": 2.0,
    "drr_units": 2.0,
-   "ltr_sold": 8.0,
+   "ltr_sold": 16.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 8.0
+   "units_sold": 16.0
   },
   {
    "city": "aligarh",
    "doh": 0.0,
-   "drr_ltr": 13.0,
-   "drr_units": 7.0,
-   "ltr_sold": 52.0,
+   "drr_ltr": 15.5,
+   "drr_units": 7.75,
+   "ltr_sold": 124.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 28.0
+   "units_sold": 62.0
   },
   {
    "city": "allahabad",
    "doh": 0.0,
-   "drr_ltr": 3.75,
-   "drr_units": 0.75,
-   "ltr_sold": 15.0,
+   "drr_ltr": 3.125,
+   "drr_units": 0.625,
+   "ltr_sold": 25.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 3.0
+   "units_sold": 5.0
   },
   {
    "city": "ambala",
    "doh": 0.0,
-   "drr_ltr": 36.25,
-   "drr_units": 25.25,
-   "ltr_sold": 145.0,
+   "drr_ltr": 42.25,
+   "drr_units": 32.125,
+   "ltr_sold": 338.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 101.0
+   "units_sold": 257.0
   },
   {
    "city": "amravati",
    "doh": 0.0,
-   "drr_ltr": 5.5,
-   "drr_units": 5.5,
-   "ltr_sold": 22.0,
+   "drr_ltr": 5.25,
+   "drr_units": 4.25,
+   "ltr_sold": 42.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 22.0
+   "units_sold": 34.0
   },
   {
    "city": "amritsar",
    "doh": 0.0,
-   "drr_ltr": 38.25,
-   "drr_units": 30.25,
-   "ltr_sold": 153.0,
+   "drr_ltr": 62.5,
+   "drr_units": 54.5,
+   "ltr_sold": 500.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 436.0
+  },
+  {
+   "city": "anand",
+   "doh": 0.0,
+   "drr_ltr": 3.0,
+   "drr_units": 1.875,
+   "ltr_sold": 24.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 15.0
+  },
+  {
+   "city": "anantapur",
+   "doh": 0.0,
+   "drr_ltr": 17.4375,
+   "drr_units": 15.125,
+   "ltr_sold": 139.5,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
    "units_sold": 121.0
   },
   {
-   "city": "anand",
-   "doh": 0.0,
-   "drr_ltr": 1.5,
-   "drr_units": 1.5,
-   "ltr_sold": 6.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 6.0
-  },
-  {
-   "city": "anantapur",
-   "doh": 0.0,
-   "drr_ltr": 13.0625,
-   "drr_units": 12.25,
-   "ltr_sold": 52.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 49.0
-  },
-  {
    "city": "aurangabad",
    "doh": 0.0,
-   "drr_ltr": 25.25,
-   "drr_units": 15.25,
-   "ltr_sold": 101.0,
+   "drr_ltr": 21.5,
+   "drr_units": 12.5,
+   "ltr_sold": 172.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 61.0
+   "units_sold": 100.0
   },
   {
    "city": "BANGALORE",
-   "doh": 10.133782078249896,
-   "drr_ltr": 1385.9375,
-   "drr_units": 1188.5,
-   "ltr_sold": 5543.75,
-   "soh_ltr": 14833.75,
-   "soh_units": 12044.0,
-   "units_sold": 4754.0
+   "doh": 8.909608691066342,
+   "drr_ltr": 1380.125,
+   "drr_units": 1185.125,
+   "ltr_sold": 11041.0,
+   "soh_ltr": 13424.0,
+   "soh_units": 10559.0,
+   "units_sold": 9481.0
   },
   {
    "city": "BANGALORE_2",
@@ -164,15 +164,15 @@ Up: [[dashboards-index]] · [[pf-swiggy]]
    "drr_ltr": 0.0,
    "drr_units": 0.0,
    "ltr_sold": 0.0,
-   "soh_ltr": 3398.75,
-   "soh_units": 2498.0,
+   "soh_ltr": 2527.5,
+   "soh_units": 1718.0,
    "units_sold": 0.0
   },
   {
    "city": "bareilly",
    "doh": 0.0,
-   "drr_ltr": 3.0,
-   "drr_units": 2.0,
+   "drr_ltr": 1.5,
+   "drr_units": 1.0,
    "ltr_sold": 12.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
@@ -181,388 +181,398 @@ Up: [[dashboards-index]] · [[pf-swiggy]]
   {
    "city": "bathinda",
    "doh": 0.0,
-   "drr_ltr": 22.5,
-   "drr_units": 18.25,
-   "ltr_sold": 90.0,
+   "drr_ltr": 26.25,
+   "drr_units": 21.625,
+   "ltr_sold": 210.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 73.0
+   "units_sold": 173.0
   },
   {
    "city": "belgaum",
    "doh": 0.0,
-   "drr_ltr": 22.25,
-   "drr_units": 22.5,
-   "ltr_sold": 89.0,
+   "drr_ltr": 25.0,
+   "drr_units": 24.625,
+   "ltr_sold": 200.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 90.0
+   "units_sold": 197.0
   },
   {
    "city": "berhampur",
    "doh": 0.0,
-   "drr_ltr": 18.5,
-   "drr_units": 17.5,
-   "ltr_sold": 74.0,
+   "drr_ltr": 19.625,
+   "drr_units": 19.125,
+   "ltr_sold": 157.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 70.0
+   "units_sold": 153.0
   },
   {
    "city": "bhilai",
    "doh": 0.0,
-   "drr_ltr": 1.25,
-   "drr_units": 1.25,
-   "ltr_sold": 5.0,
+   "drr_ltr": 3.875,
+   "drr_units": 3.875,
+   "ltr_sold": 31.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 5.0
+   "units_sold": 31.0
   },
   {
    "city": "bhimavaram",
    "doh": 0.0,
-   "drr_ltr": 6.25,
-   "drr_units": 5.25,
-   "ltr_sold": 25.0,
+   "drr_ltr": 5.375,
+   "drr_units": 4.375,
+   "ltr_sold": 43.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 21.0
+   "units_sold": 35.0
   },
   {
    "city": "bhopal",
    "doh": 0.0,
-   "drr_ltr": 45.5,
-   "drr_units": 27.0,
-   "ltr_sold": 182.0,
+   "drr_ltr": 38.125,
+   "drr_units": 24.25,
+   "ltr_sold": 305.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 108.0
+   "units_sold": 194.0
   },
   {
    "city": "bhubaneswar",
    "doh": 0.0,
-   "drr_ltr": 81.75,
-   "drr_units": 72.25,
-   "ltr_sold": 327.0,
+   "drr_ltr": 71.125,
+   "drr_units": 61.5,
+   "ltr_sold": 569.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 289.0
+   "units_sold": 492.0
   },
   {
    "city": "bikaner",
    "doh": 0.0,
-   "drr_ltr": 1.5,
-   "drr_units": 1.5,
-   "ltr_sold": 6.0,
+   "drr_ltr": 2.625,
+   "drr_units": 1.625,
+   "ltr_sold": 21.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 6.0
+   "units_sold": 13.0
   },
   {
    "city": "bilaspur",
    "doh": 0.0,
-   "drr_ltr": 4.5,
-   "drr_units": 3.5,
-   "ltr_sold": 18.0,
+   "drr_ltr": 4.625,
+   "drr_units": 3.625,
+   "ltr_sold": 37.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 14.0
+   "units_sold": 29.0
   },
   {
    "city": "CENTRAL GOA",
-   "doh": 16.199288256227756,
-   "drr_ltr": 91.25,
-   "drr_units": 70.25,
-   "ltr_sold": 365.0,
-   "soh_ltr": 1623.0,
-   "soh_units": 1138.0,
-   "units_sold": 281.0
+   "doh": 10.199312714776632,
+   "drr_ltr": 97.0,
+   "drr_units": 72.75,
+   "ltr_sold": 776.0,
+   "soh_ltr": 1169.0,
+   "soh_units": 742.0,
+   "units_sold": 582.0
   },
   {
    "city": "CHANDIGARH",
-   "doh": 44.78534031413613,
-   "drr_ltr": 233.0,
-   "drr_units": 191.0,
-   "ltr_sold": 932.0,
-   "soh_ltr": 9852.0,
-   "soh_units": 8554.0,
-   "units_sold": 764.0
+   "doh": 11.570661896243292,
+   "drr_ltr": 319.75,
+   "drr_units": 279.5,
+   "ltr_sold": 2558.0,
+   "soh_ltr": 3816.0,
+   "soh_units": 3234.0,
+   "units_sold": 2236.0
   },
   {
    "city": "CHENNAI",
-   "doh": 4.92972972972973,
-   "drr_ltr": 622.625,
-   "drr_units": 555.0,
-   "ltr_sold": 2490.5,
-   "soh_ltr": 3549.0,
-   "soh_units": 2736.0,
-   "units_sold": 2220.0
+   "doh": 8.60144578313253,
+   "drr_ltr": 573.40625,
+   "drr_units": 518.75,
+   "ltr_sold": 4587.25,
+   "soh_ltr": 5280.5,
+   "soh_units": 4462.0,
+   "units_sold": 4150.0
   },
   {
    "city": "COIMBATORE",
-   "doh": 16.256410256410255,
-   "drr_ltr": 66.0,
-   "drr_units": 58.5,
-   "ltr_sold": 264.0,
-   "soh_ltr": 961.25,
-   "soh_units": 951.0,
-   "units_sold": 234.0
+   "doh": 42.163021868787276,
+   "drr_ltr": 75.5,
+   "drr_units": 62.875,
+   "ltr_sold": 604.0,
+   "soh_ltr": 3133.0,
+   "soh_units": 2651.0,
+   "units_sold": 503.0
   },
   {
    "city": "cuddalore",
    "doh": 0.0,
-   "drr_ltr": 1.5,
-   "drr_units": 1.5,
-   "ltr_sold": 6.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 6.0
-  },
-  {
-   "city": "cuttack",
-   "doh": 0.0,
-   "drr_ltr": 10.75,
-   "drr_units": 9.0,
-   "ltr_sold": 43.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 36.0
-  },
-  {
-   "city": "davanagere",
-   "doh": 0.0,
-   "drr_ltr": 7.25,
-   "drr_units": 6.25,
-   "ltr_sold": 29.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 25.0
-  },
-  {
-   "city": "dehradun",
-   "doh": 0.0,
-   "drr_ltr": 77.3125,
-   "drr_units": 63.25,
-   "ltr_sold": 309.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 253.0
-  },
-  {
-   "city": "DELHI",
-   "doh": 4.653343991473488,
-   "drr_ltr": 1159.8125,
-   "drr_units": 938.25,
-   "ltr_sold": 4639.25,
-   "soh_ltr": 5911.75,
-   "soh_units": 4366.0,
-   "units_sold": 3753.0
-  },
-  {
-   "city": "dindigul",
-   "doh": 0.0,
-   "drr_ltr": 2.0625,
-   "drr_units": 2.25,
-   "ltr_sold": 8.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 9.0
-  },
-  {
-   "city": "eluru",
-   "doh": 0.0,
-   "drr_ltr": 3.5,
-   "drr_units": 2.75,
-   "ltr_sold": 14.0,
+   "drr_ltr": 1.875,
+   "drr_units": 1.375,
+   "ltr_sold": 15.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
    "units_sold": 11.0
   },
   {
-   "city": "erode",
+   "city": "cuttack",
    "doh": 0.0,
-   "drr_ltr": 14.0,
-   "drr_units": 10.0,
-   "ltr_sold": 56.0,
+   "drr_ltr": 9.5,
+   "drr_units": 8.625,
+   "ltr_sold": 76.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 40.0
+   "units_sold": 69.0
+  },
+  {
+   "city": "davanagere",
+   "doh": 0.0,
+   "drr_ltr": 8.0625,
+   "drr_units": 6.25,
+   "ltr_sold": 64.5,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 50.0
+  },
+  {
+   "city": "dehradun",
+   "doh": 0.0,
+   "drr_ltr": 90.0625,
+   "drr_units": 75.5,
+   "ltr_sold": 720.5,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 604.0
+  },
+  {
+   "city": "DELHI",
+   "doh": 2.6563009404388715,
+   "drr_ltr": 1200.3125,
+   "drr_units": 996.875,
+   "ltr_sold": 9602.5,
+   "soh_ltr": 3966.0,
+   "soh_units": 2648.0,
+   "units_sold": 7975.0
+  },
+  {
+   "city": "dindigul",
+   "doh": 0.0,
+   "drr_ltr": 2.3125,
+   "drr_units": 2.5,
+   "ltr_sold": 18.5,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 20.0
+  },
+  {
+   "city": "eluru",
+   "doh": 0.0,
+   "drr_ltr": 3.5,
+   "drr_units": 2.625,
+   "ltr_sold": 28.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 21.0
+  },
+  {
+   "city": "erode",
+   "doh": 0.0,
+   "drr_ltr": 14.53125,
+   "drr_units": 11.625,
+   "ltr_sold": 116.25,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 93.0
   },
   {
    "city": "faridabad",
    "doh": 0.0,
-   "drr_ltr": 54.5625,
-   "drr_units": 37.5,
-   "ltr_sold": 218.25,
+   "drr_ltr": 67.9375,
+   "drr_units": 50.625,
+   "ltr_sold": 543.5,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 150.0
+   "units_sold": 405.0
   },
   {
    "city": "gorakhpur",
    "doh": 0.0,
-   "drr_ltr": 3.0,
-   "drr_units": 1.0,
-   "ltr_sold": 12.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 4.0
-  },
-  {
-   "city": "guntur",
-   "doh": 0.0,
-   "drr_ltr": 50.0,
-   "drr_units": 39.75,
-   "ltr_sold": 200.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 159.0
-  },
-  {
-   "city": "GURGAON",
-   "doh": 35.56435643564357,
-   "drr_ltr": 262.25,
-   "drr_units": 176.75,
-   "ltr_sold": 1049.0,
-   "soh_ltr": 7397.0,
-   "soh_units": 6286.0,
-   "units_sold": 707.0
-  },
-  {
-   "city": "GUWAHATI",
-   "doh": 1.3333333333333333,
-   "drr_ltr": 1.75,
-   "drr_units": 0.75,
-   "ltr_sold": 7.0,
-   "soh_ltr": 0.0,
-   "soh_units": 1.0,
-   "units_sold": 3.0
-  },
-  {
-   "city": "gwalior",
-   "doh": 0.0,
-   "drr_ltr": 23.25,
-   "drr_units": 19.25,
-   "ltr_sold": 93.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 77.0
-  },
-  {
-   "city": "hubli",
-   "doh": 0.0,
-   "drr_ltr": 25.25,
-   "drr_units": 21.25,
-   "ltr_sold": 101.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 85.0
-  },
-  {
-   "city": "HYDERABAD",
-   "doh": 5.45973496432212,
-   "drr_ltr": 1327.0,
-   "drr_units": 981.0,
-   "ltr_sold": 5308.0,
-   "soh_ltr": 8077.25,
-   "soh_units": 5356.0,
-   "units_sold": 3924.0
-  },
-  {
-   "city": "indore",
-   "doh": 0.0,
-   "drr_ltr": 52.0,
-   "drr_units": 36.0,
-   "ltr_sold": 208.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 144.0
-  },
-  {
-   "city": "jabalpur",
-   "doh": 0.0,
-   "drr_ltr": 21.0,
-   "drr_units": 13.0,
-   "ltr_sold": 84.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 52.0
-  },
-  {
-   "city": "JAIPUR",
-   "doh": 14.155038759689923,
-   "drr_ltr": 163.25,
-   "drr_units": 129.0,
-   "ltr_sold": 653.0,
-   "soh_ltr": 3196.0,
-   "soh_units": 1826.0,
-   "units_sold": 516.0
-  },
-  {
-   "city": "jalandhar",
-   "doh": 0.0,
-   "drr_ltr": 34.75,
-   "drr_units": 23.75,
-   "ltr_sold": 139.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 95.0
-  },
-  {
-   "city": "jamshedpur",
-   "doh": 0.0,
-   "drr_ltr": 30.25,
-   "drr_units": 30.25,
-   "ltr_sold": 121.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 121.0
-  },
-  {
-   "city": "jodhpur",
-   "doh": 0.0,
-   "drr_ltr": 2.25,
-   "drr_units": 2.25,
-   "ltr_sold": 9.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 9.0
-  },
-  {
-   "city": "kakinada",
-   "doh": 0.0,
-   "drr_ltr": 11.75,
-   "drr_units": 8.5,
-   "ltr_sold": 47.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 34.0
-  },
-  {
-   "city": "kanchipuram",
-   "doh": 0.0,
-   "drr_ltr": 6.75,
-   "drr_units": 6.75,
-   "ltr_sold": 27.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 27.0
-  },
-  {
-   "city": "kannur",
-   "doh": 0.0,
-   "drr_ltr": 1.5,
-   "drr_units": 1.25,
-   "ltr_sold": 6.0,
+   "drr_ltr": 2.125,
+   "drr_units": 0.625,
+   "ltr_sold": 17.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
    "units_sold": 5.0
   },
   {
+   "city": "guntur",
+   "doh": 0.0,
+   "drr_ltr": 54.5,
+   "drr_units": 40.625,
+   "ltr_sold": 436.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 325.0
+  },
+  {
+   "city": "GURGAON",
+   "doh": 21.962478681068788,
+   "drr_ltr": 283.375,
+   "drr_units": 219.875,
+   "ltr_sold": 2267.0,
+   "soh_ltr": 5731.0,
+   "soh_units": 4829.0,
+   "units_sold": 1759.0
+  },
+  {
+   "city": "GUWAHATI",
+   "doh": 1.3333333333333333,
+   "drr_ltr": 1.25,
+   "drr_units": 0.75,
+   "ltr_sold": 10.0,
+   "soh_ltr": 0.0,
+   "soh_units": 1.0,
+   "units_sold": 6.0
+  },
+  {
+   "city": "gwalior",
+   "doh": 0.0,
+   "drr_ltr": 25.25,
+   "drr_units": 19.75,
+   "ltr_sold": 202.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 158.0
+  },
+  {
+   "city": "hosur",
+   "doh": 0.0,
+   "drr_ltr": 0.125,
+   "drr_units": 0.125,
+   "ltr_sold": 1.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 1.0
+  },
+  {
+   "city": "hubli",
+   "doh": 0.0,
+   "drr_ltr": 24.125,
+   "drr_units": 21.125,
+   "ltr_sold": 193.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 169.0
+  },
+  {
+   "city": "HYDERABAD",
+   "doh": 13.125333333333334,
+   "drr_ltr": 1283.5,
+   "drr_units": 937.5,
+   "ltr_sold": 10268.0,
+   "soh_ltr": 15160.25,
+   "soh_units": 12305.0,
+   "units_sold": 7500.0
+  },
+  {
+   "city": "indore",
+   "doh": 0.0,
+   "drr_ltr": 48.625,
+   "drr_units": 34.5,
+   "ltr_sold": 389.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 276.0
+  },
+  {
+   "city": "jabalpur",
+   "doh": 0.0,
+   "drr_ltr": 24.25,
+   "drr_units": 16.75,
+   "ltr_sold": 194.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 134.0
+  },
+  {
+   "city": "JAIPUR",
+   "doh": 6.935108153078203,
+   "drr_ltr": 187.71875,
+   "drr_units": 150.25,
+   "ltr_sold": 1501.75,
+   "soh_ltr": 2093.0,
+   "soh_units": 1042.0,
+   "units_sold": 1202.0
+  },
+  {
+   "city": "jalandhar",
+   "doh": 0.0,
+   "drr_ltr": 39.625,
+   "drr_units": 30.875,
+   "ltr_sold": 317.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 247.0
+  },
+  {
+   "city": "jamshedpur",
+   "doh": 0.0,
+   "drr_ltr": 32.75,
+   "drr_units": 31.25,
+   "ltr_sold": 262.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 250.0
+  },
+  {
+   "city": "jodhpur",
+   "doh": 0.0,
+   "drr_ltr": 4.375,
+   "drr_units": 2.375,
+   "ltr_sold": 35.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 19.0
+  },
+  {
+   "city": "kakinada",
+   "doh": 0.0,
+   "drr_ltr": 10.125,
+   "drr_units": 7.0,
+   "ltr_sold": 81.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 56.0
+  },
+  {
+   "city": "kanchipuram",
+   "doh": 0.0,
+   "drr_ltr": 7.75,
+   "drr_units": 6.75,
+   "ltr_sold": 62.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 54.0
+  },
+  {
+   "city": "kannur",
+   "doh": 0.0,
+   "drr_ltr": 1.75,
+   "drr_units": 1.125,
+   "ltr_sold": 14.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 9.0
+  },
+  {
    "city": "kanpur",
    "doh": 0.0,
-   "drr_ltr": 11.0,
-   "drr_units": 6.0,
+   "drr_ltr": 5.5,
+   "drr_units": 3.0,
    "ltr_sold": 44.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
@@ -571,777 +581,777 @@ Up: [[dashboards-index]] · [[pf-swiggy]]
   {
    "city": "karaikkudi",
    "doh": 0.0,
-   "drr_ltr": 5.5,
-   "drr_units": 5.5,
-   "ltr_sold": 22.0,
+   "drr_ltr": 5.0,
+   "drr_units": 4.5,
+   "ltr_sold": 40.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 22.0
+   "units_sold": 36.0
   },
   {
    "city": "karimnagar",
    "doh": 0.0,
-   "drr_ltr": 18.0,
-   "drr_units": 15.0,
-   "ltr_sold": 72.0,
+   "drr_ltr": 20.0,
+   "drr_units": 16.5,
+   "ltr_sold": 160.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 60.0
+   "units_sold": 132.0
   },
   {
    "city": "karnal",
    "doh": 0.0,
-   "drr_ltr": 32.0625,
-   "drr_units": 29.25,
-   "ltr_sold": 128.25,
+   "drr_ltr": 28.0625,
+   "drr_units": 24.25,
+   "ltr_sold": 224.5,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 117.0
+   "units_sold": 194.0
   },
   {
    "city": "karur",
    "doh": 0.0,
-   "drr_ltr": 8.5,
-   "drr_units": 7.25,
-   "ltr_sold": 34.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 29.0
-  },
-  {
-   "city": "khammam",
-   "doh": 0.0,
-   "drr_ltr": 13.75,
-   "drr_units": 5.75,
-   "ltr_sold": 55.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 23.0
-  },
-  {
-   "city": "KOCHI",
-   "doh": 35.71743929359823,
-   "drr_ltr": 135.9375,
-   "drr_units": 113.25,
-   "ltr_sold": 543.75,
-   "soh_ltr": 4600.25,
-   "soh_units": 4045.0,
-   "units_sold": 453.0
-  },
-  {
-   "city": "kolhapur",
-   "doh": 0.0,
-   "drr_ltr": 18.0,
-   "drr_units": 13.0,
-   "ltr_sold": 72.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 52.0
-  },
-  {
-   "city": "KOLKATA",
-   "doh": 16.222925902469918,
-   "drr_ltr": 421.5,
-   "drr_units": 394.75,
-   "ltr_sold": 1686.0,
-   "soh_ltr": 7445.0,
-   "soh_units": 6404.0,
-   "units_sold": 1579.0
-  },
-  {
-   "city": "kollam",
-   "doh": 0.0,
-   "drr_ltr": 16.25,
-   "drr_units": 13.25,
-   "ltr_sold": 65.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 53.0
-  },
-  {
-   "city": "kota",
-   "doh": 0.0,
-   "drr_ltr": 21.3125,
-   "drr_units": 12.5,
-   "ltr_sold": 85.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 50.0
-  },
-  {
-   "city": "kottayam",
-   "doh": 0.0,
-   "drr_ltr": 6.25,
-   "drr_units": 7.0,
-   "ltr_sold": 25.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 28.0
-  },
-  {
-   "city": "kozhikode",
-   "doh": 0.0,
-   "drr_ltr": 14.8125,
-   "drr_units": 12.0,
-   "ltr_sold": 59.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 48.0
-  },
-  {
-   "city": "kurnool",
-   "doh": 0.0,
-   "drr_ltr": 14.75,
-   "drr_units": 11.5,
-   "ltr_sold": 59.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 46.0
-  },
-  {
-   "city": "latur",
-   "doh": 0.0,
-   "drr_ltr": 7.5,
-   "drr_units": 6.5,
-   "ltr_sold": 30.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 26.0
-  },
-  {
-   "city": "lonavla",
-   "doh": 0.0,
-   "drr_ltr": 2.25,
-   "drr_units": 1.5,
-   "ltr_sold": 9.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 6.0
-  },
-  {
-   "city": "LUCKNOW",
-   "doh": 10.174757281553399,
-   "drr_ltr": 56.75,
-   "drr_units": 25.75,
-   "ltr_sold": 227.0,
-   "soh_ltr": 568.0,
-   "soh_units": 262.0,
-   "units_sold": 103.0
-  },
-  {
-   "city": "ludhiana",
-   "doh": 0.0,
-   "drr_ltr": 93.3125,
-   "drr_units": 72.0,
-   "ltr_sold": 373.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 288.0
-  },
-  {
-   "city": "madurai",
-   "doh": 0.0,
-   "drr_ltr": 13.5625,
-   "drr_units": 12.75,
-   "ltr_sold": 54.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 51.0
-  },
-  {
-   "city": "mangaluru",
-   "doh": 0.0,
-   "drr_ltr": 13.6875,
-   "drr_units": 13.0,
-   "ltr_sold": 54.75,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 52.0
-  },
-  {
-   "city": "manipal",
-   "doh": 0.0,
-   "drr_ltr": 8.5,
-   "drr_units": 9.0,
-   "ltr_sold": 34.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 36.0
-  },
-  {
-   "city": "mathura",
-   "doh": 0.0,
-   "drr_ltr": 7.8125,
-   "drr_units": 7.0,
-   "ltr_sold": 31.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 28.0
-  },
-  {
-   "city": "meerut",
-   "doh": 0.0,
-   "drr_ltr": 39.25,
-   "drr_units": 25.0,
-   "ltr_sold": 157.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 100.0
-  },
-  {
-   "city": "moradabad",
-   "doh": 0.0,
-   "drr_ltr": 23.5,
-   "drr_units": 13.5,
-   "ltr_sold": 94.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 54.0
-  },
-  {
-   "city": "MUMBAI",
-   "doh": 6.333882482152664,
-   "drr_ltr": 1235.0,
-   "drr_units": 910.5,
-   "ltr_sold": 4940.0,
-   "soh_ltr": 8346.0,
-   "soh_units": 5767.0,
-   "units_sold": 3642.0
-  },
-  {
-   "city": "muzaffarpur",
-   "doh": 0.0,
-   "drr_ltr": 9.25,
-   "drr_units": 9.25,
-   "ltr_sold": 37.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 37.0
-  },
-  {
-   "city": "mysore",
-   "doh": 0.0,
-   "drr_ltr": 28.9375,
-   "drr_units": 23.0,
-   "ltr_sold": 115.75,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 92.0
-  },
-  {
-   "city": "nagercoil",
-   "doh": 0.0,
-   "drr_ltr": 11.0,
-   "drr_units": 9.0,
-   "ltr_sold": 44.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 36.0
-  },
-  {
-   "city": "NAGPUR",
-   "doh": 8.654970760233919,
-   "drr_ltr": 65.0,
-   "drr_units": 42.75,
-   "ltr_sold": 260.0,
-   "soh_ltr": 602.0,
-   "soh_units": 370.0,
-   "units_sold": 171.0
-  },
-  {
-   "city": "nanded",
-   "doh": 0.0,
-   "drr_ltr": 5.25,
-   "drr_units": 2.25,
-   "ltr_sold": 21.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 9.0
-  },
-  {
-   "city": "nashik",
-   "doh": 0.0,
-   "drr_ltr": 62.0,
-   "drr_units": 48.0,
-   "ltr_sold": 248.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 192.0
-  },
-  {
-   "city": "nellore",
-   "doh": 0.0,
-   "drr_ltr": 25.25,
-   "drr_units": 17.25,
-   "ltr_sold": 101.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 69.0
-  },
-  {
-   "city": "nizamabad",
-   "doh": 0.0,
-   "drr_ltr": 2.25,
-   "drr_units": 1.25,
-   "ltr_sold": 9.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 5.0
-  },
-  {
-   "city": "NOIDA",
-   "doh": 38.01136363636363,
-   "drr_ltr": 114.625,
-   "drr_units": 88.0,
-   "ltr_sold": 458.5,
-   "soh_ltr": 4202.25,
-   "soh_units": 3345.0,
-   "units_sold": 352.0
-  },
-  {
-   "city": "noida 1",
-   "doh": 0.0,
-   "drr_ltr": 143.5,
-   "drr_units": 106.5,
-   "ltr_sold": 574.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 426.0
-  },
-  {
-   "city": "ongole",
-   "doh": 0.0,
-   "drr_ltr": 12.0,
-   "drr_units": 8.0,
-   "ltr_sold": 48.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 32.0
-  },
-  {
-   "city": "palakkad",
-   "doh": 0.0,
-   "drr_ltr": 7.625,
-   "drr_units": 7.0,
-   "ltr_sold": 30.5,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 28.0
-  },
-  {
-   "city": "panipat",
-   "doh": 0.0,
-   "drr_ltr": 30.0625,
-   "drr_units": 27.25,
-   "ltr_sold": 120.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 109.0
-  },
-  {
-   "city": "patiala",
-   "doh": 0.0,
-   "drr_ltr": 62.25,
-   "drr_units": 41.25,
-   "ltr_sold": 249.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 165.0
-  },
-  {
-   "city": "patna",
-   "doh": 0.0,
-   "drr_ltr": 49.75,
-   "drr_units": 46.75,
-   "ltr_sold": 199.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 187.0
-  },
-  {
-   "city": "pondicherry",
-   "doh": 0.0,
-   "drr_ltr": 42.625,
-   "drr_units": 31.0,
-   "ltr_sold": 170.5,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 124.0
-  },
-  {
-   "city": "PUNE",
-   "doh": 4.683658170914542,
-   "drr_ltr": 283.5,
-   "drr_units": 166.75,
-   "ltr_sold": 1134.0,
-   "soh_ltr": 1746.0,
-   "soh_units": 781.0,
-   "units_sold": 667.0
-  },
-  {
-   "city": "raipur",
-   "doh": 0.0,
-   "drr_ltr": 18.75,
-   "drr_units": 11.75,
-   "ltr_sold": 75.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 47.0
-  },
-  {
-   "city": "rajahmundry",
-   "doh": 0.0,
-   "drr_ltr": 9.25,
-   "drr_units": 8.25,
-   "ltr_sold": 37.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 33.0
-  },
-  {
-   "city": "rajkot",
-   "doh": 0.0,
-   "drr_ltr": 16.0,
-   "drr_units": 12.0,
-   "ltr_sold": 64.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 48.0
-  },
-  {
-   "city": "ranchi",
-   "doh": 0.0,
-   "drr_ltr": 30.25,
-   "drr_units": 29.25,
-   "ltr_sold": 121.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 117.0
-  },
-  {
-   "city": "rohtak",
-   "doh": 0.0,
-   "drr_ltr": 8.25,
-   "drr_units": 4.25,
-   "ltr_sold": 33.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 17.0
-  },
-  {
-   "city": "roorkee",
-   "doh": 0.0,
-   "drr_ltr": 34.5625,
-   "drr_units": 26.75,
-   "ltr_sold": 138.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 107.0
-  },
-  {
-   "city": "rudrapur",
-   "doh": 0.0,
-   "drr_ltr": 5.0,
-   "drr_units": 2.0,
-   "ltr_sold": 20.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 8.0
-  },
-  {
-   "city": "saharanpur",
-   "doh": 0.0,
-   "drr_ltr": 8.0625,
-   "drr_units": 7.25,
-   "ltr_sold": 32.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 29.0
-  },
-  {
-   "city": "salem",
-   "doh": 0.0,
-   "drr_ltr": 17.5,
-   "drr_units": 15.25,
-   "ltr_sold": 70.0,
+   "drr_ltr": 8.15625,
+   "drr_units": 7.625,
+   "ltr_sold": 65.25,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
    "units_sold": 61.0
   },
   {
-   "city": "shivamogga",
+   "city": "khammam",
    "doh": 0.0,
-   "drr_ltr": 11.125,
-   "drr_units": 11.5,
-   "ltr_sold": 44.5,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 46.0
-  },
-  {
-   "city": "siliguri",
-   "doh": 0.0,
-   "drr_ltr": 19.0,
-   "drr_units": 14.0,
-   "ltr_sold": 76.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 56.0
-  },
-  {
-   "city": "sonipat",
-   "doh": 0.0,
-   "drr_ltr": 6.5,
-   "drr_units": 6.5,
-   "ltr_sold": 26.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 26.0
-  },
-  {
-   "city": "sri ganganagar",
-   "doh": 0.0,
-   "drr_ltr": 43.25,
-   "drr_units": 40.25,
-   "ltr_sold": 173.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 161.0
-  },
-  {
-   "city": "surat",
-   "doh": 0.0,
-   "drr_ltr": 45.0,
-   "drr_units": 28.25,
-   "ltr_sold": 180.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 113.0
-  },
-  {
-   "city": "thanjavur",
-   "doh": 0.0,
-   "drr_ltr": 12.25,
-   "drr_units": 9.25,
-   "ltr_sold": 49.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 37.0
-  },
-  {
-   "city": "thiruvalla",
-   "doh": 0.0,
-   "drr_ltr": 6.9375,
-   "drr_units": 5.5,
-   "ltr_sold": 27.75,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 22.0
-  },
-  {
-   "city": "thiruvallur",
-   "doh": 0.0,
-   "drr_ltr": 1.0,
-   "drr_units": 1.0,
-   "ltr_sold": 4.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 4.0
-  },
-  {
-   "city": "thiruvananthapuram",
-   "doh": 0.0,
-   "drr_ltr": 45.375,
-   "drr_units": 36.25,
-   "ltr_sold": 181.5,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 145.0
-  },
-  {
-   "city": "thoothukudi",
-   "doh": 0.0,
-   "drr_ltr": 0.25,
-   "drr_units": 0.25,
-   "ltr_sold": 1.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 1.0
-  },
-  {
-   "city": "thrissur",
-   "doh": 0.0,
-   "drr_ltr": 17.0625,
-   "drr_units": 14.5,
-   "ltr_sold": 68.25,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 58.0
-  },
-  {
-   "city": "tirunelveli",
-   "doh": 0.0,
-   "drr_ltr": 10.25,
-   "drr_units": 10.25,
-   "ltr_sold": 41.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 41.0
-  },
-  {
-   "city": "tirupati",
-   "doh": 0.0,
-   "drr_ltr": 33.625,
-   "drr_units": 23.75,
-   "ltr_sold": 134.5,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 95.0
-  },
-  {
-   "city": "tirupur",
-   "doh": 0.0,
-   "drr_ltr": 15.75,
-   "drr_units": 13.75,
-   "ltr_sold": 63.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 55.0
-  },
-  {
-   "city": "trichy",
-   "doh": 0.0,
-   "drr_ltr": 11.0,
-   "drr_units": 10.0,
-   "ltr_sold": 44.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 40.0
-  },
-  {
-   "city": "tumakuru",
-   "doh": 0.0,
-   "drr_ltr": 5.5,
-   "drr_units": 5.5,
-   "ltr_sold": 22.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 22.0
-  },
-  {
-   "city": "udaipur",
-   "doh": 0.0,
-   "drr_ltr": 23.0,
-   "drr_units": 21.0,
-   "ltr_sold": 92.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 84.0
-  },
-  {
-   "city": "ujjain",
-   "doh": 0.0,
-   "drr_ltr": 12.75,
-   "drr_units": 10.75,
-   "ltr_sold": 51.0,
+   "drr_ltr": 9.875,
+   "drr_units": 5.375,
+   "ltr_sold": 79.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
    "units_sold": 43.0
   },
   {
-   "city": "vadodara",
-   "doh": 0.0,
-   "drr_ltr": 27.75,
-   "drr_units": 20.0,
-   "ltr_sold": 111.0,
-   "soh_ltr": 0.0,
-   "soh_units": 0.0,
-   "units_sold": 80.0
+   "city": "KOCHI",
+   "doh": 30.703389830508474,
+   "drr_ltr": 141.1875,
+   "drr_units": 118.0,
+   "ltr_sold": 1129.5,
+   "soh_ltr": 4141.5,
+   "soh_units": 3623.0,
+   "units_sold": 944.0
   },
   {
-   "city": "vapi",
+   "city": "kolhapur",
    "doh": 0.0,
-   "drr_ltr": 30.5,
-   "drr_units": 20.5,
-   "ltr_sold": 122.0,
+   "drr_ltr": 17.875,
+   "drr_units": 13.375,
+   "ltr_sold": 143.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 82.0
+   "units_sold": 107.0
   },
   {
-   "city": "varanasi",
+   "city": "KOLKATA",
+   "doh": 12.105263157894736,
+   "drr_ltr": 379.875,
+   "drr_units": 361.0,
+   "ltr_sold": 3039.0,
+   "soh_ltr": 5213.0,
+   "soh_units": 4370.0,
+   "units_sold": 2888.0
+  },
+  {
+   "city": "kollam",
    "doh": 0.0,
-   "drr_ltr": 11.25,
-   "drr_units": 2.25,
-   "ltr_sold": 45.0,
+   "drr_ltr": 14.0,
+   "drr_units": 12.0,
+   "ltr_sold": 112.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 9.0
+   "units_sold": 96.0
   },
   {
-   "city": "vellore",
+   "city": "kota",
    "doh": 0.0,
-   "drr_ltr": 23.75,
-   "drr_units": 18.75,
-   "ltr_sold": 95.0,
+   "drr_ltr": 28.0625,
+   "drr_units": 15.75,
+   "ltr_sold": 224.5,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 126.0
+  },
+  {
+   "city": "kottayam",
+   "doh": 0.0,
+   "drr_ltr": 5.28125,
+   "drr_units": 6.125,
+   "ltr_sold": 42.25,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 49.0
+  },
+  {
+   "city": "kozhikode",
+   "doh": 0.0,
+   "drr_ltr": 11.4375,
+   "drr_units": 9.125,
+   "ltr_sold": 91.5,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 73.0
+  },
+  {
+   "city": "kurnool",
+   "doh": 0.0,
+   "drr_ltr": 11.75,
+   "drr_units": 10.125,
+   "ltr_sold": 94.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 81.0
+  },
+  {
+   "city": "latur",
+   "doh": 0.0,
+   "drr_ltr": 4.75,
+   "drr_units": 3.75,
+   "ltr_sold": 38.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 30.0
+  },
+  {
+   "city": "lonavla",
+   "doh": 0.0,
+   "drr_ltr": 1.875,
+   "drr_units": 1.5,
+   "ltr_sold": 15.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 12.0
+  },
+  {
+   "city": "LUCKNOW",
+   "doh": 75.72774869109948,
+   "drr_ltr": 58.0,
+   "drr_units": 23.875,
+   "ltr_sold": 464.0,
+   "soh_ltr": 2216.0,
+   "soh_units": 1808.0,
+   "units_sold": 191.0
+  },
+  {
+   "city": "ludhiana",
+   "doh": 0.0,
+   "drr_ltr": 139.0625,
+   "drr_units": 120.0,
+   "ltr_sold": 1112.5,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 960.0
+  },
+  {
+   "city": "madurai",
+   "doh": 0.0,
+   "drr_ltr": 16.1875,
+   "drr_units": 14.375,
+   "ltr_sold": 129.5,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 115.0
+  },
+  {
+   "city": "mangaluru",
+   "doh": 0.0,
+   "drr_ltr": 12.75,
+   "drr_units": 11.875,
+   "ltr_sold": 102.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 95.0
+  },
+  {
+   "city": "manipal",
+   "doh": 0.0,
+   "drr_ltr": 9.15625,
+   "drr_units": 9.375,
+   "ltr_sold": 73.25,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
    "units_sold": 75.0
   },
   {
-   "city": "vijayawada",
+   "city": "mathura",
    "doh": 0.0,
-   "drr_ltr": 65.25,
+   "drr_ltr": 6.3125,
+   "drr_units": 5.5,
+   "ltr_sold": 50.5,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 44.0
+  },
+  {
+   "city": "meerut",
+   "doh": 0.0,
+   "drr_ltr": 41.75,
+   "drr_units": 29.125,
+   "ltr_sold": 334.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 233.0
+  },
+  {
+   "city": "moradabad",
+   "doh": 0.0,
+   "drr_ltr": 29.59375,
+   "drr_units": 19.875,
+   "ltr_sold": 236.75,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 159.0
+  },
+  {
+   "city": "MUMBAI",
+   "doh": 4.065230052417006,
+   "drr_ltr": 1148.125,
+   "drr_units": 858.5,
+   "ltr_sold": 9185.0,
+   "soh_ltr": 5845.0,
+   "soh_units": 3490.0,
+   "units_sold": 6868.0
+  },
+  {
+   "city": "muzaffarpur",
+   "doh": 0.0,
+   "drr_ltr": 5.375,
+   "drr_units": 4.875,
+   "ltr_sold": 43.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 39.0
+  },
+  {
+   "city": "mysore",
+   "doh": 0.0,
+   "drr_ltr": 33.875,
+   "drr_units": 27.5,
+   "ltr_sold": 271.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 220.0
+  },
+  {
+   "city": "nagercoil",
+   "doh": 0.0,
+   "drr_ltr": 11.25,
+   "drr_units": 9.25,
+   "ltr_sold": 90.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 74.0
+  },
+  {
+   "city": "NAGPUR",
+   "doh": 5.394285714285714,
+   "drr_ltr": 71.0,
+   "drr_units": 43.75,
+   "ltr_sold": 568.0,
+   "soh_ltr": 427.0,
+   "soh_units": 236.0,
+   "units_sold": 350.0
+  },
+  {
+   "city": "nanded",
+   "doh": 0.0,
+   "drr_ltr": 5.125,
+   "drr_units": 2.625,
+   "ltr_sold": 41.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 21.0
+  },
+  {
+   "city": "nashik",
+   "doh": 0.0,
+   "drr_ltr": 53.375,
+   "drr_units": 40.125,
+   "ltr_sold": 427.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 321.0
+  },
+  {
+   "city": "nellore",
+   "doh": 0.0,
+   "drr_ltr": 21.375,
+   "drr_units": 13.875,
+   "ltr_sold": 171.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 111.0
+  },
+  {
+   "city": "nizamabad",
+   "doh": 0.0,
+   "drr_ltr": 2.375,
+   "drr_units": 1.375,
+   "ltr_sold": 19.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 11.0
+  },
+  {
+   "city": "NOIDA",
+   "doh": 15.99109131403118,
+   "drr_ltr": 139.4375,
+   "drr_units": 112.25,
+   "ltr_sold": 1115.5,
+   "soh_ltr": 2568.5,
+   "soh_units": 1795.0,
+   "units_sold": 898.0
+  },
+  {
+   "city": "noida 1",
+   "doh": 0.0,
+   "drr_ltr": 162.75,
+   "drr_units": 123.75,
+   "ltr_sold": 1302.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 990.0
+  },
+  {
+   "city": "ongole",
+   "doh": 0.0,
+   "drr_ltr": 10.625,
+   "drr_units": 7.625,
+   "ltr_sold": 85.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 61.0
+  },
+  {
+   "city": "palakkad",
+   "doh": 0.0,
+   "drr_ltr": 7.84375,
+   "drr_units": 7.125,
+   "ltr_sold": 62.75,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 57.0
+  },
+  {
+   "city": "panipat",
+   "doh": 0.0,
+   "drr_ltr": 34.65625,
+   "drr_units": 27.625,
+   "ltr_sold": 277.25,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 221.0
+  },
+  {
+   "city": "patiala",
+   "doh": 0.0,
+   "drr_ltr": 65.375,
    "drr_units": 50.25,
+   "ltr_sold": 523.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 402.0
+  },
+  {
+   "city": "patna",
+   "doh": 0.0,
+   "drr_ltr": 61.0,
+   "drr_units": 57.125,
+   "ltr_sold": 488.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 457.0
+  },
+  {
+   "city": "pondicherry",
+   "doh": 0.0,
+   "drr_ltr": 37.25,
+   "drr_units": 28.75,
+   "ltr_sold": 298.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 230.0
+  },
+  {
+   "city": "PUNE",
+   "doh": 6.759535655058043,
+   "drr_ltr": 256.625,
+   "drr_units": 150.75,
+   "ltr_sold": 2053.0,
+   "soh_ltr": 1960.0,
+   "soh_units": 1019.0,
+   "units_sold": 1206.0
+  },
+  {
+   "city": "raipur",
+   "doh": 0.0,
+   "drr_ltr": 18.125,
+   "drr_units": 12.125,
+   "ltr_sold": 145.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 97.0
+  },
+  {
+   "city": "rajahmundry",
+   "doh": 0.0,
+   "drr_ltr": 10.75,
+   "drr_units": 8.125,
+   "ltr_sold": 86.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 65.0
+  },
+  {
+   "city": "rajkot",
+   "doh": 0.0,
+   "drr_ltr": 13.875,
+   "drr_units": 9.875,
+   "ltr_sold": 111.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 79.0
+  },
+  {
+   "city": "ranchi",
+   "doh": 0.0,
+   "drr_ltr": 31.25,
+   "drr_units": 29.75,
+   "ltr_sold": 250.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 238.0
+  },
+  {
+   "city": "rohtak",
+   "doh": 0.0,
+   "drr_ltr": 7.75,
+   "drr_units": 4.75,
+   "ltr_sold": 62.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 38.0
+  },
+  {
+   "city": "roorkee",
+   "doh": 0.0,
+   "drr_ltr": 36.125,
+   "drr_units": 29.5,
+   "ltr_sold": 289.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 236.0
+  },
+  {
+   "city": "rudrapur",
+   "doh": 0.0,
+   "drr_ltr": 3.375,
+   "drr_units": 1.25,
+   "ltr_sold": 27.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 10.0
+  },
+  {
+   "city": "saharanpur",
+   "doh": 0.0,
+   "drr_ltr": 24.1875,
+   "drr_units": 20.375,
+   "ltr_sold": 193.5,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 163.0
+  },
+  {
+   "city": "salem",
+   "doh": 0.0,
+   "drr_ltr": 14.625,
+   "drr_units": 12.0,
+   "ltr_sold": 117.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 96.0
+  },
+  {
+   "city": "shivamogga",
+   "doh": 0.0,
+   "drr_ltr": 16.75,
+   "drr_units": 16.625,
+   "ltr_sold": 134.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 133.0
+  },
+  {
+   "city": "siliguri",
+   "doh": 0.0,
+   "drr_ltr": 16.625,
+   "drr_units": 13.625,
+   "ltr_sold": 133.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 109.0
+  },
+  {
+   "city": "sonipat",
+   "doh": 0.0,
+   "drr_ltr": 8.625,
+   "drr_units": 8.125,
+   "ltr_sold": 69.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 65.0
+  },
+  {
+   "city": "sri ganganagar",
+   "doh": 0.0,
+   "drr_ltr": 58.375,
+   "drr_units": 54.125,
+   "ltr_sold": 467.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 433.0
+  },
+  {
+   "city": "surat",
+   "doh": 0.0,
+   "drr_ltr": 32.625,
+   "drr_units": 21.625,
    "ltr_sold": 261.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 201.0
+   "units_sold": 173.0
+  },
+  {
+   "city": "thanjavur",
+   "doh": 0.0,
+   "drr_ltr": 12.125,
+   "drr_units": 9.125,
+   "ltr_sold": 97.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 73.0
+  },
+  {
+   "city": "thiruvalla",
+   "doh": 0.0,
+   "drr_ltr": 8.625,
+   "drr_units": 6.875,
+   "ltr_sold": 69.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 55.0
+  },
+  {
+   "city": "thiruvallur",
+   "doh": 0.0,
+   "drr_ltr": 2.125,
+   "drr_units": 2.125,
+   "ltr_sold": 17.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 17.0
+  },
+  {
+   "city": "thiruvananthapuram",
+   "doh": 0.0,
+   "drr_ltr": 45.71875,
+   "drr_units": 36.375,
+   "ltr_sold": 365.75,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 291.0
+  },
+  {
+   "city": "thoothukudi",
+   "doh": 0.0,
+   "drr_ltr": 1.5,
+   "drr_units": 0.5,
+   "ltr_sold": 12.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 4.0
+  },
+  {
+   "city": "thrissur",
+   "doh": 0.0,
+   "drr_ltr": 16.28125,
+   "drr_units": 15.0,
+   "ltr_sold": 130.25,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 120.0
+  },
+  {
+   "city": "tirunelveli",
+   "doh": 0.0,
+   "drr_ltr": 10.625,
+   "drr_units": 9.625,
+   "ltr_sold": 85.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 77.0
+  },
+  {
+   "city": "tirupati",
+   "doh": 0.0,
+   "drr_ltr": 24.8125,
+   "drr_units": 18.0,
+   "ltr_sold": 198.5,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 144.0
+  },
+  {
+   "city": "tirupur",
+   "doh": 0.0,
+   "drr_ltr": 10.625,
+   "drr_units": 9.125,
+   "ltr_sold": 85.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 73.0
+  },
+  {
+   "city": "trichy",
+   "doh": 0.0,
+   "drr_ltr": 15.75,
+   "drr_units": 12.75,
+   "ltr_sold": 126.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 102.0
+  },
+  {
+   "city": "tumakuru",
+   "doh": 0.0,
+   "drr_ltr": 5.75,
+   "drr_units": 5.75,
+   "ltr_sold": 46.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 46.0
+  },
+  {
+   "city": "udaipur",
+   "doh": 0.0,
+   "drr_ltr": 28.25,
+   "drr_units": 23.375,
+   "ltr_sold": 226.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 187.0
+  },
+  {
+   "city": "ujjain",
+   "doh": 0.0,
+   "drr_ltr": 12.75,
+   "drr_units": 10.625,
+   "ltr_sold": 102.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 85.0
+  },
+  {
+   "city": "vadodara",
+   "doh": 0.0,
+   "drr_ltr": 27.625,
+   "drr_units": 18.625,
+   "ltr_sold": 221.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 149.0
+  },
+  {
+   "city": "vapi",
+   "doh": 0.0,
+   "drr_ltr": 19.125,
+   "drr_units": 13.125,
+   "ltr_sold": 153.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 105.0
+  },
+  {
+   "city": "varanasi",
+   "doh": 0.0,
+   "drr_ltr": 10.25,
+   "drr_units": 2.125,
+   "ltr_sold": 82.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 17.0
+  },
+  {
+   "city": "vellore",
+   "doh": 0.0,
+   "drr_ltr": 22.75,
+   "drr_units": 18.25,
+   "ltr_sold": 182.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 146.0
+  },
+  {
+   "city": "vijayawada",
+   "doh": 0.0,
+   "drr_ltr": 66.5,
+   "drr_units": 50.375,
+   "ltr_sold": 532.0,
+   "soh_ltr": 0.0,
+   "soh_units": 0.0,
+   "units_sold": 403.0
   },
   {
    "city": "VIZAG",
-   "doh": 34.82685512367491,
-   "drr_ltr": 96.75,
-   "drr_units": 70.75,
-   "ltr_sold": 387.0,
-   "soh_ltr": 3546.0,
-   "soh_units": 2464.0,
-   "units_sold": 283.0
+   "doh": 24.11464968152866,
+   "drr_ltr": 107.75,
+   "drr_units": 78.5,
+   "ltr_sold": 862.0,
+   "soh_ltr": 2804.0,
+   "soh_units": 1893.0,
+   "units_sold": 628.0
   },
   {
    "city": "vizianagaram",
    "doh": 0.0,
-   "drr_ltr": 3.5,
-   "drr_units": 3.5,
-   "ltr_sold": 14.0,
+   "drr_ltr": 3.375,
+   "drr_units": 3.375,
+   "ltr_sold": 27.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 14.0
+   "units_sold": 27.0
   },
   {
    "city": "warangal",
    "doh": 0.0,
-   "drr_ltr": 34.75,
-   "drr_units": 25.5,
-   "ltr_sold": 139.0,
+   "drr_ltr": 36.625,
+   "drr_units": 26.875,
+   "ltr_sold": 293.0,
    "soh_ltr": 0.0,
    "soh_units": 0.0,
-   "units_sold": 102.0
+   "units_sold": 215.0
   }
  ],
- "sales_max_date": "2026-07-04",
+ "sales_max_date": "2026-07-08",
  "source": {
   "inventory": "all_platform_inventory",
   "sales": "swiggySec"
  },
  "total": {
-  "doh": 8.71197854960404,
-  "drr_ltr": 10206.75,
-  "drr_units": 8018.5,
-  "ltr_sold": 40827.0,
-  "soh_ltr": 90847.25,
-  "soh_units": 69857.0,
-  "units_sold": 32074.0
+  "doh": 7.62449872402479,
+  "drr_ltr": 10312.125,
+  "drr_units": 8229.0,
+  "ltr_sold": 82497.0,
+  "soh_ltr": 82083.25,
+  "soh_units": 62742.0,
+  "units_sold": 65832.0
  }
 }
 ```

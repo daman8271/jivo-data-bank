@@ -12,10 +12,10 @@ platforms:
   - flipkart-minutes
   - zepto
 first_seen: 2026-06-08
-last_seen: 2026-07-06
-observations: 224
+last_seen: 2026-07-10
+observations: 256
 latest_status: NOT_LISTED
-below_days: 11
+below_days: 13
 tags:
   - type/pricematch-sku
   - platform/amazon
@@ -37,11 +37,11 @@ SKU memory: [[jivo-kachi-ghani-chemical-free-mustard-daily-cooking-oil-1-litre-e
 ## Sold on
 [[amazon]] · [[amazon-fresh]] · [[amazon-now]] · [[bigbasket]] · [[blinkit]] · [[flipkart]] · [[flipkart-minutes]] · [[zepto]]
 
-- **Latest status:** ▫️ not listed on [[zepto]] (2026-07-06) — ref ₹409 vs live ₹-
-- **Days below reference:** 11 of 28
-- **Below on:** [[2026-06-11]] · [[2026-06-15]] · [[2026-06-16]] · [[2026-06-17]] · [[2026-06-18]] · [[2026-06-22]] · [[2026-06-23]] · [[2026-06-24]] · [[2026-06-25]] · [[2026-06-29]] · [[2026-06-30]]
+- **Latest status:** ▫️ not listed on [[zepto]] (2026-07-10) — ref ₹409 vs live ₹-
+- **Days below reference:** 13 of 32
+- **Below on:** [[2026-06-11]] · [[2026-06-15]] · [[2026-06-16]] · [[2026-06-17]] · [[2026-06-18]] · [[2026-06-22]] · [[2026-06-23]] · [[2026-06-24]] · [[2026-06-25]] · [[2026-06-29]] · [[2026-06-30]] · [[2026-07-08]] · [[2026-07-09]]
 
-## Ref-vs-live history (224 observations)
+## Ref-vs-live history (256 observations)
 
 ```csv
 date,platform,status,regime,ref,live,live_min,live_max,diff,diff_pct,stores_below,in_stock
@@ -269,6 +269,38 @@ date,platform,status,regime,ref,live,live_min,live_max,diff,diff_pct,stores_belo
 2026-07-06,flipkart,OOS,SVD,409,,,,,,0,false
 2026-07-06,flipkart-minutes,NOT_LISTED,SVD,409,,,,,,0,false
 2026-07-06,zepto,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-07,amazon,OOS,SVD,409,,,,,,0,false
+2026-07-07,amazon-fresh,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-07,amazon-now,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-07,bigbasket,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-07,blinkit,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-07,flipkart,OOS,SVD,409,,,,,,0,false
+2026-07-07,flipkart-minutes,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-07,zepto,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-08,amazon,OOS,BAU,429,,,,,,0,false
+2026-07-08,amazon-fresh,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-08,amazon-now,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-08,bigbasket,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-08,blinkit,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-08,flipkart,BELOW,BAU,429,412,412,412,-17,-3.96,1,true
+2026-07-08,flipkart-minutes,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-08,zepto,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-09,amazon,OOS,BAU,429,,,,,,0,false
+2026-07-09,amazon-fresh,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-09,amazon-now,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-09,bigbasket,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-09,blinkit,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-09,flipkart,BELOW,BAU,429,412,412,412,-17,-3.96,1,true
+2026-07-09,flipkart-minutes,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-09,zepto,NOT_LISTED,BAU,429,,,,,,0,false
+2026-07-10,amazon,OOS,SVD,409,,,,,,0,false
+2026-07-10,amazon-fresh,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-10,amazon-now,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-10,bigbasket,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-10,blinkit,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-10,flipkart,ABOVE,SVD,409,412,412,412,3,0.73,0,true
+2026-07-10,flipkart-minutes,NOT_LISTED,SVD,409,,,,,,0,false
+2026-07-10,zepto,NOT_LISTED,SVD,409,,,,,,0,false
 ```
 
 ---

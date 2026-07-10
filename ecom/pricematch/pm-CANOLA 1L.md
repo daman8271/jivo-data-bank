@@ -12,10 +12,10 @@ platforms:
   - flipkart-minutes
   - zepto
 first_seen: 2026-06-08
-last_seen: 2026-07-06
-observations: 224
+last_seen: 2026-07-10
+observations: 256
 latest_status: NOT_LISTED
-below_days: 27
+below_days: 31
 tags:
   - type/pricematch-sku
   - platform/amazon
@@ -37,11 +37,11 @@ SKU memory: [[jivo-canola-cold-pressed-edible-oil-1-litre-cooking-oil-for-daily-
 ## Sold on
 [[amazon]] · [[amazon-fresh]] · [[amazon-now]] · [[bigbasket]] · [[blinkit]] · [[flipkart]] · [[flipkart-minutes]] · [[zepto]]
 
-- **Latest status:** ▫️ not listed on [[zepto]] (2026-07-06) — ref ₹259 vs live ₹-
-- **Days below reference:** 27 of 28
-- **Below on:** [[2026-06-08]] · [[2026-06-09]] · [[2026-06-10]] · [[2026-06-11]] · [[2026-06-13]] · [[2026-06-14]] · [[2026-06-15]] · [[2026-06-16]] · [[2026-06-17]] · [[2026-06-18]] · [[2026-06-19]] · [[2026-06-20]] · [[2026-06-21]] · [[2026-06-22]] · [[2026-06-23]] · [[2026-06-24]] · [[2026-06-25]] · [[2026-06-26]] · [[2026-06-27]] · [[2026-06-28]] · [[2026-06-29]] · [[2026-06-30]] · [[2026-07-02]] · [[2026-07-03]] · [[2026-07-04]] · [[2026-07-05]] · [[2026-07-06]]
+- **Latest status:** ▫️ not listed on [[zepto]] (2026-07-10) — ref ₹239 vs live ₹-
+- **Days below reference:** 31 of 32
+- **Below on:** [[2026-06-08]] · [[2026-06-09]] · [[2026-06-10]] · [[2026-06-11]] · [[2026-06-13]] · [[2026-06-14]] · [[2026-06-15]] · [[2026-06-16]] · [[2026-06-17]] · [[2026-06-18]] · [[2026-06-19]] · [[2026-06-20]] · [[2026-06-21]] · [[2026-06-22]] · [[2026-06-23]] · [[2026-06-24]] · [[2026-06-25]] · [[2026-06-26]] · [[2026-06-27]] · [[2026-06-28]] · [[2026-06-29]] · [[2026-06-30]] · [[2026-07-02]] · [[2026-07-03]] · [[2026-07-04]] · [[2026-07-05]] · [[2026-07-06]] · [[2026-07-07]] · [[2026-07-08]] · [[2026-07-09]] · [[2026-07-10]]
 
-## Ref-vs-live history (224 observations)
+## Ref-vs-live history (256 observations)
 
 ```csv
 date,platform,status,regime,ref,live,live_min,live_max,diff,diff_pct,stores_below,in_stock
@@ -269,6 +269,38 @@ date,platform,status,regime,ref,live,live_min,live_max,diff,diff_pct,stores_belo
 2026-07-06,flipkart,OOS,SVD,259,,,,,,0,false
 2026-07-06,flipkart-minutes,BELOW,SVD,259,252,234,270,-7,-2.7,99,true
 2026-07-06,zepto,NOT_LISTED,SVD,259,,,,,,0,false
+2026-07-07,amazon,BELOW,SVD,259,229,229,229,-30,-11.58,1,true
+2026-07-07,amazon-fresh,BELOW,SVD,259,229,229,229,-30,-11.58,133,true
+2026-07-07,amazon-now,BELOW,SVD,259,229,229,229,-30,-11.58,11,true
+2026-07-07,bigbasket,ABOVE,SVD,259,288.65,283.98,329.44,29.65,11.45,0,true
+2026-07-07,blinkit,BELOW,SVD,259,233,228,279,-26,-10.04,314,true
+2026-07-07,flipkart,OOS,SVD,259,,,,,,0,false
+2026-07-07,flipkart-minutes,BELOW,SVD,259,252,234,270,-7,-2.7,97,true
+2026-07-07,zepto,NOT_LISTED,SVD,259,,,,,,0,false
+2026-07-08,amazon,BELOW,BAU,249,229,229,229,-20,-8.03,1,true
+2026-07-08,amazon-fresh,BELOW,BAU,249,229,229,239,-20,-8.03,99,true
+2026-07-08,amazon-now,BELOW,BAU,249,229,229,229,-20,-8.03,304,true
+2026-07-08,bigbasket,ABOVE,BAU,249,288.65,283.98,329.44,39.65,15.92,0,true
+2026-07-08,blinkit,BELOW,BAU,249,233,228,279,-16,-6.43,319,true
+2026-07-08,flipkart,ABOVE,BAU,249,256,256,256,7,2.81,0,true
+2026-07-08,flipkart-minutes,ABOVE,BAU,249,251,234,273,2,0.8,77,true
+2026-07-08,zepto,NOT_LISTED,BAU,249,,,,,,0,false
+2026-07-09,amazon,BELOW,BAU,249,229,229,229,-20,-8.03,1,true
+2026-07-09,amazon-fresh,BELOW,BAU,249,229,229,239,-20,-8.03,95,true
+2026-07-09,amazon-now,BELOW,BAU,249,229,229,239,-20,-8.03,305,true
+2026-07-09,bigbasket,ABOVE,BAU,249,288.65,283.98,329.44,39.65,15.92,0,true
+2026-07-09,blinkit,BELOW,BAU,249,239,228,279,-10,-4.02,300,true
+2026-07-09,flipkart,ABOVE,BAU,249,256,256,256,7,2.81,0,true
+2026-07-09,flipkart-minutes,NOT_LISTED,BAU,249,,,,,,0,false
+2026-07-09,zepto,NOT_LISTED,BAU,249,,,,,,0,false
+2026-07-10,amazon,BELOW,SVD,239,232,232,232,-7,-2.93,1,true
+2026-07-10,amazon-fresh,MATCH,SVD,239,239,229,249,0,0,35,true
+2026-07-10,amazon-now,MATCH,SVD,239,239,233,249,0,0,70,true
+2026-07-10,bigbasket,ABOVE,SVD,239,288.65,283.98,329.44,49.65,20.77,0,true
+2026-07-10,blinkit,MATCH,SVD,239,239,228,279,0,0,178,true
+2026-07-10,flipkart,ABOVE,SVD,239,256,256,256,17,7.11,0,true
+2026-07-10,flipkart-minutes,ABOVE,SVD,239,251,234,270,12,5.02,63,true
+2026-07-10,zepto,NOT_LISTED,SVD,239,,,,,,0,false
 ```
 
 ---

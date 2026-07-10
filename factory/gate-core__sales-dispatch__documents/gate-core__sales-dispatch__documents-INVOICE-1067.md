@@ -16,38 +16,38 @@ tags:
 
 ## Fields
 - **document_type:** INVOICE
-- **doc_entry:** 34278
-- **doc_num:** 706260167
-- **doc_date:** 2026-06-08
-- **doc_total:** 110864.00
-- **branch_id:** 1
-- **branch_name:** DELHI
-- **card_code:** CUSTA000048
-- **card_name:** R K WORLDINFOCOM PVT LTD
-- **ship_to_code:** R K WORLDINFOCOM  KOLAR
-- **ship_to_address:** VILLAGE NARASPURA HOBLI  SURVEY 1105 BELLURU KRISHNAPURAKOLAR TALUK-563133IN
-- **place_of_supply:** KT
-- **bp_gstin:** 29AAECR0564M2ZY
+- **doc_entry:** 34754
+- **doc_num:** 606260143
+- **doc_date:** 2026-06-16
+- **doc_total:** 81000.00
+- **branch_id:** 2
+- **branch_name:** HARYANA
+- **card_code:** CUSTA000532
+- **card_name:** SHREE GANESH GENERAL AND KIRANA STORES
+- **ship_to_code:** SHREE GANESH GENERAL AND KIRANA STORES INDORE
+- **ship_to_address:** INDORE MPINDORE-452001IN
+- **place_of_supply:** MP
+- **bp_gstin:** 23ACIPV7853L1ZW
 - **eway_bill:** 
 - **vehicle_no:** DL01MA1972
 - **transporter_name:** PICK & SHIP
-- **bilty_no:** 2515
+- **bilty_no:** 2518
 - **bilty_date:** 2026-06-20
 - **from_warehouse:** 
 - **to_warehouse:** 
-- **warehouses:** DL-FG
-- **item_summary:** FG0000385 - YELLOW MUSTARD OIL 5 LTR TIN 4 PCS, FG0000376 - SESAME OIL 1 LTR 20 PCS, FG0000381 - EXTRA VIRGIN OLIVE 200 MLS 35 PCS, FG0000011 - MUSTARD KACCHI GHANI 5 LTR 4 PCS, FG0000028 - POMACE OLIVE 1 LTR 16 PCS, FG0000004 - COLD PRESS 5 LTR 4 PCS
-- **base_refs:** 1706264513
-- **total_quantity:** 186.000
-- **total_litres:** 474.000
+- **warehouses:** BH-FGM
+- **item_summary:** FG0000150 - SANO POMACE OLIVE 1 LTR 16 PCS, FG0000151 - SANO POMACE OLIVE 5 LTR TIN 4 PCS
+- **base_refs:** 1706264576
+- **total_quantity:** 188.000
+- **total_litres:** 300.000
 - **total_boxes:** 0.000
-- **total_weight:** 470.716
-- **line_count:** 6
+- **total_weight:** 302.234
+- **line_count:** 2
 - **items:**
   ```json
   []
   ```
 - **plan:**
   ```json
-  {"id": 378, "sap_invoice_doc_entry": 34278, "sap_invoice_doc_num": "706260167", "invoice_number": "706260167", "eway_bill": "342274212580", "invoice_weight": "470.716", "invoice_amount": "110864.00", "place_of_supply": "KT", "location": "", "product_variety": "Oil", "total_litres": "2928.000", "effective_month": "2026-06", "budget_delivery_point": "KOLAR TALUK", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": 295, "transporter_id": 85, "driver_id": null, "linked_vehicle_entry_id": 885, "is_vehicle_link_locked": true, "pipeline_status": {"stage": "DISPATCHED", "stage_label": "Dispatched", "stage_at": "2026-06-20T15:27:12.592097Z", "module": "sales dispatch out", "module_status": "dispatched", "module_label": "dispatched at sales dispatch out"}, "booking_status": "DISPATCHED", "dispatch_date": "2026-06-18", "priority": "HIGH", "transporter_name": "PICK & SHIP", "transporter_gstin": "09AAQCP4145A1ZF", "contact_person": "shukla", "mobile_no": "9958007610", "vehicle_no": "DL01MA1972", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "2517", "bilty_date": "2026-06-20", "bilty_attachment": "/media/sales_dispatch/attachments/WhatsApp_Image_2026-06-20_at_7_8YkTokC.03.35_PM.jpeg", "bilty_attachment_name": "WhatsApp Image 2026-06-20 at 7.03.35 PM.jpeg", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "Please Dispatch Tomorrow", "created_at": "2026-06-17T16:50:16.943842+05:30", "updated_at": "2026-06-20T20:57:12.628374+05:30"}
+  {"id": 334, "sap_invoice_doc_entry": 34754, "sap_invoice_doc_num": "606260143", "invoice_number": "", "eway_bill": "", "invoice_weight": null, "invoice_amount": null, "place_of_supply": "", "location": "", "product_variety": "", "total_litres": null, "effective_month": null, "budget_delivery_point": "", "service_location_code": null, "service_location_name": "", "sac_entry": null, "sac_code": "", "vehicle_id": null, "transporter_id": null, "driver_id": null, "linked_vehicle_entry_id": null, "is_vehicle_link_locked": false, "pipeline_status": {"stage": "BOOKED", "stage_label": "Booked", "stage_at": "2026-06-16T12:02:56.706674Z", "module": "", "module_status": "not entered", "module_label": "not entered"}, "booking_status": "PENDING", "dispatch_date": "2026-06-17", "priority": "High", "transporter_name": "", "transporter_gstin": "", "contact_person": "", "mobile_no": "", "vehicle_no": "", "driver_name": "", "driver_mobile_no": "", "driver_license_no": "", "driver_id_proof_type": "", "driver_id_proof_number": "", "bilty_no": "", "bilty_date": null, "bilty_attachment": null, "bilty_attachment_name": "", "freight": null, "total_freight": null, "kanta_weight": null, "remarks": "", "created_at": "2026-06-16T17:32:56.698867+05:30", "updated_at": "2026-06-16T17:32:56.706674+05:30"}
   ```

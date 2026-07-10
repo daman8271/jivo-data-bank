@@ -1,12 +1,12 @@
 ---
 type: moc
-title: Preferences (39)
+title: Preferences (53)
 tags:
   - moc
   - source/factory
 ---
 
-# Preferences — 39 records
+# Preferences — 53 records
 
 From `/notifications/preferences/`. Up: [[_HOME]]
 
@@ -48,4 +48,18 @@ From `/notifications/preferences/`. Up: [[_HOME]]
 - [[notifications__preferences-36]] — Stock Level Alert
 - [[notifications__preferences-37]] — Docking Scan Skip Requested
 - [[notifications__preferences-38]] — Docking Scan Skip Reviewed
-- [[notifications__preferences-39]] — General Announcement
+- [[notifications__preferences-39]] — Work Permit Submitted for Approval
+- [[notifications__preferences-40]] — Work Permit Approved
+- [[notifications__preferences-41]] — Work Permit Expired
+- [[notifications__preferences-42]] — Returnable Gate Pass Awaiting Approval
+- [[notifications__preferences-43]] — Returnable Gate Pass Approved
+- [[notifications__preferences-44]] — Returnable Gate Pass Rejected by Approver
+- [[notifications__preferences-45]] — Returnable Items Gated Out
+- [[notifications__preferences-46]] — Returnable Gate Pass Rejected at Gate
+- [[notifications__preferences-47]] — Returnable Items Returned
+- [[notifications__preferences-48]] — Returnable Items Collected by Department
+- [[notifications__preferences-49]] — Returnable Items Due for Return Today
+- [[notifications__preferences-50]] — Returnable Items Overdue
+- [[notifications__preferences-51]] — Returnable Gate Pass Closed
+- [[notifications__preferences-52]] — Returnable Gate Pass Cancelled
+- [[notifications__preferences-53]] — General Announcement

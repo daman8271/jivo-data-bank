@@ -22,41 +22,41 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-swiggy]]
  "commodity": {
   "categories": [
    {
-    "ltrs": 13979.0,
+    "ltrs": 19899.0,
     "name": "MUSTARD"
    },
    {
-    "ltrs": 4161.0,
+    "ltrs": 12711.0,
     "name": "SUNFLOWER"
    },
    {
-    "ltrs": 420.0,
+    "ltrs": 1275.0,
     "name": "BLENDED"
    },
    {
-    "ltrs": 100.0,
+    "ltrs": 200.0,
     "name": "RICE BRAN"
    }
   ],
   "sub_categories": [
    {
-    "ltrs": 13979.0,
+    "ltrs": 19899.0,
     "name": "MUSTARD KACCHI GHANI"
    },
    {
-    "ltrs": 4161.0,
+    "ltrs": 12711.0,
     "name": "SUNFLOWER"
    },
    {
-    "ltrs": 420.0,
+    "ltrs": 1275.0,
     "name": "GOLD"
    },
    {
-    "ltrs": 100.0,
+    "ltrs": 200.0,
     "name": "RICE BRAN"
    }
   ],
-  "total_ltrs": 18660.0
+  "total_ltrs": 34085.0
  },
  "errors": [],
  "month": 7,
@@ -64,57 +64,65 @@ Up: [[dashboards-index]] · [[2026-07]] · [[pf-swiggy]]
  "premium": {
   "categories": [
    {
-    "ltrs": 9824.0,
+    "ltrs": 24388.0,
     "name": "GROUNDNUT"
    },
    {
-    "ltrs": 1348.0,
+    "ltrs": 2391.75,
     "name": "OLIVE"
    },
    {
-    "ltrs": 232.0,
+    "ltrs": 818.0,
     "name": "CANOLA"
    },
    {
-    "ltrs": 80.0,
+    "ltrs": 160.0,
     "name": "SESAME OIL"
    },
    {
-    "ltrs": 16.0,
+    "ltrs": 32.0,
     "name": "BLENDED"
+   },
+   {
+    "ltrs": 20.0,
+    "name": "MUSTARD"
    }
   ],
   "sub_categories": [
    {
-    "ltrs": 9824.0,
+    "ltrs": 24388.0,
     "name": "GROUNDNUT"
    },
    {
-    "ltrs": 732.0,
+    "ltrs": 1312.0,
     "name": "EXTRA LIGHT"
    },
    {
-    "ltrs": 452.0,
-    "name": "JIVO POMACE"
-   },
-   {
-    "ltrs": 232.0,
+    "ltrs": 818.0,
     "name": "CANOLA"
    },
    {
-    "ltrs": 164.0,
+    "ltrs": 804.0,
+    "name": "JIVO POMACE"
+   },
+   {
+    "ltrs": 275.75,
     "name": "EXTRA VIRGIN"
    },
    {
-    "ltrs": 80.0,
+    "ltrs": 160.0,
     "name": "SESAME OIL"
    },
    {
-    "ltrs": 16.0,
+    "ltrs": 32.0,
     "name": "SO OLIVE"
+   },
+   {
+    "ltrs": 20.0,
+    "name": "YELLOW MUSTARD"
    }
   ],
-  "total_ltrs": 11500.0
+  "total_ltrs": 27809.75
  },
  "source": "primary",
  "year": 2026

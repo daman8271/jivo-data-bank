@@ -22,49 +22,49 @@ Up: [[dashboards-index]] · [[2026-06]] · [[pf-amazon]]
  "commodity": {
   "categories": [
    {
-    "ltrs": 75910.0,
+    "ltrs": 76584.0,
     "name": "MUSTARD"
    },
    {
-    "ltrs": 62809.0,
+    "ltrs": 63514.0,
     "name": "SUNFLOWER"
    },
    {
-    "ltrs": 15379.0,
+    "ltrs": 15509.0,
     "name": "RICE BRAN"
    },
    {
-    "ltrs": 4538.0,
+    "ltrs": 5021.0,
     "name": "SOYABEAN"
    },
    {
-    "ltrs": 3106.0,
+    "ltrs": 3086.0,
     "name": "BLENDED"
    }
   ],
   "sub_categories": [
    {
-    "ltrs": 75910.0,
+    "ltrs": 76584.0,
     "name": "MUSTARD KACCHI GHANI"
    },
    {
-    "ltrs": 62809.0,
+    "ltrs": 63514.0,
     "name": "SUNFLOWER"
    },
    {
-    "ltrs": 15379.0,
+    "ltrs": 15509.0,
     "name": "RICE BRAN"
    },
    {
-    "ltrs": 4538.0,
+    "ltrs": 5021.0,
     "name": "SOYABEAN"
    },
    {
-    "ltrs": 3106.0,
+    "ltrs": 3086.0,
     "name": "GOLD"
    }
   ],
-  "total_ltrs": 161742.0
+  "total_ltrs": 163714.0
  },
  "errors": [],
  "month": 6,
@@ -72,15 +72,15 @@ Up: [[dashboards-index]] · [[2026-06]] · [[pf-amazon]]
  "premium": {
   "categories": [
    {
-    "ltrs": 64525.0,
+    "ltrs": 74879.0,
     "name": "GROUNDNUT"
    },
    {
-    "ltrs": 35663.5,
+    "ltrs": 36592.5,
     "name": "OLIVE"
    },
    {
-    "ltrs": 19319.0,
+    "ltrs": 20339.0,
     "name": "CANOLA"
    },
    {
@@ -92,25 +92,25 @@ Up: [[dashboards-index]] · [[2026-06]] · [[pf-amazon]]
     "name": "FIRST PRESSED"
    },
    {
-    "ltrs": 664.0,
-    "name": "SESAME OIL"
+    "ltrs": 665.0,
+    "name": "SEASAME OIL"
    }
   ],
   "sub_categories": [
    {
-    "ltrs": 64525.0,
+    "ltrs": 74879.0,
     "name": "GROUNDNUT"
    },
    {
-    "ltrs": 19319.0,
+    "ltrs": 20339.0,
     "name": "CANOLA"
    },
    {
-    "ltrs": 17638.0,
+    "ltrs": 18092.0,
     "name": "JIVO POMACE"
    },
    {
-    "ltrs": 11509.5,
+    "ltrs": 11831.5,
     "name": "EXTRA LIGHT"
    },
    {
@@ -122,19 +122,19 @@ Up: [[dashboards-index]] · [[2026-06]] · [[pf-amazon]]
     "name": "FIRST PRESSED MUSTARD"
    },
    {
-    "ltrs": 3400.0,
+    "ltrs": 3381.0,
     "name": "SANO POMACE"
    },
    {
-    "ltrs": 3116.0,
+    "ltrs": 3288.0,
     "name": "EXTRA VIRGIN"
    },
    {
-    "ltrs": 664.0,
-    "name": "SESAME OIL"
+    "ltrs": 665.0,
+    "name": "SEASAME OIL"
    }
   ],
-  "total_ltrs": 130362.5
+  "total_ltrs": 142666.5
  },
  "source": "primary",
  "year": 2026
