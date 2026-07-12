@@ -18,11 +18,11 @@ Canonical raw rows (5) for `total_po_zbs`, embedded once here (verbatim, full co
 
 ```csv
 basic_rate,delivered_qty,format,grn_code,grn_date,id,landing_rate,location,order_qty,po_date,po_expiry_date,po_number,remark,sku_code,sku_name,status,vendor_name,__first_seen,__key,__last_seen
-204.76,0.0,SWIGGY,,,79926,214.998,NAGPUR,20.0,2026-07-10,2026-07-19,NARPO18890,,15685,Jivo Canola Cold Press Edible Oil 1.0 ltr,CONFIRMED,CHIRAG ENTERPRISES,2026-07-12,total_po_zbs:79926,2026-07-12
-1228.57,0.0,SWIGGY,,,79927,1289.9985,NAGPUR,3.0,2026-07-10,2026-07-19,NARPO18890,,15686,Jivo Canola Cold Press Oil Indian Medical Association Recommended 5.0 ltr,CONFIRMED,CHIRAG ENTERPRISES,2026-07-12,total_po_zbs:79927,2026-07-12
-476.19,0.0,SWIGGY,,,79928,499.9995,NAGPUR,16.0,2026-07-10,2026-07-19,NARPO18890,,15687,Jivo Extra Light Daily Cooking Olive Oil 1.0 ltr,CONFIRMED,CHIRAG ENTERPRISES,2026-07-12,total_po_zbs:79928,2026-07-12
-928.57,0.0,SWIGGY,,,79929,974.9985,NAGPUR,68.0,2026-07-10,2026-07-19,NARPO18890,,401502,Jivo Cold Pressed oil Groundnut Oil 5.0 ltr,CONFIRMED,CHIRAG ENTERPRISES,2026-07-12,total_po_zbs:79929,2026-07-12
-723.81,0.0,SWIGGY,,,79930,760.0005,NAGPUR,24.0,2026-07-10,2026-07-19,NARPO18890,,615911,Jivo Gold Refined Oil - Blend of Rice Bran oil & Sunflower oil 5.0 ltr,CONFIRMED,CHIRAG ENTERPRISES,2026-07-12,total_po_zbs:79930,2026-07-12
+204.76,0.0,SWIGGY,,,79926,214.998,NAGPUR,20.0,2026-07-10,2026-07-19,NARPO18890,,15685,Jivo Canola Cold Press Edible Oil 1.0 ltr,CONFIRMED,CHIRAG ENTERPRISES,2026-07-12,total_po_zbs:79926,2026-07-13
+1228.57,0.0,SWIGGY,,,79927,1289.9985,NAGPUR,3.0,2026-07-10,2026-07-19,NARPO18890,,15686,Jivo Canola Cold Press Oil Indian Medical Association Recommended 5.0 ltr,CONFIRMED,CHIRAG ENTERPRISES,2026-07-12,total_po_zbs:79927,2026-07-13
+476.19,0.0,SWIGGY,,,79928,499.9995,NAGPUR,16.0,2026-07-10,2026-07-19,NARPO18890,,15687,Jivo Extra Light Daily Cooking Olive Oil 1.0 ltr,CONFIRMED,CHIRAG ENTERPRISES,2026-07-12,total_po_zbs:79928,2026-07-13
+928.57,0.0,SWIGGY,,,79929,974.9985,NAGPUR,68.0,2026-07-10,2026-07-19,NARPO18890,,401502,Jivo Cold Pressed oil Groundnut Oil 5.0 ltr,CONFIRMED,CHIRAG ENTERPRISES,2026-07-12,total_po_zbs:79929,2026-07-13
+723.81,0.0,SWIGGY,,,79930,760.0005,NAGPUR,24.0,2026-07-10,2026-07-19,NARPO18890,,615911,Jivo Gold Refined Oil - Blend of Rice Bran oil & Sunflower oil 5.0 ltr,CONFIRMED,CHIRAG ENTERPRISES,2026-07-12,total_po_zbs:79930,2026-07-13
 ```
 
 ---
