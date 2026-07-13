@@ -3,23 +3,23 @@
   "date": "2026-07-13",
   "min_date": "2026-07-11",
   "mixed_dates": true,
-  "generated_at": "2026-07-13 05:33:36 IST",
+  "generated_at": "2026-07-13 10:01:12 IST",
   "mode": "eager",
   "dry_run": false,
   "section_dates": {
-    "price-scraper": "2026-07-12",
+    "price-scraper": "2026-07-13",
     "competitors": "2026-07-11",
     "factory": "2026-07-13",
     "ecom-app": "2026-07-13"
   },
-  "total_files": 24269,
+  "total_files": 24717,
   "sources": {
     "price-scraper": {
       "repo": "/opt/ecom-intel",
-      "base_commit": "d7be1df78a8824ab813e73167a3f2e6f226e1240",
-      "end_commit": "bcc9b8624468aeceff3bae7267f5a832e07b1123",
-      "files": 1695,
-      "date": "2026-07-12"
+      "base_commit": "9073f2ab8765bdfcfc7173015b07a5b3f5f55090",
+      "end_commit": "6eb14568c7bee8b84b7584cda81c21288ae8132d",
+      "files": 2143,
+      "date": "2026-07-13"
     },
     "competitors": {
       "repo": "/opt/ecom-intel",
