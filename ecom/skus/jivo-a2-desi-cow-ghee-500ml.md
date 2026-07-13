@@ -1,12 +1,12 @@
 ---
 type: sku-hub
 canonical_sku: jivo-a2-desi-cow-ghee-500ml
-display_name: Jivo A2 Desi Cow Ghee (1 pc (500 ml))
+display_name: Jivo a2 Desi Cow Ghee 500ml
 platforms:
   - zepto
 first_seen: 2026-07-10
-last_seen: 2026-07-10
-observations: 11
+last_seen: 2026-07-11
+observations: 16
 min_price: 932
 max_price: 932
 latest_price: 932
@@ -19,7 +19,7 @@ tags:
 
 Up: [[skus-index]]
 
-**Jivo A2 Desi Cow Ghee (1 pc (500 ml))**
+**Jivo a2 Desi Cow Ghee 500ml**
 
 ## Sold on
 - [[zepto]] — latest ₹932 (57.6% off)
@@ -27,10 +27,10 @@ Up: [[skus-index]]
 ## Available in cities
 [[Gurugram]]
 
-## Runs that observed this SKU (1)
-[[zepto-2026-07-10-0139]]
+## Runs that observed this SKU (2)
+[[zepto-2026-07-11-1505]] · [[zepto-2026-07-10-0139]]
 
-## Price history (11 observations)
+## Price history (16 observations)
 
 ```csv
 run_id,date_ist,platform,city,pincode,price,mrp,discount_pct,in_stock
@@ -45,6 +45,11 @@ run_id,date_ist,platform,city,pincode,price,mrp,discount_pct,in_stock
 2026-07-10-0139,2026-07-10,zepto,Gurugram,122018,932,2200,57.6,0
 2026-07-10-0139,2026-07-10,zepto,Gurugram,122504,932,2200,57.6,0
 2026-07-10-0139,2026-07-10,zepto,Gurugram,122505,932,2200,57.6,0
+2026-07-11-1505,2026-07-11,zepto,Gurugram,122011,932,2200,57.6,0
+2026-07-11-1505,2026-07-11,zepto,Gurugram,122017,932,2200,57.6,0
+2026-07-11-1505,2026-07-11,zepto,Gurugram,122018,932,2200,57.6,0
+2026-07-11-1505,2026-07-11,zepto,Gurugram,122504,932,2200,57.6,0
+2026-07-11-1505,2026-07-11,zepto,Gurugram,122505,932,2200,57.6,0
 ```
 
 ---

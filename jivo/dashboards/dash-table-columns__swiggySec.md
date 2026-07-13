@@ -39,24 +39,24 @@ Up: [[dashboards-index]] · [[pf-swiggy]]
   "GMV"
  ],
  "sample": {
-  "AREA_NAME": "nor_mapusa ( do not use)",
-  "BASE_MRP": 1050.0,
+  "AREA_NAME": "greater noida",
+  "BASE_MRP": 2800.0,
   "BRAND": "jivo",
-  "CITY": "central goa",
+  "CITY": "Noida 1",
   "COMBO": "No",
   "COMBO_ITEM_CODE": null,
-  "COMBO_UNITS_SOLD": 0,
-  "GMV": 1050.0,
-  "ITEM_CODE": "615911",
+  "COMBO_UNITS_SOLD": null,
+  "GMV": 2800.0,
+  "ITEM_CODE": "401502",
   "L1_CATEGORY": "edible oils and ghee",
   "L2_CATEGORY": "edible oils",
-  "L3_CATEGORY": "sunflower oil",
-  "ORDERED_DATE": "2026-06-01",
-  "PRODUCT_NAME": "Jivo Gold Refined Oil - Blend of Rice Bran oil & Sunflower oil",
-  "STORE_ID": "1387908",
+  "L3_CATEGORY": "groundnut oil",
+  "ORDERED_DATE": "2026-04-05",
+  "PRODUCT_NAME": "jivo cold pressed oil groundnut oil",
+  "STORE_ID": "1402066",
   "UNITS_SOLD": 1,
   "VARIANT": "5 ltr",
-  "id": 1748867
+  "id": 1084235
  }
 }
 ```
