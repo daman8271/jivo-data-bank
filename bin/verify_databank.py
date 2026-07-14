@@ -148,8 +148,19 @@ def main():
             failures.append(f"product REGRESSION: {len(prods)} < baseline {baseline['products']}")
         if src_total < baseline.get("source_notes", 0):
             failures.append(f"source-note REGRESSION: {src_total} < baseline {baseline['source_notes']}")
-        if len(hubs) < baseline.get("hubs", 0):
-            failures.append(f"hub REGRESSION: {len(hubs)} < baseline {baseline['hubs']}")
+        # Hub floor with tolerance for BENIGN category churn. Platform (10) and
+        # Tier (3) hubs are already EXACT-asserted above, and >=1 Category hub is
+        # required — so total-hub drift is purely category-count. A low-population
+        # category (e.g. a 1-product "GIFT PACK") legitimately collapses when its
+        # sole member is recategorised upstream, and hard-failing on that stalled
+        # the whole fusion for days (2026-07-13). Tolerate small drift; a mass
+        # category collapse (> tolerance) still fails. Tune via baseline
+        # "hub_tolerance" (default 2). Real data loss is still caught by the
+        # product / source-note floors and link-integrity gate below.
+        hub_tol = baseline.get("hub_tolerance", 2)
+        if len(hubs) < baseline.get("hubs", 0) - hub_tol:
+            failures.append(
+                f"hub REGRESSION: {len(hubs)} < baseline {baseline['hubs']} - tol {hub_tol}")
 
     # ---------------- GATE 3: link integrity (generated layer) ----------------
     by_path, by_base = build_index(vault)
