@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-07-17",
+  "document_id": "10-P_ZBVGaIKz87PTByk8rMb_c1J0VT0mfZo_84qwjQU",
+  "workbook_export_sha256": "6d68cc54887cf94b0afb88afd882fd3702276d760a911804d50c66958adb077d",
+  "workbook_export_bytes": 31094968,
+  "note": "Workbook export used only to inspect tab structure and extract selected reference tabs. The target MASTER PO tab is preserved independently as computed CSV values. Google-specific formulas are not treated as a portable calculation engine.",
+  "sheets": [
+    {
+      "title": "MASTER PO",
+      "nonempty_rows": 47859,
+      "max_seen_col": 55,
+      "formula_cells": 2569306
+    },
+    {
+      "title": "BLINKIT",
+      "nonempty_rows": 3086,
+      "max_seen_col": 29,
+      "formula_cells": 9649
+    },
+    {
+      "title": "BLINKIT GRN",
+      "nonempty_rows": 1236,
+      "max_seen_col": 32,
+      "formula_cells": 0
+    },
+    {
+      "title": "TOTAL PO ZBS",
+      "nonempty_rows": 38845,
+      "max_seen_col": 15,
+      "formula_cells": 0
+    },
+    {
+      "title": "FLIPKART GROCERY",
+      "nonempty_rows": 1876,
+      "max_seen_col": 35,
+      "formula_cells": 2029
+    },
+    {
+      "title": "CITY MALL",
+      "nonempty_rows": 1434,
+      "max_seen_col": 21,
+      "formula_cells": 1771
+    },
+    {
+      "title": "ZOMATO",
+      "nonempty_rows": 1507,
+      "max_seen_col": 21,
+      "formula_cells": 1528
+    },
+    {
+      "title": "BIG BASKET",
+      "nonempty_rows": 3688,
+      "max_seen_col": 32,
+      "formula_cells": 22
+    },
+    {
+      "title": "ZEPTO",
+      "nonempty_rows": 1052,
+      "max_seen_col": 30,
+      "formula_cells": 3153
+    },
+    {
+      "title": "ZEPTO GRN",
+      "nonempty_rows": 1992,
+      "max_seen_col": 12,
+      "formula_cells": 1991
+    },
+    {
+      "title": "SWIGGY",
+      "nonempty_rows": 5921,
+      "max_seen_col": 33,
+      "formula_cells": 23680
+    },
+    {
+      "title": "SWIGGY GRN",
+      "nonempty_rows": 11094,
+      "max_seen_col": 32,
+      "formula_cells": 11093
+    },
+    {
+      "title": "DEAL SHARE",
+      "nonempty_rows": 71,
+      "max_seen_col": 20,
+      "formula_cells": 76
+    },
+    {
+      "title": "CM_Import_Log",
+      "nonempty_rows": 2,
+      "max_seen_col": 6,
+      "formula_cells": 0
+    },
+    {
+      "title": "PO_Import_Log",
+      "nonempty_rows": 42,
+      "max_seen_col": 6,
+      "formula_cells": 0
+    },
+    {
+      "title": "TOTAL PO",
+      "nonempty_rows": 8595,
+      "max_seen_col": 16,
+      "formula_cells": 0
+    },
+    {
+      "title": "CITY MALL NEW",
+      "nonempty_rows": 1078,
+      "max_seen_col": 16,
+      "formula_cells": 0
+    },
+    {
+      "title": "Sheet36",
+      "nonempty_rows": 226,
+      "max_seen_col": 2,
+      "formula_cells": 0
+    },
+    {
+      "title": "MAPPING",
+      "nonempty_rows": 1238,
+      "max_seen_col": 29,
+      "formula_cells": 0
+    },
+    {
+      "title": "SKU CODE LIST",
+      "nonempty_rows": 220,
+      "max_seen_col": 10,
+      "formula_cells": 439
+    },
+    {
+      "title": "MASTER_SHEET",
+      "nonempty_rows": 668,
+      "max_seen_col": 18,
+      "formula_cells": 0
+    },
+    {
+      "title": "FLIPKART GROCERY NEW",
+      "nonempty_rows": 1582,
+      "max_seen_col": 16,
+      "formula_cells": 0
+    }
+  ]
+}

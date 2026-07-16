@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-07-17",
+  "rule": "Only movement_class=confirmed_outward. Delivered line units are mixed SKU units and must not be treated as a portfolio-wide homogeneous quantity or as litres.",
+  "by_distributor": {
+    "ANTIZE FOODS PRIVATE LIMITED": {
+      "rows": 3991,
+      "delivered_line_units": 376797.0,
+      "delivered_litres": 444741.00000000006,
+      "min_delivery_date": "2025-12-27",
+      "max_delivery_date": "2026-07-15",
+      "quarantine_rows": 17,
+      "no_confirmed_movement_rows": 715,
+      "distinct_pos": 1172
+    },
+    "BABA LOKENATH TRADERS": {
+      "rows": 645,
+      "delivered_line_units": 58312.0,
+      "delivered_litres": 70267.0,
+      "min_delivery_date": "2025-08-20",
+      "max_delivery_date": "2026-07-14",
+      "quarantine_rows": 19,
+      "no_confirmed_movement_rows": 1108,
+      "distinct_pos": 289
+    },
+    "CHIRAG ENTERPRISES MUMBAI": {
+      "rows": 5541,
+      "delivered_line_units": 420891.0,
+      "delivered_litres": 512227.0,
+      "min_delivery_date": "2025-08-21",
+      "max_delivery_date": "2026-07-16",
+      "quarantine_rows": 18,
+      "no_confirmed_movement_rows": 4388,
+      "distinct_pos": 1648
+    },
+    "EVARA ENTERPRISES": {
+      "rows": 3720,
+      "delivered_line_units": 475997.0,
+      "delivered_litres": 587131.0,
+      "min_delivery_date": "2025-08-17",
+      "max_delivery_date": "2026-07-15",
+      "quarantine_rows": 14,
+      "no_confirmed_movement_rows": 546,
+      "distinct_pos": 651
+    },
+    "JIVO MART PRIVATE LIMITED": {
+      "rows": 3487,
+      "delivered_line_units": 419444.0,
+      "delivered_litres": 513690.0,
+      "min_delivery_date": "2025-08-26",
+      "max_delivery_date": "2026-03-26",
+      "quarantine_rows": 4,
+      "no_confirmed_movement_rows": 2025,
+      "distinct_pos": 935
+    },
+    "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED": {
+      "rows": 7866,
+      "delivered_line_units": 684584.0,
+      "delivered_litres": 797412.3,
+      "min_delivery_date": "2025-08-20",
+      "max_delivery_date": "2026-07-15",
+      "quarantine_rows": 11,
+      "no_confirmed_movement_rows": 4872,
+      "distinct_pos": 1821
+    },
+    "RAGHAV MARKETING": {
+      "rows": 10,
+      "delivered_line_units": 431.0,
+      "delivered_litres": 439.0,
+      "min_delivery_date": "2025-10-08",
+      "max_delivery_date": "2026-06-16",
+      "quarantine_rows": 0,
+      "no_confirmed_movement_rows": 8,
+      "distinct_pos": 2
+    },
+    "SHIV SHAKTI": {
+      "rows": 197,
+      "delivered_line_units": 21727.0,
+      "delivered_litres": 21827.0,
+      "min_delivery_date": "2025-10-07",
+      "max_delivery_date": "2026-07-14",
+      "quarantine_rows": 1,
+      "no_confirmed_movement_rows": 354,
+      "distinct_pos": 40
+    },
+    "SUSTAINQUEST PRIVATE LIMITED": {
+      "rows": 4292,
+      "delivered_line_units": 575029.0,
+      "delivered_litres": 763482.5,
+      "min_delivery_date": "2025-08-19",
+      "max_delivery_date": "2026-07-15",
+      "quarantine_rows": 26,
+      "no_confirmed_movement_rows": 3558,
+      "distinct_pos": 803
+    },
+    "__MISSING__": {
+      "rows": 0,
+      "delivered_line_units": 0.0,
+      "delivered_litres": 0.0,
+      "min_delivery_date": null,
+      "max_delivery_date": null,
+      "quarantine_rows": 1,
+      "no_confirmed_movement_rows": 4,
+      "distinct_pos": 0
+    }
+  }
+}

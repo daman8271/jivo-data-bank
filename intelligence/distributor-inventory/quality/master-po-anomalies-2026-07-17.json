@@ -1,0 +1,689 @@
+{
+  "delivery_before_po_count": 44,
+  "delivery_before_po_examples": [
+    {
+      "row": 1723,
+      "po": "P3310680",
+      "po_date": "2026-01-21",
+      "delivery_date": "2025-02-11",
+      "platform": "ZEPTO",
+      "vendor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED"
+    },
+    {
+      "row": 1724,
+      "po": "P3310680",
+      "po_date": "2026-01-21",
+      "delivery_date": "2025-02-11",
+      "platform": "ZEPTO",
+      "vendor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED"
+    },
+    {
+      "row": 43140,
+      "po": "IRA33384049",
+      "po_date": "2026-02-02",
+      "delivery_date": "2025-02-06",
+      "platform": "BIG BASKET",
+      "vendor": "CHIRAG ENTERPRISES MUMBAI"
+    },
+    {
+      "row": 43141,
+      "po": "IRA33384049",
+      "po_date": "2026-02-02",
+      "delivery_date": "2025-02-06",
+      "platform": "BIG BASKET",
+      "vendor": "CHIRAG ENTERPRISES MUMBAI"
+    },
+    {
+      "row": 43142,
+      "po": "IRA33384049",
+      "po_date": "2026-02-02",
+      "delivery_date": "2025-02-06",
+      "platform": "BIG BASKET",
+      "vendor": "CHIRAG ENTERPRISES MUMBAI"
+    },
+    {
+      "row": 43143,
+      "po": "IRA33384049",
+      "po_date": "2026-02-02",
+      "delivery_date": "2025-02-06",
+      "platform": "BIG BASKET",
+      "vendor": "CHIRAG ENTERPRISES MUMBAI"
+    },
+    {
+      "row": 43144,
+      "po": "IRA33384049",
+      "po_date": "2026-02-02",
+      "delivery_date": "2025-02-06",
+      "platform": "BIG BASKET",
+      "vendor": "CHIRAG ENTERPRISES MUMBAI"
+    },
+    {
+      "row": 43145,
+      "po": "IRA33384049",
+      "po_date": "2026-02-02",
+      "delivery_date": "2025-02-06",
+      "platform": "BIG BASKET",
+      "vendor": "CHIRAG ENTERPRISES MUMBAI"
+    },
+    {
+      "row": 43146,
+      "po": "IRA33384049",
+      "po_date": "2026-02-02",
+      "delivery_date": "2025-02-06",
+      "platform": "BIG BASKET",
+      "vendor": "CHIRAG ENTERPRISES MUMBAI"
+    },
+    {
+      "row": 43147,
+      "po": "IRA33384049",
+      "po_date": "2026-02-02",
+      "delivery_date": "2025-02-06",
+      "platform": "BIG BASKET",
+      "vendor": "CHIRAG ENTERPRISES MUMBAI"
+    },
+    {
+      "row": 43148,
+      "po": "IRA33384049",
+      "po_date": "2026-02-02",
+      "delivery_date": "2025-02-06",
+      "platform": "BIG BASKET",
+      "vendor": "CHIRAG ENTERPRISES MUMBAI"
+    },
+    {
+      "row": 43441,
+      "po": "ZHPHR26-PO-2877530",
+      "po_date": "2026-02-09",
+      "delivery_date": "2026-01-11",
+      "platform": "ZOMATO",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 43466,
+      "po": "ZHPHR26-PO-2877530",
+      "po_date": "2026-02-09",
+      "delivery_date": "2026-01-11",
+      "platform": "ZOMATO",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 43467,
+      "po": "ZHPHR26-PO-2877530",
+      "po_date": "2026-02-09",
+      "delivery_date": "2026-01-11",
+      "platform": "ZOMATO",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 43630,
+      "po": "IRA34014839",
+      "po_date": "2026-02-16",
+      "delivery_date": "2025-02-25",
+      "platform": "BIG BASKET",
+      "vendor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED"
+    },
+    {
+      "row": 43631,
+      "po": "IRA34014839",
+      "po_date": "2026-02-16",
+      "delivery_date": "2025-02-25",
+      "platform": "BIG BASKET",
+      "vendor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED"
+    },
+    {
+      "row": 43632,
+      "po": "IRA34014839",
+      "po_date": "2026-02-16",
+      "delivery_date": "2025-02-25",
+      "platform": "BIG BASKET",
+      "vendor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED"
+    },
+    {
+      "row": 44644,
+      "po": "PO-1394715",
+      "po_date": "2026-03-19",
+      "delivery_date": "2025-03-28",
+      "platform": "CITY MALL",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 44645,
+      "po": "PO-1394715",
+      "po_date": "2026-03-19",
+      "delivery_date": "2025-03-28",
+      "platform": "CITY MALL",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 44646,
+      "po": "PO-1394715",
+      "po_date": "2026-03-19",
+      "delivery_date": "2025-03-28",
+      "platform": "CITY MALL",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 44647,
+      "po": "PO-1394715",
+      "po_date": "2026-03-19",
+      "delivery_date": "2025-03-28",
+      "platform": "CITY MALL",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 44648,
+      "po": "PO-1394715",
+      "po_date": "2026-03-19",
+      "delivery_date": "2025-03-28",
+      "platform": "CITY MALL",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 44649,
+      "po": "PO-1394715",
+      "po_date": "2026-03-19",
+      "delivery_date": "2025-03-28",
+      "platform": "CITY MALL",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 44650,
+      "po": "PO-1394715",
+      "po_date": "2026-03-19",
+      "delivery_date": "2025-03-28",
+      "platform": "CITY MALL",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 44651,
+      "po": "PO-1394715",
+      "po_date": "2026-03-19",
+      "delivery_date": "2025-03-28",
+      "platform": "CITY MALL",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 44652,
+      "po": "PO-1394715",
+      "po_date": "2026-03-19",
+      "delivery_date": "2025-03-28",
+      "platform": "CITY MALL",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 44653,
+      "po": "PO-1394715",
+      "po_date": "2026-03-19",
+      "delivery_date": "2025-03-28",
+      "platform": "CITY MALL",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 44654,
+      "po": "PO-1394715",
+      "po_date": "2026-03-19",
+      "delivery_date": "2025-03-28",
+      "platform": "CITY MALL",
+      "vendor": "SUSTAINQUEST PRIVATE LIMITED"
+    },
+    {
+      "row": 44712,
+      "po": "ZHPKA26-PO-3104844",
+      "po_date": "2026-03-22",
+      "delivery_date": "2026-02-25",
+      "platform": "ZOMATO",
+      "vendor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED"
+    },
+    {
+      "row": 44713,
+      "po": "ZHPKA26-PO-3104844",
+      "po_date": "2026-03-22",
+      "delivery_date": "2026-02-25",
+      "platform": "ZOMATO",
+      "vendor": "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED"
+    }
+  ],
+  "delivered_gt_order": [
+    {
+      "row": 39875,
+      "po": "ZHPKA26-PO-2366976",
+      "sku": "146832",
+      "order": 16.0,
+      "delivered": 32.0,
+      "platform": "ZOMATO"
+    },
+    {
+      "row": 40179,
+      "po": "ZHPDL26-PO-2397569",
+      "sku": "133172",
+      "order": 40.0,
+      "delivered": 60.0,
+      "platform": "ZOMATO"
+    },
+    {
+      "row": 42044,
+      "po": "ZHPMH26-PO-2678795",
+      "sku": "146832",
+      "order": 120.0,
+      "delivered": 592.0,
+      "platform": "ZOMATO"
+    },
+    {
+      "row": 45265,
+      "po": "IRA36530349",
+      "sku": "40304418",
+      "order": 80.0,
+      "delivered": 1584.0,
+      "platform": "BIG BASKET"
+    },
+    {
+      "row": 45536,
+      "po": "ZHPHR27-PO-3298961",
+      "sku": "146832",
+      "order": 100.0,
+      "delivered": 160.0,
+      "platform": "ZOMATO"
+    }
+  ],
+  "missing_sap_examples": [
+    {
+      "row": 30472,
+      "po": "P4286491",
+      "sku_code": "56266F28-18E4-4A38-9124-05801C53B6F2",
+      "sku_name": "Jivo Olive Oil Extra Virgin - 1 pack (200 ml)",
+      "item": "EXTRA VIRGIN 200ML",
+      "platform": "ZEPTO"
+    },
+    {
+      "row": 31282,
+      "po": "P4348263",
+      "sku_code": "56266F28-18E4-4A38-9124-05801C53B6F2",
+      "sku_name": "Jivo Olive Oil Extra Virgin - 1 pack (200 ml)",
+      "item": "EXTRA VIRGIN 200ML",
+      "platform": "ZEPTO"
+    },
+    {
+      "row": 32470,
+      "po": "P4426986",
+      "sku_code": "56266F28-18E4-4A38-9124-05801C53B6F2",
+      "sku_name": "Jivo Olive Oil Extra Virgin - 1 pack (200 ml)",
+      "item": "EXTRA VIRGIN 200ML",
+      "platform": "ZEPTO"
+    },
+    {
+      "row": 33009,
+      "po": "MBJPO70310",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33011,
+      "po": "CMMPO10279",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33012,
+      "po": "CADPO205552",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33013,
+      "po": "CI3PO62047",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33014,
+      "po": "PCHPO203802",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33015,
+      "po": "FC5PO400873",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33016,
+      "po": "CHMPO300066",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33017,
+      "po": "JPAPO53921",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33034,
+      "po": "LKOPO171709",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33036,
+      "po": "VIAPO68357",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33043,
+      "po": "CHCPO351657",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33044,
+      "po": "MBIPO389442",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33050,
+      "po": "KOCPO115332",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33051,
+      "po": "JCNPO265444",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33052,
+      "po": "CPDPO275708",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33055,
+      "po": "MBEPO25687",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33059,
+      "po": "GGNPO361835",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33062,
+      "po": "CMFPO325040",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33066,
+      "po": "GCAPO57156",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33225,
+      "po": "MBIPO390659",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33227,
+      "po": "ETPPO62720",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33372,
+      "po": "P4512080",
+      "sku_code": "56266F28-18E4-4A38-9124-05801C53B6F2",
+      "sku_name": "Jivo Olive Oil Extra Virgin - 1 pack (200 ml)",
+      "item": "EXTRA VIRGIN 200ML",
+      "platform": "ZEPTO"
+    },
+    {
+      "row": 33486,
+      "po": "KOCPO116421",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33597,
+      "po": "JCEPO176340",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33606,
+      "po": "MBLPO405735",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 33650,
+      "po": "KWBPO92944",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34059,
+      "po": "CADPO207699",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34064,
+      "po": "MBDPO19742",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34069,
+      "po": "FC5PO405119",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34076,
+      "po": "ETPPO65938",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34113,
+      "po": "LKOPO173717",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34120,
+      "po": "GGNPO365395",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34122,
+      "po": "CI3PO65231",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34131,
+      "po": "CPDPO278999",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34133,
+      "po": "MBEPO28256",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34137,
+      "po": "CIMPO110241",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34149,
+      "po": "PCHPO206663",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34156,
+      "po": "MBJPO73418",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34162,
+      "po": "CMFPO328759",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34180,
+      "po": "ETPPO66512",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34211,
+      "po": "JPAPO56233",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34270,
+      "po": "MBDPO20003",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34289,
+      "po": "GGNPO366224",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34344,
+      "po": "KOCPO119478",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34372,
+      "po": "CHCPO356175",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    },
+    {
+      "row": 34571,
+      "po": "P4645442",
+      "sku_code": "56266F28-18E4-4A38-9124-05801C53B6F2",
+      "sku_name": "Jivo Olive Oil Extra Virgin - 1 pack (200 ml)",
+      "item": "EXTRA VIRGIN 200ML",
+      "platform": "ZEPTO"
+    },
+    {
+      "row": 34582,
+      "po": "VIAPO72481",
+      "sku_code": "548047",
+      "sku_name": "Jivo Groundnut Oil | Cold Pressed, Unrefined Peanut Oil for Cooking | Natural & Chemical-Free Rich Aroma & Flavour 2.0 ltr",
+      "item": "GROUNDNUT 2L",
+      "platform": "SWIGGY"
+    }
+  ]
+}

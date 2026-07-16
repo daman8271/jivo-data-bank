@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "source_workbook": "/tmp/jivo-google-sheets/sheet-2.xlsx",
+  "tabs": {
+    "MAPPING": {
+      "file": "mapping.csv.gz",
+      "rows": 1238,
+      "max_columns": 29
+    },
+    "SKU CODE LIST": {
+      "file": "sku-code-list.csv.gz",
+      "rows": 220,
+      "max_columns": 10
+    },
+    "MASTER_SHEET": {
+      "file": "master-sheet.csv.gz",
+      "rows": 668,
+      "max_columns": 18
+    },
+    "PO_Import_Log": {
+      "file": "po-import-log.csv.gz",
+      "rows": 42,
+      "max_columns": 6
+    },
+    "CM_Import_Log": {
+      "file": "citymall-import-log.csv.gz",
+      "rows": 2,
+      "max_columns": 6
+    },
+    "Sheet36": {
+      "file": "po-grn-date-reference.csv.gz",
+      "rows": 226,
+      "max_columns": 2
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "purpose": "Data types worth preserving when they become available; none is required to ingest the current MASTER PO snapshot.",
+  "datasets": [
+    {
+      "dataset": "distributor_physical_soh_snapshot",
+      "grain": "distributor × SAP SKU × effective cutoff",
+      "minimum_fields": ["distributor", "effective_cutoff", "sap_sku_code", "quantity_units", "uom", "source_file"],
+      "decision_value": "Certifies expected inventory against physical stock and measures unexplained variance.",
+      "trigger": "Whenever a distributor submits a stock statement.",
+      "priority": "critical"
+    },
+    {
+      "dataset": "distributor_receipt_confirmation",
+      "grain": "JIVO invoice/challan × distributor × SAP SKU × receipt date",
+      "minimum_fields": ["invoice_number", "distributor", "sap_sku_code", "quantity_units", "dispatch_date", "receipt_date", "accepted_quantity"],
+      "decision_value": "Separates JIVO billing from stock actually received by the distributor.",
+      "trigger": "When receipt/GRN evidence becomes available.",
+      "priority": "critical"
+    },
+    {
+      "dataset": "distributor_dispatch_register",
+      "grain": "dispatch challan × destination × SAP SKU",
+      "minimum_fields": ["distributor", "challan_or_invoice", "po_number", "sap_sku_code", "dispatch_date", "dispatched_quantity", "destination", "lr_or_vehicle"],
+      "decision_value": "Measures physical distributor SOH and in-transit stock instead of waiting for platform GRN.",
+      "trigger": "When exact physical inventory or transit decisions are required.",
+      "priority": "critical"
+    },
+    {
+      "dataset": "inventory_adjustment_event",
+      "grain": "distributor × SAP SKU × event timestamp × reason",
+      "minimum_fields": ["distributor", "sap_sku_code", "event_date", "quantity_delta", "reason_code", "document_reference", "approved_by"],
+      "decision_value": "Explains returns, damage, expiry, transfer, count correction, and credit-note differences without hiding them in variance.",
+      "trigger": "Only when an exceptional physical movement occurs; current confirmed returns/damage/expiry are zero.",
+      "priority": "high"
+    },
+    {
+      "dataset": "batch_expiry_stock",
+      "grain": "distributor × SAP SKU × batch × expiry date",
+      "minimum_fields": ["distributor", "sap_sku_code", "batch", "expiry_date", "quantity_units"],
+      "decision_value": "Supports FEFO dispatch, expiry-risk alerts, and stock-quality decisions.",
+      "trigger": "When batch-level distributor stock becomes available.",
+      "priority": "medium"
+    },
+    {
+      "dataset": "platform_acceptance_and_rejection",
+      "grain": "PO × platform GRN/invoice × SAP SKU",
+      "minimum_fields": ["po_number", "platform", "grn_date", "accepted_quantity", "rejected_quantity", "rejection_reason", "debit_note_reference"],
+      "decision_value": "Separates dispatched, accepted, rejected, and returned quantities and explains delivery/GRN differences.",
+      "trigger": "When platform invoice/GRN detail is available beyond cumulative delivered quantity.",
+      "priority": "high"
+    },
+    {
+      "dataset": "sku_unit_conversion_master",
+      "grain": "SAP SKU × effective date",
+      "minimum_fields": ["sap_sku_code", "piece_uom", "case_pack", "litres_per_piece", "kg_per_piece", "effective_from", "effective_to"],
+      "decision_value": "Prevents mixed pieces, cases, bottles, litres, kilograms, and combo packs from being added incorrectly.",
+      "trigger": "On SKU launch, pack change, or mapping conflict.",
+      "priority": "critical"
+    },
+    {
+      "dataset": "inventory_service_policy",
+      "grain": "distributor × SAP SKU or category × platform × effective date",
+      "minimum_fields": ["target_days_of_cover", "minimum_stock", "maximum_stock", "lead_time_days", "service_level", "priority_tier"],
+      "decision_value": "Converts stock visibility into reorder, allocation, and premium-fulfilment decisions.",
+      "trigger": "When management sets operating thresholds.",
+      "priority": "medium"
+    },
+    {
+      "dataset": "decision_outcome_log",
+      "grain": "recommendation/action ID",
+      "minimum_fields": ["decision_date", "recommended_action", "owner", "accepted_or_rejected", "execution_date", "expected_effect", "actual_effect", "notes"],
+      "decision_value": "Allows the JIVO brain to learn whether inventory interventions worked.",
+      "trigger": "Whenever an inventory action is recommended or executed.",
+      "priority": "medium"
+    }
+  ]
+}

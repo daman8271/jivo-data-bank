@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "sheet_snapshot_date": "2026-07-17",
+  "sheet_rows": 47438,
+  "live_rows": 47409,
+  "sheet_unique_po_sku": 47396,
+  "live_unique_po_sku": 47409,
+  "po_sku_overlap": 47396,
+  "sheet_only_multiset_rows": 42,
+  "live_only_multiset_rows": 13,
+  "sheet_only_keys": 0,
+  "live_only_keys": 13,
+  "sheet_duplicate_excess_rows": 42,
+  "field_changes_on_common_keys": {
+    "status": 7002,
+    "po_status": 671,
+    "item_status": 986,
+    "delivery_date": 1937,
+    "distributor": 4704,
+    "delivered_qty": 986,
+    "order_qty": 362
+  },
+  "examples": {
+    "status": [
+      {
+        "po_number": "CI3PO72630",
+        "platform_sku_code": "685793",
+        "sheet": "EXPIRED",
+        "live": "CONFIRMED"
+      },
+      {
+        "po_number": "IRA39016382",
+        "platform_sku_code": "40249993",
+        "sheet": "COMPLETED",
+        "live": "FULFILLED"
+      },
+      {
+        "po_number": "IRA40532379",
+        "platform_sku_code": "40335330",
+        "sheet": "COMPLETED",
+        "live": "FULFILLED"
+      },
+      {
+        "po_number": "CPDPO286533",
+        "platform_sku_code": "401502",
+        "sheet": "COMPLETED",
+        "live": "FULFILLED"
+      },
+      {
+        "po_number": "ZHPKA27-PO-3671099",
+        "platform_sku_code": "133173",
+        "sheet": "COMPLETED",
+        "live": "FULFILLED"
+      },
+      {
+        "po_number": "FC5PO416328",
+        "platform_sku_code": "15687",
+        "sheet": "CONFIRMED",
+        "live": "FULFILLED"
+      },
+      {
+        "po_number": "KWBPO95939",
+        "platform_sku_code": "88218",
+        "sheet": "COMPLETED",
+        "live": "FULFILLED"
+      },
+      {
+        "po_number": "IRA38965828",
+        "platform_sku_code": "40166397",
+        "sheet": "COMPLETED",
+        "live": "FULFILLED"
+      },
+      {
+        "po_number": "3226810011118",
+        "platform_sku_code": "10150509",
+        "sheet": "EXPIRED",
+        "live": "FULFILLED"
+      },
+      {
+        "po_number": "CHCPO359698",
+        "platform_sku_code": "685793",
+        "sheet": "COMPLETED",
+        "live": "FULFILLED"
+      }
+    ],
+    "po_status": [
+      {
+        "po_number": "CI3PO72630",
+        "platform_sku_code": "685793",
+        "sheet": "EXPIRED",
+        "live": "PENDING"
+      },
+      {
+        "po_number": "5383910016531",
+        "platform_sku_code": "10143020",
+        "sheet": "EXPIRED",
+        "live": "COMPLETED"
+      },
+      {
+        "po_number": "ETPPO72630",
+        "platform_sku_code": "401502",
+        "sheet": "EXPIRED",
+        "live": "PENDING"
+      },
+      {
+        "po_number": "2173110022918",
+        "platform_sku_code": "10048295",
+        "sheet": "EXPIRED",
+        "live": "COMPLETED"
+      },
+      {
+        "po_number": "5625710030626",
+        "platform_sku_code": "10049199",
+        "sheet": "EXPIRED",
+        "live": "COMPLETED"
+      },
+      {
+        "po_number": "5624410050191",
+        "platform_sku_code": "10143020",
+        "sheet": "EXPIRED",
+        "live": "COMPLETED"
+      },
+      {
+        "po_number": "GWAPO33366",
+        "platform_sku_code": "15687",
+        "sheet": "EXPIRED",
+        "live": "PENDING"
+      },
+      {
+        "po_number": "50033210004189",
+        "platform_sku_code": "10201963",
+        "sheet": "EXPIRED",
+        "live": "COMPLETED"
+      },
+      {
+        "po_number": "2549710039264",
+        "platform_sku_code": "10049041",
+        "sheet": "COMPLETED",
+        "live": "APPOINTMENT DONE"
+      },
+      {
+        "po_number": "KOCPO114592",
+        "platform_sku_code": "615911",
+        "sheet": "EXPIRED",
+        "live": "PENDING"
+      }
+    ],
+    "item_status": [
+      {
+        "po_number": "CI3PO72630",
+        "platform_sku_code": "685793",
+        "sheet": "EXPIRED",
+        "live": "PENDING"
+      },
+      {
+        "po_number": "FKGWN07910523",
+        "platform_sku_code": "WERH9M3VYW6X5KSX",
+        "sheet": "FULL SUPPLIED",
+        "live": "SHORT SUPPLIED"
+      },
+      {
+        "po_number": "43886010026727",
+        "platform_sku_code": "10049041",
+        "sheet": "FULL SUPPLIED",
+        "live": "SHORT SUPPLIED"
+      },
+      {
+        "po_number": "5383910016531",
+        "platform_sku_code": "10143020",
+        "sheet": "EXPIRED",
+        "live": "SHORT SUPPLIED"
+      },
+      {
+        "po_number": "ETPPO72630",
+        "platform_sku_code": "401502",
+        "sheet": "EXPIRED",
+        "live": "PENDING"
+      },
+      {
+        "po_number": "2173110022918",
+        "platform_sku_code": "10048295",
+        "sheet": "EXPIRED",
+        "live": "SHORT SUPPLIED"
+      },
+      {
+        "po_number": "5625710030626",
+        "platform_sku_code": "10049199",
+        "sheet": "EXPIRED",
+        "live": "SHORT SUPPLIED"
+      },
+      {
+        "po_number": "43886010054889",
+        "platform_sku_code": "10143020",
+        "sheet": "FULL SUPPLIED",
+        "live": "SHORT SUPPLIED"
+      },
+      {
+        "po_number": "5624410050191",
+        "platform_sku_code": "10143020",
+        "sheet": "EXPIRED",
+        "live": "SHORT SUPPLIED"
+      },
+      {
+        "po_number": "CI3PO11960",
+        "platform_sku_code": "15687",
+        "sheet": "FULL SUPPLIED",
+        "live": "SHORT SUPPLIED"
+      }
+    ],
+    "delivery_date": [
+      {
+        "po_number": "KOWPO203020",
+        "platform_sku_code": "958164",
+        "sheet": "2025-10-23",
+        "live": ""
+      },
+      {
+        "po_number": "MBIPO249611",
+        "platform_sku_code": "15685",
+        "sheet": "2025-09-26",
+        "live": ""
+      },
+      {
+        "po_number": "PCHPO142059",
+        "platform_sku_code": "390730",
+        "sheet": "2025-09-30",
+        "live": ""
+      },
+      {
+        "po_number": "GGNPO216362",
+        "platform_sku_code": "904426",
+        "sheet": "2025-09-02",
+        "live": ""
+      },
+      {
+        "po_number": "CHMPO195382",
+        "platform_sku_code": "149270",
+        "sheet": "2025-09-26",
+        "live": ""
+      },
+      {
+        "po_number": "VIAPO11870",
+        "platform_sku_code": "15687",
+        "sheet": "2025-10-10",
+        "live": ""
+      },
+      {
+        "po_number": "GGNPO227791",
+        "platform_sku_code": "83633",
+        "sheet": "2025-09-23",
+        "live": ""
+      },
+      {
+        "po_number": "CMFPO219920",
+        "platform_sku_code": "333818",
+        "sheet": "2025-09-19",
+        "live": ""
+      },
+      {
+        "po_number": "CIMPO43060",
+        "platform_sku_code": "15687",
+        "sheet": "2025-09-26",
+        "live": ""
+      },
+      {
+        "po_number": "KOWPO202571",
+        "platform_sku_code": "421361",
+        "sheet": "2025-10-23",
+        "live": ""
+      }
+    ],
+    "distributor": [
+      {
+        "po_number": "5383910016531",
+        "platform_sku_code": "10143020",
+        "sheet": "ANTIZE FOODS PRIVATE LIMITED",
+        "live": "ANTIZE FOODS PVT LTD"
+      },
+      {
+        "po_number": "P4002444",
+        "platform_sku_code": "41367EF4-80D9-4819-BBAE-D1806C184F5C",
+        "sheet": "ANTIZE FOODS PRIVATE LIMITED",
+        "live": "ANTIZE FOODS PVT LTD"
+      },
+      {
+        "po_number": "1735210052527",
+        "platform_sku_code": "10153585",
+        "sheet": "ANTIZE FOODS PRIVATE LIMITED",
+        "live": "ANTIZE FOODS PVT LTD"
+      },
+      {
+        "po_number": "2575110097439",
+        "platform_sku_code": "10048294",
+        "sheet": "ANTIZE FOODS PRIVATE LIMITED",
+        "live": "ANTIZE FOODS PVT LTD"
+      },
+      {
+        "po_number": "2172510051242",
+        "platform_sku_code": "10143020",
+        "sheet": "ANTIZE FOODS PRIVATE LIMITED",
+        "live": "ANTIZE FOODS PVT LTD"
+      },
+      {
+        "po_number": "1177810236929",
+        "platform_sku_code": "10143020",
+        "sheet": "ANTIZE FOODS PRIVATE LIMITED",
+        "live": "ANTIZE FOODS PVT LTD"
+      },
+      {
+        "po_number": "2173110022918",
+        "platform_sku_code": "10048295",
+        "sheet": "ANTIZE FOODS PRIVATE LIMITED",
+        "live": "ANTIZE FOODS PVT LTD"
+      },
+      {
+        "po_number": "2867410080956",
+        "platform_sku_code": "10143020",
+        "sheet": "ANTIZE FOODS PRIVATE LIMITED",
+        "live": "ANTIZE FOODS PVT LTD"
+      },
+      {
+        "po_number": "P4641204",
+        "platform_sku_code": "41367EF4-80D9-4819-BBAE-D1806C184F5C",
+        "sheet": "ANTIZE FOODS PRIVATE LIMITED",
+        "live": "ANTIZE FOODS PVT LTD"
+      },
+      {
+        "po_number": "P3866079",
+        "platform_sku_code": "06C8F55B-13A5-4D9B-8990-A418E63C89AD",
+        "sheet": "ANTIZE FOODS PRIVATE LIMITED",
+        "live": "ANTIZE FOODS PVT LTD"
+      }
+    ],
+    "delivered_qty": [
+      {
+        "po_number": "2173110022918",
+        "platform_sku_code": "10048295",
+        "sheet": 0.0,
+        "live": null
+      },
+      {
+        "po_number": "5625710030626",
+        "platform_sku_code": "10049199",
+        "sheet": 0.0,
+        "live": null
+      },
+      {
+        "po_number": "2867410080956",
+        "platform_sku_code": "10143020",
+        "sheet": 0.0,
+        "live": null
+      },
+      {
+        "po_number": "CPDPO289320",
+        "platform_sku_code": "83633",
+        "sheet": 0.0,
+        "live": null
+      },
+      {
+        "po_number": "CPDPO289320",
+        "platform_sku_code": "98631",
+        "sheet": 0.0,
+        "live": null
+      },
+      {
+        "po_number": "PO-1420774",
+        "platform_sku_code": "CM02456493",
+        "sheet": null,
+        "live": 0.0
+      },
+      {
+        "po_number": "MBLPO421114",
+        "platform_sku_code": "240878",
+        "sheet": 0.0,
+        "live": null
+      },
+      {
+        "po_number": "2549710039264",
+        "platform_sku_code": "10049041",
+        "sheet": 12.0,
+        "live": null
+      },
+      {
+        "po_number": "2011710078354",
+        "platform_sku_code": "10143020",
+        "sheet": 0.0,
+        "live": null
+      },
+      {
+        "po_number": "MBDPO20669",
+        "platform_sku_code": "15687",
+        "sheet": 0.0,
+        "live": null
+      }
+    ],
+    "order_qty": [
+      {
+        "po_number": "P3792669",
+        "platform_sku_code": "CF896675-3AC9-4A40-B134-603931BBA8E7",
+        "sheet": null,
+        "live": 2184.0
+      },
+      {
+        "po_number": "GGNPO267553",
+        "platform_sku_code": "429981",
+        "sheet": null,
+        "live": 2000.0
+      },
+      {
+        "po_number": "MBIPO377445",
+        "platform_sku_code": "60711",
+        "sheet": null,
+        "live": 1580.0
+      },
+      {
+        "po_number": "KWBPO100768",
+        "platform_sku_code": "60711",
+        "sheet": null,
+        "live": 2500.0
+      },
+      {
+        "po_number": "GGNPO356224",
+        "platform_sku_code": "390730",
+        "sheet": null,
+        "live": 1216.0
+      },
+      {
+        "po_number": "GGNPO373903",
+        "platform_sku_code": "60711",
+        "sheet": null,
+        "live": 2720.0
+      },
+      {
+        "po_number": "P4409098",
+        "platform_sku_code": "41367EF4-80D9-4819-BBAE-D1806C184F5C",
+        "sheet": null,
+        "live": 1376.0
+      },
+      {
+        "po_number": "P4287837",
+        "platform_sku_code": "41367EF4-80D9-4819-BBAE-D1806C184F5C",
+        "sheet": null,
+        "live": 1440.0
+      },
+      {
+        "po_number": "KWBPO47219",
+        "platform_sku_code": "429981",
+        "sheet": null,
+        "live": 1020.0
+      },
+      {
+        "po_number": "CPDPO285183",
+        "platform_sku_code": "390730",
+        "sheet": null,
+        "live": 1152.0
+      }
+    ]
+  },
+  "interpretation": "The sheet is a mutable reference snapshot. Use authenticated live API for latest state; upsert by PO and platform SKU and audit downward revisions."
+}

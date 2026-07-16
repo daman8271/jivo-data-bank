@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-07-17",
+  "source_id": "google-master-po-gid-739390425",
+  "raw": {
+    "path": "intelligence/distributor-inventory/raw/2026-07-17/master-po-gid-739390425.csv.gz",
+    "bytes": 2482084,
+    "sha256": "39a86a2835d829bf4e3a54be532e8c54cab9b66871a9b48b690ad7ef629b36f6",
+    "rows": 47438,
+    "columns": 55
+  },
+  "normalized": {
+    "path": "intelligence/distributor-inventory/normalized/fact-distributor-po-line-2026-07-17.csv.gz",
+    "bytes": 4580981,
+    "sha256": "425c41e42f0a3bccbb3c65f1bf6cdeb0c7243c7a4811f412f022569e0d4f9025",
+    "rows": 47438,
+    "columns": 62
+  },
+  "counts": {
+    "rows": 47438,
+    "distinct_pos": 10633,
+    "distinct_po_sku_keys": 47396,
+    "duplicate_po_sku_excess_rows": 42,
+    "duplicate_exact_excess_rows": 42,
+    "movement_classes": {
+      "no_confirmed_movement": 17578,
+      "confirmed_outward": 29749,
+      "quarantine_candidate": 111
+    },
+    "quality_flags": {
+      "delivery_after_expiry": 950,
+      "missing_sap_sku_code": 259,
+      "expiry_before_po": 128,
+      "positive_delivery_missing_date": 61,
+      "delivery_before_po": 44,
+      "duplicate_source_row": 42,
+      "invalid_expiry_date": 9,
+      "missing_distributor": 5,
+      "delivered_gt_order": 5,
+      "positive_delivery_noncompleted_po": 1
+    }
+  },
+  "date_ranges": {
+    "delivery_date": {
+      "min": "2025-02-06",
+      "max": "2026-07-16"
+    },
+    "po_date": {
+      "min": "2025-08-01",
+      "max": "2026-07-16"
+    },
+    "po_expiry_date": {
+      "min": "2025-01-02",
+      "max": "2026-08-07"
+    }
+  },
+  "distributors": {
+    "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED": 12749,
+    "CHIRAG ENTERPRISES MUMBAI": 9947,
+    "SUSTAINQUEST PRIVATE LIMITED": 7876,
+    "JIVO MART PRIVATE LIMITED": 5516,
+    "ANTIZE FOODS PRIVATE LIMITED": 4723,
+    "EVARA ENTERPRISES": 4280,
+    "BABA LOKENATH TRADERS": 1772,
+    "SHIV SHAKTI": 552,
+    "RAGHAV MARKETING": 18,
+    "": 5
+  },
+  "platforms": {
+    "SWIGGY": 23190,
+    "BLINKIT": 11075,
+    "ZEPTO": 4579,
+    "BIG BASKET": 3687,
+    "FLIPKART GROCERY": 1899,
+    "ZOMATO": 1508,
+    "CITY MALL": 1434,
+    "DEAL SHARE": 66
+  },
+  "po_statuses": {
+    "COMPLETED": 35554,
+    "EXPIRED": 5169,
+    "CANCELLED": 3135,
+    "Expired": 1771,
+    "PENDING": 1644,
+    "APPOINTMENT DONE": 156,
+    "": 9
+  },
+  "item_statuses": {
+    "FULL SUPPLIED": 27952,
+    "SHORT SUPPLIED": 7602,
+    "EXPIRED": 5169,
+    "CANCELLED": 3135,
+    "Expired": 1771,
+    "PENDING": 1644,
+    "APPOINTMENT DONE": 156,
+    "": 9
+  },
+  "interpretation": {
+    "movement_measure": "delivered_qty",
+    "movement_date": "delivery_date",
+    "movement_role": "confirmed distributor-to-platform outward/customer GRN proxy",
+    "not_a_movement": [
+      "order_qty",
+      "missed_qty",
+      "filled_qty as a second posting",
+      "status change alone"
+    ],
+    "latest_source_precedence": "authenticated JIVO Ecom live API"
+  }
+}

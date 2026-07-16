@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "last_attempt_utc": "2026-07-16T19:13:51Z",
+  "snapshot_date_ist": "2026-07-17",
+  "sources": [
+    {
+      "source_id": "google-sheet-1-gid-1182473296",
+      "document_id": "1LLmtERCfPmbQ4pjKOsMJ4ixXV7Gm9l2-FXrLdMCXRDo",
+      "gid": "1182473296",
+      "sharing_url": "https://docs.google.com/spreadsheets/d/1LLmtERCfPmbQ4pjKOsMJ4ixXV7Gm9l2-FXrLdMCXRDo/edit?gid=1182473296#gid=1182473296",
+      "export_format": "csv",
+      "purpose": "user-supplied JIVO decision data; exact tab identity pending access",
+      "required_for_current_build": false,
+      "access": "requires_viewer_permission",
+      "last_http_status": 401,
+      "last_success": null,
+      "feeds": []
+    },
+    {
+      "source_id": "google-master-po-gid-739390425",
+      "document_id": "10-P_ZBVGaIKz87PTByk8rMb_c1J0VT0mfZo_84qwjQU",
+      "gid": "739390425",
+      "tab_name": "MASTER PO",
+      "sharing_url": "https://docs.google.com/spreadsheets/d/10-P_ZBVGaIKz87PTByk8rMb_c1J0VT0mfZo_84qwjQU/edit?gid=739390425#gid=739390425",
+      "export_format": "csv",
+      "purpose": "distributor-sent customer GRN / confirmed distributor-to-platform outward reference",
+      "required_for_current_build": true,
+      "access": "public",
+      "last_http_status": 200,
+      "last_success": "2026-07-16T19:13:51Z",
+      "expected_columns": 55,
+      "minimum_rows": 47000,
+      "feeds": [
+        "normalized/fact-distributor-po-line-2026-07-17.csv.gz",
+        "quality/master-po-profile-2026-07-17.json"
+      ],
+      "latest_precedence": "Authenticated JIVO Ecom live API overrides this mutable sheet snapshot for current calculations."
+    },
+    {
+      "source_id": "google-sheet-3-gid-1014515057",
+      "document_id": "1AkguFx1i3qIIwIG5GUZkdAIitu6_TgWhHfmsuKk8lWU",
+      "gid": "1014515057",
+      "sharing_url": "https://docs.google.com/spreadsheets/d/1AkguFx1i3qIIwIG5GUZkdAIitu6_TgWhHfmsuKk8lWU/edit?gid=1014515057#gid=1014515057",
+      "export_format": "csv",
+      "purpose": "user-supplied JIVO decision data; exact tab identity pending access",
+      "required_for_current_build": false,
+      "access": "requires_viewer_permission",
+      "last_http_status": 401,
+      "last_success": null,
+      "feeds": []
+    }
+  ]
+}
