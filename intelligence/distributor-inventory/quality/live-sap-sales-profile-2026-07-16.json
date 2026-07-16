@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-07-16",
+  "source": "mart",
+  "from_date": "2026-07-01",
+  "to_date": "2026-07-16",
+  "raw_rows": 786,
+  "movement_classes": {
+    "billing_inward_proxy": 544,
+    "accounting_negative_not_physical": 130,
+    "quarantine_candidate": 112
+  },
+  "precedence": "Authoritative current JIVO-to-distributor billing/inward source for this snapshot."
+}

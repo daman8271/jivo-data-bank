@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-07-17",
+  "document_title": "DISTRIBUTORS CLAIMS",
+  "document_id": "1AkguFx1i3qIIwIG5GUZkdAIitu6_TgWhHfmsuKk8lWU",
+  "workbook_export_sha256": "0e6c83a1d759824ac16233978f0c978e75967b77186cdd8cbc2cbed3b95b57f6",
+  "workbook_export_bytes": 26962603,
+  "sheets": {
+    "Audit_Log": {
+      "file": "audit-log.csv.gz",
+      "nonempty_rows": 1,
+      "max_columns": 7,
+      "formula_cells": 0
+    },
+    "SNAP__MASTER PO": {
+      "file": null,
+      "nonempty_rows": 0,
+      "max_columns": 0,
+      "formula_cells": 0
+    },
+    "PO DATA": {
+      "file": "po-data.csv.gz",
+      "nonempty_rows": 40883,
+      "max_columns": 30,
+      "formula_cells": 91369
+    },
+    "CLAIMS": {
+      "file": null,
+      "nonempty_rows": 0,
+      "max_columns": 0,
+      "formula_cells": 0
+    },
+    "SQPL": {
+      "file": "sqpl.csv.gz",
+      "nonempty_rows": 45,
+      "max_columns": 9,
+      "formula_cells": 132
+    },
+    "RATE LIST": {
+      "file": "rate-list.csv.gz",
+      "nonempty_rows": 96,
+      "max_columns": 8,
+      "formula_cells": 95
+    },
+    "KNOWTABLE": {
+      "file": "knowtable.csv.gz",
+      "nonempty_rows": 33,
+      "max_columns": 7,
+      "formula_cells": 96
+    },
+    "EVARA": {
+      "file": "evara.csv.gz",
+      "nonempty_rows": 26,
+      "max_columns": 6,
+      "formula_cells": 75
+    },
+    "CHIRAG": {
+      "file": "chirag.csv.gz",
+      "nonempty_rows": 34,
+      "max_columns": 8,
+      "formula_cells": 99
+    },
+    "BABA LOKENATH": {
+      "file": "baba-lokenath.csv.gz",
+      "nonempty_rows": 26,
+      "max_columns": 6,
+      "formula_cells": 75
+    },
+    "MASTER SHEET": {
+      "file": "master-sheet.csv.gz",
+      "nonempty_rows": 473,
+      "max_columns": 17,
+      "formula_cells": 478
+    },
+    "CHIRAG JAN": {
+      "file": "chirag-jan.csv.gz",
+      "nonempty_rows": 47,
+      "max_columns": 6,
+      "formula_cells": 0
+    },
+    "BABA JAN": {
+      "file": "baba-jan.csv.gz",
+      "nonempty_rows": 43,
+      "max_columns": 8,
+      "formula_cells": 42
+    },
+    "SQPL JAN": {
+      "file": "sqpl-jan.csv.gz",
+      "nonempty_rows": 35,
+      "max_columns": 10,
+      "formula_cells": 0
+    },
+    "ANTIZE JAN": {
+      "file": "antize-jan.csv.gz",
+      "nonempty_rows": 17,
+      "max_columns": 8,
+      "formula_cells": 16
+    },
+    "Distributor Sheet": {
+      "file": "distributor-sheet.csv.gz",
+      "nonempty_rows": 138,
+      "max_columns": 8,
+      "formula_cells": 680
+    },
+    "Distributor Master": {
+      "file": "distributor-master.csv.gz",
+      "nonempty_rows": 149,
+      "max_columns": 4,
+      "formula_cells": 0
+    },
+    "PO SKU MASTER": {
+      "file": "po-sku-master.csv.gz",
+      "nonempty_rows": 668,
+      "max_columns": 17,
+      "formula_cells": 10369
+    },
+    "FIFO_Allocations": {
+      "file": "fifo-allocations.csv.gz",
+      "nonempty_rows": 23140,
+      "max_columns": 13,
+      "formula_cells": 0
+    },
+    "FIFO_Layers": {
+      "file": "fifo-layers.csv.gz",
+      "nonempty_rows": 3061,
+      "max_columns": 9,
+      "formula_cells": 0
+    },
+    "JMPL SALES V2": {
+      "file": "jmpl-sales-v2.csv.gz",
+      "nonempty_rows": 112305,
+      "max_columns": 41,
+      "formula_cells": 0
+    }
+  },
+  "formula_map": {
+    "file": "formula-map.csv.gz",
+    "formula_cells": 103526
+  }
+}

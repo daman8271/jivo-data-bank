@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-07-17",
+  "document_title": "GP",
+  "tab_name": "PRICE DATA",
+  "source_rows": 113,
+  "columns": 19,
+  "sha256_uncompressed": "6239a88786f2aa3db80e14c068615e7d52efd7f326caa94df5efd60755e7defb",
+  "stock_status": {
+    "Out of Stock": 60,
+    "In Stock": 53
+  },
+  "pricing_bands": {
+    "NA": 60,
+    "BAU": 22,
+    "SVD": 4,
+    "WRONG PRICE": 27
+  },
+  "top_sellers": {
+    "": 60,
+    "RK World Infocom Pvt Ltd": 37,
+    "Jivo Mart": 15,
+    "NikZone": 1
+  },
+  "inventory_role": "Marketplace price and listing stock signal only. Never use STOCK STATUS as distributor physical SOH or movement.",
+  "decision_uses": [
+    "Amazon pricing position",
+    "seller monitoring",
+    "in-stock/out-of-stock listing signal",
+    "SVD/BAU/ART price policy",
+    "gross-profit planning using maintained rates"
+  ]
+}

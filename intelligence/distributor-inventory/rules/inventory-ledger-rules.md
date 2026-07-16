@@ -23,8 +23,12 @@ Do not collapse these three states. MASTER PO supports the third state and can p
 
 ## Source precedence
 
-- **Current/latest outward:** authenticated JIVO Ecom live API.
+- **Current/latest inward:** authenticated JIVO Ecom SAP sales analysis; positive `Type = Sales` rows only.
+- **Current/latest outward:** authenticated JIVO Ecom live API / latest MASTER PO state.
 - **Google MASTER PO:** distributor-sent customer-GRN reference and reconciliation snapshot.
+- **DISTRIBUTORS CLAIMS / JMPL SALES V2:** billing-history cross-check; preserve, but do not override a differing live current extract.
+- **DISTRIBUTORS CLAIMS / PO DATA and FIFO:** historical claims/costing sources only after their freshness cutoff; the 2026-07-17 copy stops on 2026-05-30.
+- **GP / PRICE DATA:** marketplace price and listing-stock signal; never physical SOH or movement.
 - **Physical SOH:** dated distributor stock statement.
 - **Manual `DIS. STOCK REPORT`:** Paramjot/team's expected-balance control tracker.
 - **Raw spreadsheet formulas:** preserve as source logic, but do not use exported Google formulas as an independent calculation engine.
@@ -44,6 +48,8 @@ Post `delivered_qty` as confirmed distributor-to-platform outward/GRN proxy only
 7. platform SKU maps to a canonical SAP SKU
 
 Use `delivery_date` as the movement date. Use `delivered_qty` once. `FILLED QTY`, `FILLED LTRS`, and `Total Delivered Liters` are derivatives and must not create a second movement.
+
+A missing source SAP code may be recovered only when the normalized item label maps to exactly one canonical SAP SKU in the controlled baseline/master. Record recovered quantity and source rows separately. Ambiguous labels remain quarantined.
 
 ## Quarantine rather than silently correct
 

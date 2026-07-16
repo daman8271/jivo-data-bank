@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "as_of_date": "2026-07-16",
+  "baseline_rows": 129,
+  "by_distributor": {
+    "ANTIZE FOODS PRIVATE LIMITED": {
+      "canonical_sku_rows": 15,
+      "baseline_total_units": 42322.0,
+      "effective_cutoff": "2026-07-15",
+      "confidence": "physical_verified"
+    },
+    "BABA LOKENATH TRADERS": {
+      "canonical_sku_rows": 38,
+      "baseline_total_units": 28907.0,
+      "effective_cutoff": "2026-07-16",
+      "confidence": "physical_verified_canonical_scope"
+    },
+    "CHIRAG ENTERPRISES MUMBAI": {
+      "canonical_sku_rows": 38,
+      "baseline_total_units": 7663.0,
+      "effective_cutoff": "2026-06-30",
+      "confidence": "physical_statement_mapped"
+    },
+    "SUSTAINQUEST PRIVATE LIMITED": {
+      "canonical_sku_rows": 38,
+      "baseline_total_units": 50571.0,
+      "effective_cutoff": "2026-06-30",
+      "confidence": "manual_tracker_unverified"
+    }
+  },
+  "not_currently_seeded": [
+    "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED",
+    "EVARA ENTERPRISES"
+  ],
+  "notes": [
+    "Baba canonical total excludes four stable alternate-pack/carton rows totaling 166 units.",
+    "SustainQuest uses the manual July opening assumption until a dated physical snapshot is available.",
+    "Knowtable and Evara have movements but no dated July opening baseline.",
+    "Undated DISTRIBUTORS CLAIMS stock tabs are historical and are not used as current baselines."
+  ]
+}

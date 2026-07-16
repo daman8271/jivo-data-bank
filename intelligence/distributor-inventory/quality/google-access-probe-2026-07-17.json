@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "attempted_at_utc": "2026-07-16T20:11:09Z",
+  "snapshot_date": "2026-07-17",
+  "probe_only": true,
+  "sources": [
+    {
+      "source_id": "google-gp-price-data-gid-1182473296",
+      "status": 200,
+      "valid_csv": true,
+      "content_type": "text/csv; charset=utf-8",
+      "bytes": 18957,
+      "sha256_uncompressed": "6239a88786f2aa3db80e14c068615e7d52efd7f326caa94df5efd60755e7defb",
+      "rows": 113,
+      "columns": 19
+    },
+    {
+      "source_id": "google-master-po-gid-739390425",
+      "status": 200,
+      "valid_csv": true,
+      "content_type": "text/csv; charset=utf-8",
+      "bytes": 27426875,
+      "sha256_uncompressed": "59319b0f48b032bfdfe2f7a699a6039d5bbf1ee69faa3142791df36daadaebac",
+      "rows": 47438,
+      "columns": 55
+    },
+    {
+      "source_id": "google-distributors-claims-workbook",
+      "status": 200,
+      "valid_csv": true,
+      "content_type": "text/csv; charset=utf-8",
+      "bytes": 72,
+      "sha256_uncompressed": "db989a3ce51d7877988225a7760374f7c692cb516e98ac56a6ff8b24e8f68eee",
+      "rows": 0,
+      "columns": 7
+    }
+  ]
+}

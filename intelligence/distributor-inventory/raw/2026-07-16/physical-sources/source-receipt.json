@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-07-16",
+  "purpose": "Preserved user-supplied current physical/manual inventory evidence used by the current baseline registry.",
+  "files": [
+    {
+      "file": "intelligence/distributor-inventory/raw/2026-07-16/physical-sources/antize-closing-stock.xlsx",
+      "bytes": 12052,
+      "sha256": "1f6af486f751f76cb508384cc6b2d283403e08b129aeb33469be66bb5b8aff9c"
+    },
+    {
+      "file": "intelligence/distributor-inventory/raw/2026-07-16/physical-sources/antize-opening-stock.xlsx",
+      "bytes": 11597,
+      "sha256": "e6b5a567a6c46e042c25154cbb8f00b5d9ada236a310b936757dee2854f0fa4d"
+    },
+    {
+      "file": "intelligence/distributor-inventory/raw/2026-07-16/physical-sources/baba-closing-16jul.zip",
+      "bytes": 10201,
+      "sha256": "c97536f789cca9a7c1e3082a73384c76bbc76c90cfbc49f7bed33c2f8c4799d3"
+    },
+    {
+      "file": "intelligence/distributor-inventory/raw/2026-07-16/physical-sources/baba-opening-01jul.pdf",
+      "bytes": 38093,
+      "sha256": "86cac8506f26b6198cf5c8c10cb21479f3020d4abcb51527c73164a6c53a0dd8"
+    },
+    {
+      "file": "intelligence/distributor-inventory/raw/2026-07-16/physical-sources/chirag-june-stock-and-sales.xlsx",
+      "bytes": 11581,
+      "sha256": "089c25c9ba5de1633f8c0c0c21bd2c2263ec35e3d1d7c11aedbb9bffeee39010"
+    },
+    {
+      "file": "intelligence/distributor-inventory/raw/2026-07-16/physical-sources/chirag-manual-rollforward.xlsx",
+      "bytes": 11397,
+      "sha256": "e7f4189c11aea5fe8b0af7f20829473877c0adbebe46ca2da09d289247343bcb"
+    },
+    {
+      "file": "intelligence/distributor-inventory/raw/2026-07-16/physical-sources/manual-dis-stock-report.xlsx",
+      "bytes": 15544,
+      "sha256": "299eb8ac9d8d5f2e37246f6853f2fa766d861d85df2a96ce60889eb4a8a5e506"
+    },
+    {
+      "file": "intelligence/distributor-inventory/raw/2026-07-16/physical-sources/unassigned-jivo-stock.xlsx",
+      "bytes": 9923,
+      "sha256": "c9ed00be22763a2b2249445dd9e046aac39168f953d63a54e125e8bec2542705"
+    }
+  ],
+  "rules": [
+    "Files are immutable evidence; corrections create a new artifact.",
+    "Unassigned JIVO STOCK remains unassigned rather than guessed.",
+    "Manual DIS. STOCK REPORT is an expected-balance tracker, not independent physical evidence."
+  ]
+}

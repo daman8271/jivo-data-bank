@@ -1,24 +1,33 @@
 {
-  "schema_version": 1,
-  "last_attempt_utc": "2026-07-16T19:13:51Z",
+  "schema_version": 2,
+  "last_attempt_utc": "2026-07-16T20:11:09Z",
   "snapshot_date_ist": "2026-07-17",
   "sources": [
     {
-      "source_id": "google-sheet-1-gid-1182473296",
+      "source_id": "google-gp-price-data-gid-1182473296",
       "document_id": "1LLmtERCfPmbQ4pjKOsMJ4ixXV7Gm9l2-FXrLdMCXRDo",
+      "document_title": "GP",
       "gid": "1182473296",
+      "tab_name": "PRICE DATA",
       "sharing_url": "https://docs.google.com/spreadsheets/d/1LLmtERCfPmbQ4pjKOsMJ4ixXV7Gm9l2-FXrLdMCXRDo/edit?gid=1182473296#gid=1182473296",
       "export_format": "csv",
-      "purpose": "user-supplied JIVO decision data; exact tab identity pending access",
+      "purpose": "Amazon price, seller, pricing-band, and listing stock-status signal",
+      "inventory_role": "decision context only; never distributor physical SOH or movement",
       "required_for_current_build": false,
-      "access": "requires_viewer_permission",
-      "last_http_status": 401,
-      "last_success": null,
-      "feeds": []
+      "access": "public",
+      "last_http_status": 200,
+      "last_success": "2026-07-16T20:11:09Z",
+      "rows": 113,
+      "columns": 19,
+      "feeds": [
+        "raw/2026-07-17/gp-price-data/price-data.csv.gz",
+        "quality/gp-price-data-profile-2026-07-17.json"
+      ]
     },
     {
       "source_id": "google-master-po-gid-739390425",
       "document_id": "10-P_ZBVGaIKz87PTByk8rMb_c1J0VT0mfZo_84qwjQU",
+      "document_title": "MASTER PO",
       "gid": "739390425",
       "tab_name": "MASTER PO",
       "sharing_url": "https://docs.google.com/spreadsheets/d/10-P_ZBVGaIKz87PTByk8rMb_c1J0VT0mfZo_84qwjQU/edit?gid=739390425#gid=739390425",
@@ -27,9 +36,11 @@
       "required_for_current_build": true,
       "access": "public",
       "last_http_status": 200,
-      "last_success": "2026-07-16T19:13:51Z",
+      "last_success": "2026-07-16T20:11:09Z",
       "expected_columns": 55,
       "minimum_rows": 47000,
+      "rows": 47438,
+      "columns": 55,
       "feeds": [
         "normalized/fact-distributor-po-line-2026-07-17.csv.gz",
         "quality/master-po-profile-2026-07-17.json"
@@ -37,17 +48,84 @@
       "latest_precedence": "Authenticated JIVO Ecom live API overrides this mutable sheet snapshot for current calculations."
     },
     {
-      "source_id": "google-sheet-3-gid-1014515057",
+      "source_id": "google-distributors-claims-workbook",
       "document_id": "1AkguFx1i3qIIwIG5GUZkdAIitu6_TgWhHfmsuKk8lWU",
+      "document_title": "DISTRIBUTORS CLAIMS",
       "gid": "1014515057",
+      "target_tab_name": "SNAP__MASTER PO",
       "sharing_url": "https://docs.google.com/spreadsheets/d/1AkguFx1i3qIIwIG5GUZkdAIitu6_TgWhHfmsuKk8lWU/edit?gid=1014515057#gid=1014515057",
-      "export_format": "csv",
-      "purpose": "user-supplied JIVO decision data; exact tab identity pending access",
-      "required_for_current_build": false,
-      "access": "requires_viewer_permission",
-      "last_http_status": 401,
-      "last_success": null,
-      "feeds": []
+      "export_format": "xlsx plus per-tab computed CSV",
+      "purpose": "JIVO-to-distributor billing history, historical distributor stock snapshots, PO claim-costing, FIFO allocation/layers, SKU/distributor mappings, and rate lists",
+      "required_for_current_build": true,
+      "access": "public",
+      "last_http_status": 200,
+      "last_success": "2026-07-16T20:11:09Z",
+      "target_tab_rows": 0,
+      "workbook_tabs": 21,
+      "important_date_ranges": {
+        "jmpl_sales_v2": [
+          "2025-04-01",
+          "2026-07-16"
+        ],
+        "po_data_delivery": [
+          "2025-02-06",
+          "2026-05-30"
+        ],
+        "fifo": [
+          "2025-04-04",
+          "2026-05-30"
+        ]
+      },
+      "feeds": [
+        "raw/2026-07-17/distributors-claims-tabs/",
+        "normalized/fact-jmpl-sales-2026-07-17.csv.gz",
+        "normalized/fact-historical-claims-po-2026-07-17.csv.gz",
+        "quality/distributors-claims-profile-2026-07-17.json"
+      ],
+      "rules": [
+        "JMPL SALES V2 positive Quantity is a billing/inward proxy, not proof of distributor receipt.",
+        "Negative sales/credit rows are accounting diagnostics and not physical returns without evidence.",
+        "PO DATA and FIFO stop at 2026-05-30; use MASTER PO/live API for current outward.",
+        "Undated distributor stock tabs are historical context and cannot seed current SOH.",
+        "The linked SNAP__MASTER PO target tab is empty; useful data is in the other workbook tabs."
+      ]
+    },
+    {
+      "source_id": "jivo-ecom-live-sap-sales-2026-07-01-to-16",
+      "source_type": "authenticated_live_api_snapshot",
+      "purpose": "Authoritative current JIVO-to-distributor billing/inward for the 1\u201316 July movement window",
+      "data_source": "live",
+      "access": "authenticated",
+      "rows": 786,
+      "from_date": "2026-07-01",
+      "to_date": "2026-07-16",
+      "feeds": [
+        "raw/2026-07-16/live-ecom/sap-sales-analysis-2026-07-01-to-16.json.gz",
+        "normalized/fact-live-sap-sales-2026-07-01-to-16.csv.gz",
+        "quality/live-sap-sales-profile-2026-07-16.json"
+      ],
+      "rules": [
+        "Positive Type=Sales quantity is the billing/inward proxy.",
+        "Sales Return is accounting diagnostic and not physical movement under the confirmed zero-return rule."
+      ]
+    },
+    {
+      "source_id": "current-physical-source-pack-2026-07-16",
+      "source_type": "user_supplied_files",
+      "purpose": "Dated physical/manual stock evidence and current baseline provenance",
+      "access": "local_preserved_in_repository",
+      "artifact_count": 8,
+      "feeds": [
+        "raw/2026-07-16/physical-sources/",
+        "normalized/current-inventory-baselines-2026-07-16.csv.gz",
+        "quality/current-baseline-coverage-2026-07-16.json",
+        "derived/reconciliations/"
+      ],
+      "rules": [
+        "Dated physical evidence overrides manual SOH.",
+        "SustainQuest remains provisional.",
+        "Knowtable and Evara remain movement-only without dated July openings."
+      ]
     }
   ]
 }

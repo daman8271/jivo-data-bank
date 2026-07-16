@@ -4,20 +4,22 @@ This protected Data Bank domain stores the evidence and rules needed to track st
 
 ## Current source status
 
-Paramjot supplied three Google Sheet links on 2026-07-17.
+Paramjot supplied three Google Sheet links on 2026-07-17. All are now publicly readable and ingested.
 
-- **MASTER PO (`gid=739390425`)**: accessible and ingested. Paramjot previously defined it as distributor-sent GRN / distributor-to-platform outward confirmation. The target tab contains 47,438 data rows and 55 columns through 2026-07-16.
-- **Sheet 1 (`gid=1182473296`)**: registered, but Google returned HTTP 401. No login HTML was stored as data.
-- **Sheet 3 (`gid=1014515057`)**: registered, but Google returned HTTP 401. No login HTML was stored as data.
+- **GP / PRICE DATA (`gid=1182473296`)**: 113 Amazon price/listing rows. It is a pricing and marketplace-stock signal, never distributor SOH or movement.
+- **MASTER PO (`gid=739390425`)**: 47,438 data rows and 55 columns through 2026-07-16. Paramjot defined it as distributor-sent GRN / distributor-to-platform outward confirmation.
+- **DISTRIBUTORS CLAIMS (`gid=1014515057`)**: the linked `SNAP__MASTER PO` tab is empty, but the 21-tab workbook contains current JIVO sales through 2026-07-16, historical distributor snapshots, PO claim-costing through 2026-05-30, rate/mapping masters, and FIFO allocations/layers through 2026-05-30. All non-empty tabs and formulas are preserved separately.
 
-The inaccessible links remain in `source-registry.json` so they can be ingested without losing identity when viewer access is granted.
+Current expected inventory is calculated from dated July baselines plus authoritative live SAP inward and MASTER PO/customer-GRN outward. Undated historical stock tabs from DISTRIBUTORS CLAIMS are not substituted for missing current openings.
 
 ## Directory map
 
-- `source-registry.json` — all three supplied links, GIDs, access state, and source role
-- `raw/2026-07-17/` — immutable compressed source values and selected workbook reference tabs
-- `normalized/` — one normalized row per raw MASTER PO row, including source lineage and quality flags
-- `derived/` — decision-safe summaries generated only from rows that pass the confirmed-outward rules
+- `CURRENT-STATUS.md` — latest common-cutoff results, coverage, confidence, and source decisions
+- `source-registry.json` — the three supplied Google links plus live and physical source packs
+- `raw/2026-07-16/` — preserved physical evidence and authenticated live SAP snapshot
+- `raw/2026-07-17/` — immutable Google-sheet values, all DISTRIBUTORS CLAIMS tabs/formulas, and reference tabs
+- `normalized/` — lineage-preserving outward, inward, claims, historical, and baseline facts
+- `derived/` — current SKU ledger, summaries, reconciliations, and user-facing workbook
 - `quality/` — reproducible profile, anomalies, workbook structure, and live-API comparison
 - `rules/` — inventory movement, cutoff, transit, mapping, and classification rules
 - `future-data-register.json` — valuable future data types, their grain, decision use, and collection trigger

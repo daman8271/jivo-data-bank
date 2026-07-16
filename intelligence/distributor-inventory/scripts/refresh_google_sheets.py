@@ -50,6 +50,8 @@ def main() -> None:
     required_failure = False
     master_raw: Path | None = None
     for source in registry["sources"]:
+        if not source.get("document_id") or not source.get("gid"):
+            continue
         url = (
             f"https://docs.google.com/spreadsheets/d/{source['document_id']}"
             f"/gviz/tq?tqx=out:csv&gid={source['gid']}"

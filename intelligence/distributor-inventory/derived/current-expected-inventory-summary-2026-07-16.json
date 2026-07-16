@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "as_of_date": "2026-07-16",
+  "equation": "expected = opening baseline + positive JIVO billing proxy - confirmed customer GRN/outward",
+  "current_expected_inventory": {
+    "ANTIZE FOODS PRIVATE LIMITED": {
+      "baseline_cutoff": "2026-07-15",
+      "baseline_confidence": "physical_verified",
+      "opening_quantity": 42322.0,
+      "billing_inward_proxy": 2300.0,
+      "accounting_negative_diagnostic": 0.0,
+      "confirmed_outward": 0.0,
+      "recovered_outward_from_item_mapping": 0.0,
+      "recovered_outward_rows": 0,
+      "expected_quantity": 44622.0,
+      "sku_rows": 15,
+      "negative_expected_skus": 0
+    },
+    "BABA LOKENATH TRADERS": {
+      "baseline_cutoff": "2026-07-16",
+      "baseline_confidence": "physical_verified_canonical_scope",
+      "opening_quantity": 28907.0,
+      "billing_inward_proxy": 0.0,
+      "accounting_negative_diagnostic": 0.0,
+      "confirmed_outward": 0.0,
+      "recovered_outward_from_item_mapping": 0.0,
+      "recovered_outward_rows": 0,
+      "expected_quantity": 28907.0,
+      "sku_rows": 38,
+      "negative_expected_skus": 0
+    },
+    "CHIRAG ENTERPRISES MUMBAI": {
+      "baseline_cutoff": "2026-06-30",
+      "baseline_confidence": "physical_statement_mapped",
+      "opening_quantity": 7663.0,
+      "billing_inward_proxy": 16606.0,
+      "accounting_negative_diagnostic": 0.0,
+      "confirmed_outward": 12680.0,
+      "recovered_outward_from_item_mapping": 35.0,
+      "recovered_outward_rows": 2,
+      "expected_quantity": 11589.0,
+      "sku_rows": 39,
+      "negative_expected_skus": 8
+    },
+    "SUSTAINQUEST PRIVATE LIMITED": {
+      "baseline_cutoff": "2026-06-30",
+      "baseline_confidence": "manual_tracker_unverified",
+      "opening_quantity": 50571.0,
+      "billing_inward_proxy": 48392.0,
+      "accounting_negative_diagnostic": -47884.0,
+      "confirmed_outward": 65420.0,
+      "recovered_outward_from_item_mapping": 0.0,
+      "recovered_outward_rows": 0,
+      "expected_quantity": 33543.0,
+      "sku_rows": 41,
+      "negative_expected_skus": 9
+    }
+  },
+  "movement_only": {
+    "KNOWTABLE ONLINE SERVICES PRIVATE LIMITED": {
+      "period": "2026-07-01 through 2026-07-16",
+      "billing_inward_proxy": 68364.0,
+      "accounting_negative_diagnostic": -25984.0,
+      "confirmed_outward": 73793.0,
+      "net_movement_without_opening": -5429.0,
+      "absolute_inventory_available": false,
+      "reason": "No dated July opening baseline."
+    },
+    "EVARA ENTERPRISES": {
+      "period": "2026-07-01 through 2026-07-16",
+      "billing_inward_proxy": 31739.0,
+      "accounting_negative_diagnostic": -1022.0,
+      "confirmed_outward": 35393.0,
+      "net_movement_without_opening": -3654.0,
+      "absolute_inventory_available": false,
+      "reason": "No dated July opening baseline."
+    }
+  },
+  "confidence_rule": {
+    "physical_verified": "Operational expected stock; physical re-count still required to certify closing.",
+    "physical_verified_canonical_scope": "Canonical expected stock; alternate-pack exceptions remain separate.",
+    "physical_statement_mapped": "Expected stock from a mapped statement baseline; negative reported openings are preserved.",
+    "manual_tracker_unverified": "Provisional expected stock only."
+  },
+  "limitations": [
+    "Customer/platform GRN date is not the physical distributor dispatch timestamp; in-transit timing remains inside residual stock until dispatch evidence exists.",
+    "Positive JMPL sales are billing/inward proxies, not proof of distributor receipt.",
+    "Accounting-negative sales rows are excluded because physical returns are confirmed zero.",
+    "Knowtable and Evara need dated opening baselines before absolute inventory can be calculated."
+  ]
+}

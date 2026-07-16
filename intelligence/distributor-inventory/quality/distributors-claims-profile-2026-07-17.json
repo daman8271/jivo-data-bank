@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "sales": {
+    "source": "intelligence/distributor-inventory/raw/2026-07-17/distributors-claims-tabs/jmpl-sales-v2.csv.gz",
+    "output": "intelligence/distributor-inventory/normalized/fact-jmpl-sales-2026-07-17.csv.gz",
+    "counts": {
+      "billing_inward_proxy": 98946,
+      "rows": 112304,
+      "accounting_negative_not_physical": 10518,
+      "no_movement": 2840
+    },
+    "date_range": {
+      "min": "2025-04-01",
+      "max": "2026-07-16"
+    }
+  },
+  "claims_po": {
+    "source": "intelligence/distributor-inventory/raw/2026-07-17/distributors-claims-tabs/po-data.csv.gz",
+    "output": "intelligence/distributor-inventory/normalized/fact-historical-claims-po-2026-07-17.csv.gz",
+    "counts": {
+      "no_confirmed_movement": 14767,
+      "rows": 40882,
+      "historical_outward_reference": 25982,
+      "quarantine_candidate": 133,
+      "flag:delivery_before_po": 44,
+      "flag:missing_sap_sku_code": 213,
+      "flag:missing_distributor": 4,
+      "flag:positive_delivery_missing_date": 57,
+      "flag:delivered_gt_order": 5
+    },
+    "delivery_date_range": {
+      "min": "2025-02-06",
+      "max": "2026-05-30"
+    },
+    "latest_source_precedence": "Google MASTER PO / authenticated JIVO Ecom live API"
+  }
+}
