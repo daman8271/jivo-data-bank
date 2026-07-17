@@ -3,16 +3,16 @@
   "date": "2026-07-17",
   "min_date": "2026-07-13",
   "mixed_dates": true,
-  "generated_at": "2026-07-17 11:02:42 IST",
+  "generated_at": "2026-07-17 20:08:32 IST",
   "mode": "eager",
   "dry_run": false,
   "section_dates": {
     "price-scraper": "2026-07-17",
     "competitors": "2026-07-17",
-    "factory": "2026-07-14",
+    "factory": "2026-07-17",
     "ecom-app": "2026-07-13"
   },
-  "total_files": 28903,
+  "total_files": 44059,
   "sources": {
     "price-scraper": {
       "repo": "/opt/ecom-intel",
@@ -30,10 +30,10 @@
     },
     "factory": {
       "repo": "/root/jivo-factory-intel",
-      "base_commit": "beb096f212b609884122b26b9e2d6e9aea5f9209",
-      "end_commit": "c84e558a70e53cac1db9d258e27de7697b81421e",
-      "files": 4790,
-      "date": "2026-07-14"
+      "base_commit": "874c4d08bb402901139192e80bd8caff7a3ebbe4",
+      "end_commit": "874c4d08bb402901139192e80bd8caff7a3ebbe4",
+      "files": 19946,
+      "date": "2026-07-17"
     },
     "ecom-app": {
       "repo": "/root/jivo-intel",
