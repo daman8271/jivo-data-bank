@@ -1,25 +1,25 @@
 {
   "schema": "jivo-today/manifest@1",
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "min_date": "2026-07-13",
   "mixed_dates": true,
-  "generated_at": "2026-08-07 11:08:17 IST",
+  "generated_at": "2026-08-08 10:17:39 IST",
   "mode": "eager",
   "dry_run": false,
   "section_dates": {
-    "price-scraper": "2026-08-07",
+    "price-scraper": "2026-08-08",
     "competitors": "2026-08-07",
     "factory": "2026-07-17",
     "ecom-app": "2026-07-13"
   },
-  "total_files": 43999,
+  "total_files": 44260,
   "sources": {
     "price-scraper": {
       "repo": "/opt/ecom-intel",
-      "base_commit": "4def03b34c6862f8633197f8cebd74ff600562be",
-      "end_commit": "65892bddfe50d3df5b4bab354ef8093ab76db974",
-      "files": 1488,
-      "date": "2026-08-07"
+      "base_commit": "4fff5c862f217acd2f93b3bdf974cd3aab5bf89f",
+      "end_commit": "8a82e0e5e02f3514dedcf0dc3adfc6052b6ec1b3",
+      "files": 1749,
+      "date": "2026-08-08"
     },
     "competitors": {
       "repo": "/opt/ecom-intel",
