@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jivo.internal/contracts/sources-registry.v1.schema.json",
+  "title": "JIVO sources registry v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["registry_schema", "sources"],
+  "properties": {
+    "registry_schema": {"const": "jivo.sources/v1"},
+    "sources": {
+      "type": "array", "minItems": 7, "maxItems": 7,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["source_id", "label", "lifecycle", "readiness", "owner_role", "steward_role", "authority_class", "datasets"],
+        "properties": {
+          "source_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "label": {"type": "string", "minLength": 1},
+          "lifecycle": {"enum": ["planned", "draft", "validated", "governed", "blocked"]},
+          "readiness": {"enum": ["ready", "not-ready", "blocked"]},
+          "owner_role": {"type": "string", "minLength": 1},
+          "steward_role": {"type": "string", "minLength": 1},
+          "authority_class": {"type": "string", "minLength": 1},
+          "datasets": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"}}
+        }
+      }
+    }
+  }
+}

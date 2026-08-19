@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jivo.internal/contracts/metrics-registry.v1.schema.json",
+  "title": "JIVO metrics registry v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["registry_schema", "metrics"],
+  "properties": {
+    "registry_schema": {"const": "jivo.metrics/v1"},
+    "metrics": {
+      "type": "array", "minItems": 20, "maxItems": 20,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["metric_id", "label", "lifecycle", "owner_role", "decision_purpose", "grain", "formula", "unit", "time_basis", "authority_ids", "freshness_sla", "additivity", "reconciliation", "proxy", "display_qualifier", "allowed_dimensions"],
+        "properties": {
+          "metric_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "label": {"type": "string", "minLength": 1},
+          "lifecycle": {"enum": ["planned", "draft", "validated", "governed", "blocked"]},
+          "owner_role": {"type": "string", "minLength": 1},
+          "decision_purpose": {"type": "string", "minLength": 1},
+          "grain": {"type": "string", "minLength": 1},
+          "formula": {"type": "string", "minLength": 1},
+          "unit": {"type": "string", "minLength": 1},
+          "time_basis": {"type": "string", "minLength": 1},
+          "authority_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+          "freshness_sla": {"type": "string", "minLength": 1},
+          "additivity": {"type": "string", "minLength": 1},
+          "reconciliation": {"type": "string", "minLength": 1},
+          "proxy": {"type": "boolean"},
+          "display_qualifier": {"type": "string", "minLength": 1},
+          "allowed_dimensions": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+        }
+      }
+    }
+  }
+}

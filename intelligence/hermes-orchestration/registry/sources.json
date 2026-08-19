@@ -1,0 +1,12 @@
+{
+  "registry_schema": "jivo.sources/v1",
+  "sources": [
+    {"source_id":"jivo-ecom-api","label":"JIVO e-commerce application API","lifecycle":"validated","readiness":"ready","owner_role":"e-commerce operations owner","steward_role":"e-commerce data steward","authority_class":"operational-origin","datasets":["sales","availability","targets"]},
+    {"source_id":"ecom-price-intel","label":"E-commerce shelf price intelligence","lifecycle":"validated","readiness":"ready","owner_role":"e-commerce commercial owner","steward_role":"price intelligence steward","authority_class":"bounded-observation","datasets":["price_observations"]},
+    {"source_id":"jivo-factory","label":"JIVO factory and WMS application","lifecycle":"validated","readiness":"ready","owner_role":"factory operations owner","steward_role":"factory systems steward","authority_class":"operational-origin","datasets":["dispatch_events","qc_events","barcode_events","factory_grpo_events"]},
+    {"source_id":"distributor-master-po-sheet","label":"Distributor master and purchase-order sheet","lifecycle":"draft","readiness":"ready","owner_role":"distribution operations owner","steward_role":"distribution data steward","authority_class":"operational-input","datasets":["distributor_master","purchase_orders","expected_stock"]},
+    {"source_id":"distributor-claims-workbook","label":"Distributor claims workbook","lifecycle":"draft","readiness":"ready","owner_role":"commercial claims owner","steward_role":"claims data steward","authority_class":"operational-input","datasets":["claims"]},
+    {"source_id":"distributor-physical-files","label":"Dated distributor physical inventory files","lifecycle":"draft","readiness":"ready","owner_role":"distribution operations owner","steward_role":"physical inventory steward","authority_class":"physical-observation","datasets":["physical_stock"]},
+    {"source_id":"sap-b1","label":"SAP Business One on HANA","lifecycle":"planned","readiness":"not-ready","owner_role":"finance systems owner","steward_role":"SAP data steward","authority_class":"posting-authority","datasets":["inventory_transactions","sales_invoices","purchase_documents","general_ledger","business_partner_master"]}
+  ]
+}

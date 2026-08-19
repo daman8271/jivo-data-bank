@@ -1,0 +1,14 @@
+{
+  "schema": "jivo.evidence-packet/v1",
+  "packet_id": "packet:factory:sample:001",
+  "domain": "factory",
+  "question": "What factory dispatch evidence is available in this sanitized example?",
+  "generated_at_utc": "2026-07-18T08:30:00Z",
+  "source_runs": [{"source_id":"jivo-factory","dataset_id":"dispatch_events","run_id":"01JIVOEXAMPLE000000000001","receipt_ref":"fixtures/valid/ingestion-receipt.json"}],
+  "as_of": {"start_utc":"2026-07-17T00:00:00Z","end_utc":"2026-07-17T23:59:59Z","business_timezone":"Asia/Kolkata"},
+  "quality": {"status":"pass","exceptions":[]},
+  "findings": [{"claim":"The sanitized fixture demonstrates a traceable dispatch finding; its value is intentionally unknown.","metric_id":"factory-dispatch-quantity","value":null,"grain":"dispatch event x factory location x item x UOM","unit":"source UOM quantity","currency":null,"time_basis":"dispatch scan event time","authority_id":"auth-factory-events-v1","confidence":"high","evidence_refs":["sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#dispatch-control"],"source_run_ids":["01JIVOEXAMPLE000000000001"],"as_of":"2026-07-17T23:59:59Z","quality_status":"pass"}],
+  "contradictions": [],
+  "recommended_actions": [],
+  "data_needed": []
+}

@@ -1,0 +1,15 @@
+{
+  "registry_schema": "jivo.authority/v1",
+  "authorities": [
+    {"authority_id":"auth-ecom-sales-events-v1","process":"marketplace selling","field_scope":["order_quantity","sale_value","platform","city","sku"],"time_scope":"source event time through extraction as-of","source_ids":["jivo-ecom-api"],"lifecycle":"validated","proxy":false},
+    {"authority_id":"auth-ecom-availability-v1","process":"marketplace availability monitoring","field_scope":["availability_observation","listing_status"],"time_scope":"observation timestamp only; not universal coverage","source_ids":["jivo-ecom-api"],"lifecycle":"validated","proxy":false},
+    {"authority_id":"auth-price-observation-v1","process":"competitive shelf-price observation","field_scope":["observed_price","platform","listing","observation_location"],"time_scope":"crawl observation timestamp only","source_ids":["ecom-price-intel"],"lifecycle":"validated","proxy":false},
+    {"authority_id":"auth-factory-events-v1","process":"factory execution","field_scope":["dispatch_scan","barcode_scan","qc_event","factory_grpo_event"],"time_scope":"operational event time before SAP reconciliation","source_ids":["jivo-factory"],"lifecycle":"validated","proxy":false},
+    {"authority_id":"auth-distributor-expected-v1","process":"distribution planning","field_scope":["expected_stock","purchase_order_quantity","in_transit_quantity"],"time_scope":"sheet snapshot as-of; expected not physical","source_ids":["distributor-master-po-sheet"],"lifecycle":"draft","proxy":true},
+    {"authority_id":"auth-distributor-physical-v1","process":"distributor physical stock count","field_scope":["physical_quantity","count_location"],"time_scope":"dated count observation only","source_ids":["distributor-physical-files"],"lifecycle":"draft","proxy":false},
+    {"authority_id":"auth-distributor-claims-v1","process":"commercial claims intake","field_scope":["claim_amount","claim_status","claim_date"],"time_scope":"workbook snapshot until posted reconciliation","source_ids":["distributor-claims-workbook"],"lifecycle":"draft","proxy":false},
+    {"authority_id":"auth-sap-posted-sales-v1","process":"posted customer billing","field_scope":["posted_revenue","invoice_quantity","tax","document_currency"],"time_scope":"SAP posting date and recorded extraction time","source_ids":["sap-b1"],"lifecycle":"planned","proxy":false},
+    {"authority_id":"auth-sap-book-inventory-v1","process":"posted inventory accounting","field_scope":["book_quantity","inventory_value","warehouse","movement"],"time_scope":"SAP posting date and recorded extraction time","source_ids":["sap-b1"],"lifecycle":"planned","proxy":false},
+    {"authority_id":"auth-sap-finance-v1","process":"financial accounting","field_scope":["general_ledger_balance","receivable_balance","payable_balance"],"time_scope":"SAP posting period and recorded extraction time","source_ids":["sap-b1"],"lifecycle":"planned","proxy":false}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jivo.internal/contracts/ingestion-receipt.v1.schema.json",
+  "title": "JIVO ingestion receipt v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["receipt_schema", "source_id", "dataset_id", "run_id", "extract_mode", "cursor_start", "cursor_end", "source_as_of", "extracted_at_utc", "business_timezone", "object_uri", "media_type", "compression", "bytes", "rows", "sha256", "schema_fingerprint", "extractor_name", "extractor_version", "parameters_redacted", "control_totals", "status"],
+  "properties": {
+    "receipt_schema": {"const": "jivo.ingestion-receipt/v1"},
+    "source_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "dataset_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+    "run_id": {"type": "string", "minLength": 8},
+    "extract_mode": {"enum": ["full", "incremental", "snapshot"]},
+    "cursor_start": {"type": ["string", "null"], "minLength": 1},
+    "cursor_end": {"type": ["string", "null"], "minLength": 1},
+    "source_as_of": {"type": "string", "format": "date-time"},
+    "extracted_at_utc": {"type": "string", "format": "date-time"},
+    "business_timezone": {"type": "string", "minLength": 1},
+    "object_uri": {"type": "string", "minLength": 1},
+    "media_type": {"type": "string", "minLength": 1},
+    "compression": {"type": ["string", "null"]},
+    "bytes": {"type": "integer", "minimum": 0},
+    "rows": {"type": "integer", "minimum": 0},
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "schema_fingerprint": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "extractor_name": {"type": "string", "minLength": 1},
+    "extractor_version": {"type": "string", "minLength": 1},
+    "parameters_redacted": {"type": "object"},
+    "control_totals": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "completeness_check": {"type": "string", "minLength": 1},
+        "source_record_count": {"type": "integer", "minimum": 0},
+        "unique_record_count": {"type": "integer", "minimum": 0}
+      }
+    },
+    "status": {"enum": ["landed", "failed", "quarantined"]}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jivo.internal/contracts/evidence-packet.v1.schema.json",
+  "title": "JIVO evidence packet v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "packet_id", "domain", "question", "generated_at_utc", "source_runs", "as_of", "quality", "findings", "contradictions", "recommended_actions", "data_needed"],
+  "properties": {
+    "schema": {"const": "jivo.evidence-packet/v1"},
+    "packet_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]{2,127}$"},
+    "domain": {"type": "string", "minLength": 1},
+    "question": {"type": "string", "minLength": 1},
+    "generated_at_utc": {"type": "string", "format": "date-time"},
+    "source_runs": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "object", "additionalProperties": false, "required": ["source_id", "dataset_id", "run_id", "receipt_ref"], "properties": {"source_id": {"type": "string"}, "dataset_id": {"type": "string"}, "run_id": {"type": "string"}, "receipt_ref": {"type": "string", "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*(?:^|/)\\.(?:/|$))(?![A-Za-z][A-Za-z0-9+.-]*:)(?!.*//)(?!.*\\\\)(?!.*(?:^|/)latest(?:\\.json|/|$))(?:[A-Za-z0-9._-]+/)*[A-Za-z0-9._-]+\\.json$"}}}},
+    "as_of": {"type": "object", "additionalProperties": false, "required": ["start_utc", "end_utc", "business_timezone"], "properties": {"start_utc": {"type": ["string", "null"], "format": "date-time"}, "end_utc": {"type": "string", "format": "date-time"}, "business_timezone": {"type": "string", "minLength": 1}}},
+    "quality": {"type": "object", "additionalProperties": false, "required": ["status", "exceptions"], "properties": {"status": {"enum": ["pass", "warn", "fail"]}, "exceptions": {"type": "array", "items": {"type": "string"}}}},
+    "findings": {"type": "array", "maxItems": 10, "items": {"$ref": "#/$defs/finding"}},
+    "contradictions": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["description", "evidence_refs", "status"], "properties": {"description": {"type": "string", "minLength": 1}, "evidence_refs": {"type": "array", "minItems": 2, "uniqueItems": true, "items": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}(?:#[A-Za-z0-9][A-Za-z0-9._:-]{0,127})?$"}}, "status": {"enum": ["open", "resolved"]}}}},
+    "recommended_actions": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["action", "owner_role", "approval_class"], "properties": {"action": {"type": "string", "minLength": 1}, "owner_role": {"type": "string", "minLength": 1}, "approval_class": {"enum": ["observe", "recommend", "approval-required", "dual-approval"]}}}},
+    "data_needed": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "finding": {
+      "type": "object", "additionalProperties": false,
+      "required": ["claim", "metric_id", "value", "grain", "unit", "currency", "time_basis", "authority_id", "confidence", "evidence_refs", "source_run_ids", "as_of", "quality_status"],
+      "properties": {
+        "claim": {"type": "string", "minLength": 1},
+        "metric_id": {"type": ["string", "null"]},
+        "value": {"type": ["number", "string", "boolean", "object", "array", "null"]},
+        "grain": {"type": "string", "minLength": 1},
+        "unit": {"type": "string", "minLength": 1},
+        "currency": {"type": ["string", "null"], "minLength": 1},
+        "time_basis": {"type": "string", "minLength": 1},
+        "authority_id": {"type": "string", "minLength": 1},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "evidence_refs": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}(?:#[A-Za-z0-9][A-Za-z0-9._:-]{0,127})?$"}},
+        "source_run_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "as_of": {"type": "string", "format": "date-time"},
+        "quality_status": {"enum": ["pass", "warn", "fail"]}
+      }
+    }
+  }
+}
